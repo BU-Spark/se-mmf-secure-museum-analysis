@@ -3,8 +3,9 @@ import HighchartsReact from 'highcharts-react-official';
 import Highcharts from 'highcharts';
 import generateData from './generateData';
 import { dummy_data } from '../data/data1';
+import { dummy_data1 } from '../data/dataset2';
 import { renderGraphs } from './dynamicdata';
-import { objectData , arrayData , checkGraphType } from './dataHandle';
+import { objectData , arrayData , checkGraphType, getDataset, getTitle, getGraphType } from './dataHandle';
 
 useEffect = () => {
   // Render data from API
@@ -43,10 +44,10 @@ export const LineChart = () => {
       <img src=""></img>
       </div>
        <div className="graph-display">
-       {dummy_data.map((data, index) => {
+       {dummy_data1.map((data, index) => {
          graphData=[];categories=[];
          typeof data === 'object' ? objectData(data,graphData,categories) : arrayData(data,graphData,categories,index)
-         console.log("GraphData",graphData , "Categories",categories) 
+         console.log("GraphData",graphData , "Categories",categories)
          //  generateData(dummy_data,categories,graphData,setChartOptions);
 
          return (
@@ -55,12 +56,12 @@ export const LineChart = () => {
                 highcharts={Highcharts}
                 options={{
                   chart: {
-                    type: checkGraphType(graphData),
+                    type: getGraphType(data),
                     panning: true
                 },
                 colors: ['#DB843D', '#AA4643', '#89A54E', '#80699B', '#3D96AE',
-        '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
-                  title: {text : "Question"+"  "+(index+1)},
+                         '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
+                  title: {text :data.questionName},
                   xAxis: {
                     categories: categories,
                   },
