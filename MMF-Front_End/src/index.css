@@ -23,6 +23,7 @@ code {
   display:flex;
   flex-direction: col;
   flex-wrap: wrap;
+  align-items: center;
   height: 300px;
   row-gap: 80px;
   column-gap: 90px;
