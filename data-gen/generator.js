@@ -223,7 +223,7 @@ function genFifteen() {
   enumeration = questionTypes.CULTURE;
   array = Array(enumeration.length);
   for (var i = 0; i < array.length; i++) {
-    array[i] = Math.random() * 2 - 1;
+    array[i] = (Math.random() * 2);
   }
 
   data = generateKeyValuePairs(enumeration, array);
@@ -241,13 +241,14 @@ const questionList = [
   { function: genFive, graph: "Area", type: "checkbox" },
   { function: genSix, graph: "Spline", type: "radio" },
   { function: genSeven, graph: "Spline", type: "radio" },
-  { function: genEight, graph: "Bar", type: "radio" },
+  { function: genEight, graph: "Bar", type: "radio" },	
+  {function: genNine, graph: "Bar", type: "radio"},
   { function: genTen, graph: "Bar", type: "radio" },
   { function: genEleven, graph: "Bar", type: "radio" },
   { function: genTwelve, graph: "Bar", type: "radio" },
   { function: genThirteen, graph: "Bar", type: "radio" },
   { function: genFourteen, graph: "Bar", type: "checkbox" },
-  { function: genFifteen, graph: "Bar", type: "radio" },
+  { function: genFifteen, graph: "Bar", type: "checkbox" },
 ];
 
 let orgAggregate = [];
