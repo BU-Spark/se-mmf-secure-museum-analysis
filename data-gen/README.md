@@ -1,5 +1,7 @@
-# Data Generation 
-A number generator. 
+# Data Generation for graphs
+
+## Currently: 
+- Only generates data for first 15 questions on [excel sheet](https://docs.google.com/spreadsheets/d/1l-831rVtQ0gDN6RcPKvq0eqro_KvWgNK/edit#gid=1400163921): 
 
 ## Setup 
 1. Install [json-server](https://github.com/typicode/json-server)
