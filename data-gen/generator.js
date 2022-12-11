@@ -105,15 +105,16 @@ function generateCheckboxBtnData(enumeration) {
 //Avg yrs working in art museum field: YEARS - FLOAT
 function genOne() {
   data = Math.random() * YEAR_MULTIPLYER;
-
-  return data;
+  pair = {year: data}
+  return pair;
 }
 
 //Question Two
 //Avg yrs working at current museum: YEARS - FLOAT
 function genTwo() {
   data = Math.random() * YEAR_MULTIPLYER;
-  return data;
+  pair = {year: data};
+  return pair;
 }
 
 //Question Three
