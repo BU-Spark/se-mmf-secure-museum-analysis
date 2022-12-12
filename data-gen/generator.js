@@ -105,7 +105,7 @@ function generateCheckboxBtnData(enumeration) {
 //Avg yrs working in art museum field: YEARS - FLOAT
 function genOne() {
   data = Math.random() * YEAR_MULTIPLYER;
-  pair = {year: data}
+  pair = { year: data };
   return pair;
 }
 
@@ -113,7 +113,7 @@ function genOne() {
 //Avg yrs working at current museum: YEARS - FLOAT
 function genTwo() {
   data = Math.random() * YEAR_MULTIPLYER;
-  pair = {year: data};
+  pair = { year: data };
   return pair;
 }
 
@@ -189,14 +189,17 @@ function genTen() {
 function genEleven() {
   promotions = getRandomInt(1, 6);
   avgYrsWorked = Math.random() * YEAR_MULTIPLYER;
+  pairs = {rate: promotions / avgYrsWorked}
 
-  return promotions / avgYrsWorked;
+  return pairs;
 }
 
 //Question 12
 //How many times have you recieved a promotion? : % in each category
+//TODO 
 function genTwelve() {
-  return;
+
+  return {toImplement: null};
 }
 
 //Question 13
@@ -223,7 +226,7 @@ function genFifteen() {
   enumeration = questionTypes.CULTURE;
   array = Array(enumeration.length);
   for (var i = 0; i < array.length; i++) {
-    array[i] = (Math.random() * 2);
+    array[i] = Math.random() * 2;
   }
 
   data = generateKeyValuePairs(enumeration, array);
@@ -234,43 +237,46 @@ function genFifteen() {
 }
 
 const questionList = [
-  { function: genOne, graph: "Bar", type: "year" },
-  { function: genTwo, graph: "Bar", type: "year" },
+  { function: genOne, graph: "Bar", type: "number" },
+  { function: genTwo, graph: "Bar", type: "number" },
   { function: genThree, graph: "Area", type: "radio" },
   { function: genFour, graph: "Area", type: "radio" },
   { function: genFive, graph: "Area", type: "checkbox" },
   { function: genSix, graph: "Spline", type: "radio" },
   { function: genSeven, graph: "Spline", type: "radio" },
-  { function: genEight, graph: "Bar", type: "radio" },	
-  {function: genNine, graph: "Bar", type: "radio"},
+  { function: genEight, graph: "Bar", type: "radio" },
+  { function: genNine, graph: "Bar", type: "radio" },
   { function: genTen, graph: "Bar", type: "radio" },
   { function: genEleven, graph: "Bar", type: "radio" },
   { function: genTwelve, graph: "Bar", type: "radio" },
   { function: genThirteen, graph: "Bar", type: "radio" },
   { function: genFourteen, graph: "Bar", type: "checkbox" },
-  { function: genFifteen, graph: "Bar", type: "checkbox" },
+  { function: genFifteen, graph: "Bar", type: "checkbox" }
 ];
 
 let orgAggregate = [];
 let fieldAggregate = [];
-
+// dataSet
+// questionName
+// graphType
+// questionType
 for (var i = 0; i < questionList.length; i++) {
   orgAggregate.push({
     id: i + 1,
-    data: [questionList[i].function()],
-    question_name: `Question ${i + 1}`,
-    graph_type: questionList[i].graph,
-    question_type: questionList[i].type,
+    dataSet: [questionList[i].function()],
+    questionName: `Question ${i + 1}`,
+    graphType: questionList[i].graph,
+    questionType: questionList[i].type,
   });
 }
 
 for (var i = 0; i < questionList.length; i++) {
   fieldAggregate.push({
     id: i + 1,
-    data: [questionList[i].function()],
-    question_name: `Question ${i + 1}`,
-    graph_type: questionList[i].graph,
-    question_type: questionList[i].type,
+    dataSet: [questionList[i].function()],
+    questionName: `Question ${i + 1}`,
+    graphType: questionList[i].graph,
+    questionType: questionList[i].type,
   });
 }
 
