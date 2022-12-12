@@ -189,17 +189,16 @@ function genTen() {
 function genEleven() {
   promotions = getRandomInt(1, 6);
   avgYrsWorked = Math.random() * YEAR_MULTIPLYER;
-  pairs = {rate: promotions / avgYrsWorked}
+  pairs = { rate: promotions / avgYrsWorked };
 
   return pairs;
 }
 
 //Question 12
 //How many times have you recieved a promotion? : % in each category
-//TODO 
+//TODO
 function genTwelve() {
-
-  return {toImplement: null};
+  return { toImplement: null };
 }
 
 //Question 13
@@ -251,7 +250,7 @@ const questionList = [
   { function: genTwelve, graph: "bar", type: "radio" },
   { function: genThirteen, graph: "bar", type: "radio" },
   { function: genFourteen, graph: "bar", type: "checkbox" },
-  { function: genFifteen, graph: "bar", type: "checkbox" }
+  { function: genFifteen, graph: "bar", type: "checkbox" },
 ];
 
 let orgAggregate = [];
