@@ -170,10 +170,15 @@ export const dummy_data1 = [
       {
         "id": 12,
         "dataSet": [
-          {"1":null}
+            {
+                "A simultaneous promotion with title change and a pay increase beyond cost of living": 0.2,
+                "A promotion with title change but no accompanying pay increase beyond cost of living": 0.2,
+                "A pay increase beyond cost of living without a change in title": 0.2,
+                "None of the above": 0.4
+            }
         ],
         "questionName": "Question 12",
-        "graphType": "bar",
+        "graphType": "spline",
         "questionType": "radio"
       },
       {
