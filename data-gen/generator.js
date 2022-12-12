@@ -237,7 +237,7 @@ function genFifteen() {
 }
 
 const questionList = [
-  { function: genOne, graph: "Bar", type: "number" },
+  { function: genOne, graph: "bar", type: "number" },
   { function: genTwo, graph: "bar", type: "number" },
   { function: genThree, graph: "area", type: "radio" },
   { function: genFour, graph: "area", type: "radio" },
