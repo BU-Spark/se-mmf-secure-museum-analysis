@@ -25,6 +25,10 @@ export const getTitle = (data) => {
     return data.questionName;
 }
 
+export const checksubTitle = (data) => {
+     
+}
+
 export const getGraphType = (data) => {
     return data.graphType;
 }

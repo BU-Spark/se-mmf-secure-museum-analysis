@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import HighchartsReact from 'highcharts-react-official';
 import Highcharts from 'highcharts';
-import generateData from './generateData';
-import { dummy_data } from '../data/data1';
 import { dummy_data1 } from '../data/dataset2';
-import { renderGraphs } from './dynamicdata';
-import { objectData , arrayData , checkGraphType, getDataset, getTitle, getGraphType } from './dataHandle';
+import { colors } from './colorRender';
+import { objectData , arrayData , getTitle, getGraphType,checksubTitle } from './dataHandle';
 
 useEffect = () => {
   // Render data from API
@@ -15,33 +13,12 @@ export const LineChart = () => {
   let categories = [];
   // renderGraphs(dummy_data,categories,graphData)
   // console.log("categories",categories,"GraphData",graphData);
-  // const [chartOptions, setChartOptions] = useState({
-  //   title: {text : "Museums Go Forward"},
-  //   xAxis: {
-  //     categories: categories,
-  //   },
-  //   series: [
-  //     { data: graphData }
-  //   ],
-  //   plotOptions: {
-  //     series: {
-  //       point: {
-  //         events: {
-  //           mouseOver(e){
-  //             // setHoverData(e.target.category)
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-    
-  // });
   return (
     <React.Fragment>
     <div class="container">
       <div className="header-main">
       <h1 className="header">Museums Moving Forward</h1>
-      <img src=""></img>
+      {/* <img src=""></img> */}
       </div>
        <div className="graph-display">
        {dummy_data1.map((data, index) => {
@@ -59,11 +36,27 @@ export const LineChart = () => {
                     type: getGraphType(data),
                     panning: true
                 },
-                colors: ['#DB843D', '#AA4643', '#89A54E', '#80699B', '#3D96AE',
-                         '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
-                  title: {text :data.questionName},
+                colors: colors,
+                  title: {
+                    text :getTitle(data)
+                  },
                   xAxis: {
                     categories: categories,
+                  },
+                  credits : {
+                    text : "BU SPARK",
+                    href : "https://www.bu.edu/spark/author/buspark/"
+                  },
+                  subtitle :{
+                    text : checksubTitle(data,graphData)
+                  },
+                  exporting :{
+                    showTable : true,
+                    buttons :{
+                      contextButton :{
+                        enabled : true
+                      }
+                    }
                   },
                   series: [
                     { data: graphData }
