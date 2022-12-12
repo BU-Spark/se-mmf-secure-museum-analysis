@@ -238,20 +238,20 @@ function genFifteen() {
 
 const questionList = [
   { function: genOne, graph: "Bar", type: "number" },
-  { function: genTwo, graph: "Bar", type: "number" },
-  { function: genThree, graph: "Area", type: "radio" },
-  { function: genFour, graph: "Area", type: "radio" },
-  { function: genFive, graph: "Area", type: "checkbox" },
-  { function: genSix, graph: "Spline", type: "radio" },
-  { function: genSeven, graph: "Spline", type: "radio" },
-  { function: genEight, graph: "Bar", type: "radio" },
-  { function: genNine, graph: "Bar", type: "radio" },
-  { function: genTen, graph: "Bar", type: "radio" },
-  { function: genEleven, graph: "Bar", type: "radio" },
-  { function: genTwelve, graph: "Bar", type: "radio" },
-  { function: genThirteen, graph: "Bar", type: "radio" },
-  { function: genFourteen, graph: "Bar", type: "checkbox" },
-  { function: genFifteen, graph: "Bar", type: "checkbox" }
+  { function: genTwo, graph: "bar", type: "number" },
+  { function: genThree, graph: "area", type: "radio" },
+  { function: genFour, graph: "area", type: "radio" },
+  { function: genFive, graph: "area", type: "checkbox" },
+  { function: genSix, graph: "spline", type: "radio" },
+  { function: genSeven, graph: "spline", type: "radio" },
+  { function: genEight, graph: "bar", type: "radio" },
+  { function: genNine, graph: "bar", type: "radio" },
+  { function: genTen, graph: "bar", type: "radio" },
+  { function: genEleven, graph: "bar", type: "radio" },
+  { function: genTwelve, graph: "bar", type: "radio" },
+  { function: genThirteen, graph: "bar", type: "radio" },
+  { function: genFourteen, graph: "bar", type: "checkbox" },
+  { function: genFifteen, graph: "bar", type: "checkbox" }
 ];
 
 let orgAggregate = [];
