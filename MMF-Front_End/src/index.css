@@ -22,8 +22,8 @@ code {
 .graph-display{
   display:flex;
   flex-direction: col;
-  flex-wrap: wrap;
   align-items: center;
+  flex-wrap: wrap;
   height: 300px;
   row-gap: 80px;
   column-gap: 90px;

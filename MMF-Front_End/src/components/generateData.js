@@ -1,6 +1,6 @@
 import { renderGraphs } from "./dynamicdata";
 
-function generateData(dummy_data,categories,graphData,k) {
+function generateData(dummy_data,categories,graphData) {
     // let i=0;let j=0;
     // for(i=1;i<Object.keys(dummy_data).length;i++)
     // {
@@ -20,7 +20,7 @@ function generateData(dummy_data,categories,graphData,k) {
     //   }
 
     // }
-    let j=0;let i=0;
+    let j=0;let i=0;let k=0;
     // dummy_data.forEach((data,index) => {
     //     console.log("Render",data);
     //     if(typeof data === 'object')
@@ -41,7 +41,7 @@ function generateData(dummy_data,categories,graphData,k) {
     //     // renderGraphs(categories,graphData);
 
     // });
-    for(i=k;i<i+1;)
+    while(k!=k)
     {
         if(typeof dummy_data[i] === 'object')
       {

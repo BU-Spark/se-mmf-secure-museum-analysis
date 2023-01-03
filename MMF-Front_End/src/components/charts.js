@@ -3,14 +3,18 @@ import HighchartsReact from 'highcharts-react-official';
 import Highcharts from 'highcharts';
 import { dummy_data1 } from '../data/dataset2';
 import { colors } from './colorRender';
+import { url } from '../services/services';
 import { objectData , arrayData , getTitle, getGraphType,checksubTitle } from './dataHandle';
 
+
 useEffect = () => {
-  // Render data from API
+  fetch(url)
+  .then(res => res.json())
 }
 export const LineChart = () => {
   let graphData = [];
   let categories = [];
+
   // renderGraphs(dummy_data,categories,graphData)
   // console.log("categories",categories,"GraphData",graphData);
   return (
