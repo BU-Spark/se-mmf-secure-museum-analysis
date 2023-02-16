@@ -14,14 +14,14 @@ export const objectData = (data,graphData,categories) => {
 }
 
 // Retrieving data from the API
-export const getDataset = (data) => {
-    let graphData = [];
-    data.data.forEach((dataset) => {
-        console.log(dataset);
-        graphData.push(dataset);
-    })
-    return graphData;
-}
+// export const getDataset = (data) => {
+//     let graphData = [];
+//     data.data.forEach((dataset) => {
+//         console.log(dataset);
+//         graphData.push(dataset);
+//     })
+//     return graphData;
+// }
 
 //Title of the Question
 export const getTitle = (data) => {
@@ -54,16 +54,16 @@ export const arrayData = (data,graphData,categories,index,setgraphType) => {
 }
 
 
-//Hard-Coded method for checking the graph type. This is for reference purposes
-export const checkGraphType = (graphData) => {
-    if(graphData.length === 1)
-    {
-        return 'bar';
-    }
-    else if (graphData.length >5){
-        return 'area';
-    }
-    else{
-        return 'spline';
-    }
-}
+// //Hard-Coded method for checking the graph type. This is for reference purposes
+// export const checkGraphType = (graphData) => {
+//     if(graphData.length === 1)
+//     {
+//         return 'bar';
+//     }
+//     else if (graphData.length >5){
+//         return 'area';
+//     }
+//     else{
+//         return 'spline';
+//     }
+// }

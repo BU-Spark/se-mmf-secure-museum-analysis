@@ -1,4 +1,4 @@
-export const dummy_data1 = [
+export const dummy_data = [
     {
         "id": 1,
         "dataSet": [
