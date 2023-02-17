@@ -1,12 +1,21 @@
+# For Gabe
 
+The two functions you need will be in `src/fetch_data.js`. Both are dummy stubs that can be filled in with your functions.
+
+There is some example data in `src/data/example_data.js` that is the expected format of stuff returned from your functions.
+
+The URL query params can be updated in `src/App.tsx` At about line 35 inside the function `handleDownloadState()` you'll see where I am retrieving the data. You can just updated the function calls in this block of code:
+
+```
+const sessionID = queryParams.get("sessionId");
+const clientID = queryParams.get("clientId");
+```
 
 In the project directory, you can run:
 
-
 ### `npm install`
 
-Make sure to install all the node modules required for the application to run 
-
+Make sure to install all the node modules required for the application to run
 
 ### `npm start`
 

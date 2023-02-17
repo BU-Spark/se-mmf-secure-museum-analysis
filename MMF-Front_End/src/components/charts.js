@@ -10,19 +10,17 @@ import {
   checksubTitle,
 } from "./dataHandle";
 
-export const LineChart = (data) => {
+/**
+ *
+ * @param {{data: Object}} data
+ * @returns
+ */
+export const LineChart = ({ data }) => {
   let graphData = [];
   let categories = [];
-
-  // renderGraphs(dummy_data,categories,graphData)
-  // console.log("categories",categories,"GraphData",graphData);
   return (
     <>
-      <div class="container">
-        <div className="header-main">
-          <h1 className="header">Museums Moving Forward</h1>
-          {/* <img src=""></img> */}
-        </div>
+      <div className="container">
         <div className="graph-display">
           {data.map((data, index) => {
             graphData = [];
@@ -30,10 +28,11 @@ export const LineChart = (data) => {
             typeof data === "object"
               ? objectData(data, graphData, categories)
               : arrayData(data, graphData, categories, index);
-            console.log("GraphData", graphData, "Categories", categories);
+            // console.log("GraphData", graphData, "Categories", categories);
             return (
               <>
                 <HighchartsReact
+                  key={index}
                   highcharts={Highcharts}
                   options={{
                     chart: {
