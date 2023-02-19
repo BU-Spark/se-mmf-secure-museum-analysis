@@ -37,8 +37,8 @@ function App() {
     // Check URL for sessionID and clientID
     const queryParams = new URLSearchParams(window.location.search);
     // TODO: Update this to the correct keys for the sessionID and clientID
-    const sessionID = queryParams.get("sessionId");
-    const clientID = queryParams.get("clientId");
+    const sessionID = queryParams.get("session");
+    const clientID = queryParams.get("participationCode");
     // If they are not found, report an error to the user
     if (sessionID === null || clientID === null) {
       setCurrPageState(PageState.ERROR_PAGE);
@@ -83,9 +83,17 @@ function App() {
         case PageState.DECRYPTING_DATA:
           // Reset progress since we use the same variable for both download and decrypt
           setProgress(0);
+
+          const queryParams = new URLSearchParams(window.location.search);
+          // TODO: Update this to the correct keys for the sessionID and clientID
+          const sessionID = queryParams.get("session");
+          const clientID = queryParams.get("participationCode");
+
           const res = decrypt_data(
             encryptedData,
             password,
+            sessionID,
+            clientID,
             setDecryptedData,
             setProgress
           );
