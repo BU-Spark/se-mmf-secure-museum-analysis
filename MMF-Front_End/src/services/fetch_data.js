@@ -1,7 +1,7 @@
 import { dummy_data } from "../data/example_data";
 import $ from "jquery";
 import forge from "node-forge";
-// import jiff from "../jiff/jiff-client";
+import JIFFClient from "../jiff-lib/jiff-client";
 // import jiff_bignumber from "../jiff/ext/jiff-client-bignumber";
 // import jiff_client_restful from "../jiff/ext/jiff-client-restful";
 // import jiff from "jiff-mpc";
@@ -171,6 +171,27 @@ export async function decrypt_data(
   }
 
   console.log(JSON.parse(analystMessages));
+
+  //Iterate through the visualization array
+  // int id = 0
+  // for ( visualization of template_table.visualization) {
+  //   hichart = {};
+  //   hichart["labels"] = visualization["labels"]
+  //   hichart["dataSet"] = []
+  //   for each series {
+  //    datapoints = []
+  //    for each datapoint {
+  //       datapoints.push(lookup the data)
+  //      hichart["dataSet"].push({"name": seriesLabel, "data":datapoints})
+  //      }
+  //    }
+  //   hichart["questionType"] = visualization["questionType"]
+  //   hichart["graphType"] = visualization["graphType"]
+  //   hichart["questionName"] = visualization["questionName"]
+  //   hichart["id"] = id
+  //    id ++
+  //  
+  // }
 
   // PARSE THESE MESSAGES AND RECONSTRUCT THE SHARES
   // var reconstructedResults = clientController.reconstructClientResults(serverMessages,analystMessages);

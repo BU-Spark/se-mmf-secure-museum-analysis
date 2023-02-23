@@ -44,11 +44,7 @@ export const LineChart = ({ data }) => {
                       text: getTitle(data),
                     },
                     xAxis: {
-                      categories: categories,
-                    },
-                    credits: {
-                      text: "BU SPARK",
-                      href: "https://www.bu.edu/spark/author/buspark/",
+                      categories: data.labels,
                     },
                     subtitle: {
                       text: checksubTitle(data, graphData),
@@ -61,7 +57,7 @@ export const LineChart = ({ data }) => {
                         },
                       },
                     },
-                    series: [{ data: graphData }],
+                    series: data.dataSet,
                     plotOptions: {
                       series: {
                         point: {
@@ -78,7 +74,7 @@ export const LineChart = ({ data }) => {
               </>
             );
           })}
-          {/* {console.log("GraphData", graphData, "Categories", categories)} */}
+          {/* {console.log("GraphData", graphData, "labels", categories)} */}
         </div>
       </div>
     </>

@@ -53,6 +53,10 @@ export const arrayData = (data,graphData,categories,index,setgraphType) => {
     categories.push("Question "+ index);
 }
 
+// export const extractSerries = (data) => {
+//     toReturn = {};
+// }
+
 
 // //Hard-Coded method for checking the graph type. This is for reference purposes
 // export const checkGraphType = (graphData) => {
