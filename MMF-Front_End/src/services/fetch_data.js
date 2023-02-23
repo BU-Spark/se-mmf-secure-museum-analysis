@@ -1,34 +1,41 @@
 import { dummy_data } from "../data/example_data";
 import $ from "jquery";
 import forge from "node-forge";
-import JIFFClient from "../jiff-lib/jiff-client";
+// import JIFFClient from "../jiff-lib/jiff-client";
+const JIFFClient = require("../jiff-client");
+const jiffClientInstance = new JIFFClient("localhost", "someid", "options");
 // import jiff_bignumber from "../jiff/ext/jiff-client-bignumber";
 // import jiff_client_restful from "../jiff/ext/jiff-client-restful";
 // import jiff from "jiff-mpc";
 
-
 /**
  * Helper function used to pull down the relevant results messages from the server
- * 
+ *
  * @param {string} sessionIn
  * @param {string} participationCodeIn
  */
 
-async function getResultMessage(sessionIn,participationCodeIn) {
+async function getResultMessage(sessionIn, participationCodeIn) {
   return $.ajax({
-    type: 'POST',
-    url: '/get_result_messages',
-    contentType: 'application/json',
-    data: JSON.stringify({session: sessionIn, userkey: participationCodeIn})
-  }).then(function (resp) {
-    // console.log(JSON.parse(resp);
-    return resp;
-  }).catch(function (err) {
-    if (err && err.hasOwnProperty('responseText') && err.responseText !== undefined) {
-      // alertHandler.error(err.responseText);
-      console.log(err.responseText);
-    }
-  });
+    type: "POST",
+    url: "/get_result_messages",
+    contentType: "application/json",
+    data: JSON.stringify({ session: sessionIn, userkey: participationCodeIn }),
+  })
+    .then(function (resp) {
+      // console.log(JSON.parse(resp);
+      return resp;
+    })
+    .catch(function (err) {
+      if (
+        err &&
+        err.hasOwnProperty("responseText") &&
+        err.responseText !== undefined
+      ) {
+        // alertHandler.error(err.responseText);
+        console.log(err.responseText);
+      }
+    });
 }
 
 /**
@@ -55,61 +62,64 @@ export async function download_data(
   sessionId,
   clientId
 ) {
-    await getResultMessage(sessionId,clientId).then( function(resultmessages) {
-      console.log("retrieved the result-messages");
-      console.log(resultmessages);
-      setEncryptedData(
-        resultmessages
-      );
-    });
+  await getResultMessage(sessionId, clientId).then(function (resultmessages) {
+    console.log("retrieved the result-messages");
+    console.log(resultmessages);
+    setEncryptedData(resultmessages);
+  });
 
   return 0;
 }
 
-
 /**
  * Helper function to help generate the symmetric key from the password
- * 
+ *
  * Relies on forge
- * 
- * @param {string} salt 
+ *
+ * @param {string} salt
  * @param {string} password
- * 
- */ 
+ *
+ */
 function keyGen(sessionID, participantID, password) {
   // return pki.generateKeyFromPassword("sessionID:" + sessionID + "participantID:" +  participantID, "password:" + password.trim());
-  var derivedKey = forge.util.createBuffer(forge.pkcs5.pbkdf2("password:" + password.trim(), "sessionID:" + sessionID + "participantID:" +  participantID, 25000, 16));
+  var derivedKey = forge.util.createBuffer(
+    forge.pkcs5.pbkdf2(
+      "password:" + password.trim(),
+      "sessionID:" + sessionID + "participantID:" + participantID,
+      25000,
+      16
+    )
+  );
   return derivedKey;
-};
+}
 
 // /**
 //  * Helper function to help decrypt the ciphertext struct using a given symmetric key
-//  * 
+//  *
 //  * Relies on forge
-//  * 
-//  * @param {string} symmetricKey 
+//  *
+//  * @param {string} symmetricKey
 //  * @param {string} ciphertextStruct
-//  * 
-//  */ 
+//  *
+//  */
 function decryptMessageWithSymmetricKey(symmetricKey, ciphertextStruct) {
-    var decipher = forge.cipher.createDecipher('AES-GCM', symmetricKey); 
-    
-    decipher.start({
-            iv: forge.util.createBuffer(atob(ciphertextStruct.iv)),
-            additionalData: ciphertextStruct.ad, // optional
-            tag: forge.util.createBuffer(atob(ciphertextStruct.tag)) // authentication tag from encryption
-          });
+  var decipher = forge.cipher.createDecipher("AES-GCM", symmetricKey);
 
-    decipher.update(forge.util.createBuffer(atob(ciphertextStruct.ciphertext)));
-    var pass = decipher.finish();
-    if(pass) {
-      // outputs decrypted hex
-      return decipher.output.data;
-    } else {
-      throw new Error('Error: Invalid Decryption.  Tag failed to verify');
-    }
-  };
+  decipher.start({
+    iv: forge.util.createBuffer(atob(ciphertextStruct.iv)),
+    additionalData: ciphertextStruct.ad, // optional
+    tag: forge.util.createBuffer(atob(ciphertextStruct.tag)), // authentication tag from encryption
+  });
 
+  decipher.update(forge.util.createBuffer(atob(ciphertextStruct.ciphertext)));
+  var pass = decipher.finish();
+  if (pass) {
+    // outputs decrypted hex
+    return decipher.output.data;
+  } else {
+    throw new Error("Error: Invalid Decryption.  Tag failed to verify");
+  }
+}
 
 /**
  * This function takes the encrypted shares in the form of a string and decrypts them.
@@ -150,7 +160,6 @@ export async function decrypt_data(
   setDecryptedData,
   update_progress_indicator
 ) {
-
   if (password === "") {
     return -1;
   }
@@ -164,7 +173,10 @@ export async function decrypt_data(
   var analystMessages = "";
 
   try {
-    analystMessages = decryptMessageWithSymmetricKey(symmetricKey,encryptedAnalystMessages);
+    analystMessages = decryptMessageWithSymmetricKey(
+      symmetricKey,
+      encryptedAnalystMessages
+    );
   } catch (err) {
     update_progress_indicator(100);
     return -1;
@@ -190,7 +202,7 @@ export async function decrypt_data(
   //   hichart["questionName"] = visualization["questionName"]
   //   hichart["id"] = id
   //    id ++
-  //  
+  //
   // }
 
   // PARSE THESE MESSAGES AND RECONSTRUCT THE SHARES
