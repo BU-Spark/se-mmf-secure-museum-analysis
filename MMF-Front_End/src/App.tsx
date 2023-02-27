@@ -10,7 +10,8 @@ import { GlobalRoutes } from "./pages/routes";
 import { decrypt_data, download_data } from "./services/fetch_data";
 import { ErrorPage } from "./pages/error";
 import { BadPasswordPage } from "./pages/bad_password";
-
+const JIFFClient = require("./jiff-client");
+const jiffClientInstance = new JIFFClient("localhost", "someid", "options");
 export enum PageState {
   WELCOME,
   DOWNLOADING_DATA,
@@ -30,6 +31,8 @@ function App() {
   const [password, setPassword] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
   const navigate = useNavigate();
+  console.log(jiffClientInstance);
+  console.log(JIFFClient);
 
   // Helper function to manage the download state and possible transitions
   const handleDownloadState = async () => {

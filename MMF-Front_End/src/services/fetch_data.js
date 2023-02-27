@@ -2,8 +2,8 @@ import { dummy_data } from "../data/example_data";
 import $ from "jquery";
 import forge from "node-forge";
 // import JIFFClient from "../jiff-lib/jiff-client";
-const JIFFClient = require("../jiff-client");
-const jiffClientInstance = new JIFFClient("localhost", "someid", "options");
+// const JIFFClient = require("../jiff-client");
+// const jiffClientInstance = new JIFFClient("localhost", "someid", "options");
 // import jiff_bignumber from "../jiff/ext/jiff-client-bignumber";
 // import jiff_client_restful from "../jiff/ext/jiff-client-restful";
 // import jiff from "jiff-mpc";
@@ -62,6 +62,8 @@ export async function download_data(
   sessionId,
   clientId
 ) {
+  // jiffClientInstance.connect();
+  console.log("hit");
   await getResultMessage(sessionId, clientId).then(function (resultmessages) {
     console.log("retrieved the result-messages");
     console.log(resultmessages);
