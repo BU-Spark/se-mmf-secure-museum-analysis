@@ -128,6 +128,67 @@ function decryptMessageWithSymmetricKey(symmetricKey, ciphertextStruct) {
   }
 }
 
+
+  function parseShare(jiff, shareString, source) {
+    let value = jiff.helpers.BigNumber(shareString.substring(shareString.indexOf("share:")+7, shareString.indexOf("Holders: ")-2));
+    let holders = JSON.parse(shareString.substring(shareString.indexOf("Holders: ")+9, shareString.indexOf("Threshold: ")-2));
+    let threshold = JSON.parse(shareString.substring(shareString.indexOf("Threshold: ")+11, shareString.indexOf("Zp: ")-2));
+    let zp = shareString.substring(shareString.indexOf("Zp: ")+4, shareString.length-1);
+    let toReturn = new jiff.SecretShare(value, holders, threshold, zp);
+    if (source == "server") {
+      toReturn.sender_id = "1"
+    } else {
+     toReturn.sender_id = "s1"
+    }
+    return toReturn;
+  };
+
+
+  var reconstructClientResults = function(serverSharesAsStrings, analystSharesAsStrings, update_progress_indicator) {
+
+    //Create a dummy jiff instance
+    // jiffClientInstance
+
+    // Create a structure to hold the results
+    var resultShares = {};
+
+    var shareNames = Object.keys(serverSharesAsStrings).sort();
+
+    // for (let j = 0; j< shareNames.length; j++) {
+    //   update_progress_indicator((.95*j)/shareNames);
+    //   resultShares[question] = {};
+
+    //   for(cohort of Object.keys(serverSharesAsStrings[question])) {
+    //       resultShares[question][cohort] = {};
+          
+    //     for(filter of Object.keys(serverSharesAsStrings[question][cohort])) {
+    //       resultShares[question][cohort][filter] = [];
+          
+    //       for (let i = 0; i<serverSharesAsStrings[question][cohort][filter].length;i++) {
+    //         // Temporary hack to deal with unresolved promises.  TODO GABE FIX
+    //         if(serverSharesAsStrings[question][cohort][filter][i].includes("promise")) {
+    //           continue;
+    //         }
+    //         // (1) Parse the shares
+    //         // (2) Run reconstruct
+    //         // (3) push into the appropriate place in the data structure
+    //         resultShares[question][cohort][filter].push(jiff.hooks.reconstructShare(jiff,
+    //           [
+    //             parseShare(jiff, serverSharesAsStrings[question][cohort][filter][i], "server"),
+    //             parseShare(jiff, analystSharesAsStrings[question][cohort][filter][i], "analyst")
+    //             ]
+    //         ));
+    //       }
+    //     }
+    //   }
+    // }
+    console.log(resultShares);
+    return resultShares;
+  };
+
+
+
+
 /**
  * This function takes the encrypted shares in the form of a string and decrypts them.
  * 
@@ -191,29 +252,35 @@ export async function decrypt_data(
 
   console.log(JSON.parse(analystMessages));
 
-  //Iterate through the visualization array
-  // int id = 0
-  // for ( visualization of template_table.visualization) {
-  //   hichart = {};
-  //   hichart["labels"] = visualization["labels"]
-  //   hichart["dataSet"] = []
-  //   for each series {
-  //    datapoints = []
-  //    for each datapoint {
-  //       datapoints.push(lookup the data)
-  //      hichart["dataSet"].push({"name": seriesLabel, "data":datapoints})
-  //      }
-  //    }
-  //   hichart["questionType"] = visualization["questionType"]
-  //   hichart["graphType"] = visualization["graphType"]
-  //   hichart["questionName"] = visualization["questionName"]
-  //   hichart["id"] = id
-  //    id ++
-  //
-  // }
-
   // PARSE THESE MESSAGES AND RECONSTRUCT THE SHARES
-  // var reconstructedResults = clientController.reconstructClientResults(serverMessages,analystMessages);
+  var reconstructedResults = reconstructClientResults(serverMessages, analystMessages, update_progress_indicator);
+
+  // pull down all of the overall results that aren't just about us. 
+
+  // pull down the data thats about just me
+
+  //Iterate through the visualization array
+  // var charts = [];
+  // var chartid = 1;
+  // for (vis of template_table.visualization) {
+  //   let chart = {};
+  //   chart["labels"] = vis["labels"];
+  //   chart["questionType"] = vis["questionType"];
+  //   chart["graphType"] = vis["graphType"];
+  //   chart["questionName"] = vis["questionName"];
+  //   chart["dataSet"] = [];
+  //   for (let i = 0; i < vis["series"].length; i++) {
+  //     let datapoints = [];
+  //     for (let j = 0; j < vis["data"].length; j++) {
+  //       let datapoint = vis["data"][j];
+  //       // Look up the actual data point in the data structure
+  //       datapoints.push(reconstructedResults[datapoint.output][vis["series"][i]][datapoint.value]);
+  //     }
+  //   }
+  //   chart["dataSet"].push({"name": vis["seriesLabel"][i], "data":datapoints})
+  //   chart["id"] = chartid;
+  //   chartid = chartid + 1;
+  // }
 
   setDecryptedData(dummy_data);
   return 0;
