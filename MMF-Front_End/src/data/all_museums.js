@@ -511,12 +511,11 @@ export const staff_data = [
       },
       {
         "id": 16,
-        "_comment": "TODO",
         "labels" : ["All", "Women", "Men", "Non-binary and Another Gender","Asian or Asian American","Middle Eastern or North African","Black or African American","Hispanic or Latina/o/x","Native American or Alaska Native","Native Hawaiian or Other Pacific Islander","White or European American","Multiracial","Other Race","Prefer Not To Answer"],
         "dataSet": [
           {
             "name" : "All Museums",
-            "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
+            "data" : [1,1.021,0.971,0.894,0.684,1.501,0.989,0.898,0.478,0.678,1.046,0.947,1.545,0.797]
           },
           // {
             // "name" : "My Museum",
@@ -549,7 +548,7 @@ export const staff_data = [
         "dataSet": [
           {
             "name" : "All Museums",
-            "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
+            "data" : [1,1.156,0.615,0.980,1.018,0.642,1.288,1.405,0.386,2.468,0.960,1.205,2.247,1.081]
           },
           // {
             // "name" : "My Museum",
@@ -582,7 +581,7 @@ export const staff_data = [
         "dataSet": [
           {
             "name" : "All Museums",
-            "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
+            "data" : [1,1.047,0.979,0.597,0.976,1.695,1.057,0.856,0.392,1.252,1.082,1.153,0.423,0.568]
           },
           // {
             // "name" : "My Museum",
@@ -1960,8 +1959,6 @@ export const staff_data = [
       {
         "id": 59,
         "labels" : ["All", "Women", "Men", "Non-binary and Another Gender","Asian or Asian American","Middle Eastern or North African","Black or African American","Hispanic or Latina/o/x","Native American or Alaska Native","Native Hawaiian or Other Pacific Islander","White or European American","Multiracial","Other Race","Prefer Not To Answer"],
-
-        "_comment" : "TODO",
         "dataSet": [
           {
             "name" : "All Museums",
@@ -1995,8 +1992,6 @@ export const staff_data = [
       {
         "id": 60,
         "labels" : ["My major accomplishments have been acknowledged or recognized ","I wasn’t given appropriate resources, materials, or time to execute a job task or responsibility","I was given opportunities to do work that will likely help me advance","Someone took credit for my accomplishment","I developed positive relationships with my coworkers","Someone I work with was unfairly blamed or criticized for something","I was unfairly blamed or criticized for something","Another employee yelled, raised their voice, or spoke to me in an unprofessional manner","None of these"],
-
-        "_comment" : "TODO",
         "dataSet": [
           {
             "name" : "All Museums",
@@ -2030,8 +2025,6 @@ export const staff_data = [
       {
         "id": 61,
         "labels" : ["All", "Women", "Men", "Non-binary and Another Gender","Asian or Asian American","Middle Eastern or North African","Black or African American","Hispanic or Latina/o/x","Native American or Alaska Native","Native Hawaiian or Other Pacific Islander","White or European American","Multiracial","Other Race","Prefer Not To Answer"],
-
-        "_comment" : "TODO",
         "dataSet": [
           {
             "name" : "All Museums",
