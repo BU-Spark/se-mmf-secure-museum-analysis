@@ -204,6 +204,40 @@ export const staff_data = [
         "questionType": "checkbox"
       },
       {
+        "id": 106,
+        "labels" : ["Man", "Women", "Non-binary and Another Gender"],
+        "dataSet": [
+          { 
+            "name" : "All Museums",
+            "data" : [1288, 450, 169],
+            // "data" : [TODO]
+          },
+          // { 
+            // "name" : "My Museum",
+            // "data" : [12,54,33],
+          // },
+          // { 
+          //   "name" : "Others in My Region",
+          //   "data" : [13,54,21],
+          // },
+          // {
+          //   "name" : "Other of Same Scale",
+          //   "data" : [35,12,3],
+          // },
+          // {
+          //   "name" : "Others of the Same Type",
+          //   "data" : [12,54,33],
+          // },
+          // {
+          //   "name" : "Others matching Collecting/Non-Collecting",
+          //   "data" : [13,54,21],
+          // },
+        ],
+        "questionName": "What is your gender?",
+        "graphType": "column",
+        "questionType": "radiogroup"
+      },
+      {
         "id": 7,
         "labels" : ["Heterosexual", "LGBTQ", "Prefer Not To Answer"],
         "dataSet": [
@@ -1285,7 +1319,7 @@ export const staff_data = [
           //   "data" : [43,25,1,2,3,4,5,6,7,8,9,1,2,3,4]
           // },
         ],
-        "questionName": "Have you ever considered leaving your current museum workplace for another art museum?",
+        "questionName": "Which of the following reasons made you consider leaving your current museum workplace for another art museum? Select all that apply.",
         "graphType": "bar",
         "questionType": "radiogroup"
       },
