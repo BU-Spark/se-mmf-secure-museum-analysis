@@ -10,6 +10,7 @@ import { GlobalRoutes } from "./pages/routes";
 import { decrypt_data, download_data } from "./services/fetch_data";
 import { ErrorPage } from "./pages/error";
 import { BadPasswordPage } from "./pages/bad_password";
+import Logo from "./assets/Logo";
 export enum PageState {
   WELCOME,
   DOWNLOADING_DATA,
@@ -145,9 +146,7 @@ function App() {
         <Grid2 container spacing={2} borderBottom={"solid"}>
           {/* <Grid2 xs={4}>The logo</Grid2> */}
           <Grid2 xs={12} alignSelf={"center"}>
-            <Typography variant="h2" fontWeight="bold">
-              Museums Moving Forward
-            </Typography>
+            <Logo />
           </Grid2>
         </Grid2>
       </Grid2>
