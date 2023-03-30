@@ -120,6 +120,7 @@ function App() {
             setErrorMsg("Error: Bad data. Please reload the website");
             break;
           }
+      
           break;
         case PageState.PASSWORD_ERROR:
           setPassword("");

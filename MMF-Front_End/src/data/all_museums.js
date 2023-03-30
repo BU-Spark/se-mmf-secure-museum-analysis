@@ -8,87 +8,108 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 // "data" : [10.55, 203 , 244 ,332, 307, 489 ,331]
                 "data" : [10.55, 0.10  ,0.12 ,0.17 ,0.16 ,0.25 ,0.17]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [11.99, 0.10,  0.12, 0.17, 0.16, 0.25, 0.17]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [10.75, 0.09, 0.11,  0.17,  0.14,  0.27,  0.21]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [10.76, 0.09, 0.11,  0.18,  0.17,  0.26,  0.19]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [9.62, 0.12,  0.14,  0.18,  0.18,  0.25,  0.14]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [9.51, 0.11,  0.14,  0.18 , 0.16,  0.28 , 0.14]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [10.45, 0.13, 0.13 , 0.17 , 0.14  ,0.25  ,0.17]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [12.88, 0.07, 0.08 , 0.15 , 0.17,  0.30 , 0.24]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [10.01, 0.11,  0.17,  0.18 , 0.17,  0.24,  0.14]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [9.79, 0.15,  0.13,  0.19,  0.13,  0.24,  0.16]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [9.74, 0.09,  0.18,  0.19,  0.13,  0.27,  0.15]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [8.66, 0.11,  0.14 , 0.23 , 0.18 , 0.23 , 0.12]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [9.80, 0.11,  0.12,  0.18,  0.20 , 0.24 , 0.16]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [8.73, 0.14 , 0.16,  0.20 , 0.15,  0.23  ,0.13]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [10.01, 0.18, 0.14 , 0.15 , 0.10 , 0.22,  0.22]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [8.73, 0.11,  0.14,  0.23,  0.17,  0.24,  0.11]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [6.98, 0.22,  0.22,  0.17,  0.15,  0.13,  0.10]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [9.36, 0.14,  0.15,  0.18,  0.15,  0.20,  0.18]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [9.60, 0.12,  0.15,  0.16,  0.17,  0.24,  0.15]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [11.45, 0.09, 0.11,  0.18,  0.15,  0.27,  0.21]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [12.13, 0.07, 0.10,  0.16,  0.17,  0.30,  0.20]
               },
             ],
@@ -102,87 +123,108 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                  // "data" : [7.01, 373,372,397,309,286,170]
                  "data" : [7.02, 0.20, 0.20,  0.21,  0.16,  0.15,  0.09]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [8.53, 0.16 , 0.17,  0.20,  0.16,  0.20,  0.12]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [7.28, 0.19 , 0.19,  0.20,  0.17,  0.16,  0.09]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [7.00, 0.17 , 0.16,  0.26,  0.17,  0.15,  0.08]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [6.35, 0.23 , 0.22,  0.19,  0.16,  0.12,  0.08]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [5.59, 0.21 , 0.20,  0.25,  0.18,  0.11,  0.05]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [6.95, 0.22 , 0.17,  0.20,  0.16,  0.17,  0.08]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [8.66, 0.15 , 0.17,  0.18,  0.18,  0.20,  0.12]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [6.78, 0.18 , 0.23,  0.21,  0.16,  0.13,  0.08]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [6.79, 0.28 , 0.17,  0.20,  0.11,  0.16,  0.09]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [6.96, 0.14 , 0.27,  0.20,  0.17,  0.14,  0.08]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [4.53, 0.26 , 0.27,  0.24,  0.12,  0.07,  0.04]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [6.43, 0.22 , 0.15,  0.23,  0.19,  0.13,  0.08]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [5.24, 0.22 , 0.23,  0.25,  0.14,  0.11,  0.05]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [6.66, 0.30 , 0.15,  0.16,  0.12,  0.18,  0.09]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [5.67, 0.22 , 0.22,  0.26,  0.13,  0.10,  0.07]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [3.86, 0.36 , 0.26,  0.18,  0.12,  0.03,  0.04]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [7.07, 0.15 , 0.24,  0.16,  0.20,  0.14,  0.10]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [6.67, 0.21 , 0.19,  0.20,  0.18,  0.15,  0.07]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [6.60, 0.18 , 0.21,  0.22,  0.17,  0.14,  0.08]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [8.48, 0.14 , 0.17,  0.21,  0.17,  0.19,  0.12]
               },
             ],
@@ -196,86 +238,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.00,  0.12,  0.44,  0.26,  0.08,  0.06,  0.03]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.00,  0.13,  0.50,  0.27,  0.04,  0.04,  0.03]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.00,  0.13,  0.46,  0.25,  0.08,  0.06,  0.03]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.00,  0.12,  0.42,  0.24,  0.10,  0.09,  0.03]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.00,  0.11,  0.44,  0.24,  0.10,  0.06,  0.03]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.00,  0.10,  0.46,  0.26,  0.12,  0.04,  0.02]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.00,  0.16,  0.43,  0.27,  0.05,  0.04,  0.04]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.00,  0.09,  0.46,  0.26,  0.10,  0.05,  0.03]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.00,  0.13,  0.47,  0.25,  0.05,  0.07,  0.04]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.00,  0.16,  0.38,  0.29,  0.06,  0.07,  0.03]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.00,  0.19,  0.41,  0.23,  0.09,  0.05,  0.03]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.00,  0.10,  0.33,  0.30,  0.14,  0.09,  0.03]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.00,  0.12,  0.43,  0.25,  0.10,  0.07,  0.03]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.01,  0.13,  0.45,  0.26,  0.08,  0.05,  0.02]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.00,  0.18,  0.32,  0.32,  0.09,  0.07,  0.02]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.00,  0.12,  0.36,  0.28,  0.11,  0.09,  0.05]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.00,  0.20,  0.37,  0.28,  0.07,  0.05,  0.02]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.00,  0.14,  0.39,  0.27,  0.09,  0.11,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.01,  0.11,  0.46,  0.22,  0.07,  0.07,  0.05]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.00,  0.11,  0.44,  0.25,  0.11,  0.06,  0.03]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.00,  0.11,  0.51,  0.25,  0.06,  0.03,  0.03]
               },
             ],
@@ -289,86 +352,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.89,  0.06,  0.03,  0.00,  0.01,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.80,  0.13,  0.04,  0.00,  0.00,  0.00,  0.02,  0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.84,  0.13,  0.01,  0.01,  0.00,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.90,  0.08,  0.03,  0.00,  0.00,  0.00,  0.00,  0.00]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.86,  0.09,  0.02,  0.00,  0.01,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.87,  0.09,  0.02,  0.01,  0.00,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.82,  0.12,  0.02,  0.00,  0.01,  0.00,  0.02,  0.01]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.87,  0.08,  0.02,  0.00,  0.02,  0.00,  0.00,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.78,  0.17,  0.03,  0.00,  0.00,  0.00,  0.03,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.83,  0.13,  0.01,  0.01,  0.00,  0.00,  0.02,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.81,  0.17,  0.02,  0.00,  0.00,  0.00,  0.00,  0.01]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.93,  0.04,  0.02,  0.00,  0.00,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.88,  0.03,  0.05,  0.00,  0.05,  0.00,  0.00,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.76,  0.17,  0.03,  0.00,  0.00,  0.00,  0.03,  0.01]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.80,  0.16,  0.00,  0.00,  0.02,  0.00,  0.00,  0.02]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.94,  0.06,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.85,  0.14,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.87,  0.09,  0.02,  0.00,  0.00,  0.00,  0.01,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.89,  0.07,  0.03,  0.01,  0.00,  0.00,  0.01,  0.00]
               },
             ],
@@ -382,86 +466,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.30,  0.17,  0.24,  0.11,  0.19]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.30,  0.18,  0.28,  0.09,  0.15]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.30,  0.17,  0.25,  0.10,  0.19]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.28,  0.17,  0.25,  0.11,  0.20]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.32,  0.17,  0.20,  0.11,  0.19]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.31,  0.14,  0.27,  0.10,  0.17]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.27,  0.17,  0.25,  0.09,  0.21]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.29,  0.14,  0.29,  0.11,  0.18]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.28,  0.21,  0.21,  0.10,  0.21]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.33,  0.17,  0.24,  0.09,  0.16]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.33,  0.17,  0.16,  0.12,  0.22]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.31,  0.19,  0.17,  0.11,  0.22]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.27,  0.18,  0.23,  0.11,  0.22]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.32,  0.16,  0.24,  0.12,  0.17]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.30,  0.17,  0.22,  0.12,  0.20]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.29,  0.20,  0.18,  0.10,  0.22]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.29,  0.27,  0.13,  0.09,  0.23]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.38,  0.17,  0.14,  0.12,  0.19]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.29,  0.17,  0.19,  0.11,  0.24]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.28,  0.14,  0.29,  0.10,  0.19]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.30,  0.15,  0.31,  0.11,  0.14]
               },
             ],
@@ -475,86 +580,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.00,  0.14,  0.32,  0.47,  0.07]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.00,  0.19,  0.34,  0.42,  0.05]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.00,  0.15,  0.32,  0.46,  0.07]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.00,  0.16,  0.35,  0.42,  0.07]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.00,  0.12,  0.28,  0.51,  0.10]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.00,  0.10,  0.30,  0.52,  0.07]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.00,  0.15,  0.32,  0.46,  0.06]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.00,  0.15,  0.37,  0.43,  0.05]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.00,  0.14,  0.27,  0.48,  0.11]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.00,  0.12,  0.28,  0.52,  0.08]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.00,  0.19,  0.30,  0.43,  0.08]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.00,  0.07,  0.28,  0.54,  0.11]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.00,  0.17,  0.31,  0.44,  0.08]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.00,  0.09,  0.32,  0.53,  0.05]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.00,  0.12,  0.35,  0.45,  0.08]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.00,  0.15,  0.29,  0.47,  0.09]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.00,  0.13,  0.19,  0.47,  0.21]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.00,  0.14,  0.29,  0.49,  0.08]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.00,  0.15,  0.31,  0.46,  0.08]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.00,  0.11,  0.35,  0.48,  0.05]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.00,  0.15,  0.33,  0.47,  0.05]
               },
             ],
@@ -568,86 +694,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.68,  0.24,  0.09]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.69,  0.25,  0.06]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.68,  0.24,  0.09]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.75,  0.20,  0.05]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.64,  0.25,  0.11]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.74,  0.18,  0.08]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.69,  0.23,  0.08]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.64,  0.26,  0.09]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.65,  0.24,  0.11]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.70,  0.23,  0.07]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.69,  0.21,  0.10]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.66,  0.24,  0.10]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.77,  0.17,  0.05]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.66,  0.25,  0.09]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.72,  0.20,  0.08]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.71,  0.22,  0.07]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.60,  0.17,  0.23]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.72,  0.22,  0.06]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.66,  0.23,  0.11]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.70,  0.22,  0.08]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.65,  0.27,  0.08]
               },
             ],
@@ -661,86 +808,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.66,  0.28,  0.06]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.72,  0.21,  0.07]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.67,  0.27,  0.06]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.72,  0.24,  0.04]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.63,  0.31,  0.06]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.59,  0.34,  0.07]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.67,  0.25,  0.07]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.67,  0.26,  0.06]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.63,  0.31,  0.06]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.71,  0.25,  0.04]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.73,  0.21,  0.06]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.66,  0.31,  0.04]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.70,  0.23,  0.07]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.61,  0.33,  0.06]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.71,  0.28,  0.02]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.74,  0.22,  0.04]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.42,  0.47,  0.10]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.68,  0.27,  0.05]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.65,  0.28,  0.07]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.63,  0.32,  0.05]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.68,  0.24,  0.08]
               },
             ],
@@ -754,86 +922,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.08,  0.05,  0.11,  0.01,  0.02,  0.01,  0.01,  0.02,  0.73,  0.02,  0.06]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.09,  0.04,  0.09,  0.01,  0.02,  0.00,  0.01,  0.02,  0.74,  0.02,  0.08]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.08,  0.05,  0.10,  0.01,  0.02,  0.01,  0.01,  0.02,  0.75,  0.02,  0.06]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.08,  0.07,  0.10,  0.00,  0.02,  0.00,  0.01,  0.01,  0.76,  0.01,  0.05]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.09,  0.04,  0.13,  0.02,  0.01,  0.00,  0.01,  0.02,  0.73,  0.03,  0.06]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.13,  0.04,  0.21,  0.01,  0.01,  0.00,  0.02,  0.02,  0.63,  0.04,  0.05]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.05,  0.07,  0.08,  0.01,  0.02,  0.01,  0.01,  0.01,  0.76,  0.02,  0.07]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.08,  0.05,  0.10,  0.02,  0.02,  0.00,  0.01,  0.02,  0.71,  0.03,  0.07]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.09,  0.03,  0.04,  0.01,  0.02,  0.00,  0.01,  0.01,  0.81,  0.00,  0.07]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.09,  0.03,  0.14,  0.01,  0.03,  0.00,  0.01,  0.03,  0.73,  0.04,  0.05]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.03,  0.03,  0.05,  0.03,  0.00,  0.00,  0.01,  0.03,  0.88,  0.03,  0.03]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.11,  0.07,  0.21,  0.03,  0.03,  0.01,  0.01,  0.02,  0.61,  0.02,  0.04]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.13,  0.04,  0.18,  0.00,  0.01,  0.00,  0.01,  0.01,  0.68,  0.02,  0.06]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.04,  0.10,  0.16,  0.01,  0.04,  0.02,  0.02,  0.03,  0.67,  0.03,  0.06]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.08,  0.08,  0.21,  0.01,  0.02,  0.00,  0.00,  0.02,  0.65,  0.03,  0.05]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.11,  0.04,  0.13,  0.02,  0.02,  0.00,  0.01,  0.01,  0.73,  0.01,  0.04]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.12,  0.03,  0.08,  0.00,  0.02,  0.00,  0.00,  0.01,  0.76,  0.00,  0.09]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.05,  0.04,  0.11,  0.01,  0.00,  0.00,  0.01,  0.05,  0.78,  0.01,  0.06]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.06,  0.08,  0.11,  0.01,  0.02,  0.02,  0.00,  0.02,  0.71,  0.03,  0.08]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.09,  0.07,  0.11,  0.01,  0.03,  0.00,  0.03,  0.01,  0.71,  0.03,  0.04]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.07,  0.04,  0.09,  0.02,  0.01,  0.00,  0.01,  0.02,  0.76,  0.02,  0.07]
               },
             ],
@@ -847,86 +1036,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.08,  0.01,  0.08,  0.11,  0.02,  0.01 , 0.73,  0.05,  0.02,  0.06]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.06,  0.01,  0.09,  0.09,  0.02,  0.00 , 0.74,  0.04,  0.02,  0.08]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.08,  0.01,  0.08,  0.10,  0.02,  0.01 , 0.75,  0.05,  0.02,  0.06]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.09,  0.00,  0.08,  0.10,  0.02,  0.00 , 0.76,  0.04,  0.01,  0.05]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.06,  0.02,  0.09,  0.13,  0.01,  0.00 , 0.73,  0.06,  0.03,  0.06]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.08,  0.01,  0.13,  0.21,  0.01,  0.00 , 0.63,  0.06,  0.04,  0.05]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.09,  0.01,  0.05,  0.08,  0.02,  0.01 , 0.76,  0.06,  0.02,  0.07]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.09,  0.02,  0.08,  0.10,  0.02,  0.00 , 0.71,  0.05,  0.03,  0.07]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.04,  0.01,  0.09,  0.04,  0.02,  0.00 , 0.81,  0.06,  0.00,  0.07]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.06,  0.01,  0.09,  0.14,  0.03,  0.00 , 0.73,  0.06,  0.04,  0.05]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.07,  0.03,  0.03,  0.05,  0.00,  0.00 , 0.88,  0.04,  0.03,  0.03]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.09,  0.03,  0.11,  0.21,  0.03,  0.01 , 0.61,  0.07,  0.02,  0.04]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.05,  0.00,  0.13,  0.18,  0.01,  0.00 , 0.68,  0.03,  0.02,  0.06]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.15,  0.01,  0.04,  0.16,  0.04,  0.02 , 0.67,  0.08,  0.03,  0.06]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.09,  0.01,  0.08,  0.21,  0.02,  0.00 , 0.65,  0.04,  0.03,  0.05]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.05,  0.02,  0.11,  0.13,  0.02,  0.00 , 0.73,  0.05,  0.01,  0.04]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.04,  0.00,  0.12,  0.08,  0.02,  0.00 , 0.76,  0.05,  0.00,  0.09]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.10,  0.01,  0.05,  0.11,  0.00,  0.00 , 0.78,  0.03,  0.01,  0.06]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.10,  0.01,  0.06,  0.11,  0.02,  0.02 , 0.71,  0.07,  0.03,  0.08]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.10,  0.01,  0.09,  0.11,  0.03,  0.00 , 0.71,  0.06,  0.03,  0.04]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.07,  0.02,  0.07,  0.09,  0.01,  0.00 , 0.76,  0.05,  0.02,  0.07]
               },
             ],
@@ -940,86 +1150,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.00,  0.02,  0.09,  0.39,  0.41,  0.08,  0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.09,  0.34,  0.45,  0.10,  0.02]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.00,  0.02,  0.07,  0.34,  0.41,  0.14,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.09,  0.43,  0.39,  0.04,  0.03]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.01,  0.01,  0.06,  0.45,  0.38,  0.06,  0.03]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09,  0.02]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.06,  0.33,  0.46,  0.12,  0.02]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.10,  0.41,  0.38,  0.08,  0.02]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.00,  0.03,  0.09,  0.39,  0.42,  0.05,  0.02]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.00,  0.03,  0.13,  0.43,  0.36,  0.06,  0.01]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.08,  0.42,  0.44,  0.04,  0.02]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.00,  0.02,  0.09,  0.37,  0.38,  0.10,  0.03]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.09,  0.45,  0.38,  0.04,  0.02]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.00,  0.02,  0.12,  0.32,  0.46,  0.05,  0.04]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.00,  0.03,  0.09,  0.40,  0.41,  0.05,  0.01]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.00,  0.02,  0.12,  0.49,  0.25,  0.04,  0.07]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.00,  0.00,  0.13,  0.51,  0.25,  0.10,  0.01]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.00,  0.03,  0.11,  0.45,  0.33,  0.05,  0.02]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.05,  0.34,  0.46,  0.13,  0.01]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.00,  0.01,  0.07,  0.36,  0.45,  0.09,  0.02]
               },
             ],
@@ -1033,86 +1264,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.16,  0.78,  0.06]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.13,  0.80,  0.07]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.16,  0.78,  0.06]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.17,  0.80,  0.04]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.16,  0.78,  0.06]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.20,  0.75,  0.06]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.16,  0.77,  0.07]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.14,  0.79,  0.07]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.19,  0.74,  0.07]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.16,  0.78,  0.06]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.17,  0.78,  0.06]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.17,  0.78,  0.06]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.15,  0.80,  0.05]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.17,  0.77,  0.06]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.19,  0.71,  0.10]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.15,  0.81,  0.04]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.29,  0.63,  0.08]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.22,  0.73,  0.05]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.17,  0.77,  0.07]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.19,  0.76,  0.05]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.12,  0.81,  0.07]
               },
             ],
@@ -1131,86 +1383,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.65,  0.35,  0.00,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.68,  0.32,  0.00,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.64,  0.36,  0.00,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.69,  0.31,  0.00,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.64,  0.36,  0.00,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.60,  0.40,  0.00,  0.00]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.56,  0.44,  0.00,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.74,  0.26,  0.00,  0.00]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.58,  0.42,  0.00,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.70,  0.29,  0.00,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.58,  0.43,  0.00,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.72,  0.27,  0.01,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.70,  0.30,  0.00,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.53,  0.47,  0.00,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.64,  0.36,  0.00,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.69,  0.30,  0.01,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.54,  0.46,  0.00,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.62,  0.38,  0.00,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.60,  0.40,  0.00,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.63,  0.37,  0.00,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.68,  0.32,  0.00,  0.00]
               },
             ],
@@ -1224,86 +1497,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.08,  0.50,  0.36,  0.05]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.11,  0.50,  0.35,  0.04]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.08,  0.50,  0.36,  0.05]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.08,  0.46,  0.40,  0.06]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.08,  0.50,  0.36,  0.06]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.08,  0.58,  0.28,  0.06]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.08,  0.51,  0.37,  0.05]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.09,  0.51,  0.34,  0.05]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.10,  0.44,  0.43,  0.04]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.07,  0.52,  0.35,  0.05]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.03,  0.56,  0.35,  0.06]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.07,  0.52,  0.36,  0.06]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.07,  0.48,  0.38,  0.06]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.07,  0.54,  0.32,  0.06]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.06,  0.44,  0.44,  0.06]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.07,  0.49,  0.36,  0.08]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.07,  0.41,  0.51,  0.01]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.08,  0.47,  0.38,  0.08]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.05,  0.52,  0.35,  0.08]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.08,  0.55,  0.32,  0.05]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.10,  0.51,  0.35,  0.04]
               },
             ],
@@ -1317,86 +1611,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.13,  0.39,  0.48]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.26,  0.42,  0.32]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.13,  0.40,  0.47]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.12,  0.37,  0.51]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.07,  0.42,  0.51]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.13,  0.41,  0.46]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.10,  0.40,  0.51]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.19,  0.34,  0.47]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.06,  0.39,  0.55]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.10,  0.47,  0.43]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.03,  0.49,  0.48]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.05,  0.36,  0.59]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.10,  0.37,  0.53]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.16,  0.43,  0.40]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.05,  0.36,  0.59]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.08,  0.35,  0.57]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.05,  0.32,  0.63]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.04,  0.53,  0.43]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.08,  0.42,  0.50]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.09,  0.40,  0.51]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.23,  0.40,  0.38]
               },
             ],
@@ -1410,86 +1725,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.31 , 0.12 , 0.31 , 0.44]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.35 , 0.09 , 0.34 , 0.40]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.32 , 0.12 , 0.32 , 0.43]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.29 , 0.10 , 0.33 , 0.42]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.30 , 0.13 , 0.30 , 0.47]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.33 , 0.11 , 0.35 , 0.40]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.30 , 0.11 , 0.29 , 0.47]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.36 , 0.13 , 0.33 , 0.42]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.26 , 0.12 , 0.31 , 0.47]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.35 , 0.13 , 0.31 , 0.45]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.29 , 0.13 , 0.33 , 0.47]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.27 , 0.09 , 0.22 , 0.54]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.29 , 0.10 , 0.32 , 0.43]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.30 , 0.10 , 0.29 , 0.47]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.29 , 0.11 , 0.25 , 0.48]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.26 , 0.07 , 0.29 , 0.51]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.28 , 0.11 , 0.17 , 0.64]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.33 , 0.14 , 0.42 , 0.34]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.26 , 0.15 , 0.32 , 0.48]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.31 , 0.10 , 0.38 , 0.40]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.37 , 0.13 , 0.31 , 0.40]
               },
             ],
@@ -1538,86 +1874,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.18,  0.28,  0.25,  0.23,  0.07]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.13,  0.25,  0.26,  0.25,  0.11]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.18,  0.27,  0.25,  0.23,  0.07]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.15,  0.29,  0.25,  0.23,  0.07]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.20,  0.30,  0.23,  0.21,  0.06]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.18,  0.29,  0.23,  0.23,  0.07]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.18,  0.29,  0.28,  0.20,  0.05]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.20,  0.26,  0.22,  0.25,  0.07]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.24,  0.27,  0.23,  0.20,  0.06]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.14,  0.25,  0.30,  0.23,  0.07]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.20,  0.32,  0.25,  0.18,  0.06]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.17,  0.32,  0.25,  0.19,  0.07]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.15,  0.31,  0.26,  0.22,  0.07]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.14,  0.30,  0.26,  0.23,  0.07]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.21,  0.28,  0.28,  0.15,  0.08]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.17,  0.29,  0.25,  0.22,  0.07]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.30,  0.26,  0.28,  0.13,  0.02]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.14,  0.27,  0.22,  0.29,  0.09]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.16,  0.29,  0.29,  0.20,  0.06]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.19,  0.28,  0.25,  0.22,  0.05]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.18,  0.27,  0.21,  0.26,  0.08]
               },
             ],
@@ -1631,86 +1988,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.04,  0.08,  0.18,  0.37,  0.33]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.02,  0.06,  0.14,  0.38,  0.39]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.18,  0.37,  0.33]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.03,  0.06,  0.15,  0.40,  0.37]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.05,  0.09,  0.19,  0.33,  0.33]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.17,  0.41,  0.31]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.02,  0.10,  0.19,  0.38,  0.30]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.06,  0.08,  0.17,  0.36,  0.33]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.05,  0.10,  0.19,  0.34,  0.32]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.02,  0.06,  0.19,  0.35,  0.39]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.01,  0.13,  0.20,  0.34,  0.33]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.04,  0.11,  0.18,  0.30,  0.38]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.03,  0.07,  0.16,  0.40,  0.35]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.02,  0.08,  0.18,  0.41,  0.31]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.02,  0.08,  0.23,  0.36,  0.32]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.16,  0.36,  0.36]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.08,  0.13,  0.23,  0.31,  0.24]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.01,  0.10,  0.11,  0.41,  0.37]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.03,  0.10,  0.21,  0.32,  0.34]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.17,  0.42,  0.28]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.04,  0.07,  0.16,  0.37,  0.35]
               },
             ],
@@ -1724,86 +2102,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.04,  0.10,  0.19,  0.36,  0.32]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.03,  0.08,  0.17,  0.38,  0.35]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.04,  0.09,  0.18,  0.37,  0.32]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.03,  0.07,  0.21,  0.33,  0.36]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.04,  0.11,  0.20,  0.34,  0.31]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.03,  0.10,  0.18,  0.36,  0.33]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.03,  0.09,  0.20,  0.38,  0.29]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.05,  0.12,  0.20,  0.36,  0.27]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.03,  0.09,  0.18,  0.39,  0.31]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.03,  0.08,  0.19,  0.31,  0.39]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.05,  0.09,  0.13,  0.35,  0.38]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.04,  0.14,  0.26,  0.29,  0.27]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.04,  0.07,  0.23,  0.32,  0.33]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.03,  0.08,  0.18,  0.39,  0.32]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.05,  0.12,  0.22,  0.36,  0.24]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.20,  0.32,  0.36]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.08,  0.12,  0.24,  0.33,  0.22]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.03,  0.10,  0.11,  0.43,  0.33]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.02,  0.10,  0.20,  0.31,  0.36]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.05,  0.07,  0.21,  0.38,  0.29]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.03,  0.10,  0.17,  0.38,  0.32]
               },
             ],
@@ -1817,86 +2216,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.06,  0.15,  0.21,  0.32,  0.26]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.07,  0.18,  0.20,  0.32,  0.23]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.06,  0.15,  0.21,  0.32,  0.26]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.06,  0.16,  0.21,  0.31,  0.27]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.04,  0.14,  0.21,  0.32,  0.29]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.04,  0.13,  0.20,  0.32,  0.30]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.06,  0.17,  0.23,  0.31,  0.24]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.08,  0.15,  0.24,  0.30,  0.23]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.04,  0.17,  0.19,  0.34,  0.25]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.04,  0.15,  0.19,  0.33,  0.30]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.07,  0.13,  0.20,  0.32,  0.29]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.02,  0.17,  0.20,  0.31,  0.30]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.05,  0.15,  0.20,  0.30,  0.31]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.06,  0.15,  0.20,  0.32,  0.27]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.05,  0.18,  0.28,  0.29,  0.20]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.04,  0.15,  0.19,  0.29,  0.33]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.05,  0.09,  0.26,  0.36,  0.23]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.05,  0.11,  0.15,  0.48,  0.20]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.05,  0.15,  0.17,  0.29,  0.34]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.07,  0.14,  0.23,  0.30,  0.26]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.07,  0.17,  0.22,  0.33,  0.22]
               },
             ],
@@ -1910,86 +2330,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.04,  0.07,  0.21,  0.38,  0.30]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.04,  0.05,  0.15,  0.38,  0.37]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.21,  0.38,  0.29]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.05,  0.06,  0.22,  0.35,  0.31]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.03,  0.08,  0.21,  0.40,  0.29]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.05,  0.06,  0.27,  0.31,  0.31]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.04,  0.09,  0.22,  0.40,  0.25]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.22,  0.33,  0.33]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.04,  0.09,  0.18,  0.42,  0.27]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.17,  0.43,  0.32]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.01,  0.06,  0.20,  0.42,  0.32]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.03,  0.04,  0.24,  0.38,  0.32]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.03,  0.05,  0.22,  0.39,  0.30]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.04,  0.09,  0.26,  0.36,  0.25]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.03,  0.09,  0.26,  0.38,  0.24]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.04,  0.06,  0.20,  0.38,  0.32]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.03,  0.11,  0.13,  0.47,  0.25]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.04,  0.05,  0.19,  0.41,  0.32]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.03,  0.07,  0.24,  0.37,  0.29]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.05,  0.08,  0.25,  0.36,  0.26]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.03,  0.08,  0.20,  0.37,  0.32]
               },
             ],
@@ -2003,86 +2444,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.09,  0.12 , 0.21 , 0.35,  0.24]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.07,  0.08 , 0.14 , 0.39,  0.33]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.09,  0.11 , 0.20 , 0.35,  0.25]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.09,  0.06 , 0.12 , 0.36,  0.38]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.10,  0.15 , 0.24 , 0.31,  0.20]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.11,  0.14 , 0.21 , 0.35,  0.19]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.08,  0.12 , 0.25 , 0.36,  0.18]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.11,  0.14 , 0.17 , 0.35,  0.22]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.12,  0.16 , 0.22 , 0.30,  0.20]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.04,  0.08 , 0.21 , 0.30,  0.37]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.08,  0.08 , 0.35 , 0.33,  0.16]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.10,  0.17 , 0.28 , 0.28,  0.17]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.11,  0.09 , 0.13 , 0.38,  0.29]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.05,  0.09 , 0.25 , 0.39,  0.22]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.05,  0.08 , 0.20 , 0.38,  0.30]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.09,  0.08 , 0.18 , 0.32,  0.33]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.11,  0.15 , 0.28 , 0.32,  0.13]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.08,  0.05 , 0.15 , 0.44,  0.28]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.08,  0.15 , 0.25 , 0.31,  0.21]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.10,  0.12 , 0.22 , 0.38,  0.18]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.10,  0.13 , 0.18 , 0.35,  0.25]
               },
             ],
@@ -2096,86 +2558,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.19,  0.22,  0.31,  0.21,  0.07]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.20,  0.25,  0.27,  0.21,  0.07]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.19,  0.23,  0.29,  0.21,  0.07]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.14,  0.19,  0.35,  0.22,  0.11]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.18,  0.21,  0.33,  0.21,  0.08]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.24,  0.24,  0.27,  0.19,  0.06]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.20,  0.25,  0.28,  0.21,  0.07]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.22,  0.24,  0.30,  0.20,  0.05]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.23,  0.24,  0.28,  0.17,  0.08]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.13,  0.19,  0.29,  0.28,  0.11]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.10,  0.23,  0.32,  0.24,  0.11]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.10,  0.17,  0.41,  0.24,  0.08]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.14,  0.23,  0.34,  0.19,  0.10]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.18,  0.21,  0.32,  0.23,  0.06]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.14,  0.19,  0.33,  0.28,  0.05]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.13,  0.16,  0.38,  0.22,  0.11]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.26,  0.32,  0.20,  0.13,  0.08]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.11,  0.18,  0.29,  0.24,  0.18]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.13,  0.23,  0.32,  0.23,  0.08]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.22,  0.26,  0.25,  0.22,  0.06]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.23,  0.23,  0.31,  0.18,  0.05]
               },
             ],
@@ -2189,86 +2672,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.05,  0.12,  0.26,  0.37,  0.20]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.06,  0.15,  0.25,  0.37,  0.18]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.05,  0.13,  0.26,  0.37,  0.20]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.04,  0.11,  0.26,  0.36,  0.23]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.04,  0.13,  0.26,  0.36,  0.22]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.06,  0.11,  0.24,  0.40,  0.18]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.05,  0.15,  0.25,  0.36,  0.20]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.07,  0.13,  0.28,  0.37,  0.15]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.04,  0.14,  0.27,  0.35,  0.21]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.03,  0.11,  0.28,  0.37,  0.21]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.01,  0.08,  0.19,  0.47,  0.26]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.02,  0.09,  0.27,  0.37,  0.24]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.04,  0.10,  0.23,  0.33,  0.28]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.05,  0.13,  0.24,  0.39,  0.18]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.05,  0.13,  0.29,  0.42,  0.11]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.02,  0.09,  0.24,  0.33,  0.32]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.03,  0.15,  0.32,  0.26,  0.23]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.05,  0.10,  0.22,  0.49,  0.14]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.04,  0.12,  0.22,  0.39,  0.23]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.05,  0.12,  0.27,  0.36,  0.20]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.06,  0.14,  0.27,  0.37,  0.15]
               },
             ],
@@ -2282,86 +2786,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.05,  0.08,  0.21,  0.40,  0.26]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.05,  0.11,  0.21,  0.38,  0.24]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.05,  0.08,  0.22,  0.39,  0.26]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.04,  0.06,  0.21,  0.41,  0.28]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.04,  0.07,  0.22,  0.40,  0.26]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.04,  0.08,  0.23,  0.37,  0.28]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.04,  0.10,  0.22,  0.40,  0.25]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.07,  0.05,  0.24,  0.41,  0.23]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.05,  0.10,  0.19,  0.39,  0.27]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.02,  0.11,  0.19,  0.40,  0.29]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.01,  0.08,  0.23,  0.43,  0.26]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.02,  0.06,  0.19,  0.48,  0.26]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.03,  0.06,  0.22,  0.39,  0.31]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.04,  0.09,  0.22,  0.39,  0.26]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.02,  0.13,  0.19,  0.44,  0.22]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.03,  0.05,  0.20,  0.39,  0.32]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.05,  0.13,  0.27,  0.35,  0.19]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.03,  0.10,  0.16,  0.44,  0.27]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.03,  0.07,  0.20,  0.38,  0.32]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.03,  0.06,  0.21,  0.41,  0.29]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.07,  0.08,  0.23,  0.40,  0.22]
               },
             ],
@@ -2375,86 +2900,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.18,  0.23,  0.30 , 0.21,  0.08]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.22,  0.26,  0.30 , 0.16,  0.06]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.19,  0.24,  0.30 , 0.21,  0.07]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.16,  0.22,  0.33 , 0.21,  0.07]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.14,  0.23,  0.32 , 0.21,  0.10]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.18,  0.26,  0.29 , 0.21,  0.06]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.19,  0.25,  0.30 , 0.21,  0.06]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.21,  0.25,  0.30 , 0.18,  0.06]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.19,  0.26,  0.28 , 0.20,  0.07]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.16,  0.19,  0.35 , 0.18,  0.12]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.11,  0.13,  0.33 , 0.31,  0.12]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.11,  0.20,  0.37 , 0.20,  0.13]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.14,  0.25,  0.32 , 0.20,  0.10]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.16,  0.25,  0.29 , 0.24,  0.06]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.15,  0.26,  0.37 , 0.16,  0.06]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.13,  0.18,  0.35 , 0.21,  0.13]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.28,  0.23,  0.29 , 0.16,  0.03]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.13,  0.15,  0.32 , 0.32,  0.09]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.14,  0.21,  0.27 , 0.27,  0.11]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.18,  0.25,  0.26 , 0.24,  0.06]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.21,  0.27,  0.31 , 0.16,  0.05]
               },
             ],
@@ -2468,26 +3014,32 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [1,1.007,1.017,0.896,0.968,0.927,1.007,1.004,0.976,0.997,1.012,0.970,0.930,0.884]
               },
               // {
                 // "name" : "My Museum",
+                // "visible" : false,
                 // "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Others in My Region",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Other of Same Scale",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Others of the Same Type",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Others matching Collecting/Non-Collecting",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
             ],
@@ -2501,86 +3053,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.34,  0.36,  0.29,  0.09,  0.42,  0.13,  0.15,  0.34,  0.38,  0.28,  0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.33,  0.34,  0.24,  0.12,  0.37,  0.13,  0.18,  0.34,  0.42,  0.24,  0.03]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.34,  0.36,  0.27,  0.10,  0.42,  0.13,  0.16,  0.33,  0.39,  0.28,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.36,  0.37,  0.32,  0.09,  0.39,  0.10,  0.17,  0.33,  0.33,  0.29,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.37,  0.34,  0.31,  0.08,  0.43,  0.14,  0.15,  0.33,  0.36,  0.29,  0.02]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.31,  0.34,  0.28,  0.10,  0.46,  0.13,  0.19,  0.33,  0.38,  0.32,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.31,  0.38,  0.25,  0.11,  0.43,  0.12,  0.12,  0.34,  0.37,  0.28,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.32,  0.39,  0.28,  0.11,  0.38,  0.12,  0.17,  0.32,  0.42,  0.24,  0.02]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.29,  0.36,  0.29,  0.10,  0.39,  0.15,  0.15,  0.35,  0.40,  0.27,  0.03]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.42,  0.32,  0.30,  0.05,  0.49,  0.11,  0.10,  0.31,  0.33,  0.36,  0.03]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.48,  0.34,  0.28,  0.06,  0.47,  0.16,  0.13,  0.28,  0.27,  0.31,  0.03]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.34,  0.33,  0.46,  0.07,  0.42,  0.11,  0.12,  0.39,  0.27,  0.32,  0.02]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.37,  0.33,  0.32,  0.09,  0.42,  0.09,  0.17,  0.36,  0.33,  0.30,  0.02]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.31,  0.36,  0.29,  0.10,  0.43,  0.13,  0.15,  0.37,  0.38,  0.30,  0.01]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.27,  0.41,  0.31,  0.12,  0.40,  0.08,  0.13,  0.38,  0.35,  0.33,  0.04]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.42,  0.35,  0.36,  0.06,  0.40,  0.11,  0.13,  0.36,  0.28,  0.33,  0.02]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.25,  0.35,  0.25,  0.09,  0.45,  0.17,  0.19,  0.30,  0.43,  0.28,  0.01]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.39,  0.46,  0.34,  0.05,  0.46,  0.11,  0.15,  0.32,  0.33,  0.27,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.35,  0.35,  0.32,  0.08,  0.48,  0.11,  0.13,  0.35,  0.32,  0.31,  0.02]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.30,  0.34,  0.29,  0.08,  0.45,  0.11,  0.15,  0.34,  0.39,  0.31,  0.02]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.35,  0.35,  0.24,  0.12,  0.37,  0.15,  0.17,  0.32,  0.44,  0.23,  0.02]
               },
             ],
@@ -2595,86 +3168,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.24,  0.70,  0.07]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.28,  0.65,  0.07]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.24,  0.69,  0.07]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.27,  0.67,  0.07]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.23,  0.71,  0.06]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.23,  0.70,  0.07]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.23,  0.71,  0.06]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.25,  0.68,  0.07]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.25,  0.67,  0.08]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.21,  0.73,  0.06]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.22,  0.72,  0.07]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.21,  0.74,  0.04]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.23,  0.69,  0.08]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.23,  0.73,  0.04]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.22,  0.73,  0.05]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.19,  0.74,  0.08]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.32,  0.61,  0.07]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.23,  0.70,  0.08]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.18,  0.75,  0.07]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.28,  0.67,  0.05]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.26,  0.67,  0.07]
               },
             ],
@@ -2688,86 +3282,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.05,  0.17,  0.48,  0.30]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.07,  0.27,  0.41,  0.26]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.05,  0.17,  0.48,  0.30]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.06,  0.07,  0.54,  0.33]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.04,  0.16,  0.49,  0.32]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.04,  0.22,  0.44,  0.29]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.04,  0.20,  0.45,  0.30]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.06,  0.21,  0.46,  0.27]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.04,  0.20,  0.46,  0.29]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.00,  0.13,  0.53,  0.34]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.11,  0.11,  0.46,  0.32]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.03,  0.15,  0.48,  0.35]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.06,  0.09,  0.54,  0.31]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.03,  0.18,  0.44,  0.35]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.00,  0.13,  0.55,  0.32]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.07,  0.07,  0.51,  0.36]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.03,  0.25,  0.34,  0.38]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.05,  0.05,  0.41,  0.50]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.07,  0.18,  0.43,  0.32]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.04,  0.10,  0.59,  0.27]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.05,  0.24,  0.44,  0.26]
               },
             ],
@@ -2781,86 +3396,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.52,  0.11,  0.33,  0.29,  0.05,  0.40,  0.13,  0.21,  0.01]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.51,  0.09,  0.34,  0.28,  0.05,  0.45,  0.09,  0.22,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.53,  0.11,  0.32,  0.28,  0.05,  0.40,  0.13,  0.20,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.58,  0.10,  0.32,  0.29,  0.08,  0.45,  0.13,  0.12,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.49,  0.14,  0.33,  0.31,  0.05,  0.34,  0.12,  0.21,  0.01]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.52,  0.14,  0.43,  0.25,  0.05,  0.42,  0.09,  0.25,  0.00]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.45,  0.07,  0.30,  0.25,  0.05,  0.35,  0.15,  0.25,  0.02]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.56,  0.12,  0.39,  0.29,  0.03,  0.44,  0.07,  0.24,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.46,  0.07,  0.27,  0.25,  0.06,  0.35,  0.19,  0.28,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.50,  0.05,  0.34,  0.30,  0.09,  0.43,  0.18,  0.14,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.52,  0.15,  0.15,  0.37,  0.07,  0.30,  0.30,  0.22,  0.04]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.36,  0.05,  0.46,  0.33,  0.08,  0.31,  0.13,  0.28,  0.03]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.59,  0.09,  0.45,  0.30,  0.05,  0.44,  0.12,  0.09,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.49,  0.16,  0.26,  0.27,  0.06,  0.36,  0.09,  0.19,  0.03]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.39,  0.10,  0.26,  0.45,  0.06,  0.52,  0.23,  0.10,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.49,  0.09,  0.35,  0.25,  0.09,  0.33,  0.16,  0.18,  0.05]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.41,  0.19,  0.34,  0.31,  0.06,  0.25,  0.19,  0.19,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.55,  0.10,  0.15,  0.35,  0.15,  0.30,  0.25,  0.30,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.45,  0.08,  0.27,  0.23,  0.06,  0.35,  0.17,  0.32,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.52,  0.08,  0.43,  0.26,  0.02,  0.44,  0.15,  0.18,  0.02]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.59,  0.12,  0.32,  0.29,  0.04,  0.43,  0.05,  0.21,  0.01]
               },
             ],
@@ -2874,86 +3510,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.11,  0.29,  0.05,  0.01,  0.26,  0.03,  0.05,  0.00,  0.21,  0.47]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.13,  0.32,  0.03,  0.02,  0.27,  0.01,  0.03,  0.00,  0.22,  0.46]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.12,  0.28,  0.05,  0.01,  0.26,  0.03,  0.05,  0.00,  0.22,  0.47]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.08,  0.19,  0.05,  0.00,  0.17,  0.08,  0.07,  0.00,  0.22,  0.52]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.09,  0.31,  0.06,  0.00,  0.27,  0.03,  0.06,  0.01,  0.19,  0.46]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.17,  0.36,  0.02,  0.00,  0.34,  0.02,  0.08,  0.00,  0.28,  0.38]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.15,  0.32,  0.03,  0.01,  0.26,  0.00,  0.03,  0.00,  0.20,  0.46]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.09,  0.29,  0.06,  0.01,  0.27,  0.03,  0.07,  0.00,  0.24,  0.45]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.11,  0.28,  0.07,  0.01,  0.33,  0.00,  0.04,  0.01,  0.23,  0.42]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.09,  0.26,  0.02,  0.00,  0.14,  0.00,  0.05,  0.00,  0.12,  0.65]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.15,  0.35,  0.00,  0.00,  0.15,  0.12,  0.00,  0.00,  0.19,  0.54]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.03,  0.41,  0.05,  0.00,  0.26,  0.05,  0.10,  0.00,  0.13,  0.46]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.10,  0.22,  0.03,  0.00,  0.21,  0.04,  0.07,  0.00,  0.22,  0.48]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.16,  0.37,  0.03,  0.00,  0.29,  0.05,  0.02,  0.00,  0.20,  0.42]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.10,  0.23,  0.07,  0.00,  0.17,  0.03,  0.07,  0.00,  0.27,  0.53]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.04,  0.25,  0.02,  0.00,  0.14,  0.04,  0.05,  0.00,  0.14,  0.57]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.19,  0.31,  0.03,  0.00,  0.44,  0.03,  0.00,  0.00,  0.16,  0.34]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.11,  0.39,  0.06,  0.00,  0.17,  0.11,  0.06,  0.00,  0.17,  0.56]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.16,  0.33,  0.05,  0.00,  0.21,  0.06,  0.06,  0.00,  0.21,  0.41]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.09,  0.32,  0.05,  0.00,  0.32,  0.02,  0.06,  0.00,  0.26,  0.43]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.13,  0.27,  0.05,  0.02,  0.27,  0.02,  0.04,  0.01,  0.22,  0.47]
               },
             ],
@@ -2967,86 +3624,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.54,  0.38,  0.08]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.56,  0.35,  0.10]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.56,  0.36,  0.08]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.57,  0.34,  0.09]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.51,  0.39,  0.11]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.31,  0.56,  0.13]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.55,  0.38,  0.07]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.57,  0.38,  0.05]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.67,  0.27,  0.07]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.27,  0.53,  0.20]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.73,  0.18,  0.09]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.36,  0.55,  0.09]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.42,  0.39,  0.19]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.47,  0.51,  0.02]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.56,  0.22,  0.22]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.45,  0.36,  0.18]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.58,  0.42,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.80,  0.20,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.34,  0.46,  0.20]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.52,  0.44,  0.04]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.62,  0.34,  0.04]
               },
             ],
@@ -3060,86 +3738,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.46,  0.47,  0.70,  0.15,  0.19,  0.11,  0.10,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.56,  0.57,  0.72,  0.13,  0.14,  0.04,  0.08,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.47,  0.47,  0.70,  0.15,  0.18,  0.09,  0.09,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.40,  0.37,  0.74,  0.22,  0.26,  0.14,  0.06,  0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.44,  0.43,  0.71,  0.16,  0.22,  0.19,  0.09,  0.01]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.41,  0.52,  0.62,  0.17,  0.06,  0.03,  0.17,  0.00]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.46,  0.46,  0.70,  0.20,  0.11,  0.02,  0.10,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.52,  0.51,  0.73,  0.09,  0.19,  0.09,  0.10,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.48,  0.50,  0.74,  0.19,  0.13,  0.13,  0.09,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.48,  0.50,  0.70,  0.11,  0.20,  0.14,  0.09,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.58,  0.42,  0.69,  0.15,  0.15,  0.12,  0.04,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.39,  0.42,  0.74,  0.24,  0.24,  0.26,  0.13,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.40,  0.39,  0.71,  0.27,  0.27,  0.15,  0.08,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.34,  0.40,  0.60,  0.16,  0.19,  0.07,  0.14,  0.01]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.46,  0.46,  0.68,  0.11,  0.29,  0.07,  0.07,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.35,  0.38,  0.71,  0.20,  0.24,  0.18,  0.11,  0.02]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.28,  0.31,  0.66,  0.25,  0.28,  0.22,  0.16,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.67,  0.67,  0.72,  0.17,  0.17,  0.17,  0.06,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.52,  0.41,  0.70,  0.16,  0.11,  0.05,  0.08,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.42,  0.45,  0.69,  0.21,  0.18,  0.10,  0.09,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.51,  0.53,  0.71,  0.10,  0.17,  0.09,  0.10,  0.01]
               },
             ],
@@ -3153,86 +3852,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.60,  0.40]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.59,  0.41]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.59,  0.41]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.58,  0.42]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.60,  0.40]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.61,  0.39]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.58,  0.42]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.66,  0.34]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.61,  0.39]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.55,  0.45]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.53,  0.47]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.61,  0.39]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.54,  0.46]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.57,  0.43]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.65,  0.35]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.53,  0.47]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.65,  0.35]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.58,  0.42]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.51,  0.49]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.61,  0.39]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.64,  0.36]
               },
             ],
@@ -3246,86 +3966,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.61,  0.09,  0.07,  0.54,  0.14,  0.51,  0.05,  0.22,  0.59,  0.28,  0.24,  0.46,  0.25,  0.19,  0.01]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.43,  0.14,  0.05,  0.55,  0.17,  0.55,  0.06,  0.23,  0.57,  0.30,  0.25,  0.58,  0.30,  0.15,  0.02]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.61,  0.10,  0.06,  0.53,  0.14,  0.52,  0.05,  0.22,  0.58,  0.29,  0.24,  0.47,  0.26,  0.19,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.57,  0.09,  0.07,  0.51,  0.17,  0.46,  0.05,  0.24,  0.63,  0.28,  0.24,  0.45,  0.26,  0.19,  0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.71,  0.07,  0.09,  0.54,  0.13,  0.52,  0.04,  0.22,  0.58,  0.31,  0.22,  0.42,  0.23,  0.22,  0.01]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.63,  0.08,  0.08,  0.57,  0.13,  0.54,  0.04,  0.19,  0.57,  0.26,  0.30,  0.43,  0.20,  0.22,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.62,  0.11,  0.06,  0.55,  0.13,  0.51,  0.05,  0.22,  0.58,  0.30,  0.26,  0.48,  0.29,  0.16,  0.01]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.60,  0.10,  0.07,  0.55,  0.16,  0.53,  0.03,  0.24,  0.55,  0.22,  0.24,  0.47,  0.25,  0.18,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.68,  0.09,  0.08,  0.54,  0.13,  0.58,  0.07,  0.21,  0.66,  0.27,  0.25,  0.50,  0.23,  0.15,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.60,  0.12,  0.09,  0.58,  0.14,  0.47,  0.04,  0.27,  0.53,  0.50,  0.27,  0.49,  0.27,  0.25,  0.02]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.64,  0.05,  0.06,  0.50,  0.13,  0.38,  0.05,  0.27,  0.53,  0.34,  0.20,  0.28,  0.23,  0.23,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.69,  0.07,  0.09,  0.59,  0.13,  0.44,  0.06,  0.23,  0.61,  0.28,  0.26,  0.35,  0.15,  0.21,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.57,  0.07,  0.07,  0.55,  0.13,  0.48,  0.04,  0.22,  0.57,  0.32,  0.20,  0.45,  0.28,  0.18,  0.01]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.61,  0.11,  0.04,  0.49,  0.14,  0.49,  0.06,  0.17,  0.63,  0.27,  0.27,  0.43,  0.24,  0.22,  0.01]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.65,  0.17,  0.06,  0.64,  0.14,  0.45,  0.10,  0.30,  0.68,  0.44,  0.33,  0.54,  0.26,  0.23,  0.01]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.58,  0.07,  0.10,  0.51,  0.10,  0.44,  0.03,  0.21,  0.55,  0.27,  0.25,  0.30,  0.20,  0.18,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.81,  0.08,  0.09,  0.48,  0.19,  0.64,  0.05,  0.16,  0.80,  0.28,  0.19,  0.55,  0.25,  0.16,  0.02]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.59,  0.04,  0.00,  0.43,  0.07,  0.41,  0.04,  0.30,  0.67,  0.41,  0.24,  0.37,  0.13,  0.28,  0.02]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.67,  0.07,  0.07,  0.49,  0.16,  0.45,  0.06,  0.25,  0.53,  0.28,  0.21,  0.45,  0.29,  0.24,  0.02]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.64,  0.06,  0.07,  0.55,  0.13,  0.51,  0.05,  0.18,  0.56,  0.25,  0.27,  0.38,  0.20,  0.17,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.56,  0.12,  0.06,  0.56,  0.16,  0.57,  0.04,  0.23,  0.57,  0.26,  0.23,  0.53,  0.29,  0.18,  0.01]
               },
             ],
@@ -3339,86 +4080,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.68,  0.32]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.65,  0.35]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.68,  0.32]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.67,  0.33]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.70,  0.30]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.68,  0.32]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.66,  0.34]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.69,  0.31]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.69,  0.31]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.67,  0.33]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.69,  0.31]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.65,  0.35]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.63,  0.37]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.70,  0.30]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.63,  0.37]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.65,  0.35]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.69,  0.31]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.76,  0.24]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.64,  0.36]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.68,  0.32]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.71,  0.29]
               },
             ],
@@ -3432,86 +4194,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.68,  0.22,  0.19,  0.10,  0.11,  0.47,  0.04,  0.54,  0.35,  0.16,  0.41,  0.15,  0.29,  0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.63,  0.27,  0.16,  0.07,  0.13,  0.53,  0.04,  0.48,  0.36,  0.21,  0.47,  0.16,  0.28,  0.01]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.68,  0.22,  0.19,  0.10,  0.11,  0.47,  0.04,  0.53,  0.35,  0.16,  0.41,  0.16,  0.29,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.60,  0.21,  0.23,  0.11,  0.11,  0.43,  0.03,  0.61,  0.36,  0.14,  0.39,  0.16,  0.26,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.72,  0.18,  0.21,  0.11,  0.09,  0.45,  0.03,  0.55,  0.34,  0.13,  0.37,  0.13,  0.32,  0.02]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.74,  0.25,  0.20,  0.10,  0.11,  0.45,  0.03,  0.58,  0.31,  0.18,  0.44,  0.12,  0.32,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.69,  0.25,  0.17,  0.09,  0.12,  0.47,  0.03,  0.51,  0.37,  0.17,  0.44,  0.15,  0.29,  0.02]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.66,  0.22,  0.16,  0.09,  0.12,  0.47,  0.04,  0.55,  0.34,  0.16,  0.41,  0.18,  0.25,  0.02]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.67,  0.19,  0.21,  0.13,  0.11,  0.50,  0.04,  0.55,  0.39,  0.16,  0.41,  0.12,  0.31,  0.01]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.70,  0.22,  0.19,  0.10,  0.07,  0.48,  0.04,  0.56,  0.35,  0.17,  0.42,  0.16,  0.34,  0.01]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.64,  0.15,  0.14,  0.12,  0.12,  0.42,  0.04,  0.44,  0.37,  0.11,  0.26,  0.15,  0.33,  0.05]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.63,  0.16,  0.21,  0.08,  0.13,  0.45,  0.04,  0.63,  0.42,  0.15,  0.36,  0.10,  0.36,  0.02]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.65,  0.19,  0.23,  0.08,  0.08,  0.43,  0.02,  0.54,  0.32,  0.14,  0.40,  0.15,  0.29,  0.02]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.73,  0.27,  0.22,  0.08,  0.13,  0.49,  0.05,  0.56,  0.37,  0.17,  0.46,  0.14,  0.30,  0.01]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.73,  0.27,  0.23,  0.06,  0.12,  0.55,  0.04,  0.68,  0.41,  0.23,  0.49,  0.17,  0.28,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.57,  0.16,  0.20,  0.14,  0.07,  0.41,  0.03,  0.52,  0.31,  0.16,  0.29,  0.08,  0.31,  0.03]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.75,  0.15,  0.31,  0.10,  0.15,  0.59,  0.04,  0.62,  0.40,  0.15,  0.46,  0.19,  0.34,  0.01]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.67,  0.12,  0.12,  0.05,  0.12,  0.40,  0.02,  0.58,  0.45,  0.10,  0.32,  0.10,  0.32,  0.02]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.72,  0.17,  0.20,  0.11,  0.09,  0.41,  0.04,  0.52,  0.30,  0.13,  0.43,  0.13,  0.33,  0.02]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.74,  0.23,  0.18,  0.10,  0.15,  0.45,  0.06,  0.58,  0.34,  0.17,  0.41,  0.22,  0.29,  0.01]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.65,  0.27,  0.18,  0.09,  0.11,  0.51,  0.04,  0.50,  0.38,  0.16,  0.43,  0.15,  0.26,  0.02]
               },
             ],
@@ -3525,86 +4308,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.68,  0.18 , 0.11,  0.07,  0.19,  0.11,  0.03]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.67,  0.16 , 0.12,  0.07,  0.20,  0.12,  0.01]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.68,  0.17 , 0.12,  0.07,  0.19,  0.11,  0.03]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.74,  0.19 , 0.14,  0.10,  0.15,  0.07,  0.03]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.65,  0.18 , 0.08,  0.08,  0.22,  0.12,  0.03]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.72,  0.19 , 0.15,  0.08,  0.14,  0.09,  0.02]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.69,  0.18 , 0.13,  0.07,  0.17,  0.12,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.66,  0.21 , 0.12,  0.07,  0.21,  0.10,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.70,  0.15 , 0.09,  0.08,  0.18,  0.13,  0.02]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.59,  0.12 , 0.09,  0.06,  0.24,  0.16,  0.07]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.72,  0.25 , 0.09,  0.08,  0.17,  0.05,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.64,  0.23 , 0.07,  0.09,  0.18,  0.12,  0.06]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.72,  0.18 , 0.08,  0.10,  0.15,  0.10,  0.04]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.67,  0.16 , 0.18,  0.05,  0.18,  0.12,  0.04]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.60,  0.12 , 0.08,  0.10,  0.19,  0.19,  0.11]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.67,  0.18 , 0.09,  0.09,  0.18,  0.09,  0.01]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.59,  0.18 , 0.11,  0.10,  0.22,  0.17,  0.02]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.75,  0.32 , 0.15,  0.06,  0.14,  0.05,  0.01]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.68,  0.19 , 0.07,  0.07,  0.19,  0.11,  0.04]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.73,  0.20 , 0.17,  0.07,  0.16,  0.08,  0.02]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.67,  0.15 , 0.12,  0.06,  0.21,  0.12,  0.02]
               },
             ],
@@ -3623,86 +4427,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.49,  0.45,  0.52,  0.15,  0.03,  0.38]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.55,  0.45,  0.54,  0.17,  0.02,  0.35]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.51,  0.44,  0.52,  0.15,  0.02,  0.38]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.55,  0.43,  0.50,  0.17,  0.03,  0.35]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.50,  0.49,  0.53,  0.11,  0.03,  0.37]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.42,  0.48,  0.61,  0.18,  0.02,  0.34]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.41,  0.36,  0.45,  0.14,  0.03,  0.47]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.52,  0.50,  0.55,  0.12,  0.03,  0.36]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.54,  0.45,  0.53,  0.22,  0.02,  0.35]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.40,  0.41,  0.43,  0.09,  0.02,  0.45]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.42,  0.29,  0.40,  0.09,  0.05,  0.49]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.26,  0.52,  0.53,  0.07,  0.04,  0.34]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.55,  0.42,  0.48,  0.15,  0.02,  0.38]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.42,  0.45,  0.56,  0.17,  0.02,  0.37]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.47,  0.50,  0.49,  0.12,  0.02,  0.37]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.43,  0.44,  0.48,  0.13,  0.05,  0.37]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.41,  0.38,  0.43,  0.12,  0.00,  0.46]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.53,  0.54,  0.58,  0.28,  0.01,  0.34]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.42,  0.39,  0.47,  0.16,  0.02,  0.46]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.49,  0.48,  0.57,  0.16,  0.02,  0.34]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.56,  0.45,  0.54,  0.13,  0.03,  0.36]
               },
             ],
@@ -3716,86 +4541,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.13,  0.03,  0.84]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.09,  0.04,  0.87]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.14,  0.03,  0.83]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.10,  0.02,  0.88]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.18,  0.03,  0.79]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.25,  0.02,  0.72]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.08,  0.02,  0.90]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.20,  0.04,  0.76]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.10,  0.02,  0.88]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.00,  0.02,  0.97]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.11,  0.01,  0.88]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.06,  0.02,  0.93]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.05,  0.02,  0.92]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.20,  0.02,  0.78]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.02,  0.02,  0.96]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.01,  0.02,  0.97]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.02,  0.02,  0.96]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.24,  0.00,  0.76]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.09,  0.02,  0.89]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.11,  0.02,  0.87]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.24,  0.04,  0.71]
               },
             ],
@@ -3809,86 +4655,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.37,  0.17,  0.22,  0.33,  0.01,  0.03]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.36,  0.15,  0.16,  0.43,  0.00,  0.01]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.39,  0.17,  0.21,  0.32,  0.02,  0.03]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.43,  0.19,  0.26,  0.22,  0.02,  0.04]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.38,  0.19,  0.20,  0.30,  0.02,  0.03]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.25,  0.16,  0.34,  0.35,  0.02,  0.03]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.39,  0.15,  0.16,  0.38,  0.00,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.30,  0.21,  0.19,  0.41,  0.02,  0.02]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.40,  0.18,  0.21,  0.33,  0.01,  0.02]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.42,  0.13,  0.17,  0.32,  0.01,  0.03]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.47,  0.07,  0.30,  0.21,  0.03,  0.03]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.27,  0.24,  0.27,  0.33,  0.01,  0.03]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.45,  0.17,  0.27,  0.20,  0.01,  0.05]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.35,  0.16,  0.23,  0.33,  0.02,  0.04]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.31,  0.29,  0.12,  0.38,  0.01,  0.01]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.45,  0.14,  0.26,  0.26,  0.03,  0.03]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.43,  0.36,  0.23,  0.13,  0.01,  0.06]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.33,  0.06,  0.30,  0.41,  0.05,  0.01]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.49,  0.10,  0.30,  0.18,  0.00,  0.06]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.30,  0.19,  0.23,  0.34,  0.02,  0.04]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.33,  0.17,  0.16,  0.43,  0.01,  0.01]
               },
             ],
@@ -3902,86 +4769,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.12,  0.06,  0.11,  0.38,  0.17 , 0.16,  0.22]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.22,  0.05,  0.10,  0.44,  0.12 , 0.12,  0.19]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.13,  0.06,  0.11,  0.36,  0.17 , 0.17,  0.23]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.28,  0.05,  0.13,  0.32,  0.17 , 0.13,  0.20]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.03,  0.08,  0.08,  0.34,  0.20 , 0.21,  0.25]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.05,  0.10,  0.10,  0.30,  0.15 , 0.24,  0.28]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.17,  0.04,  0.13,  0.41,  0.15 , 0.11,  0.22]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.10,  0.04,  0.14,  0.45,  0.14 , 0.14,  0.22]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.27,  0.06,  0.06,  0.38,  0.16 , 0.15,  0.20]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.01,  0.00,  0.04,  0.36,  0.25 , 0.21,  0.24]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.05,  0.07,  0.19,  0.52,  0.13 , 0.09,  0.20]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.02,  0.05,  0.17,  0.54,  0.11 , 0.11,  0.21]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.12,  0.03,  0.08,  0.25,  0.23 , 0.21,  0.27]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.08,  0.15,  0.16,  0.34,  0.13 , 0.17,  0.22]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.15,  0.01,  0.08,  0.50,  0.22 , 0.14,  0.15]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.12,  0.00,  0.16,  0.36,  0.12 , 0.15,  0.28]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.00,  0.00,  0.01,  0.32,  0.23 , 0.23,  0.26]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.28,  0.16,  0.24,  0.67,  0.08 , 0.01,  0.05]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.05,  0.04,  0.05,  0.33,  0.22 , 0.19,  0.27]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.06,  0.05,  0.20,  0.37,  0.16 , 0.21,  0.18]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.19,  0.11,  0.09,  0.37,  0.15 , 0.14,  0.23]
               },
             ],
@@ -3995,86 +4883,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" :  true,
                 "data" : [0.05,  0.12,  0.11,  0.38,  0.34,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" :  false,
                 "data" : [0.06,  0.16,  0.12,  0.37,  0.29,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" :  false,
                 "data" : [0.06,  0.13,  0.11,  0.37,  0.33,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" :  false,
                 "data" : [0.04,  0.13,  0.09,  0.35,  0.38,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" :  false,
                 "data" : [0.05,  0.09,  0.11,  0.39,  0.35,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" :  false,
                 "data" : [0.04,  0.10,  0.12,  0.40,  0.33,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" :  false,
                 "data" : [0.05,  0.14,  0.11,  0.38,  0.31,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" :  false,
                 "data" : [0.07,  0.13,  0.13,  0.37,  0.30,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" :  false,
                 "data" : [0.08,  0.15,  0.12,  0.34,  0.31,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" :  false,
                 "data" : [0.02,  0.09,  0.08,  0.41,  0.40,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" :  false,
                 "data" : [0.03,  0.06,  0.11,  0.38,  0.43,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" :  false,
                 "data" : [0.02,  0.06,  0.08,  0.41,  0.43,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" :  false,
                 "data" : [0.04,  0.12,  0.10,  0.35,  0.40,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" :  false,
                 "data" : [0.04,  0.11,  0.11,  0.42,  0.32,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" :  false,
                 "data" : [0.03,  0.12,  0.10,  0.35,  0.41,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" :  false,
                 "data" : [0.03,  0.09,  0.10,  0.35,  0.42,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" :  false,
                 "data" : [0.09,  0.09,  0.14,  0.42,  0.25,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" :  false,
                 "data" : [0.03,  0.09,  0.09,  0.39,  0.41,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" :  false,
                 "data" : [0.06,  0.10,  0.10,  0.36,  0.39,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" :  false,
                 "data" : [0.05,  0.14,  0.12,  0.37,  0.32,  0.01]
               },
               {
                 "name" : "size7",
+                "visible" :  false,
                 "data" : [0.07,  0.14,  0.12,  0.39,  0.28,  0.00]
               },
             ],
@@ -4088,86 +4997,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.13,  0.15,  0.19,  0.30,  0.22,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.14,  0.15,  0.19,  0.30,  0.22,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.13,  0.15,  0.19,  0.30,  0.22,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.15,  0.13,  0.14,  0.33,  0.25,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.15,  0.15,  0.20,  0.29,  0.21,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.12,  0.13,  0.22,  0.28,  0.24,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.11,  0.15,  0.22,  0.30,  0.21,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.10,  0.14,  0.20,  0.30,  0.25,  0.00]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.15,  0.15,  0.16,  0.31,  0.23,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.19,  0.15,  0.20,  0.28,  0.17,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.10,  0.22,  0.25,  0.27,  0.16,  0.01]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.16,  0.16,  0.19,  0.29,  0.19,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.18,  0.15,  0.15,  0.31,  0.21,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.12,  0.13,  0.22,  0.31,  0.22,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.12,  0.11,  0.22,  0.32,  0.24,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.20,  0.17,  0.17,  0.30,  0.16,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.18,  0.09,  0.14,  0.30,  0.28,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.08,  0.15,  0.15,  0.35,  0.27,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.15,  0.19,  0.21,  0.26,  0.19,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.11,  0.15,  0.23,  0.27,  0.23,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.12,  0.12,  0.19,  0.33,  0.24,  0.00]
               },
             ],
@@ -4181,86 +5111,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.06,  0.07,  0.11,  0.30,  0.47,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.08,  0.08,  0.12,  0.29,  0.43,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.06,  0.07,  0.11,  0.29,  0.46,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.07,  0.07,  0.10,  0.29,  0.47,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.04,  0.07,  0.10,  0.30,  0.49,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.06,  0.07,  0.09,  0.29,  0.49,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.05,  0.07,  0.12,  0.30,  0.45,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.07,  0.08,  0.11,  0.31,  0.42,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.07,  0.08,  0.12,  0.32,  0.42,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.03,  0.06,  0.12,  0.28,  0.50,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.01,  0.06,  0.08,  0.28,  0.58,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.02,  0.06,  0.08,  0.33,  0.51,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.05,  0.09,  0.10,  0.25,  0.51,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.06,  0.05,  0.09,  0.30,  0.50,  0.01]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.05,  0.06,  0.14,  0.31,  0.44,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.02,  0.06,  0.09,  0.28,  0.55,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.08,  0.08,  0.13,  0.28,  0.42,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.04,  0.05,  0.09,  0.29,  0.53,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.05,  0.05,  0.10,  0.26,  0.54,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.06,  0.10,  0.08,  0.30,  0.44,  0.01]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.07,  0.07,  0.12,  0.32,  0.41,  0.01]
               },
             ],
@@ -4274,86 +5225,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.19,  0.19,  0.29,  0.20,  0.12,  0.01]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.25,  0.22,  0.23,  0.22,  0.08,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.20,  0.20,  0.28,  0.20,  0.11,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.18,  0.20,  0.27,  0.18,  0.16,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.15,  0.19,  0.31,  0.20,  0.14,  0.01]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.18,  0.20,  0.28,  0.22,  0.11,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.24,  0.19,  0.26,  0.22,  0.09,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.22,  0.20,  0.27,  0.19,  0.10,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.24,  0.21,  0.28,  0.17,  0.10,  0.01]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.16,  0.15,  0.28,  0.25,  0.16,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.17,  0.13,  0.37,  0.21,  0.12,  0.01]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.07,  0.17,  0.39,  0.20,  0.18,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.13,  0.22,  0.26,  0.22,  0.17,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.16,  0.19,  0.31,  0.22,  0.11,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.20,  0.17,  0.25,  0.24,  0.15,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.11,  0.19,  0.34,  0.18,  0.17,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.23,  0.18,  0.29,  0.14,  0.15,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.16,  0.16,  0.30,  0.23,  0.13,  0.01]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.15,  0.18,  0.28,  0.24,  0.15,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.19,  0.20,  0.33,  0.19,  0.09,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.24,  0.21,  0.25,  0.19,  0.09,  0.01]
               },
             ],
@@ -4367,86 +5339,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.28,  0.32,  0.18,  0.16,  0.06,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.23,  0.28,  0.23,  0.19,  0.07,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.27,  0.32,  0.18,  0.16,  0.06,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.30,  0.32,  0.14,  0.19,  0.05,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.29,  0.34,  0.17,  0.13,  0.07,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.38,  0.37,  0.08,  0.11,  0.04,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.25,  0.31,  0.20,  0.18,  0.06,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.24,  0.33,  0.21,  0.15,  0.07,  0.00]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.26,  0.33,  0.19,  0.15,  0.06,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.30,  0.28,  0.20,  0.14,  0.08,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.27,  0.38,  0.19,  0.11,  0.05,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.42,  0.29,  0.12,  0.09,  0.08,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.33,  0.30,  0.12,  0.18,  0.07,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.31,  0.32,  0.14,  0.18,  0.04,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.26,  0.28,  0.24,  0.16,  0.06,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.39,  0.28,  0.13,  0.15,  0.05,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.20,  0.39,  0.19,  0.13,  0.08,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.35,  0.37,  0.10,  0.13,  0.05,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.36,  0.28,  0.15,  0.13,  0.08,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.30,  0.33,  0.15,  0.16,  0.05,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.19,  0.35,  0.22,  0.18,  0.06,  0.00]
               },
             ],
@@ -4460,86 +5453,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.02,  0.05,  0.11,  0.39,  0.42,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.03,  0.06,  0.11,  0.40,  0.39,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.11,  0.39,  0.42,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.02,  0.06,  0.09,  0.37,  0.46,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.01,  0.05,  0.12,  0.41,  0.40,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.02,  0.00,  0.12,  0.42,  0.43,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.10,  0.38,  0.44,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.03,  0.05,  0.11,  0.40,  0.41,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.02,  0.06,  0.11,  0.39,  0.41,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.13,  0.39,  0.41,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.02,  0.03,  0.08,  0.44,  0.43,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.02,  0.03,  0.07,  0.43,  0.46,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.09,  0.37,  0.48,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.01,  0.04,  0.12,  0.41,  0.42,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.02,  0.07,  0.11,  0.39,  0.42,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.09,  0.36,  0.49,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.04,  0.10,  0.16,  0.37,  0.31,  0.01]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.00,  0.04,  0.10,  0.41,  0.46,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.01,  0.05,  0.09,  0.38,  0.46,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.07,  0.37,  0.49,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.02,  0.05,  0.14,  0.43,  0.35,  0.00]
               },
             ],
@@ -4553,86 +5567,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.22,  0.20,  0.18,  0.25,  0.15,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.19,  0.19,  0.17,  0.25,  0.20,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.21,  0.20,  0.18,  0.25,  0.15,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.23,  0.19,  0.19,  0.23,  0.17,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.27,  0.19,  0.16,  0.25,  0.12,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.22,  0.18,  0.19,  0.26,  0.14,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.18,  0.21,  0.19,  0.25,  0.17,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.20,  0.20,  0.18,  0.25,  0.17,  0.00]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.22,  0.18,  0.15,  0.29,  0.16,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.28,  0.22,  0.17,  0.22,  0.11,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.28,  0.26,  0.18,  0.17,  0.12,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.33,  0.18,  0.18,  0.21,  0.10,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.27,  0.21,  0.15,  0.22,  0.16,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.19,  0.20,  0.23,  0.25,  0.13,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.17,  0.18,  0.20,  0.28,  0.17,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.32,  0.21,  0.18,  0.18,  0.11,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.26,  0.19,  0.13,  0.25,  0.16,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.20,  0.22,  0.19,  0.25,  0.14,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.29,  0.19,  0.17,  0.23,  0.12,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.20,  0.22,  0.20,  0.25,  0.13,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.17,  0.20,  0.17,  0.27,  0.19,  0.00]
               },
             ],
@@ -4646,86 +5681,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.23,  0.26,  0.26,  0.16,  0.09,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.14,  0.25,  0.24,  0.22,  0.15,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.22,  0.26,  0.26,  0.16,  0.09,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.27,  0.23,  0.24,  0.16,  0.09,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.27,  0.27,  0.28,  0.12,  0.06,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.23,  0.28,  0.27,  0.15,  0.06,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.20,  0.26,  0.23,  0.19,  0.11,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.18,  0.23,  0.30,  0.18,  0.11,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.21,  0.26,  0.24,  0.19,  0.10,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.30,  0.30,  0.20,  0.12,  0.08,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.33,  0.28,  0.23,  0.08,  0.08,  0.01]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.33,  0.24,  0.26,  0.12,  0.04,  0.01]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.29,  0.24,  0.25,  0.15,  0.07,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.22,  0.31,  0.28,  0.12,  0.07,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.24,  0.28,  0.20,  0.21,  0.07,  0.01]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.36,  0.23,  0.24,  0.11,  0.07,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.25,  0.24,  0.33,  0.12,  0.04,  0.01]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.29,  0.25,  0.23,  0.14,  0.09,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.26,  0.27,  0.25,  0.13,  0.08,  0.01]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.25,  0.29,  0.27,  0.15,  0.04,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.14,  0.26,  0.27,  0.19,  0.13,  0.00]
               },
             ],
@@ -4739,86 +5795,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.07,  0.14,  0.26,  0.33,  0.20,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.09,  0.16,  0.26,  0.33,  0.16,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.08,  0.14,  0.26,  0.33,  0.20,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.09,  0.13,  0.22,  0.32,  0.25,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.05,  0.13,  0.27,  0.33,  0.22,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.07,  0.12,  0.26,  0.34,  0.20,  0.00]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.08,  0.17,  0.28,  0.30,  0.17,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.09,  0.15,  0.28,  0.32,  0.16,  0.00]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.07,  0.16,  0.24,  0.35,  0.18,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.04,  0.11,  0.24,  0.29,  0.32,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.06,  0.09,  0.24,  0.32,  0.29,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.04,  0.11,  0.31,  0.29,  0.25,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.06,  0.12,  0.28,  0.30,  0.24,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.08,  0.13,  0.26,  0.35,  0.18,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.08,  0.13,  0.35,  0.29,  0.15,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.05,  0.11,  0.22,  0.29,  0.32,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.09,  0.16,  0.28,  0.31,  0.15,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.06,  0.14,  0.18,  0.37,  0.25,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.07,  0.12,  0.28,  0.31,  0.22,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.08,  0.10,  0.24,  0.35,  0.22,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.08,  0.17,  0.27,  0.33,  0.15,  0.00]
               },
             ],
@@ -4832,86 +5909,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.14,  0.24,  0.19,  0.24,  0.19,  0.00]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.10,  0.22,  0.19,  0.27,  0.22,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.14,  0.23,  0.19,  0.25,  0.19,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.19,  0.22,  0.16,  0.27,  0.16,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.15,  0.25,  0.20,  0.21,  0.18,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.17,  0.27,  0.21,  0.22,  0.13,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.11,  0.24,  0.18,  0.28,  0.19,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.11,  0.23,  0.20,  0.24,  0.21,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.14,  0.24,  0.17,  0.26,  0.18,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.17,  0.21,  0.21,  0.22,  0.18,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.18,  0.30,  0.18,  0.16,  0.18,  0.01]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.21,  0.27,  0.23,  0.17,  0.13,  0.00]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.19,  0.20,  0.21,  0.27,  0.13,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.14,  0.28,  0.17,  0.22,  0.18,  0.01]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.15,  0.23,  0.19,  0.24,  0.19,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.23,  0.23,  0.18,  0.21,  0.14,  0.00]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.13,  0.19,  0.17,  0.22,  0.27,  0.01]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.19,  0.32,  0.15,  0.15,  0.18,  0.01]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.17,  0.24,  0.20,  0.23,  0.15,  0.01]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.15,  0.23,  0.17,  0.28,  0.17,  0.00]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.08,  0.24,  0.20,  0.25,  0.21,  0.00]
               },
             ],
@@ -4925,86 +6023,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.20,  0.21,  0.32,  0.16,  0.08,  0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.19,  0.25,  0.30,  0.17,  0.08,  0.02]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.21,  0.21,  0.32,  0.16,  0.07,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.17,  0.17,  0.32,  0.20,  0.12,  0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.22,  0.20,  0.33,  0.15,  0.06,  0.03]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.19,  0.20,  0.31,  0.21,  0.07,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.20,  0.21,  0.32,  0.16,  0.08,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.24,  0.20,  0.30,  0.16,  0.07,  0.02]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.24,  0.23,  0.30,  0.14,  0.07,  0.03]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.20,  0.25,  0.33,  0.13,  0.06,  0.02]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.09,  0.19,  0.39,  0.20,  0.07,  0.06]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.17,  0.21,  0.32,  0.17,  0.11,  0.02]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.21,  0.20,  0.32,  0.16,  0.08,  0.02]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.13,  0.19,  0.35,  0.21,  0.11,  0.01]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.13,  0.27,  0.28,  0.26,  0.06,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.16,  0.16,  0.36,  0.17,  0.12,  0.03]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.26,  0.23,  0.41,  0.07,  0.01,  0.01]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.15,  0.28,  0.35,  0.14,  0.05,  0.03]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.20,  0.18,  0.33,  0.14,  0.12,  0.03]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.21,  0.16,  0.30,  0.20,  0.10,  0.03]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.24,  0.24,  0.30,  0.16,  0.05,  0.02]
               },
             ],
@@ -5018,86 +6137,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.12,  0.16,  0.31 , 0.24,  0.15 , 0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.19,  0.20,  0.30 , 0.20,  0.10 , 0.01]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.12,  0.17,  0.31 , 0.24,  0.14 , 0.02]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.09,  0.19,  0.26 , 0.24,  0.22 , 0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.08,  0.14,  0.31 , 0.26,  0.17 , 0.03]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.14,  0.16,  0.35 , 0.20,  0.13 , 0.02]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.14,  0.18,  0.31 , 0.24,  0.11 , 0.01]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.14,  0.17,  0.30 , 0.24,  0.14 , 0.02]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.15,  0.18,  0.27 , 0.24,  0.15 , 0.01]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.08,  0.16,  0.36 , 0.20,  0.19 , 0.02]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.08,  0.16,  0.30 , 0.25,  0.18 , 0.03]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.06,  0.13,  0.28 , 0.25,  0.26 , 0.02]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.08,  0.17,  0.30 , 0.23,  0.20 , 0.02]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.10,  0.13,  0.33 , 0.29,  0.13 , 0.01]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.09,  0.20,  0.33 , 0.23,  0.15 , 0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.07,  0.10,  0.27 , 0.28,  0.27 , 0.01]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.09,  0.13,  0.32 , 0.30,  0.13 , 0.02]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.05,  0.15,  0.28 , 0.35,  0.14 , 0.03]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.10,  0.13,  0.36 , 0.19,  0.20 , 0.02]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.11,  0.18,  0.29 , 0.26,  0.14 , 0.03]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.17,  0.20,  0.30 , 0.23,  0.10 , 0.01]
               },
             ],
@@ -5111,86 +6251,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.29,  0.22,  0.19,  0.21 , 0.08,  0.01]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.23,  0.22,  0.22,  0.23 , 0.10,  0.00]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.29,  0.22,  0.19,  0.22 , 0.09,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.30,  0.20,  0.15,  0.26 , 0.09,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.32,  0.21,  0.18,  0.20 , 0.08,  0.00]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.28,  0.20,  0.20,  0.23 , 0.07,  0.01]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.29,  0.21,  0.21,  0.20 , 0.08,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.26,  0.22,  0.21,  0.20 , 0.09,  0.01]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.28,  0.24,  0.20,  0.22 , 0.06,  0.00]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.36,  0.21,  0.18,  0.18 , 0.08,  0.00]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.33,  0.24,  0.13,  0.23 , 0.08,  0.00]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.37,  0.20,  0.18,  0.17 , 0.07,  0.01]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.30,  0.19,  0.17,  0.25 , 0.08,  0.00]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.31,  0.20,  0.18,  0.22 , 0.09,  0.00]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.29,  0.26,  0.15,  0.20 , 0.09,  0.00]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.38,  0.20,  0.16,  0.18 , 0.07,  0.01]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.34,  0.20,  0.20,  0.16 , 0.09,  0.00]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.24,  0.28,  0.09,  0.30 , 0.09,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.40,  0.17,  0.17,  0.20 , 0.05,  0.00]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.25,  0.22,  0.18,  0.24 , 0.10,  0.01]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.23,  0.23,  0.23,  0.22 , 0.09,  0.00]
               },
             ],
@@ -5204,26 +6365,32 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [1, 1.009, 1.329, 0.054, 0.957, 0.906, 1.260, 1.195, 0.840, 2.028, 1.077, 0.959, 0.502, -0.272]
               },
               // {
                 // "name" : "My Museum",
+                // "visible" : false,
                 // "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Others in My Region",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Other of Same Scale",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Others of the Same Type",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
               // {
               //   "name" : "Others matching Collecting/Non-Collecting",
+              // "visible" : false,
               //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
               // },
             ],
@@ -5237,86 +6404,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.57,  0.41,  0.41,  0.19,  0.83,  0.26,  0.18,  0.24,  0.03]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.53,  0.37,  0.38,  0.23,  0.82,  0.30,  0.21,  0.29,  0.03]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.56,  0.42,  0.40,  0.19,  0.84,  0.26,  0.19,  0.25,  0.03]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.62,  0.44,  0.44,  0.21,  0.85,  0.29,  0.19,  0.24,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.56,  0.43,  0.43,  0.17,  0.85,  0.23,  0.17,  0.21,  0.03]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.58,  0.42,  0.39,  0.23,  0.86,  0.24,  0.20,  0.25,  0.04]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.54,  0.41,  0.41,  0.17,  0.83,  0.28,  0.19,  0.26,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.57,  0.42,  0.38,  0.21,  0.80,  0.24,  0.19,  0.26,  0.04]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.53,  0.43,  0.41,  0.20,  0.83,  0.31,  0.22,  0.28,  0.04]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.59,  0.33,  0.50,  0.17,  0.85,  0.25,  0.11,  0.19,  0.02]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.59,  0.33,  0.49,  0.15,  0.87,  0.26,  0.15,  0.19,  0.01]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.65,  0.39,  0.53,  0.14,  0.82,  0.23,  0.14,  0.18,  0.03]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.59,  0.43,  0.40,  0.21,  0.86,  0.24,  0.21,  0.21,  0.03]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.55,  0.44,  0.42,  0.16,  0.84,  0.27,  0.17,  0.24,  0.03]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.59,  0.39,  0.44,  0.15,  0.83,  0.25,  0.15,  0.25,  0.02]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.63,  0.34,  0.46,  0.14,  0.86,  0.19,  0.16,  0.18,  0.03]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.45,  0.54,  0.38,  0.20,  0.86,  0.32,  0.23,  0.28,  0.02]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.58,  0.46,  0.48,  0.19,  0.89,  0.32,  0.25,  0.20,  0.00]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.58,  0.38,  0.41,  0.16,  0.84,  0.25,  0.19,  0.18,  0.03]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.58,  0.44,  0.41,  0.21,  0.83,  0.27,  0.19,  0.28,  0.04]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.54,  0.43,  0.40,  0.22,  0.81,  0.28,  0.18,  0.28,  0.04]
               },
             ],
@@ -5330,86 +6518,107 @@ export const staff_data = [
             "dataSet": [
               {
                 "name" : "All Museums",
+                "visible" : true,
                 "data" : [0.58,  0.68,  0.30,  0.24,  0.31,  0.12]
               },
               {
                 "name" : "City, State, or County Affiliated",
+                "visible" : false,
                 "data" : [0.55,  0.73,  0.22,  0.27,  0.27,  0.11]
               },
               {
                 "name" : "Collecting",
+                "visible" : false,
                 "data" : [0.58,  0.69,  0.28,  0.25,  0.30,  0.12]
               },
               {
                 "name" : "College or university-affiliated",
+                "visible" : false,
                 "data" : [0.66,  0.43,  0.38,  0.24,  0.36,  0.14]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
                 "data" : [0.55,  0.73,  0.33,  0.21,  0.29,  0.12]
               },
               {
                 "name" : "Culturally-specific",
+                "visible" : false,
                 "data" : [0.58,  0.72,  0.31,  0.33,  0.38,  0.10]
               },
               {
                 "name" : "Encyclopedic",
+                "visible" : false,
                 "data" : [0.52,  0.76,  0.24,  0.24,  0.28,  0.13]
               },
               {
                 "name" : "Mid Atlantic",
+                "visible" : false,
                 "data" : [0.54,  0.70,  0.25,  0.22,  0.23,  0.14]
               },
               {
                 "name" : "Midwest",
+                "visible" : false,
                 "data" : [0.55,  0.67,  0.28,  0.22,  0.35,  0.12]
               },
               {
                 "name" : "Mountain Plains",
+                "visible" : false,
                 "data" : [0.57,  0.73,  0.34,  0.26,  0.30,  0.13]
               },
               {
                 "name" : "New England",
+                "visible" : false,
                 "data" : [0.70,  0.68,  0.38,  0.25,  0.29,  0.13]
               },
               {
                 "name" : "Non-Collecting",
+                "visible" : false,
                 "data" : [0.59,  0.63,  0.47,  0.19,  0.39,  0.15]
               },
               {
                 "name" : "Southeast",
+                "visible" : false,
                 "data" : [0.59,  0.62,  0.37,  0.28,  0.35,  0.10]
               },
               {
                 "name" : "Western",
+                "visible" : false,
                 "data" : [0.63,  0.69,  0.32,  0.26,  0.36,  0.10]
               },
               {
                 "name" : "size1",
+                "visible" : false,
                 "data" : [0.60,  0.68,  0.35,  0.30,  0.37,  0.09]
               },
               {
                 "name" : "size2",
+                "visible" : false,
                 "data" : [0.67,  0.49,  0.43,  0.23,  0.41,  0.15]
               },
               {
                 "name" : "size3",
+                "visible" : false,
                 "data" : [0.42,  0.87,  0.21,  0.21,  0.25,  0.09]
               },
               {
                 "name" : "size4",
+                "visible" : false,
                 "data" : [0.77,  0.53,  0.38,  0.24,  0.47,  0.09]
               },
               {
                 "name" : "size5",
+                "visible" : false,
                 "data" : [0.55,  0.69,  0.36,  0.27,  0.33,  0.14]
               },
               {
                 "name" : "size6",
+                "visible" : false,
                 "data" : [0.66,  0.66,  0.34,  0.23,  0.31,  0.10]
               },
               {
                 "name" : "size7",
+                "visible" : false,
                 "data" : [0.52,  0.76,  0.19,  0.23,  0.23,  0.13]
               },
             ],

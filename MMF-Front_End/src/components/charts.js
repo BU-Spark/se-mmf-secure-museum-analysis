@@ -25,6 +25,7 @@ export const LineChart = ({ data }) => {
     // Build sections of graphs with the specified title
     const calculate_grid_size = (item_count) => {
       // Hacky function so that the grid always fills the users screen.
+      return 12;
       if (item_count === 1) {
         return 12;
       } else if (item_count === 2) {

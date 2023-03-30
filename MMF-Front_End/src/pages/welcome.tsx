@@ -22,7 +22,7 @@ export const WelcomePage = ({
           <Typography>{welcome_msg}</Typography>
         </Grid2>
         <Grid2 xs={12} alignItems="center">
-          <Typography>If you created a password (eg. when completing the survey), please enter it below.  If you never made a password, you cannot see organization-level results but can see less fine-grained results.</Typography>
+          <Typography>If you created a password (eg. when completing the survey), please enter it below.  If you never made a password, you cannot see organization-level results but can see less fine-grained results by leaving this field empty and entering your early access code below.</Typography>
           <TextField
             id="password"
             label="Password"

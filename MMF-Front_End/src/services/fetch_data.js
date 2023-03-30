@@ -34,7 +34,7 @@ async function getResultMessage(sessionIn, participationCodeIn, accessCode) {
     type: "POST",
     url: "/get_result_messages",
     contentType: "application/json",
-    data: JSON.stringify({ session: sessionIn, userkey: participationCodeIn, accesscode: accessCode }),
+    data: JSON.stringify({ session: sessionIn, userkey: participationCodeIn, accesscode: accessCode.trim() }),
   })
     .then(function (resp) {
       // console.log(JSON.parse(resp);
@@ -269,7 +269,8 @@ export async function decrypt_data(
   update_progress_indicator
 ) {
   if (password === "") {
-    return -1;
+    setDecryptedData(staff_data);
+    return 0;
   }
 
   var symmetricKey = keyGen(sessionId, clientId, password);
