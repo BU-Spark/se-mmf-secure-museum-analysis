@@ -9,6 +9,8 @@ import {
   getGraphType,
   checksubTitle,
 } from "./dataHandle";
+import { Typography } from "@mui/material";
+import Grid from "@mui/material/Unstable_Grid2";
 
 /**
  *
@@ -18,11 +20,37 @@ import {
 export const LineChart = ({ data }) => {
   let graphData = [];
   let categories = [];
-  return (
-    <>
-      <div className="container">
-        <div className="graph-display">
-          {data.map((data, index) => {
+
+  const generate_graph_section = (section) => {
+    // Build sections of graphs with the specified title
+    const calculate_grid_size = (item_count) => {
+      // Hacky function so that the grid always fills the users screen.
+      if (item_count === 1) {
+        return 12;
+      } else if (item_count === 2) {
+        return 6;
+      } else if (item_count === 3) {
+        return 4;
+      } else {
+        return 4;
+      }
+    };
+    const gridSizeMd = calculate_grid_size(section.charts.length);
+    return (
+      <>
+        <br />
+        <Typography variant="h3" align="center">
+          {section.section_title}
+        </Typography>
+        <br />
+        <Grid
+          container
+          spacing={4}
+          direction="row"
+          alignItems="center"
+          justifyContent="center"
+        >
+          {section.charts.map((data, index) => {
             graphData = [];
             categories = [];
             typeof data === "object"
@@ -30,10 +58,11 @@ export const LineChart = ({ data }) => {
               : arrayData(data, graphData, categories, index);
             // console.log("GraphData", graphData, "Categories", categories);
             return (
-              <>
+              <Grid xs={12} md={gridSizeMd}>
                 <HighchartsReact
                   key={index}
                   highcharts={Highcharts}
+                  containerProps={{ style: { width: "100%" } }}
                   options={{
                     chart: {
                       type: getGraphType(data),
@@ -71,12 +100,16 @@ export const LineChart = ({ data }) => {
                     },
                   }}
                 />
-              </>
+              </Grid>
             );
           })}
-          {/* {console.log("GraphData", graphData, "labels", categories)} */}
-        </div>
-      </div>
-    </>
-  );
+        </Grid>
+      </>
+    );
+  };
+
+  // Actually return things
+  return data.map((section, index) => {
+    return generate_graph_section(section);
+  });
 };

@@ -1,3 +1,4 @@
+import Grid2 from "@mui/material/Unstable_Grid2";
 import { Button, TextField, Typography } from "@mui/material";
 import { PageState } from "../App";
 
@@ -13,8 +14,10 @@ export const BadPasswordPage = ({
   return (
     <>
       <Typography fontWeight={"bold"} variant="subtitle1">
-        Invalid password, please try again
+        Invalid password or access code, please try again
       </Typography>
+      <Grid2 xs={12} alignItems="center">
+
       <TextField
         id="password"
         label="Password"
@@ -25,6 +28,19 @@ export const BadPasswordPage = ({
           setPassword(e.target.value);
         }}
       />
+      </Grid2>
+
+      <Grid2 xs={12} alignItems="center">
+        <TextField
+          id="accesscode"
+          label="Access Code"
+          variant="outlined"
+          type="password"
+          onChange={(e) => {
+            setPassword(e.target.value);
+          }}
+        />
+      </Grid2>
       <Button onClick={() => setPageState(PageState.DECRYPTING_DATA)}>
         Submit Password
       </Button>

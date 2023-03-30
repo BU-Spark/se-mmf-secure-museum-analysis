@@ -29,12 +29,12 @@ jiffClientInstance.apply_extension(window.jiff_bignumber, bigNumberOptions);
  * @param {string} participationCodeIn
  */
 
-async function getResultMessage(sessionIn, participationCodeIn) {
+async function getResultMessage(sessionIn, participationCodeIn, accessCode) {
   return $.ajax({
     type: "POST",
     url: "/get_result_messages",
     contentType: "application/json",
-    data: JSON.stringify({ session: sessionIn, userkey: participationCodeIn }),
+    data: JSON.stringify({ session: sessionIn, userkey: participationCodeIn, accesscode: accessCode }),
   })
     .then(function (resp) {
       // console.log(JSON.parse(resp);
@@ -74,16 +74,22 @@ export async function download_data(
   update_progress_indicator,
   setEncryptedData,
   sessionId,
-  clientId
+  clientId,
+  accessCode
 ) {
-  console.log(jiffClientInstance);
-  await getResultMessage(sessionId, clientId).then(function (resultmessages) {
-    console.log("retrieved the result-messages");
-    console.log(resultmessages);
-    setEncryptedData(resultmessages);
-  });
+  let resultmessages = await getResultMessage(sessionId, clientId, accessCode);
+  // await getResultMessage(sessionId, clientId).then(function (resultmessages) {
+  //   console.log("retrieved the result-messages");
+  //   console.log(resultmessages);
+  //   setEncryptedData(resultmessages);
+  // });
 
-  return 0;
+  if(resultmessages.success != "true") {
+    return -2;
+  } else {
+    setEncryptedData(resultmessages);
+    return 0;
+  }
 }
 
 /**
@@ -143,7 +149,7 @@ function decryptMessageWithSymmetricKey(symmetricKey, ciphertextStruct) {
     let threshold = JSON.parse(shareString.substring(shareString.indexOf("Threshold: ")+11, shareString.indexOf("Zp: ")-2));
     let zp = shareString.substring(shareString.indexOf("Zp: ")+4, shareString.length-1);
     let toReturn = new jiff.SecretShare(value, holders, threshold, zp);
-    if (source == "server") {
+    if (source === "server") {
       toReturn.sender_id = "1"
     } else {
      toReturn.sender_id = "s1"
@@ -171,23 +177,47 @@ function decryptMessageWithSymmetricKey(symmetricKey, ciphertextStruct) {
           resultShares[question][cohort] = {};
           
         for(let filter of Object.keys(serverSharesAsStrings[question][cohort])) {
-          resultShares[question][cohort][filter] = [];
-          
-          for (let i = 0; i<serverSharesAsStrings[question][cohort][filter].length;i++) {
-            // Temporary hack to deal with unresolved promises.  TODO GABE FIX
-            if(serverSharesAsStrings[question][cohort][filter][i].includes("promise")) {
-              console.log("UHOH WE HIT A PROMISE");
-              continue;
+          if(filter === "nofilter") {
+            resultShares[question][cohort][filter] = [];
+
+            for (let i = 0; i<serverSharesAsStrings[question][cohort][filter].length;i++) {
+              // Temporary hack to deal with unresolved promises.  TODO GABE FIX
+              if(serverSharesAsStrings[question][cohort][filter][i].includes("promise")) {
+                console.log("UHOH WE HIT A PROMISE");
+                continue;
+              }
+              // (1) Parse the shares
+              // (2) Run reconstruct
+              // (3) push into the appropriate place in the data structure
+              resultShares[question][cohort][filter].push(jiffClientInstance.hooks.reconstructShare(jiffClientInstance,
+                [
+                  parseShare(jiffClientInstance, serverSharesAsStrings[question][cohort][filter][i], "server"),
+                  parseShare(jiffClientInstance, analystSharesAsStrings[question][cohort][filter][i], "analyst")
+                  ]
+              )["c"][0]);
             }
-            // (1) Parse the shares
-            // (2) Run reconstruct
-            // (3) push into the appropriate place in the data structure
-            resultShares[question][cohort][filter].push(jiffClientInstance.hooks.reconstructShare(jiffClientInstance,
-              [
-                parseShare(jiffClientInstance, serverSharesAsStrings[question][cohort][filter][i], "server"),
-                parseShare(jiffClientInstance, analystSharesAsStrings[question][cohort][filter][i], "analyst")
-                ]
-            )["c"][0]);
+          } else {
+            resultShares[question][cohort][filter] = {};
+
+            for (let opt of Object.keys(serverSharesAsStrings[question][cohort][filter]).sort()) {
+              resultShares[question][cohort][filter][opt] = [];
+              for (let i = 0; i<serverSharesAsStrings[question][cohort][filter][opt].length;i++) {
+                // Temporary hack to deal with unresolved promises.  TODO GABE FIX
+                if(serverSharesAsStrings[question][cohort][filter][opt][i].includes("promise")) {
+                  console.log("UHOH WE HIT A PROMISE");
+                  continue;
+                }
+                // (1) Parse the shares
+                // (2) Run reconstruct
+                // (3) push into the appropriate place in the data structure
+                resultShares[question][cohort][filter][opt].push(jiffClientInstance.hooks.reconstructShare(jiffClientInstance,
+                  [
+                    parseShare(jiffClientInstance, serverSharesAsStrings[question][cohort][filter][opt][i], "server"),
+                    parseShare(jiffClientInstance, analystSharesAsStrings[question][cohort][filter][opt][i], "analyst")
+                    ]
+                )["c"][0]);
+              }
+            }
           }
         }
       }
@@ -243,13 +273,16 @@ export async function decrypt_data(
   }
 
   var symmetricKey = keyGen(sessionId, clientId, password);
-  console.log(symmetricKey);
+  // console.log(symmetricKey);
 
   var serverMessages = JSON.parse(encrypted_shares.servermessages);
   var encryptedAnalystMessages = JSON.parse(encrypted_shares.analystmessages);
+  var usercohort = encrypted_shares.cohort;
 
-  console.log(serverMessages);
-  console.log(encryptedAnalystMessages);
+  // console.log("serverMessages");
+  // console.log(serverMessages);
+  // console.log("encryptedAnalystMessages");
+  // console.log(encryptedAnalystMessages);
 
   var analystMessages = "";
 
@@ -263,7 +296,8 @@ export async function decrypt_data(
     return -1;
   }
 
-  console.log(JSON.parse(analystMessages));
+  // console.log("analystMessages");
+  // console.log(JSON.parse(analystMessages));
 
   analystMessages = JSON.parse(analystMessages)
 
@@ -274,60 +308,76 @@ export async function decrypt_data(
 
   // pull down the data thats about just me
 
-  console.log(table_template)
+  // console.log(table_template);
+  // console.log("reconstructedResults");
+  // console.log(reconstructedResults);
 
+  var datatovisualize = [];
   //Iterate through the visualization array
-  var charts = [];
   var chartid = 1;
-  for (let vis of table_template.visualization) {
-    console.log(vis);
-    let chart = {};
-    chart["labels"] = vis["labels"];
-    chart["questionType"] = vis["questionType"];
-    chart["graphType"] = vis["graphType"];
-    chart["questionName"] = vis["questionName"];
-    chart["dataSet"] = [];
-    for (let i = 0; i < vis["series"].length; i++) {
-      if (vis["series"][i] === "tag" || vis["series"][i] === "nofilter") {
-        continue;
+  for (let sec of table_template.visualization) {
+    let sectopush = {};
+    sectopush.section_title = sec.section_title;
+    // sectopush.charts = [];
+    var charts = [];
+    for (let vis of sec.charts) {
+      // console.log(vis);
+      let chart = {};
+      chart["labels"] = vis["labels"];
+      chart["questionType"] = vis["questionType"];
+      chart["graphType"] = vis["graphType"];
+      chart["questionName"] = vis["questionName"];
+      chart["dataSet"] = [];
+      for (let i = 0; i < vis["series"].length; i++) {
+        if (vis["series"][i] === "tag" || vis["series"][i] === "nofilter") {
+          continue;
+        }
+        let datapoints = [];
+        for (let j = 0; j < vis["data"].length; j++) {
+          let datapoint = vis["data"][j];
+
+          if(vis["normalize"]==="local") { //TODO double check we aren't off by one
+            datapoints.push(reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]/reconstructedResults[datapoint.output][usercohort]["nofilter"][0]);
+          } else {
+            datapoints.push(reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]);
+          }
+        }
+        // Normalize these
+        if(vis["normalize"]==="direct") {
+          let total = 0;
+          for (let d of datapoints) {
+            total = total + d;
+          }
+          for(let j = 0; j<datapoints.length; j++) {
+            datapoints[j] = datapoints[j]/total;
+          }
+        }
+
+        chart["dataSet"].push({"name": vis["seriesLabel"][i], "data":datapoints})
       }
-      let datapoints = [];
-      for (let j = 0; j < vis["data"].length; j++) {
-        let datapoint = vis["data"][j];
-        // Look up the actual data point in the data structure
-        // console.log("reconstructedResults[datapoint.output]");
-        // console.log(reconstructedResults[datapoint.output]);
-        // console.log("reconstructedResults[datapoint.output][1][\"nofilter\"]");
-        // console.log(reconstructedResults[datapoint.output][1]["nofilter"]);
-        // console.log("reconstructedResults[datapoint.output][1][\"nofilter\"][datapoint.value-1]");
-        // console.log(reconstructedResults[datapoint.output][1]["nofilter"][datapoint.value-1]);
-        datapoints.push(reconstructedResults[datapoint.output][1]["nofilter"][datapoint.value-1]);
+      chart["id"] = chartid;
+      chartid = chartid + 1;
+
+      // Look through all of the public data to find the correct data to add to the charts
+      for (let staffsec of staff_data) {
+        for (let staffchart of staffsec.charts) {
+        // console.log("looking for " + chart["questionName"]);
+          if(chart["questionName"] === staffchart["questionName"]) {
+            // Go get all the relevant tag data
+            for(let datastream of staffchart["dataSet"]) {
+              if (datastream["name"] === "All Museums" || table_template.cohorts[usercohort].tags.includes(datastream["name"]) ) {
+                chart["dataSet"].push(datastream);
+              }
+            }
+          }
+        }
       }
-      // Normalize these
-      chart["dataSet"].push({"name": vis["seriesLabel"][i], "data":datapoints})
+      charts.push(chart);
     }
-    chart["id"] = chartid;
-    chartid = chartid + 1;
-    charts.push(chart);
+    sectopush.charts = charts;
+    datatovisualize.push(sectopush);
   }
 
-  console.log(charts)
-
-  for (let chart of charts) {
-    for (let i = 0; i< staff_data.length; i ++) {
-      if(chart["questionName"] === staff_data[i]["questionName"]) {
-        chart["dataSet"].push(staff_data[i]["dataSet"][0]);
-      }
-    }
-  }
-
-  // Normalize the percentages for everything
-  // for (let chart of charts) {
-  //   for ()
-  // }
-
-  // setDecryptedData(dummy_data);
-  // setDecryptedData(staff_data);
-  setDecryptedData(charts);
+  setDecryptedData(datatovisualize);
   return 0;
 }

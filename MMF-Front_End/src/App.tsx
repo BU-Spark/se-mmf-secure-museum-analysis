@@ -27,6 +27,7 @@ function App() {
   const [encryptedData, setEncryptedData] = useState<string>("");
   const [decryptedData, setDecryptedData] = useState<Object>({});
   const [password, setPassword] = useState("");
+  const [accesscode, setAccessCode] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
   const navigate = useNavigate();
 
@@ -42,7 +43,7 @@ function App() {
     if (sessionID === null || clientID === null) {
       setCurrPageState(PageState.ERROR_PAGE);
       setErrorMsg(
-        "Error: Could not get sessionID or clientID from URL. Please check the URL and reload the website"
+        "There was no data associated with this link.  Please make sure you are using the correct link"
       );
       return;
     }
@@ -50,7 +51,8 @@ function App() {
       setProgress,
       setEncryptedData,
       sessionID,
-      clientID
+      clientID,
+      accesscode
     );
     navigate(GlobalRoutes.LOADING);
     const return_val = await res;
@@ -58,6 +60,10 @@ function App() {
     if (return_val === -1) {
       setCurrPageState(PageState.ERROR_PAGE);
       setErrorMsg("Error: Could not download data. Please reload the website");
+      return;
+    } else if (return_val === -2) {
+      setCurrPageState(PageState.ERROR_PAGE);
+      setErrorMsg("Error: Your Access Code was incorrect.  You can reload the page and try again.");
       return;
     }
     // Kick off decryption if we got the data
@@ -155,6 +161,7 @@ function App() {
             element={
               <WelcomePage
                 setPassword={setPassword}
+                setAccessCode={setAccessCode}
                 setPageState={setCurrPageState}
               />
             }

@@ -1657,7 +1657,7 @@ export const table_template = {
           }
         },
         {
-          name: "012-demographics-orientation",
+          name: "013-demographics-orientation-recode",
           inputQuestions: ["question39"],
           labels: ["Total Number","Heterosexual ","Lesbian ","Gay","Bisexual ","Pansexual ","Asexual","I don’t label myself as anything","Another sexual orientation","Prefer not to answer"],
           timing: "perRespondentProcessing",
@@ -2358,7 +2358,7 @@ export const table_template = {
           }
         },
         {
-          name: "045-org-salary-transparency",
+          name: "045-org-culture-matrix",
           inputQuestions: ["question19"],
           labels: [ "I believe that I can learn and grow in this organization -- Total Number", "I believe that I can learn and grow in this organization -- Strongly Disagree", "I believe that I can learn and grow in this organization -- Somewhat Disagree", "I believe that I can learn and grow in this organization -- Neutral", "I believe that I can learn and grow in this organization -- Somewhat Agree", "I believe that I can learn and grow in this organization -- Strongly Agree", "I believe that I can learn and grow in this organization -- Prefer not to answer",  "I feel burned out in this organization -- Total Number", "I feel burned out in this organization -- Strongly Disagree", "I feel burned out in this organization -- Somewhat Disagree", "I feel burned out in this organization -- Neutral", "I feel burned out in this organization -- Somewhat Agree", "I feel burned out in this organization -- Strongly Agree", "I feel burned out in this organization -- Prefer not to answer",  "My manager supports me -- Total Number", "My manager supports me -- Strongly Disagree", "My manager supports me -- Somewhat Disagree", "My manager supports me -- Neutral", "My manager supports me -- Somewhat Agree", "My manager supports me -- Strongly Agree", "My manager supports me -- Prefer not to answer",  "I believe performance reviews contribute to growth and/or advancement in my institution -- Total Number", "I believe performance reviews contribute to growth and/or advancement in my institution -- Strongly Disagree", "I believe performance reviews contribute to growth and/or advancement in my institution -- Somewhat Disagree", "I believe performance reviews contribute to growth and/or advancement in my institution -- Neutral", "I believe performance reviews contribute to growth and/or advancement in my institution -- Somewhat Agree", "I believe performance reviews contribute to growth and/or advancement in my institution -- Strongly Agree", "I believe performance reviews contribute to growth and/or advancement in my institution -- Prefer not to answer",  "Diversity and difference are not celebrated in this organization -- Total Number", "Diversity and difference are not celebrated in this organization -- Strongly Disagree", "Diversity and difference are not celebrated in this organization -- Somewhat Disagree", "Diversity and difference are not celebrated in this organization -- Neutral", "Diversity and difference are not celebrated in this organization -- Somewhat Agree", "Diversity and difference are not celebrated in this organization -- Strongly Agree", "Diversity and difference are not celebrated in this organization -- Prefer not to answer",  "I believe that what I do here is meaningful -- Total Number", "I believe that what I do here is meaningful -- Strongly Disagree", "I believe that what I do here is meaningful -- Somewhat Disagree", "I believe that what I do here is meaningful -- Neutral", "I believe that what I do here is meaningful -- Somewhat Agree", "I believe that what I do here is meaningful -- Strongly Agree", "I believe that what I do here is meaningful -- Prefer not to answer",  "The culture of my workplace negatively affects my mental and/or physical health -- Total Number", "The culture of my workplace negatively affects my mental and/or physical health -- Strongly Disagree", "The culture of my workplace negatively affects my mental and/or physical health -- Somewhat Disagree", "The culture of my workplace negatively affects my mental and/or physical health -- Neutral", "The culture of my workplace negatively affects my mental and/or physical health -- Somewhat Agree", "The culture of my workplace negatively affects my mental and/or physical health -- Strongly Agree", "The culture of my workplace negatively affects my mental and/or physical health -- Prefer not to answer",  "Mistakes are held against you in this organization -- Total Number", "Mistakes are held against you in this organization -- Strongly Disagree", "Mistakes are held against you in this organization -- Somewhat Disagree", "Mistakes are held against you in this organization -- Neutral", "Mistakes are held against you in this organization -- Somewhat Agree", "Mistakes are held against you in this organization -- Strongly Agree", "Mistakes are held against you in this organization -- Prefer not to answer",  "I would recommend this workplace to friends and family -- Total Number", "I would recommend this workplace to friends and family -- Strongly Disagree", "I would recommend this workplace to friends and family -- Somewhat Disagree", "I would recommend this workplace to friends and family -- Neutral", "I would recommend this workplace to friends and family -- Somewhat Agree", "I would recommend this workplace to friends and family -- Strongly Agree", "I would recommend this workplace to friends and family -- Prefer not to answer",  "I don’t feel that I have a voice in decision making in this organization -- Total Number", "I don’t feel that I have a voice in decision making in this organization -- Strongly Disagree", "I don’t feel that I have a voice in decision making in this organization -- Somewhat Disagree", "I don’t feel that I have a voice in decision making in this organization -- Neutral", "I don’t feel that I have a voice in decision making in this organization -- Somewhat Agree", "I don’t feel that I have a voice in decision making in this organization -- Strongly Agree", "I don’t feel that I have a voice in decision making in this organization -- Prefer not to answer",  "My institution provides management and/or leadership training for all supervisors -- Total Number", "My institution provides management and/or leadership training for all supervisors -- Strongly Disagree", "My institution provides management and/or leadership training for all supervisors -- Somewhat Disagree", "My institution provides management and/or leadership training for all supervisors -- Neutral", "My institution provides management and/or leadership training for all supervisors -- Somewhat Agree", "My institution provides management and/or leadership training for all supervisors -- Strongly Agree", "My institution provides management and/or leadership training for all supervisors -- Prefer not to answer",  "People in my organization are held accountable for discrimination and harassment -- Total Number", "People in my organization are held accountable for discrimination and harassment -- Strongly Disagree", "People in my organization are held accountable for discrimination and harassment -- Somewhat Disagree", "People in my organization are held accountable for discrimination and harassment -- Neutral", "People in my organization are held accountable for discrimination and harassment -- Somewhat Agree", "People in my organization are held accountable for discrimination and harassment -- Strongly Agree", "People in my organization are held accountable for discrimination and harassment -- Prefer not to answer",  "I feel like I have to hide some of who I am working in this organization -- Total Number", "I feel like I have to hide some of who I am working in this organization -- Strongly Disagree", "I feel like I have to hide some of who I am working in this organization -- Somewhat Disagree", "I feel like I have to hide some of who I am working in this organization -- Neutral", "I feel like I have to hide some of who I am working in this organization -- Somewhat Agree", "I feel like I have to hide some of who I am working in this organization -- Strongly Agree", "I feel like I have to hide some of who I am working in this organization -- Prefer not to answer"],
           timing: "perRespondentProcessing",
@@ -3002,6 +3002,9 @@ export const table_template = {
       ]
     },
     visualization : [
+    {
+      section_title: "PART 1: Staff demographics & work history ",
+      charts: [
       {
         questionType: "radiogroup",
         graphType: "column",
@@ -3250,15 +3253,15 @@ export const table_template = {
         labels: ["Heterosexual", "LGBTQ", "Prefer Not To Answer"],
         data : [
             {
-              output: "012-demographics-orientation",
+              output: "013-demographics-orientation-recode",
               value: "1",
             },
             {
-              output: "012-demographics-orientation",
+              output: "013-demographics-orientation-recode",
               value: "2",
             },
             {
-              output: "012-demographics-orientation",
+              output: "013-demographics-orientation-recode",
               value: "3",
             },
         ],
@@ -3429,6 +3432,11 @@ export const table_template = {
         series : ["cohort","tag","nofilter"],
         seriesLabel : ["My Organization", "Tag", "All"],
       },
+      ]
+    },
+    {
+        section_title: "PART 2: Compensation details & promotion rates",
+        charts: [
       {
         questionType: "radiogroup",
         graphType: "column",
@@ -3503,6 +3511,11 @@ export const table_template = {
         series : ["cohort","tag","nofilter"],
         seriesLabel : ["My Organization", "Tag", "All"],
       },
+      ]
+    },
+    {
+      section_title: "PART 3: Staff experiences",
+      charts: [
       {
         _comment: "id=15",
         questionType: "checkbox",
@@ -4342,6 +4355,11 @@ export const table_template = {
         series : ["cohort","tag","nofilter"],
         seriesLabel : ["My Organization", "Tag", "All"],
       },
+      ]
+    },
+    {
+      section_title: "PART 4: Workplace climate & Organizational characteristics",
+      charts: [
       {
         "questionType": "radiogroup",
         graphType: "column",
@@ -4478,27 +4496,27 @@ export const table_template = {
         data : [
         // 1 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "2",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "3",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "4",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "5",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "6",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "7",
             },
         ],
@@ -4513,27 +4531,27 @@ export const table_template = {
         data : [
         // 8 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "9",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "10",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "11",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "12",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "13",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "14",
             },
         ],
@@ -4548,27 +4566,27 @@ export const table_template = {
         data : [
         // 15 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "16",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "17",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "18",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "19",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "20",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "21",
             },
         ],
@@ -4583,27 +4601,27 @@ export const table_template = {
         data : [
         // 22 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "23",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "24",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "25",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "26",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "27",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "28",
             },
         ],
@@ -4618,27 +4636,27 @@ export const table_template = {
         data : [
         // 29 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "30",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "31",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "32",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "33",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "34",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "35",
             },
         ],
@@ -4653,27 +4671,27 @@ export const table_template = {
         data : [
         // 36 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "37",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "38",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "39",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "40",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "41",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "42",
             },
         ],
@@ -4688,27 +4706,27 @@ export const table_template = {
         data : [
         // 43 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "44",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "45",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "46",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "47",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "48",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "49",
             },
         ],
@@ -4723,27 +4741,27 @@ export const table_template = {
         data : [
         // 50 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "51",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "52",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "53",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "54",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "55",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "56",
             },
         ],
@@ -4758,27 +4776,27 @@ export const table_template = {
         data : [
         // 57 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "58",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "59",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "60",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "61",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "62",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "63",
             },
         ],
@@ -4793,27 +4811,27 @@ export const table_template = {
         data : [
         // 64 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "65",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "66",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "67",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "68",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "69",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "70",
             },
         ],
@@ -4828,27 +4846,27 @@ export const table_template = {
         data : [
         // 71 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "72",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "73",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "74",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "75",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "76",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "77",
             },
         ],
@@ -4863,27 +4881,27 @@ export const table_template = {
         data : [
         // 78 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "79",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "80",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "81",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "82",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "83",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "84",
             },
         ],
@@ -4898,27 +4916,27 @@ export const table_template = {
         data : [
         // 85 is the total
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "86",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "87",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "88",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "89",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "90",
             },
             {
-              output: "045-org-salary-transparency",
+              output: "045-org-culture-matrix",
               value: "91",
             },
         ],
@@ -4933,27 +4951,27 @@ export const table_template = {
       //   data : [
       //   // 85 is the total
       //       {
-      //         output: "045-org-salary-transparency",
+      //         output: "045-org-culture-matrix",
       //         value: "86",
       //       },
       //       {
-      //         output: "045-org-salary-transparency",
+      //         output: "045-org-culture-matrix",
       //         value: "87",
       //       },
       //       {
-      //         output: "045-org-salary-transparency",
+      //         output: "045-org-culture-matrix",
       //         value: "88",
       //       },
       //       {
-      //         output: "045-org-salary-transparency",
+      //         output: "045-org-culture-matrix",
       //         value: "89",
       //       },
       //       {
-      //         output: "045-org-salary-transparency",
+      //         output: "045-org-culture-matrix",
       //         value: "90",
       //       },
       //       {
-      //         output: "045-org-salary-transparency",
+      //         output: "045-org-culture-matrix",
       //         value: "91",
       //       },
       //   ],
@@ -5089,6 +5107,8 @@ export const table_template = {
         series : ["cohort","tag","nofilter"],
         seriesLabel : ["My Organization", "Tag", "All"],
       },
+      ]
+    }
     ],
     tables: [
     ],
