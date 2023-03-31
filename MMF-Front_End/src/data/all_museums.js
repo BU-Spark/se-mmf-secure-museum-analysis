@@ -348,112 +348,112 @@ export const staff_data = [
           },
           {
             "id": 3,
-            "labels" : ["Voluntary", "Entry-level", "Associate/Experienced", "Manager", "Director", "Executive/Museum Leadership", "Prefer not to answer"],
+            "labels" : ["Entry-level", "Associate/Experienced", "Manager", "Director", "Executive/Museum Leadership"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.00,  0.12,  0.44,  0.26,  0.08,  0.06,  0.03]
+                "data" : [0.12,  0.44,  0.26,  0.08,  0.06, ]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.13,  0.50,  0.27,  0.04,  0.04,  0.03]
+                "data" : [0.13,  0.50,  0.27,  0.04,  0.04, ]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.00,  0.13,  0.46,  0.25,  0.08,  0.06,  0.03]
+                "data" : [0.13,  0.46,  0.25,  0.08,  0.06, ]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.12,  0.42,  0.24,  0.10,  0.09,  0.03]
+                "data" : [0.12,  0.42,  0.24,  0.10,  0.09, ]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.00,  0.11,  0.44,  0.24,  0.10,  0.06,  0.03]
+                "data" : [0.11,  0.44,  0.24,  0.10,  0.06, ]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.00,  0.10,  0.46,  0.26,  0.12,  0.04,  0.02]
+                "data" : [0.10,  0.46,  0.26,  0.12,  0.04, ]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.00,  0.16,  0.43,  0.27,  0.05,  0.04,  0.04]
+                "data" : [0.16,  0.43,  0.27,  0.05,  0.04, ]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.00,  0.09,  0.46,  0.26,  0.10,  0.05,  0.03]
+                "data" : [0.09,  0.46,  0.26,  0.10,  0.05, ]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.00,  0.13,  0.47,  0.25,  0.05,  0.07,  0.04]
+                "data" : [0.13,  0.47,  0.25,  0.05,  0.07, ]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.00,  0.16,  0.38,  0.29,  0.06,  0.07,  0.03]
+                "data" : [0.16,  0.38,  0.29,  0.06,  0.07, ]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.00,  0.19,  0.41,  0.23,  0.09,  0.05,  0.03]
+                "data" : [0.19,  0.41,  0.23,  0.09,  0.05, ]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.00,  0.10,  0.33,  0.30,  0.14,  0.09,  0.03]
+                "data" : [0.10,  0.33,  0.30,  0.14,  0.09, ]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.00,  0.12,  0.43,  0.25,  0.10,  0.07,  0.03]
+                "data" : [0.12,  0.43,  0.25,  0.10,  0.07, ]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.01,  0.13,  0.45,  0.26,  0.08,  0.05,  0.02]
+                "data" : [0.13,  0.45,  0.26,  0.08,  0.05, ]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.00,  0.18,  0.32,  0.32,  0.09,  0.07,  0.02]
+                "data" : [0.18,  0.32,  0.32,  0.09,  0.07, ]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.00,  0.12,  0.36,  0.28,  0.11,  0.09,  0.05]
+                "data" : [0.12,  0.36,  0.28,  0.11,  0.09, ]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.00,  0.20,  0.37,  0.28,  0.07,  0.05,  0.02]
+                "data" : [0.20,  0.37,  0.28,  0.07,  0.05, ]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.00,  0.14,  0.39,  0.27,  0.09,  0.11,  0.00]
+                "data" : [0.14,  0.39,  0.27,  0.09,  0.11, ]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.01,  0.11,  0.46,  0.22,  0.07,  0.07,  0.05]
+                "data" : [ 0.11,  0.46,  0.22,  0.07,  0.07, ]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.00,  0.11,  0.44,  0.25,  0.11,  0.06,  0.03]
+                "data" : [0.11,  0.44,  0.25,  0.11,  0.06, ]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.00,  0.11,  0.51,  0.25,  0.06,  0.03,  0.03]
+                "data" : [0.11,  0.51,  0.25,  0.06,  0.03, ]
               },
             ],
             "questionName": "Which of the following best describes your current position level in the museum?",
@@ -462,112 +462,112 @@ export const staff_data = [
           },
           {
             "id": 4,
-            "labels" : ["Full-time/ Permanent employee", "Part-time employee", "Temporary employee", "Seasonal employee", "Paid intern", "Unpaid intern", "Apprentice / Fellow", "Prefer not to answer"],
+            "labels" : ["Full-time/ Permanent employee", "Part-time employee", "Temporary employee", "Seasonal employee", "Paid intern", "Apprentice / Fellow"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.00,  0.01,  0.00]
+                "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.01,]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.89,  0.06,  0.03,  0.00,  0.01,  0.00,  0.01,  0.00]
+                "data" : [0.89,  0.06,  0.03,  0.00,  0.01,  0.01,]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.00,  0.01,  0.00]
+                "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.01,]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.80,  0.13,  0.04,  0.00,  0.00,  0.00,  0.02,  0.01]
+                "data" : [0.80,  0.13,  0.04,  0.00,  0.00,  0.02,]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.84,  0.13,  0.01,  0.01,  0.00,  0.00,  0.01,  0.00]
+                "data" : [0.84,  0.13,  0.01,  0.01,  0.00,  0.01,]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.90,  0.08,  0.03,  0.00,  0.00,  0.00,  0.00,  0.00]
+                "data" : [0.90,  0.08,  0.03,  0.00,  0.00,  0.00,]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.86,  0.09,  0.02,  0.00,  0.01,  0.00,  0.01,  0.00]
+                "data" : [0.86,  0.09,  0.02,  0.00,  0.01,  0.01,]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.87,  0.09,  0.02,  0.01,  0.00,  0.00,  0.01,  0.00]
+                "data" : [0.87,  0.09,  0.02,  0.01,  0.00,  0.01,]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.82,  0.12,  0.02,  0.00,  0.01,  0.00,  0.02,  0.01]
+                "data" : [0.82,  0.12,  0.02,  0.00,  0.01,  0.02,]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.87,  0.08,  0.02,  0.00,  0.02,  0.00,  0.00,  0.00]
+                "data" : [0.87,  0.08,  0.02,  0.00,  0.02,  0.00,]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.78,  0.17,  0.03,  0.00,  0.00,  0.00,  0.03,  0.00]
+                "data" : [0.78,  0.17,  0.03,  0.00,  0.00,  0.03,]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.83,  0.13,  0.01,  0.01,  0.00,  0.00,  0.02,  0.00]
+                "data" : [0.83,  0.13,  0.01,  0.01,  0.00,  0.02,]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.81,  0.17,  0.02,  0.00,  0.00,  0.00,  0.00,  0.01]
+                "data" : [0.81,  0.17,  0.02,  0.00,  0.00,  0.00,]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.93,  0.04,  0.02,  0.00,  0.00,  0.00,  0.01,  0.00]
+                "data" : [0.93,  0.04,  0.02,  0.00,  0.00,  0.01,]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.88,  0.03,  0.05,  0.00,  0.05,  0.00,  0.00,  0.00]
+                "data" : [0.88,  0.03,  0.05,  0.00,  0.05,  0.00,]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.76,  0.17,  0.03,  0.00,  0.00,  0.00,  0.03,  0.01]
+                "data" : [0.76,  0.17,  0.03,  0.00,  0.00,  0.03,]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.80,  0.16,  0.00,  0.00,  0.02,  0.00,  0.00,  0.02]
+                "data" : [0.80,  0.16,  0.00,  0.00,  0.02,  0.00,]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.94,  0.06,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]
+                "data" : [0.94,  0.06,  0.00,  0.00,  0.00,  0.00,]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.85,  0.14,  0.00,  0.00,  0.00,  0.00,  0.00,  0.00]
+                "data" : [0.85,  0.14,  0.00,  0.00,  0.00,  0.00,]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.87,  0.09,  0.02,  0.00,  0.00,  0.00,  0.01,  0.00]
+                "data" : [0.87,  0.09,  0.02,  0.00,  0.00,  0.01,]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.89,  0.07,  0.03,  0.01,  0.00,  0.00,  0.01,  0.00]
+                "data" : [0.89,  0.07,  0.03,  0.01,  0.00,  0.01,]
               },
             ],
             "questionName": "What type of position do you have at the museum?",
@@ -1032,112 +1032,112 @@ export const staff_data = [
           },
           {
             "id": 8,
-            "labels" : ["Black or African American", "East Asian", "Hispanic, Latina, Latino, or Latinx", "Middle Eastern or North African", "Native American/Alaska Native/First Nations", "Native Hawaiian or other Pacific Islander", "South Asian", "Southeast Asian", "White", "Another race of ethnicity", "Prefer not to answer"],
+            "labels" : ["Black or African American", "East Asian", "Hispanic, Latina, Latino, or Latinx", "Middle Eastern or North African", "Native American/Alaska Native/First Nations", "Native Hawaiian or other Pacific Islander", "South Asian", "Southeast Asian", "White", "Another race of ethnicity"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.08,  0.05,  0.11,  0.01,  0.02,  0.01,  0.01,  0.02,  0.73,  0.02,  0.06]
+                "data" : [0.08,  0.05,  0.11,  0.01,  0.02,  0.01,  0.01,  0.02,  0.73,  0.02,]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.04,  0.09,  0.01,  0.02,  0.00,  0.01,  0.02,  0.74,  0.02,  0.08]
+                "data" : [0.09,  0.04,  0.09,  0.01,  0.02,  0.00,  0.01,  0.02,  0.74,  0.02,]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.08,  0.05,  0.10,  0.01,  0.02,  0.01,  0.01,  0.02,  0.75,  0.02,  0.06]
+                "data" : [0.08,  0.05,  0.10,  0.01,  0.02,  0.01,  0.01,  0.02,  0.75,  0.02,]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.08,  0.07,  0.10,  0.00,  0.02,  0.00,  0.01,  0.01,  0.76,  0.01,  0.05]
+                "data" : [0.08,  0.07,  0.10,  0.00,  0.02,  0.00,  0.01,  0.01,  0.76,  0.01,]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.09,  0.04,  0.13,  0.02,  0.01,  0.00,  0.01,  0.02,  0.73,  0.03,  0.06]
+                "data" : [0.09,  0.04,  0.13,  0.02,  0.01,  0.00,  0.01,  0.02,  0.73,  0.03,]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.13,  0.04,  0.21,  0.01,  0.01,  0.00,  0.02,  0.02,  0.63,  0.04,  0.05]
+                "data" : [0.13,  0.04,  0.21,  0.01,  0.01,  0.00,  0.02,  0.02,  0.63,  0.04,]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.05,  0.07,  0.08,  0.01,  0.02,  0.01,  0.01,  0.01,  0.76,  0.02,  0.07]
+                "data" : [0.05,  0.07,  0.08,  0.01,  0.02,  0.01,  0.01,  0.01,  0.76,  0.02,]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.08,  0.05,  0.10,  0.02,  0.02,  0.00,  0.01,  0.02,  0.71,  0.03,  0.07]
+                "data" : [0.08,  0.05,  0.10,  0.02,  0.02,  0.00,  0.01,  0.02,  0.71,  0.03,]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.09,  0.03,  0.04,  0.01,  0.02,  0.00,  0.01,  0.01,  0.81,  0.00,  0.07]
+                "data" : [0.09,  0.03,  0.04,  0.01,  0.02,  0.00,  0.01,  0.01,  0.81,  0.00,]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.09,  0.03,  0.14,  0.01,  0.03,  0.00,  0.01,  0.03,  0.73,  0.04,  0.05]
+                "data" : [0.09,  0.03,  0.14,  0.01,  0.03,  0.00,  0.01,  0.03,  0.73,  0.04,]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.03,  0.03,  0.05,  0.03,  0.00,  0.00,  0.01,  0.03,  0.88,  0.03,  0.03]
+                "data" : [0.03,  0.03,  0.05,  0.03,  0.00,  0.00,  0.01,  0.03,  0.88,  0.03,]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.11,  0.07,  0.21,  0.03,  0.03,  0.01,  0.01,  0.02,  0.61,  0.02,  0.04]
+                "data" : [0.11,  0.07,  0.21,  0.03,  0.03,  0.01,  0.01,  0.02,  0.61,  0.02,]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.13,  0.04,  0.18,  0.00,  0.01,  0.00,  0.01,  0.01,  0.68,  0.02,  0.06]
+                "data" : [0.13,  0.04,  0.18,  0.00,  0.01,  0.00,  0.01,  0.01,  0.68,  0.02,]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.04,  0.10,  0.16,  0.01,  0.04,  0.02,  0.02,  0.03,  0.67,  0.03,  0.06]
+                "data" : [0.04,  0.10,  0.16,  0.01,  0.04,  0.02,  0.02,  0.03,  0.67,  0.03,]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.08,  0.08,  0.21,  0.01,  0.02,  0.00,  0.00,  0.02,  0.65,  0.03,  0.05]
+                "data" : [0.08,  0.08,  0.21,  0.01,  0.02,  0.00,  0.00,  0.02,  0.65,  0.03,]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.11,  0.04,  0.13,  0.02,  0.02,  0.00,  0.01,  0.01,  0.73,  0.01,  0.04]
+                "data" : [0.11,  0.04,  0.13,  0.02,  0.02,  0.00,  0.01,  0.01,  0.73,  0.01,]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.12,  0.03,  0.08,  0.00,  0.02,  0.00,  0.00,  0.01,  0.76,  0.00,  0.09]
+                "data" : [0.12,  0.03,  0.08,  0.00,  0.02,  0.00,  0.00,  0.01,  0.76,  0.00,]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.05,  0.04,  0.11,  0.01,  0.00,  0.00,  0.01,  0.05,  0.78,  0.01,  0.06]
+                "data" : [0.05,  0.04,  0.11,  0.01,  0.00,  0.00,  0.01,  0.05,  0.78,  0.01,]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.06,  0.08,  0.11,  0.01,  0.02,  0.02,  0.00,  0.02,  0.71,  0.03,  0.08]
+                "data" : [0.06,  0.08,  0.11,  0.01,  0.02,  0.02,  0.00,  0.02,  0.71,  0.03,]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.09,  0.07,  0.11,  0.01,  0.03,  0.00,  0.03,  0.01,  0.71,  0.03,  0.04]
+                "data" : [0.09,  0.07,  0.11,  0.01,  0.03,  0.00,  0.03,  0.01,  0.71,  0.03,]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07,  0.04,  0.09,  0.02,  0.01,  0.00,  0.01,  0.02,  0.76,  0.02,  0.07]
+                "data" : [0.07,  0.04,  0.09,  0.02,  0.01,  0.00,  0.01,  0.02,  0.76,  0.02,]
               },
             ],
             "questionName": "With which of the following racial and ethnic groups do you identify as? Please select all that apply.",
@@ -1146,226 +1146,226 @@ export const staff_data = [
           },
           {
             "id": 9,
-            "labels" : ["Asian or Asian American", "Middle Eastern or North African", "Black or African American", "Hispanic or Latina/o/x", "Native American or Alaska Native", "Native Hawaiian or other Pacific Islander", "White or European American", "Multiracial", "Other Race", "Prefer Not To Answer"],
+            "labels" : ["Asian or Asian American", "Middle Eastern or North African", "Black or African American", "Hispanic or Latina/o/x", "Native American or Alaska Native", "Native Hawaiian or other Pacific Islander", "White or European American", "Multiracial", "Other Race"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.08,  0.01,  0.08,  0.11,  0.02,  0.01 , 0.73,  0.05,  0.02,  0.06]
+                "data" : [0.08,  0.01,  0.08,  0.11,  0.02,  0.01 , 0.73,  0.05,  0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.06,  0.01,  0.09,  0.09,  0.02,  0.00 , 0.74,  0.04,  0.02,  0.08]
+                "data" : [0.06,  0.01,  0.09,  0.09,  0.02,  0.00 , 0.74,  0.04,  0.02]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.08,  0.01,  0.08,  0.10,  0.02,  0.01 , 0.75,  0.05,  0.02,  0.06]
+                "data" : [0.08,  0.01,  0.08,  0.10,  0.02,  0.01 , 0.75,  0.05,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.00,  0.08,  0.10,  0.02,  0.00 , 0.76,  0.04,  0.01,  0.05]
+                "data" : [0.09,  0.00,  0.08,  0.10,  0.02,  0.00 , 0.76,  0.04,  0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.06,  0.02,  0.09,  0.13,  0.01,  0.00 , 0.73,  0.06,  0.03,  0.06]
+                "data" : [0.06,  0.02,  0.09,  0.13,  0.01,  0.00 , 0.73,  0.06,  0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.08,  0.01,  0.13,  0.21,  0.01,  0.00 , 0.63,  0.06,  0.04,  0.05]
+                "data" : [0.08,  0.01,  0.13,  0.21,  0.01,  0.00 , 0.63,  0.06,  0.04]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.09,  0.01,  0.05,  0.08,  0.02,  0.01 , 0.76,  0.06,  0.02,  0.07]
+                "data" : [0.09,  0.01,  0.05,  0.08,  0.02,  0.01 , 0.76,  0.06,  0.02]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.09,  0.02,  0.08,  0.10,  0.02,  0.00 , 0.71,  0.05,  0.03,  0.07]
+                "data" : [0.09,  0.02,  0.08,  0.10,  0.02,  0.00 , 0.71,  0.05,  0.03]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.04,  0.01,  0.09,  0.04,  0.02,  0.00 , 0.81,  0.06,  0.00,  0.07]
+                "data" : [0.04,  0.01,  0.09,  0.04,  0.02,  0.00 , 0.81,  0.06,  0.00]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.06,  0.01,  0.09,  0.14,  0.03,  0.00 , 0.73,  0.06,  0.04,  0.05]
+                "data" : [0.06,  0.01,  0.09,  0.14,  0.03,  0.00 , 0.73,  0.06,  0.04]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.07,  0.03,  0.03,  0.05,  0.00,  0.00 , 0.88,  0.04,  0.03,  0.03]
+                "data" : [0.07,  0.03,  0.03,  0.05,  0.00,  0.00 , 0.88,  0.04,  0.03]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.09,  0.03,  0.11,  0.21,  0.03,  0.01 , 0.61,  0.07,  0.02,  0.04]
+                "data" : [0.09,  0.03,  0.11,  0.21,  0.03,  0.01 , 0.61,  0.07,  0.02]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.05,  0.00,  0.13,  0.18,  0.01,  0.00 , 0.68,  0.03,  0.02,  0.06]
+                "data" : [0.05,  0.00,  0.13,  0.18,  0.01,  0.00 , 0.68,  0.03,  0.02]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.15,  0.01,  0.04,  0.16,  0.04,  0.02 , 0.67,  0.08,  0.03,  0.06]
+                "data" : [0.15,  0.01,  0.04,  0.16,  0.04,  0.02 , 0.67,  0.08,  0.03]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.09,  0.01,  0.08,  0.21,  0.02,  0.00 , 0.65,  0.04,  0.03,  0.05]
+                "data" : [0.09,  0.01,  0.08,  0.21,  0.02,  0.00 , 0.65,  0.04,  0.03]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.05,  0.02,  0.11,  0.13,  0.02,  0.00 , 0.73,  0.05,  0.01,  0.04]
+                "data" : [0.05,  0.02,  0.11,  0.13,  0.02,  0.00 , 0.73,  0.05,  0.01]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.04,  0.00,  0.12,  0.08,  0.02,  0.00 , 0.76,  0.05,  0.00,  0.09]
+                "data" : [0.04,  0.00,  0.12,  0.08,  0.02,  0.00 , 0.76,  0.05,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.10,  0.01,  0.05,  0.11,  0.00,  0.00 , 0.78,  0.03,  0.01,  0.06]
+                "data" : [0.10,  0.01,  0.05,  0.11,  0.00,  0.00 , 0.78,  0.03,  0.01]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.10,  0.01,  0.06,  0.11,  0.02,  0.02 , 0.71,  0.07,  0.03,  0.08]
+                "data" : [0.10,  0.01,  0.06,  0.11,  0.02,  0.02 , 0.71,  0.07,  0.03]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.10,  0.01,  0.09,  0.11,  0.03,  0.00 , 0.71,  0.06,  0.03,  0.04]
+                "data" : [0.10,  0.01,  0.09,  0.11,  0.03,  0.00 , 0.71,  0.06,  0.03]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07,  0.02,  0.07,  0.09,  0.01,  0.00 , 0.76,  0.05,  0.02,  0.07]
+                "data" : [0.07,  0.02,  0.07,  0.09,  0.01,  0.00 , 0.76,  0.05,  0.02]
               },
             ],
-            "questionName": "With which of the following racial and ethnic groups do you identify as? Please select all that apply. (Census Categories)",
+            "questionName": "With which of the following racial and ethnic groups do you identify as? Please select all that apply. (Recorded to match Census categories)",
             "graphType": "column",
             "questionType": "radiogroup"
           },
           {
             "id": 10,
-            "labels" : ["Some high school", "High school graduate", "Some college/Associates degree", "Bachelor’s degree", "Master’s degree", "Professional or doctorate degree", "Prefer Not To Answer"],
+            "labels" : ["Some high school", "High school graduate", "Some college/Associates degree", "Bachelor’s degree", "Master’s degree", "Professional or doctorate degree"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.00,  0.02,  0.09,  0.39,  0.41,  0.08,  0.02]
+                "data" : [0.00,  0.02,  0.09,  0.39,  0.41,  0.08]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.09,  0.34,  0.45,  0.10,  0.02]
+                "data" : [0.00,  0.01,  0.09,  0.34,  0.45,  0.10]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09,  0.02]
+                "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.07,  0.34,  0.41,  0.14,  0.02]
+                "data" : [0.00,  0.02,  0.07,  0.34,  0.41,  0.14]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.09,  0.43,  0.39,  0.04,  0.03]
+                "data" : [0.00,  0.01,  0.09,  0.43,  0.39,  0.04]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.01,  0.01,  0.06,  0.45,  0.38,  0.06,  0.03]
+                "data" : [0.01,  0.01,  0.06,  0.45,  0.38,  0.06]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09,  0.02]
+                "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.06,  0.33,  0.46,  0.12,  0.02]
+                "data" : [0.00,  0.01,  0.06,  0.33,  0.46,  0.12]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.10,  0.41,  0.38,  0.08,  0.02]
+                "data" : [0.00,  0.01,  0.10,  0.41,  0.38,  0.08]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.00,  0.03,  0.09,  0.39,  0.42,  0.05,  0.02]
+                "data" : [0.00,  0.03,  0.09,  0.39,  0.42,  0.05]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.00,  0.03,  0.13,  0.43,  0.36,  0.06,  0.01]
+                "data" : [0.00,  0.03,  0.13,  0.43,  0.36,  0.06]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.08,  0.42,  0.44,  0.04,  0.02]
+                "data" : [0.00,  0.01,  0.08,  0.42,  0.44,  0.04]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.09,  0.37,  0.38,  0.10,  0.03]
+                "data" : [0.00,  0.02,  0.09,  0.37,  0.38,  0.10]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.09,  0.45,  0.38,  0.04,  0.02]
+                "data" : [0.00,  0.01,  0.09,  0.45,  0.38,  0.04]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.12,  0.32,  0.46,  0.05,  0.04]
+                "data" : [0.00,  0.02,  0.12,  0.32,  0.46,  0.05]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.00,  0.03,  0.09,  0.40,  0.41,  0.05,  0.01]
+                "data" : [0.00,  0.03,  0.09,  0.40,  0.41,  0.05]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.12,  0.49,  0.25,  0.04,  0.07]
+                "data" : [0.00,  0.02,  0.12,  0.49,  0.25,  0.04]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.00,  0.00,  0.13,  0.51,  0.25,  0.10,  0.01]
+                "data" : [0.00,  0.00,  0.13,  0.51,  0.25,  0.10]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.00,  0.03,  0.11,  0.45,  0.33,  0.05,  0.02]
+                "data" : [0.00,  0.03,  0.11,  0.45,  0.33,  0.05]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.05,  0.34,  0.46,  0.13,  0.01]
+                "data" : [0.00,  0.01,  0.05,  0.34,  0.46,  0.13]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.07,  0.36,  0.45,  0.09,  0.02]
+                "data" : [0.00,  0.01,  0.07,  0.36,  0.45,  0.09]
               },
             ],
             "questionName": "What is the highest level of education that you’ve completed?",
@@ -1374,112 +1374,112 @@ export const staff_data = [
           },
           {
             "id": 11,
-            "labels" : ["Yes","No","Prefer Not To Answer"],
+            "labels" : ["Yes","No"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.16,  0.78,  0.06]
+                "data" : [0.16,  0.78]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.13,  0.80,  0.07]
+                "data" : [0.13,  0.80]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.16,  0.78,  0.06]
+                "data" : [0.16,  0.78]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.17,  0.80,  0.04]
+                "data" : [0.17,  0.80]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.16,  0.78,  0.06]
+                "data" : [0.16,  0.78]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.20,  0.75,  0.06]
+                "data" : [0.20,  0.75]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.16,  0.77,  0.07]
+                "data" : [0.16,  0.77]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.14,  0.79,  0.07]
+                "data" : [0.14,  0.79]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.19,  0.74,  0.07]
+                "data" : [0.19,  0.74]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.16,  0.78,  0.06]
+                "data" : [0.16,  0.78]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.17,  0.78,  0.06]
+                "data" : [0.17,  0.78]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.17,  0.78,  0.06]
+                "data" : [0.17,  0.78]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.15,  0.80,  0.05]
+                "data" : [0.15,  0.80]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.17,  0.77,  0.06]
+                "data" : [0.17,  0.77]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.19,  0.71,  0.10]
+                "data" : [0.19,  0.71]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.15,  0.81,  0.04]
+                "data" : [0.15,  0.81]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.29,  0.63,  0.08]
+                "data" : [0.29,  0.63]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.22,  0.73,  0.05]
+                "data" : [0.22,  0.73]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.17,  0.77,  0.07]
+                "data" : [0.17,  0.77]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.19,  0.76,  0.05]
+                "data" : [0.19,  0.76]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.12,  0.81,  0.07]
+                "data" : [0.12,  0.81]
               },
             ],
             "questionName": "Do you identify as a person with a disability and/or as neuroatypical/neurodivergent?",
@@ -1493,112 +1493,112 @@ export const staff_data = [
         charts: [
           {
             "id": 12,
-            "labels" : ["Annual Salary","Hourly Wage","Stipend","This is a voluntary (unpaid) position"],
+            "labels" : ["Annual Salary","Hourly Wage"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.65,  0.35,  0.00,  0.00]
+                "data" : [0.65,  0.35]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.68,  0.32,  0.00,  0.00]
+                "data" : [0.68,  0.32]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.64,  0.36,  0.00,  0.00]
+                "data" : [0.64,  0.36]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.69,  0.31,  0.00,  0.00]
+                "data" : [0.69,  0.31]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.64,  0.36,  0.00,  0.00]
+                "data" : [0.64,  0.36]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.60,  0.40,  0.00,  0.00]
+                "data" : [0.60,  0.40]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.56,  0.44,  0.00,  0.00]
+                "data" : [0.56,  0.44]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.74,  0.26,  0.00,  0.00]
+                "data" : [0.74,  0.26]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.58,  0.42,  0.00,  0.00]
+                "data" : [0.58,  0.42]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.70,  0.29,  0.00,  0.00]
+                "data" : [0.70,  0.29]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.58,  0.43,  0.00,  0.00]
+                "data" : [0.58,  0.43]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.72,  0.27,  0.01,  0.00]
+                "data" : [0.72,  0.27]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.70,  0.30,  0.00,  0.00]
+                "data" : [0.70,  0.30]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.53,  0.47,  0.00,  0.00]
+                "data" : [0.53,  0.47]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.64,  0.36,  0.00,  0.00]
+                "data" : [0.64,  0.36]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.69,  0.30,  0.01,  0.00]
+                "data" : [0.69,  0.30]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.54,  0.46,  0.00,  0.00]
+                "data" : [0.54,  0.46]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.62,  0.38,  0.00,  0.00]
+                "data" : [0.62,  0.38]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.60,  0.40,  0.00,  0.00]
+                "data" : [0.60,  0.40]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.63,  0.37,  0.00,  0.00]
+                "data" : [0.63,  0.37]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.68,  0.32,  0.00,  0.00]
+                "data" : [0.68,  0.32]
               },
             ],
             "questionName": "How are you compensated in this position?",
@@ -2057,7 +2057,7 @@ export const staff_data = [
                 "data" : [0.06,  1.00,  0.91,  1.00,  0.94]
               },
             ],
-            "questionName": "Promotion Rate",
+            "questionName": "Parity score showing the proportional likelihood of having received a promotion with title change and pay increase beyond cost of living by gender, race & ethnicity",
             "graphType": "column",
             "questionType": "radiogroup"
           },
@@ -2171,7 +2171,7 @@ export const staff_data = [
                 "data" : [0.01,  1.00,  1.84,  1.00,  1.19]
               },
             ],
-            "questionName": "Promotion rate title change no pay increase",
+            "questionName": "Parity score showing the proportional likelihood of having received a promotion with pay increase beyond cost of living but no title change by gender, race & ethnicity",
             "graphType": "column",
             "questionType": "radiogroup"
           },
@@ -2296,7 +2296,7 @@ export const staff_data = [
         charts: [
           {
             "id": 19,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -2410,7 +2410,7 @@ export const staff_data = [
           },
           {
             "id": 20,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -2524,7 +2524,7 @@ export const staff_data = [
           },
                 {
             "id": 21,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -2638,7 +2638,7 @@ export const staff_data = [
           },
                 {
             "id": 22,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -2752,7 +2752,7 @@ export const staff_data = [
           },
                 {
             "id": 23,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -2866,7 +2866,7 @@ export const staff_data = [
           },
           {
             "id": 24,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -2980,7 +2980,7 @@ export const staff_data = [
           },
                 {
             "id": 25,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -3094,7 +3094,7 @@ export const staff_data = [
           },
                 {
             "id": 26,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -3208,7 +3208,7 @@ export const staff_data = [
           },
           {
             "id": 27,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -3322,7 +3322,7 @@ export const staff_data = [
           },
           {
             "id": 28,
-            "labels" : ["1", "2", "3","4", "5"],
+            "labels" : ["1 = Not at all satisfied", "2", "3","4", "5 = Extremely Satisfied"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -3544,7 +3544,7 @@ export const staff_data = [
                 "data" : [0.67,  1.00,  0.99,  1.00,  0.95]
               },
             ],
-            "questionName": "Institutional Satisfaction Mean",
+            "questionName": "Mean institutional satisfaction score (includes the previous ten satisfaction questions)",
             "graphType": "column",
             "questionType": "radiogroup"
           },
@@ -3664,7 +3664,7 @@ export const staff_data = [
           },
           {
             "id": 31,
-            "labels" : ["All: Yes","All: No","All: Prefer Not To Answer", "Men", "Not Men","White","Not White"],
+            "labels" : ["Yes","No","Prefer Not To Answer", "Men", "Not Men","White","Not White"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -3776,6 +3776,11 @@ export const staff_data = [
             "graphType": "column",
             "questionType": "radiogroup"
           },
+        ]
+      },
+      {
+        section_title: "The following five questions were only asked of staff who have experienced discrimination or harassment in their current workplace.",
+        charts: [
           {
             "id": 32,
             "labels" : ["Very frequently (e.g., daily or almost daily)","Often (e.g., a few times a month)","Sometimes (e.g., a few times a year) ","Rarely (e.g., one or two times total)"],
@@ -4462,6 +4467,7 @@ export const staff_data = [
           },
           {
             "id": 38,
+            "allowOverlap" : true,
             "labels" : ["Pay is too low","Other institutions have more flexible work hours","No full-time work is available in this institution","Opportunities for growth at the other museum","Experiences of discrimination or harassment","Lack of opportunities for growth at my museum","Unsafe working conditions","Positive reputation of the other museum","Burnout","Desire to live in a different town or city","Interpersonal issues with other staff members","Poor management","I don’t believe my institution can change for the better","Personal reasons unrelated to my current museum workplace","None of the above",],
             "dataSet": [
               {
@@ -4690,6 +4696,7 @@ export const staff_data = [
           },
           {
             "id": 40,
+            "allowOverlap" : true,
             "labels" : ["Pay is too low in art museums","Other fields have more flexible work hours","More interested in other fields","Full-time work is unavailable to me in most art museums","Experiences of discrimination or harassment in art museums","Lack of opportunities for growth in art museums","Unsafe working conditions in art museums","Burnout in the art museum field","Exciting opportunities in other fields","Interpersonal issues with other staff members are common in art museums","Poor management in art museums","I don’t believe art museums can change for the better","Personal reasons unrelated to art and/or museums","None of the above",],
             "dataSet": [
               {
@@ -6969,7 +6976,7 @@ export const staff_data = [
                 "data" : [1.50,  1.00,  0.58,  1.00,  0.83]
               },
             ],
-            "questionName": "Average Culture Score",
+            "questionName": "Mean culture score - normalized for higher scores to be better (includes the previous thirteen culture questions)",
             "graphType": "column",
             "questionType": "radiogroup"
           },
