@@ -22,7 +22,7 @@ export const WelcomePage = ({
           <Typography>{welcome_msg}</Typography>
         </Grid2>
         <Grid2 xs={12} alignItems="center">
-          <Typography>If you created a password (eg. when completing the survey), please enter it below.  If you never made a password, you cannot see organization-level results but can see less fine-grained results by leaving this field empty and entering your early access code below.</Typography>
+          <Typography>If you created a password (when completing the survey), please enter it below.  If you never made a password, you can see overall results by leaving the password field empty and entering your early access code below.</Typography>
           <TextField
             id="password"
             label="Password"
@@ -34,7 +34,7 @@ export const WelcomePage = ({
           />
         </Grid2>
         <Grid2 xs={12} alignItems="center">
-          <Typography>At this time we are only sharing results with respondents who have been given an early access code.  Please enter the early access code below.</Typography>
+          <Typography>At this time results are only accessible with an early access code.  Please enter the early access code below.</Typography>
           <TextField
             id="accesscode"
             label="Access Code"

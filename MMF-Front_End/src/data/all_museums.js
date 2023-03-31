@@ -1837,7 +1837,111 @@ export const staff_data = [
             "id": 16,
             "labels" : ["All", "Men", "Not Men","White","Not White"],
             "dataSet": [
-              
+              {
+                "name" : "All Museums",
+                "visible" : true,
+                "data" : [0.05,  1.00,  1.04,  1.00,  0.91]
+              },
+              {
+                "name" : "City, State, or County Affiliated",
+                "visible" : false,
+                "data" : [0.06,  1.00,  0.80,  1.00,  1.00]
+              },
+              {
+                "name" : "Collecting",
+                "visible" : false,
+                "data" : [0.05,  1.00,  0.96,  1.00,  0.88]
+              },
+              {
+                "name" : "College or university-affiliated",
+                "visible" : false,
+                "data" : [0.04,  1.00,  1.24,  1.00,  0.84]
+              },
+              {
+                "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
+                "data" : [0.06,  1.00,  1.33,  1.00,  0.89]
+              },
+              {
+                "name" : "Culturally-specific",
+                "visible" : false,
+                "data" : [0.07,  1.00,  1.17,  1.00,  0.77]
+              },
+              {
+                "name" : "Encyclopedic",
+                "visible" : false,
+                "data" : [0.05,  1.00,  0.76,  1.00,  1.05]
+              },
+              {
+                "name" : "Mid Atlantic",
+                "visible" : false,
+                "data" : [0.06,  1.00,  0.96,  1.00,  0.75]
+              },
+              {
+                "name" : "Midwest",
+                "visible" : false,
+                "data" : [0.05,  1.00,  0.87,  1.00,  1.37]
+              },
+              {
+                "name" : "Mountain Plains",
+                "visible" : false,
+                "data" : [0.06,  1.00,  1.48,  1.00,  0.94]
+              },
+              {
+                "name" : "New England",
+                "visible" : false,
+                "data" : [0.06,  1.00,  1.38,  1.00,  1.78]
+              },
+              {
+                "name" : "Non-Collecting",
+                "visible" : false,
+                "data" : [0.06,  1.00,  2.74,  1.00,  1.13]
+              },
+              {
+                "name" : "Southeast",
+                "visible" : false,
+                "data" : [0.05,  1.00,  1.29,  1.00,  0.90]
+              },
+              {
+                "name" : "Western",
+                "visible" : false,
+                "data" : [0.05,  1.00,  1.04,  1.00,  0.79]
+              },
+              {
+                "name" : "size1",
+                "visible" : false,
+                "data" : [0.05,  1.00,  1.76,  1.00,  0.94]
+              },
+              {
+                "name" : "size2",
+                "visible" : false,
+                "data" : [0.05,  1.00,  1.62,  1.00,  1.16]
+              },
+              {
+                "name" : "size3",
+                "visible" : false,
+                "data" : [0.07,  1.00,  0.84,  1.00,  0.78]
+              },
+              {
+                "name" : "size4",
+                "visible" : false,
+                "data" : [0.07,  1.00,  1.06,  1.00,  0.98]
+              },
+              {
+                "name" : "size5",
+                "visible" : false,
+                "data" : [0.05,  1.00,  0.89,  1.00,  0.84]
+              },
+              {
+                "name" : "size6",
+                "visible" : false,
+                "data" : [0.05,  1.00,  1.27,  1.00,  0.88]
+              },
+              {
+                "name" : "size7",
+                "visible" : false,
+                "data" : [0.06,  1.00,  0.91,  1.00,  0.94]
+              },
             ],
             "questionName": "Promotion Rate",
             "graphType": "column",
@@ -1847,7 +1951,111 @@ export const staff_data = [
             "id": 17,
             "labels" : ["All", "Men", "Not Men","White","Not White"],
             "dataSet": [
-              
+              {
+                "name" : "All Museums",
+                "visible" : true,
+                "data" : [0.02,  1.00,  1.85,  1.00,  1.28]
+              },
+              {
+                "name" : "City, State, or County Affiliated",
+                "visible" : false,
+                "data" : [0.01,  1.00,  1.96,  1.00,  0.68]
+              },
+              {
+                "name" : "Collecting",
+                "visible" : false,
+                "data" : [0.01,  1.00,  1.75,  1.00,  1.21]
+              },
+              {
+                "name" : "College or university-affiliated",
+                "visible" : false,
+                "data" : [0.01,  1.00,  1.66,  1.00,  1.14]
+              },
+              {
+                "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
+                "data" : [0.02,  1.00,  1.81,  1.00,  1.56]
+              },
+              {
+                "name" : "Culturally-specific",
+                "visible" : false,
+                "data" : [0.02,  1.00,  1.48,  1.00,  2.04]
+              },
+              {
+                "name" : "Encyclopedic",
+                "visible" : false,
+                "data" : [0.01,  1.00,  1.98,  1.00,  0.59]
+              },
+              {
+                "name" : "Mid Atlantic",
+                "visible" : false,
+                "data" : [0.01,  1.00,  3.37,  1.00,  1.46]
+              },
+              {
+                "name" : "Midwest",
+                "visible" : false,
+                "data" : [0.02,  1.00,  2.51,  1.00,  1.31]
+              },
+              {
+                "name" : "Mountain Plains",
+                "visible" : false,
+                "data" : [0.02,  1.00,  0.91,  1.00,  1.53]
+              },
+              {
+                "name" : "New England",
+                "visible" : false,
+                "data" : [0.02,  1.00,  0.78,  1.00,  2.08]
+              },
+              {
+                "name" : "Non-Collecting",
+                "visible" : false,
+                "data" : [0.02,  1.00,  3.68,  1.00,  2.04]
+              },
+              {
+                "name" : "Southeast",
+                "visible" : false,
+                "data" : [0.01,  1.00,  3.50,  1.00,  1.94]
+              },
+              {
+                "name" : "Western",
+                "visible" : false,
+                "data" : [0.02,  1.00,  1.22,  1.00,  0.45]
+              },
+              {
+                "name" : "size1",
+                "visible" : false,
+                "data" : [0.01,  1.00,  0.47,  1.00,  0.85]
+              },
+              {
+                "name" : "size2",
+                "visible" : false,
+                "data" : [0.01,  1.00,  2.02,  1.00,  2.29]
+              },
+              {
+                "name" : "size3",
+                "visible" : false,
+                "data" : [0.02,  1.00,  1.00,  1.00,  1.48]
+              },
+              {
+                "name" : "size4",
+                "visible" : false,
+                "data" : [0.03,  1.00,  1.02,  1.00,  1.44]
+              },
+              {
+                "name" : "size5",
+                "visible" : false,
+                "data" : [0.02,  1.00,  2.55,  1.00,  1.48]
+              },
+              {
+                "name" : "size6",
+                "visible" : false,
+                "data" : [0.01,  1.00,  1.65,  1.00,  0.75]
+              },
+              {
+                "name" : "size7",
+                "visible" : false,
+                "data" : [0.01,  1.00,  1.84,  1.00,  1.19]
+              },
             ],
             "questionName": "Promotion rate title change no pay increase",
             "graphType": "column",
@@ -1857,7 +2065,111 @@ export const staff_data = [
             "id": 18,
             "labels" : ["All", "Men", "Not Men","White","Not White"],
             "dataSet": [
-              
+              {
+                "name" : "All Museums",
+                "visible" : true,
+                "data" : [0.07,  1.00,  1.03,  1.00,  0.82]
+              },
+              {
+                "name" : "City, State, or County Affiliated",
+                "visible" : false,
+                "data" : [0.09,  1.00,  1.17,  1.00,  0.72]
+              },
+              {
+                "name" : "Collecting",
+                "visible" : false,
+                "data" : [0.07,  1.00,  1.17,  1.00,  0.81]
+              },
+              {
+                "name" : "College or university-affiliated",
+                "visible" : false,
+                "data" : [0.06,  1.00,  0.77,  1.00,  1.08]
+              },
+              {
+                "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
+                "data" : [0.08,  1.00,  1.00,  1.00,  0.80]
+              },
+              {
+                "name" : "Culturally-specific",
+                "visible" : false,
+                "data" : [0.07,  1.00,  0.99,  1.00,  0.90]
+              },
+              {
+                "name" : "Encyclopedic",
+                "visible" : false,
+                "data" : [0.08,  1.00,  1.15,  1.00,  0.70]
+              },
+              {
+                "name" : "Mid Atlantic",
+                "visible" : false,
+                "data" : [0.06,  1.00,  1.15,  1.00,  0.80]
+              },
+              {
+                "name" : "Midwest",
+                "visible" : false,
+                "data" : [0.08,  1.00,  1.00,  1.00,  1.30]
+              },
+              {
+                "name" : "Mountain Plains",
+                "visible" : false,
+                "data" : [0.09,  1.00,  0.85,  1.00,  0.28]
+              },
+              {
+                "name" : "New England",
+                "visible" : false,
+                "data" : [0.07,  1.00,  1.91,  1.00,  2.01]
+              },
+              {
+                "name" : "Non-Collecting",
+                "visible" : false,
+                "data" : [0.08,  1.00,  0.36,  1.00,  0.86]
+              },
+              {
+                "name" : "Southeast",
+                "visible" : false,
+                "data" : [0.08,  1.00,  1.23,  1.00,  0.73]
+              },
+              {
+                "name" : "Western",
+                "visible" : false,
+                "data" : [0.07,  1.00,  0.78,  1.00,  0.88]
+              },
+              {
+                "name" : "size1",
+                "visible" : false,
+                "data" : [0.04,  1.00,  0.71,  1.00,  0.74]
+              },
+              {
+                "name" : "size2",
+                "visible" : false,
+                "data" : [0.08,  1.00,  0.60,  1.00,  1.29]
+              },
+              {
+                "name" : "size3",
+                "visible" : false,
+                "data" : [0.07,  1.00,  1.74,  1.00,  0.25]
+              },
+              {
+                "name" : "size4",
+                "visible" : false,
+                "data" : [0.14,  1.00,  1.05,  1.00,  1.58]
+              },
+              {
+                "name" : "size5",
+                "visible" : false,
+                "data" : [0.09,  1.00,  1.52,  1.00,  0.50]
+              },
+              {
+                "name" : "size6",
+                "visible" : false,
+                "data" : [0.06,  1.00,  0.88,  1.00,  0.87]
+              },
+              {
+                "name" : "size7",
+                "visible" : false,
+                "data" : [0.07,  1.00,  1.13,  1.00,  0.74]
+              },
             ],
             "questionName": "Promotion no title change yes pay increase",
             "graphType": "column",
@@ -3015,33 +3327,108 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [1,1.007,1.017,0.896,0.968,0.927,1.007,1.004,0.976,0.997,1.012,0.970,0.930,0.884]
+                "data" : [0.68,  1.00,  0.98,  1.00,  0.98]
               },
-              // {
-                // "name" : "My Museum",
-                // "visible" : false,
-                // "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Others in My Region",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Other of Same Scale",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Others of the Same Type",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Others matching Collecting/Non-Collecting",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
+              {
+                "name" : "City, State, or County Affiliated",
+                "visible" : false,
+                "data" : [0.69,  1.00,  0.99,  1.00,  1.01]
+              },
+              {
+                "name" : "Collecting",
+                "visible" : false,
+                "data" : [0.68,  1.00,  0.98,  1.00,  0.98]
+              },
+              {
+                "name" : "College or university-affiliated",
+                "visible" : false,
+                "data" : [0.70,  1.00,  0.97,  1.00,  0.99]
+              },
+              {
+                "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
+                "data" : [0.68,  1.00,  0.98,  1.00,  0.97]
+              },
+              {
+                "name" : "Culturally-specific",
+                "visible" : false,
+                "data" : [0.68,  1.00,  1.01,  1.00,  1.00]
+              },
+              {
+                "name" : "Encyclopedic",
+                "visible" : false,
+                "data" : [0.67,  1.00,  0.96,  1.00,  1.01]
+              },
+              {
+                "name" : "Mid Atlantic",
+                "visible" : false,
+                "data" : [0.67,  1.00,  0.96,  1.00,  0.95]
+              },
+              {
+                "name" : "Midwest",
+                "visible" : false,
+                "data" : [0.67,  1.00,  0.98,  1.00,  1.01]
+              },
+              {
+                "name" : "Mountain Plains",
+                "visible" : false,
+                "data" : [0.72,  1.00,  1.02,  1.00,  0.94]
+              },
+              {
+                "name" : "New England",
+                "visible" : false,
+                "data" : [0.71,  1.00,  0.94,  1.00,  1.01]
+              },
+              {
+                "name" : "Non-Collecting",
+                "visible" : false,
+                "data" : [0.69,  1.00,  0.94,  1.00,  0.96]
+              },
+              {
+                "name" : "Southeast",
+                "visible" : false,
+                "data" : [0.70,  1.00,  0.95,  1.00,  0.99]
+              },
+              {
+                "name" : "Western",
+                "visible" : false,
+                "data" : [0.69,  1.00,  1.00,  1.00,  0.99]
+              },
+              {
+                "name" : "size1",
+                "visible" : false,
+                "data" : [0.68,  1.00,  1.02,  1.00,  0.98]
+              },
+              {
+                "name" : "size2",
+                "visible" : false,
+                "data" : [0.71,  1.00,  0.97,  1.00,  0.99]
+              },
+              {
+                "name" : "size3",
+                "visible" : false,
+                "data" : [0.64,  1.00,  1.00,  1.00,  1.00]
+              },
+              {
+                "name" : "size4",
+                "visible" : false,
+                "data" : [0.72,  1.00,  0.96,  1.00,  0.92]
+              },
+              {
+                "name" : "size5",
+                "visible" : false,
+                "data" : [0.70,  1.00,  0.94,  1.00,  1.00]
+              },
+              {
+                "name" : "size6",
+                "visible" : false,
+                "data" : [0.67,  1.00,  0.97,  1.00,  0.98]
+              },
+              {
+                "name" : "size7",
+                "visible" : false,
+                "data" : [0.67,  1.00,  0.99,  1.00,  0.95]
+              },
             ],
             "questionName": "Institutional Satisfaction Mean",
             "graphType": "column",
@@ -3163,113 +3550,112 @@ export const staff_data = [
           },
           {
             "id": 31,
-            "labels" : ["All: Yes","All: No","All: Prefer Not To Answer","Men", "Women", "Non-binary and Another Gender","Asian or Asian American","Middle Eastern or North African","Black or African American","Hispanic or Latina/o/x","Native American or Alaska Native","Native Hawaiian or Other Pacific Islander","White or European American","Multiracial","Other Race","Prefer Not To Answer"],
-            "_comment" : "Parity Score",
+            "labels" : ["All: Yes","All: No","All: Prefer Not To Answer", "Men", "Not Men","White","Not White"],
             "dataSet": [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.24,  0.70,  0.07]
+                "data" : [0.24,  0.70,  0.07,  1.00,  1.55,  1.00,  1.21]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.28,  0.65,  0.07]
+                "data" : [0.28,  0.65,  0.07,  1.00,  1.32,  1.00,  1.32]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.24,  0.69,  0.07]
+                "data" : [0.24,  0.69,  0.07,  1.00,  1.51,  1.00,  1.24]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.27,  0.67,  0.07]
+                "data" : [0.27,  0.67,  0.07,  1.00,  1.28,  1.00,  1.29]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.23,  0.71,  0.06]
+                "data" : [0.23,  0.71,  0.06,  1.00,  1.78,  1.00,  1.31]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.23,  0.70,  0.07]
+                "data" : [0.23,  0.70,  0.07,  1.00,  1.30,  1.00,  1.07]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.23,  0.71,  0.06]
+                "data" : [0.23,  0.71,  0.06,  1.00,  1.38,  1.00,  1.33]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.25,  0.68,  0.07]
+                "data" : [0.25,  0.68,  0.07,  1.00,  1.72,  1.00,  1.25]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.25,  0.67,  0.08]
+                "data" : [0.25,  0.67,  0.08,  1.00,  1.77,  1.00,  1.36]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.21,  0.73,  0.06]
+                "data" : [0.21,  0.73,  0.06,  1.00,  1.12,  1.00,  1.86]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.22,  0.72,  0.07]
+                "data" : [0.22,  0.72,  0.07,  1.00,  3.16,  1.00,  1.69]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.21,  0.74,  0.04]
+                "data" : [0.21,  0.74,  0.04,  1.00,  2.07,  1.00,  1.19]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.23,  0.69,  0.08]
+                "data" : [0.23,  0.69,  0.08,  1.00,  1.61,  1.00,  1.34]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.23,  0.73,  0.04]
+                "data" : [0.23,  0.73,  0.04,  1.00,  1.18,  1.00,  0.74]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.22,  0.73,  0.05]
+                "data" : [0.22,  0.73,  0.05,  1.00,  0.63,  1.00,  0.90]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.19,  0.74,  0.08]
+                "data" : [0.19,  0.74,  0.08,  1.00,  1.22,  1.00,  1.41]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.32,  0.61,  0.07]
+                "data" : [0.32,  0.61,  0.07,  1.00,  1.12,  1.00,  1.24]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.23,  0.70,  0.08]
+                "data" : [0.23,  0.70,  0.08,  1.00,  1.37,  1.00,  1.24]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.18,  0.75,  0.07]
+                "data" : [0.18,  0.75,  0.07,  1.00,  2.37,  1.00,  1.30]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.28,  0.67,  0.05]
+                "data" : [0.28,  0.67,  0.05,  1.00,  1.84,  1.00,  1.22]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.26,  0.67,  0.07]
+                "data" : [0.26,  0.67,  0.07,  1.00,  1.71,  1.00,  1.23]
               },
             ],
             "questionName": "Have you felt discriminated against or harassed on the basis your gender, sexual orientation, racial or ethnic background, social or economic status, religion, age, or disability while working in your current museum workplace?",
@@ -6366,33 +6752,108 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [1, 1.009, 1.329, 0.054, 0.957, 0.906, 1.260, 1.195, 0.840, 2.028, 1.077, 0.959, 0.502, -0.272]
+                "data" : [2.71,  1.00,  0.68,  1.00,  0.99]
               },
-              // {
-                // "name" : "My Museum",
-                // "visible" : false,
-                // "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Others in My Region",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Other of Same Scale",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Others of the Same Type",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
-              // {
-              //   "name" : "Others matching Collecting/Non-Collecting",
-              // "visible" : false,
-              //   "data" : [1,1.2,1.6,.7,.9,.1,.5,1.3,2,.1,.5,.6,.3,1]
-              // },
+              {
+                "name" : "City, State, or County Affiliated",
+                "visible" : false,
+                "data" : [1.43,  1.00,  0.59,  1.00,  1.04]
+              },
+              {
+                "name" : "Collecting",
+                "visible" : false,
+                "data" : [2.52,  1.00,  0.67,  1.00,  0.94]
+              },
+              {
+                "name" : "College or university-affiliated",
+                "visible" : false,
+                "data" : [2.91,  1.00,  0.76,  1.00,  0.80]
+              },
+              {
+                "name" : "Contemporary and/or modern-specific",
+                "visible" : false,
+                "data" : [3.37,  1.00,  0.68,  1.00,  1.03]
+              },
+              {
+                "name" : "Culturally-specific",
+                "visible" : false,
+                "data" : [3.18,  1.00,  0.78,  1.00,  1.08]
+              },
+              {
+                "name" : "Encyclopedic",
+                "visible" : false,
+                "data" : [2.19,  1.00,  0.69,  1.00,  0.87]
+              },
+              {
+                "name" : "Mid Atlantic",
+                "visible" : false,
+                "data" : [1.92,  1.00,  0.53,  1.00,  1.29]
+              },
+              {
+                "name" : "Midwest",
+                "visible" : false,
+                "data" : [2.09,  1.00,  0.56,  1.00,  0.93]
+              },
+              {
+                "name" : "Mountain Plains",
+                "visible" : false,
+                "data" : [3.67,  1.00,  0.97,  1.00,  0.69]
+              },
+              {
+                "name" : "New England",
+                "visible" : false,
+                "data" : [4.47,  1.00,  0.75,  1.00,  0.89]
+              },
+              {
+                "name" : "Non-Collecting",
+                "visible" : false,
+                "data" : [4.58,  1.00,  0.72,  1.00,  0.97]
+              },
+              {
+                "name" : "Southeast",
+                "visible" : false,
+                "data" : [3.13,  1.00,  0.54,  1.00,  1.01]
+              },
+              {
+                "name" : "Western",
+                "visible" : false,
+                "data" : [3.22,  1.00,  0.78,  1.00,  0.91]
+              },
+              {
+                "name" : "size1",
+                "visible" : false,
+                "data" : [2.55,  1.00,  1.67,  1.00,  1.03]
+              },
+              {
+                "name" : "size2",
+                "visible" : false,
+                "data" : [4.49,  1.00,  0.87,  1.00,  1.07]
+              },
+              {
+                "name" : "size3",
+                "visible" : false,
+                "data" : [2.04,  1.00,  0.42,  1.00,  1.44]
+              },
+              {
+                "name" : "size4",
+                "visible" : false,
+                "data" : [3.53,  1.00,  0.49,  1.00,  0.47]
+              },
+              {
+                "name" : "size5",
+                "visible" : false,
+                "data" : [3.63,  1.00,  0.67,  1.00,  1.05]
+              },
+              {
+                "name" : "size6",
+                "visible" : false,
+                "data" : [2.82,  1.00,  0.47,  1.00,  0.79]
+              },
+              {
+                "name" : "size7",
+                "visible" : false,
+                "data" : [1.50,  1.00,  0.58,  1.00,  0.83]
+              },
             ],
             "questionName": "Average Culture Score",
             "graphType": "column",
