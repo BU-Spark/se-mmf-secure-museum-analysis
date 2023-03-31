@@ -334,27 +334,204 @@ export async function decrypt_data(
           continue;
         }
         let datapoints = [];
-        for (let j = 0; j < vis["data"].length; j++) {
-          let datapoint = vis["data"][j];
 
-          if(vis["normalize"]==="local") { //TODO double check we aren't off by one
-            datapoints.push(reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]/reconstructedResults[datapoint.output][usercohort]["nofilter"][0]);
-          } else {
-            datapoints.push(reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]);
+
+        if (vis["questionType"] === "staff-special-discrimination") {
+
+          // 030-discrimination-total
+
+          // Compute all the scores
+          // let allscorenumerator = 0;
+          // let allscoredenom = 0;
+          // let mennumerator = 0;
+          // let mendenom = 0;
+          // let notmennumerator = 0;
+          // let notmendenom = 0;
+          // let whitenumerator = 0;
+          // let whitedenom = 0;
+          // let notwhitenumerator = 0;
+          // let notwhitedenom = 0;
+
+          datapoints.push(reconstructedResults["030-discrimination-total"][usercohort]["nofilter"][1]/reconstructedResults["030-discrimination-total"][usercohort]["nofilter"][0]);
+          datapoints.push(reconstructedResults["030-discrimination-total"][usercohort]["nofilter"][2]/reconstructedResults["030-discrimination-total"][usercohort]["nofilter"][0]);
+          datapoints.push(reconstructedResults["030-discrimination-total"][usercohort]["nofilter"][3]/reconstructedResults["030-discrimination-total"][usercohort]["nofilter"][0]);
+
+          // add the 1 for men
+          datapoints.push(1);
+
+          let menyespercentage = reconstructedResults["030-discrimination-total"][usercohort]["filterGenderMan"][1][1] / reconstructedResults["030-discrimination-total"][usercohort]["filterGenderMan"][1][0];
+          let notmenyespercentage = reconstructedResults["030-discrimination-total"][usercohort]["filterGenderMan"][2][1] / reconstructedResults["030-discrimination-total"][usercohort]["filterGenderMan"][2][0];
+
+          datapoints.push(notmenyespercentage/menyespercentage);
+
+          // add the 1 for white
+          datapoints.push(1);
+
+          let whiteyespercentage = reconstructedResults["030-discrimination-total"][usercohort]["filterRaceAndEthnicityWhite"][1][1] / reconstructedResults["030-discrimination-total"][usercohort]["filterRaceAndEthnicityWhite"][1][0];
+          let notwhiteyespercentage = reconstructedResults["030-discrimination-total"][usercohort]["filterRaceAndEthnicityWhite"][2][1] / reconstructedResults["030-discrimination-total"][usercohort]["filterRaceAndEthnicityWhite"][2][0];
+
+          datapoints.push(whiteyespercentage/notwhiteyespercentage);
+
+        } else if (vis["questionType"] === "staff-special-culturescore") {
+
+          // Compute all the scores
+          let allscorenumerator = 0;
+          let allscoredenom = 0;
+          let mennumerator = 0;
+          let mendenom = 0;
+          let notmennumerator = 0;
+          let notmendenom = 0;
+          let whitenumerator = 0;
+          let whitedenom = 0;
+          let notwhitenumerator = 0;
+          let notwhitedenom = 0;
+
+          for (let j = 0; j< (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"].length/7); j++) {
+              allscoredenom = allscoredenom + (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j]);
+              mendenom = mendenom + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j]);
+              notmendenom = notmendenom + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j]);
+              whitedenom = whitedenom + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j]);
+              notwhitedenom = notwhitedenom + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j]);
+              
+              // Positively phrased questions.  In this case, 4 and 5 are worth 1 point, 4 and 5 are -1 point
+              if(j == 0 || j == 2 || j == 3 || j == 5 || j == 8 || j == 10 || j == 11) {
+                allscorenumerator = allscorenumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+1]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+2]);
+                allscorenumerator = allscorenumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+4]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+5]);
+                mennumerator = mennumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+1]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+2]);
+                mennumerator = mennumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+4]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+5]);
+                notmennumerator = notmennumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+1]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+2]);
+                notmennumerator = notmennumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+4]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+5]);
+                whitenumerator = whitenumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+1]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+2]);
+                whitenumerator = whitenumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+4]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+5]);
+                notwhitenumerator = notwhitenumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+1]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+2]);
+                notwhitenumerator = notwhitenumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+4]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+5]);
+              } else { // neg phrased questions.  In this case, 1 and 2 are worth 1 point, 4 and 5 are 1 point
+                // j == 1 || j == 4 || j == 6 || j == 7 || j == 9 || j == 12
+                allscorenumerator = allscorenumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+1]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+2]);
+                allscorenumerator = allscorenumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+4]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["nofilter"][7*j+5]);
+                mennumerator = mennumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+1]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+2]);
+                mennumerator = mennumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+4]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][1][7*j+5]);
+                notmennumerator = notmennumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+1]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+2]);
+                notmennumerator = notmennumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+4]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterGenderMan"][2][7*j+5]);
+                whitenumerator = whitenumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+1]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+2]);
+                whitenumerator = whitenumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+4]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][1][7*j+5]);
+                notwhitenumerator = notwhitenumerator + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+1]) + (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+2]);
+                notwhitenumerator = notwhitenumerator - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+4]) - (reconstructedResults["045-org-culture-matrix"][usercohort]["filterRaceAndEthnicityWhite"][2][7*j+5]);
+              }
           }
-        }
-        // Normalize these
-        if(vis["normalize"]==="direct") {
-          let total = 0;
-          for (let d of datapoints) {
-            total = total + d;
+
+          datapoints.push(allscorenumerator/allscoredenom);
+          let menscore = mennumerator/mendenom;
+          let notmenscore = notmennumerator/notmendenom;
+          datapoints.push(1);
+          datapoints.push(notmenscore/menscore);
+          let whitescore = whitenumerator/whitedenom;
+          let notwhitescore = notwhitenumerator/notwhitedenom;
+          datapoints.push(1);
+          datapoints.push(allscorenumerator/allscoredenom);
+
+
+        } else if(vis["questionType"] === "staff-special-satisfactionscore") {
+
+          // Compute all the scores
+          let allscorenumerator = 0;
+          let allscoredenom = 0;
+          let mennumerator = 0;
+          let mendenom = 0;
+          let notmennumerator = 0;
+          let notmendenom = 0;
+          let whitenumerator = 0;
+          let whitedenom = 0;
+          let notwhitenumerator = 0;
+          let notwhitedenom = 0;
+
+          for (let j = 0; j< reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["nofilter"].length; j++) {
+            if(j%6 == 0) {
+              allscoredenom = allscoredenom + (5*reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["nofilter"][j]);
+              mendenom = mendenom + (5*reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterGenderMan"][1][j]);
+              notmendenom = notmendenom + (5*reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterGenderMan"][2][j]);
+              whitedenom = whitedenom + (5*reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterRaceAndEthnicityWhite"][1][j]);
+              notwhitedenom = notwhitedenom + (5*reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterRaceAndEthnicityWhite"][2][j]);
+            } else {
+              let points = j%6;
+              allscorenumerator = allscorenumerator + (points *reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["nofilter"][j]);
+              mennumerator = mennumerator + (points *reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterGenderMan"][1][j]);
+              notmennumerator = notmennumerator + (points *reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterGenderMan"][2][j]);
+              whitenumerator = whitenumerator + (points *reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterRaceAndEthnicityWhite"][1][j]);
+              notwhitenumerator = notwhitenumerator + (points *reconstructedResults["028-staff-satisfaction-satisfaction"][usercohort]["filterRaceAndEthnicityWhite"][2][j]);
+            }
           }
-          for(let j = 0; j<datapoints.length; j++) {
-            datapoints[j] = datapoints[j]/total;
+
+          datapoints.push(allscorenumerator/allscoredenom);
+          let menscore = mennumerator/mendenom;
+          let notmenscore = notmennumerator/notmendenom;
+          datapoints.push(1);
+          datapoints.push(notmenscore/menscore);
+          let whitescore = whitenumerator/whitedenom;
+          let notwhitescore = notwhitenumerator/notwhitedenom;
+          datapoints.push(1);
+          datapoints.push(allscorenumerator/allscoredenom);
+
+        } else if(vis["questionType"] === "parity") {
+
+          // First do the "all category"
+          for (let j = 0; j < vis["data"].length; j++) {
+            let datapoint = vis["data"][j];
+            datapoints.push(reconstructedResults[datapoint.numerator.output][usercohort]["nofilter"][datapoint.numerator.value-1]/reconstructedResults[datapoint.denominator.output][usercohort]["nofilter"][datapoint.denominator.value-1]);
           }
+
+          // Now iterate through the parity scores we need to compute
+          for(let j=0; j<vis["parityFilters"].length; j++) {
+            let datapoint = vis["data"][0]; // TODO hack
+            // Baseline is always the [1] category
+            datapoints.push(1);
+            // now add the parity between the two options in the filter
+            // Option 1 is the baseline
+            let baseline = reconstructedResults[datapoint.numerator.output][usercohort][vis["parityFilters"][j]][1][datapoint.numerator.value-1]/reconstructedResults[datapoint.denominator.output][usercohort][vis["parityFilters"][j]][1][datapoint.denominator.value-1];
+            let comparison = reconstructedResults[datapoint.numerator.output][usercohort][vis["parityFilters"][j]][2][datapoint.numerator.value-1]/reconstructedResults[datapoint.denominator.output][usercohort][vis["parityFilters"][j]][2][datapoint.denominator.value-1];
+            let toadd = comparison/baseline;
+            if(isNaN(toadd) || ! isFinite(toadd)) {
+              datapoints.push(1);
+            } else {
+              datapoints.push(toadd);
+            }
+            
+          }
+
+          chart["dataSet"].push({"name": vis["seriesLabel"][i], "data":datapoints})
+
+        } else {
+
+          for (let j = 0; j < vis["data"].length; j++) {
+            let datapoint = vis["data"][j];
+
+            if (vis["scale"] != undefined) {
+              reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1] = reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]/vis["scale"];
+            }
+
+            if (vis["normalize"]==="local") { //TODO double check we aren't off by one
+              datapoints.push(reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]/reconstructedResults[datapoint.output][usercohort]["nofilter"][0]);
+            } else if (vis["normalize"]==="indirect") {
+              datapoints.push(reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]/reconstructedResults[vis["normalize_location"]["output"]][usercohort]["nofilter"][vis["normalize_location"]["value"]-1]);
+            } else {
+              datapoints.push(reconstructedResults[datapoint.output][usercohort]["nofilter"][datapoint.value-1]);
+            }
+          }
+          // Normalize these
+          if(vis["normalize"]==="direct") {
+            let total = 0;
+            for (let d of datapoints) {
+              total = total + d;
+            }
+            for(let j = 0; j<datapoints.length; j++) {
+              datapoints[j] = datapoints[j]/total;
+            }
+          }
+
+          chart["dataSet"].push({"name": vis["seriesLabel"][i], "data":datapoints})
+
         }
 
-        chart["dataSet"].push({"name": vis["seriesLabel"][i], "data":datapoints})
       }
       chart["id"] = chartid;
       chartid = chartid + 1;

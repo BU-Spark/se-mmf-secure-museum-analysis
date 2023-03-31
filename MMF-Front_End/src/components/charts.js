@@ -75,6 +75,9 @@ export const LineChart = ({ data }) => {
                     },
                     xAxis: {
                       categories: data.labels,
+                      labels: {
+                          allowOverlap: true,
+                        },
                     },
                     subtitle: {
                       text: checksubTitle(data, graphData),
@@ -90,12 +93,25 @@ export const LineChart = ({ data }) => {
                     series: data.dataSet,
                     plotOptions: {
                       series: {
+                        dataLabels: {
+                          allowOverlap: true,
+                        },
+                        bar: {
+                          dataLabels: {
+                            allowOverlap: true,
+                          },
+                        },
                         point: {
                           events: {
                             mouseOver(e) {
                               // setHoverData(e.target.category)
                             },
                           },
+                        },
+                      },
+                      bar: {
+                        dataLabels: {
+                          allowOverlap: true,
                         },
                       },
                     },

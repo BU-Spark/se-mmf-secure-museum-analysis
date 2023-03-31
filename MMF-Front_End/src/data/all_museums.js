@@ -2171,7 +2171,7 @@ export const staff_data = [
                 "data" : [0.01,  1.00,  1.84,  1.00,  1.19]
               },
             ],
-            "questionName": "Parity score showing the proportional likelihood of having received a promotion with pay increase beyond cost of living but no title change by gender, race & ethnicity",
+            "questionName": "Parity score showing the proportional likelihood of having received a promotion with title change but no pay increase beyond cost of living by gender, race & ethnicity",
             "graphType": "column",
             "questionType": "radiogroup"
           },
@@ -2285,7 +2285,7 @@ export const staff_data = [
                 "data" : [0.07,  1.00,  1.13,  1.00,  0.74]
               },
             ],
-            "questionName": "Promotion no title change yes pay increase",
+            "questionName": "Parity score showing the proportional likelihood of having received a promotion with pay increase beyond cost of living but no title change by gender, race & ethnicity",
             "graphType": "column",
             "questionType": "radiogroup"
           },
@@ -4577,7 +4577,7 @@ export const staff_data = [
               },
             ],
             "questionName": "Which of the following reasons made you consider leaving your current museum workplace for another art museum? Select all that apply.",
-            "graphType": "bar",
+            "graphType": "column",
             "questionType": "radiogroup"
           },
           {
@@ -4806,7 +4806,7 @@ export const staff_data = [
               },
             ],
             "questionName": "Which of the following reasons made you consider leaving the art museum field? Select all that apply.",
-            "graphType": "bar",
+            "graphType": "column",
             "questionType": "radiogroup"
           },
           {
