@@ -269,6 +269,31 @@ export async function decrypt_data(
   update_progress_indicator
 ) {
   if (password === "") {
+
+    for (let staffsec of staff_data) {
+        for (let staffchart of staffsec.charts) {
+        // console.log("looking for " + chart["questionName"]);
+
+          for(let d of staffchart["dataSet"]) {
+            if(d.name === "size1") {
+              d.name = "<$2.5 million";
+            } else if (d.name === "size2") {
+              d.name = "$2.5-5 million";
+            } else if (d.name === "size3") {
+              d.name = "$5-7.5 million";
+            } else if (d.name === "size4") {
+              d.name = "$7.5-10 million";
+            } else if (d.name === "size5") {
+              d.name = "$10-15 million";
+            } else if (d.name === "size6") {
+              d.name = "$15-20 million";
+            } else if (d.name === "size7") {
+              d.name = ">$20 million";
+            }
+          }
+        }
+      }
+
     setDecryptedData(staff_data);
     return 0;
   }
@@ -550,6 +575,25 @@ export async function decrypt_data(
           }
         }
       }
+
+      for(let d of chart["dataSet"]) {
+        if(d.name === "size1") {
+          d.name = "<$2.5 million";
+        } else if (d.name === "size2") {
+          d.name = "$2.5-5 million";
+        } else if (d.name === "size3") {
+          d.name = "$5-7.5 million";
+        } else if (d.name === "size4") {
+          d.name = "$7.5-10 million";
+        } else if (d.name === "size5") {
+          d.name = "$10-15 million";
+        } else if (d.name === "size6") {
+          d.name = "$15-20 million";
+        } else if (d.name === "size7") {
+          d.name = ">$20 million";
+        }
+      }
+
       charts.push(chart);
     }
     sectopush.charts = charts;
