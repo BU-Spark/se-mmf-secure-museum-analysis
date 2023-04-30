@@ -237,7 +237,7 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                 "data" : [0.2,0 0.20,  0.21,  0.16,  0.15 , 0.09]
+                 "data" : [0.20 , 0.20,  0.21,  0.16,  0.15 , 0.09]
               },
               {
                 "name" : "City, State, or County Affiliated",
