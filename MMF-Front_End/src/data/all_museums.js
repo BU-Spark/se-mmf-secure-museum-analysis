@@ -9,37 +9,37 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [10.55, 7.02]
+                "data" : [10.56, 7.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [11.99, 8.53]
+                "data" : [11.86, 8.43]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [10.75, 7.28]
+                "data" : [10.62, 7.25]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [10.76, 7.00]
+                "data" : [9.75 , 6.74]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [9.62, 6.35]
+                "data" : [9.86 , 6.61]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [9.51, 5.59]
+                "data" : [9.39 , 5.54]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [10.45, 6.95]
+                "data" : [10.05, 6.56]
               },
               {
                 "name" : "Mid Atlantic",
@@ -49,67 +49,67 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [10.01, 6.78]
+                "data" : [10.58, 7.38]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [9.79, 6.79]
+                "data" : [9.79 , 6.79]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [9.74, 6.96]
+                "data" : [9.74 , 6.96]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [8.66, 4.53]
+                "data" : [8.66 , 4.53]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [9.80, 6.43]
+                "data" : [7.97 , 5.33]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [8.73, 5.24]
+                "data" : [8.73 , 5.24]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [10.01, 6.66]
+                "data" : [9.92 , 6.35]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [8.73, 5.67]
+                "data" : [8.79 , 5.61]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [6.98, 3.86]
+                "data" : [7.82 , 5.06]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [9.36, 7.07]
+                "data" : [8.12 , 5.37]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [9.60, 6.67]
+                "data" : [9.60 , 6.67]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [11.45, 6.60]
+                "data" : [10.75, 6.30]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [12.13, 8.48]
+                "data" : [11.95, 8.38]
               },
             ],
             "questionName": "Approximately how long have you been working in...",
@@ -123,48 +123,47 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                // "data" : [10.55, 203 , 244 ,332, 307, 489 ,331]
-                "data" : [0.10  ,0.12 ,0.17 ,0.16 ,0.25 ,0.17]
+                "data" : [0.11,  0.13,  0.17,  0.16,  0.26,  0.17]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.10,  0.12, 0.17, 0.16, 0.25, 0.17]
+                "data" : [0.05,  0.07,  0.10,  0.08,  0.58,  0.12]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.09, 0.11,  0.17,  0.14,  0.27,  0.21]
+                "data" : [0.11,  0.13,  0.17,  0.16,  0.26,  0.18]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.09, 0.11,  0.18,  0.17,  0.26,  0.19]
+                "data" : [0.12,  0.13,  0.20,  0.16,  0.24,  0.16]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.12,  0.14,  0.18,  0.18,  0.25,  0.14]
+                "data" : [0.11,  0.12,  0.18,  0.18,  0.26,  0.15]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.11,  0.14,  0.18 , 0.16,  0.28 , 0.14]
+                "data" : [0.11,  0.14,  0.19,  0.17,  0.27,  0.13]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.13, 0.13 , 0.17 , 0.14  ,0.25  ,0.17]
+                "data" : [0.15,  0.15,  0.16,  0.14,  0.24,  0.16]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.07, 0.08 , 0.15 , 0.17,  0.30 , 0.24]
+                "data" : [0.07,  0.08,  0.15,  0.17,  0.30,  0.24]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.11,  0.17,  0.18 , 0.17,  0.24,  0.14]
+                "data" : [0.09,  0.15,  0.18,  0.18,  0.26,  0.15]
               },
               {
                 "name" : "Mountain Plains",
@@ -179,37 +178,37 @@ export const staff_data = [
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.11,  0.14 , 0.23 , 0.18 , 0.23 , 0.12]
+                "data" : [0.11,  0.14,  0.23,  0.18,  0.23,  0.12]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.11,  0.12,  0.18,  0.20 , 0.24 , 0.16]
+                "data" : [0.16,  0.17,  0.19,  0.18,  0.18,  0.12]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.14 , 0.16,  0.20 , 0.15,  0.23  ,0.13]
+                "data" : [0.14,  0.16,  0.20,  0.15,  0.23,  0.13]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.18, 0.14 , 0.15 , 0.10 , 0.22,  0.22]
+                "data" : [0.17,  0.21,  0.04,  0.17,  0.21,  0.21]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.11,  0.14,  0.23,  0.17,  0.24,  0.11]
+                "data" : [0.11,  0.14,  0.23,  0.17,  0.23,  0.12]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.22,  0.22,  0.17,  0.15,  0.13,  0.10]
+                "data" : [0.19,  0.15,  0.21,  0.21,  0.17,  0.08]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.14,  0.15,  0.18,  0.15,  0.20,  0.18]
+                "data" : [0.18,  0.21,  0.16,  0.13,  0.16,  0.15]
               },
               {
                 "name" : "size5",
@@ -219,12 +218,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.09, 0.11,  0.18,  0.15,  0.27,  0.21]
+                "data" : [0.10,  0.12,  0.19,  0.13,  0.25,  0.19]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07, 0.10,  0.16,  0.17,  0.30,  0.20]
+                "data" : [0.09,  0.11,  0.16,  0.16,  0.29,  0.20]
               },
             ],
             "questionName": "Approximately how long have you been working in the art museum field (in years)?",
@@ -238,108 +237,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                 // "data" : [7.01, 373,372,397,309,286,170]
-                 "data" : [0.20, 0.20,  0.21,  0.16,  0.15,  0.09]
+                 "data" : [0.2,0 0.20,  0.21,  0.16,  0.15 , 0.09]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.16 , 0.17,  0.20,  0.16,  0.20,  0.12]
+                "data" : [0.16,  0.17,  0.21,  0.16,  0.19 , 0.12]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.19 , 0.19,  0.20,  0.17,  0.16,  0.09]
+                "data" : [0.19,  0.19,  0.20,  0.16,  0.16 , 0.09]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.17 , 0.16,  0.26,  0.17,  0.15,  0.08]
+                "data" : [0.18,  0.17,  0.26,  0.16,  0.16 , 0.08]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.23 , 0.22,  0.19,  0.16,  0.12,  0.08]
+                "data" : [0.22,  0.21,  0.19,  0.17,  0.13 , 0.08]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.21 , 0.20,  0.25,  0.18,  0.11,  0.05]
+                "data" : [0.20,  0.20,  0.25,  0.19,  0.11 , 0.05]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.22 , 0.17,  0.20,  0.16,  0.17,  0.08]
+                "data" : [0.23,  0.18,  0.19,  0.16,  0.15 , 0.08]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.15 , 0.17,  0.18,  0.18,  0.20,  0.12]
+                "data" : [0.15,  0.17,  0.18,  0.18,  0.20 , 0.12]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.18 , 0.23,  0.21,  0.16,  0.13,  0.08]
+                "data" : [0.15,  0.22,  0.22,  0.17,  0.14 , 0.09]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.28 , 0.17,  0.20,  0.11,  0.16,  0.09]
+                "data" : [0.28,  0.17,  0.20,  0.11,  0.16 , 0.09]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.14 , 0.27,  0.20,  0.17,  0.14,  0.08]
+                "data" : [0.14,  0.27,  0.20,  0.17,  0.14 , 0.08]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.26 , 0.27,  0.24,  0.12,  0.07,  0.04]
+                "data" : [0.26,  0.27,  0.24,  0.12,  0.07 , 0.04]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.22 , 0.15,  0.23,  0.19,  0.13,  0.08]
+                "data" : [0.28,  0.18,  0.20,  0.17,  0.11 , 0.06]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.22 , 0.23,  0.25,  0.14,  0.11,  0.05]
+                "data" : [0.22,  0.23,  0.25,  0.14,  0.11 , 0.05]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.30 , 0.15,  0.16,  0.12,  0.18,  0.09]
+                "data" : [0.25,  0.25,  0.04,  0.21,  0.17 , 0.08]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.22 , 0.22,  0.26,  0.13,  0.10,  0.07]
+                "data" : [0.22,  0.21,  0.26,  0.14,  0.10 , 0.06]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.36 , 0.26,  0.18,  0.12,  0.03,  0.04]
+                "data" : [0.31,  0.23,  0.25,  0.10,  0.04 , 0.06]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.15 , 0.24,  0.16,  0.20,  0.14,  0.10]
+                "data" : [0.25,  0.26,  0.15,  0.18,  0.09 , 0.07]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.21 , 0.19,  0.20,  0.18,  0.15,  0.07]
+                "data" : [0.21,  0.19,  0.20,  0.18,  0.15 , 0.07]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.18 , 0.21,  0.22,  0.17,  0.14,  0.08]
+                "data" : [0.19,  0.23,  0.21,  0.16,  0.14 , 0.07]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.14 , 0.17,  0.21,  0.17,  0.19,  0.12]
+                "data" : [0.16,  0.17,  0.20,  0.16,  0.19 , 0.12]
               },
             ],
             "questionName": "And how long have you been working at your current museum (in years)?",
@@ -353,107 +351,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.12,  0.44,  0.26,  0.08,  0.06, ]
+                "data" : [0.12,  0.44,  0.26,  0.08 , 0.06]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.13,  0.50,  0.27,  0.04,  0.04, ]
+                "data" : [0.12,  0.49,  0.27,  0.05 , 0.04]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.13,  0.46,  0.25,  0.08,  0.06, ]
+                "data" : [0.13,  0.46,  0.25,  0.07 , 0.05]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.12,  0.42,  0.24,  0.10,  0.09, ]
+                "data" : [0.13,  0.43,  0.24,  0.08 , 0.08]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.11,  0.44,  0.24,  0.10,  0.06, ]
+                "data" : [0.10,  0.45,  0.25,  0.10 , 0.06]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.10,  0.46,  0.26,  0.12,  0.04, ]
+                "data" : [0.10,  0.46,  0.26,  0.12 , 0.04]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.16,  0.43,  0.27,  0.05,  0.04, ]
+                "data" : [0.17,  0.42,  0.26,  0.05 , 0.04]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.09,  0.46,  0.26,  0.10,  0.05, ]
+                "data" : [0.09,  0.46,  0.26,  0.10 , 0.05]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.13,  0.47,  0.25,  0.05,  0.07, ]
+                "data" : [0.11,  0.48,  0.25,  0.04 , 0.08]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.16,  0.38,  0.29,  0.06,  0.07, ]
+                "data" : [0.16,  0.38,  0.29,  0.06 , 0.07]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.19,  0.41,  0.23,  0.09,  0.05, ]
+                "data" : [0.19,  0.41,  0.23,  0.09 , 0.05]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.10,  0.33,  0.30,  0.14,  0.09, ]
+                "data" : [0.10,  0.33,  0.30,  0.14 , 0.09]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.12,  0.43,  0.25,  0.10,  0.07, ]
+                "data" : [0.15,  0.42,  0.24,  0.09 , 0.06]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.13,  0.45,  0.26,  0.08,  0.05, ]
+                "data" : [0.13,  0.45,  0.26,  0.08 , 0.05]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.18,  0.32,  0.32,  0.09,  0.07, ]
+                "data" : [0.13,  0.33,  0.33,  0.08 , 0.08]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.12,  0.36,  0.28,  0.11,  0.09, ]
+                "data" : [0.12,  0.35,  0.28,  0.12 , 0.09]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.20,  0.37,  0.28,  0.07,  0.05, ]
+                "data" : [0.17,  0.35,  0.38,  0.06 , 0.04]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.14,  0.39,  0.27,  0.09,  0.11, ]
+                "data" : [0.18,  0.39,  0.24,  0.08 , 0.09]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [ 0.11,  0.46,  0.22,  0.07,  0.07, ]
+                "data" : [0.11,  0.46,  0.22,  0.07 , 0.07]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.11,  0.44,  0.25,  0.11,  0.06, ]
+                "data" : [0.12,  0.44,  0.25,  0.10 , 0.06]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.11,  0.51,  0.25,  0.06,  0.03, ]
+                "data" : [0.12,  0.49,  0.26,  0.06 , 0.03]
               },
             ],
             "questionName": "Which of the following best describes your current position level in the museum?",
@@ -467,107 +465,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.01,]
+                "data" : [0.86,  0.10,  0.02,  0.00 , 0.01 , 0.00 , 0.01]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.89,  0.06,  0.03,  0.00,  0.01,  0.01,]
+                "data" : [0.89,  0.06,  0.03,  0.00 , 0.01 , 0.00 , 0.01]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.86,  0.10,  0.02,  0.00,  0.01,  0.01,]
+                "data" : [0.86,  0.10,  0.02,  0.00 , 0.01 , 0.00 , 0.01]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.80,  0.13,  0.04,  0.00,  0.00,  0.02,]
+                "data" : [0.77,  0.15,  0.04,  0.00 , 0.00 , 0.00 , 0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.84,  0.13,  0.01,  0.01,  0.00,  0.01,]
+                "data" : [0.84,  0.13,  0.02,  0.01 , 0.00 , 0.00 , 0.01]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.90,  0.08,  0.03,  0.00,  0.00,  0.00,]
+                "data" : [0.90,  0.07,  0.02,  0.00 , 0.00 , 0.00 , 0.00]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.86,  0.09,  0.02,  0.00,  0.01,  0.01,]
+                "data" : [0.85,  0.09,  0.02,  0.00 , 0.01 , 0.00 , 0.01]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.87,  0.09,  0.02,  0.01,  0.00,  0.01,]
+                "data" : [0.87,  0.09,  0.02,  0.01 , 0.00 , 0.00 , 0.01]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.82,  0.12,  0.02,  0.00,  0.01,  0.02,]
+                "data" : [0.83,  0.11,  0.03,  0.00 , 0.00 , 0.00 , 0.02]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.87,  0.08,  0.02,  0.00,  0.02,  0.00,]
+                "data" : [0.87,  0.08,  0.02,  0.00 , 0.02 , 0.00 , 0.00]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.78,  0.17,  0.03,  0.00,  0.00,  0.03,]
+                "data" : [0.78,  0.17,  0.03,  0.00 , 0.00 , 0.00 , 0.03]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.83,  0.13,  0.01,  0.01,  0.00,  0.02,]
+                "data" : [0.83,  0.13,  0.01,  0.01 , 0.00 , 0.00 , 0.02]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.81,  0.17,  0.02,  0.00,  0.00,  0.00,]
+                "data" : [0.77,  0.19,  0.01,  0.00 , 0.01 , 0.00 , 0.00]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.93,  0.04,  0.02,  0.00,  0.00,  0.01,]
+                "data" : [0.93,  0.04,  0.02,  0.00 , 0.00 , 0.00 , 0.01]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.88,  0.03,  0.05,  0.00,  0.05,  0.00,]
+                "data" : [0.79,  0.08,  0.08,  0.00 , 0.04 , 0.00 , 0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.76,  0.17,  0.03,  0.00,  0.00,  0.03,]
+                "data" : [0.78,  0.16,  0.03,  0.00 , 0.00 , 0.00 , 0.02]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.80,  0.16,  0.00,  0.00,  0.02,  0.00,]
+                "data" : [0.83,  0.17,  0.00,  0.00 , 0.00 , 0.00 , 0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.94,  0.06,  0.00,  0.00,  0.00,  0.00,]
+                "data" : [0.87,  0.10,  0.00,  0.00 , 0.02 , 0.00 , 0.00]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.85,  0.14,  0.00,  0.00,  0.00,  0.00,]
+                "data" : [0.85,  0.14,  0.00,  0.00 , 0.00 , 0.00 , 0.00]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.87,  0.09,  0.02,  0.00,  0.00,  0.01,]
+                "data" : [0.86,  0.10,  0.02,  0.00 , 0.00 , 0.00 , 0.01]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.89,  0.07,  0.03,  0.01,  0.00,  0.01,]
+                "data" : [0.89,  0.06,  0.03,  0.01 , 0.01 , 0.00 , 0.01]
               },
             ],
             "questionName": "What type of position do you have at the museum?",
@@ -576,7 +574,7 @@ export const staff_data = [
           },
           {
             "id": 5,
-            "labels" : ["Administration", "Building Operations", "Collections", "Communications", "Public Engagement"],
+            "labels" : ["Administration", "Building Operations", "Collections & Exhibitions", "Communications", "Public Engagement"],
             "dataSet": [
               {
                 "name" : "All Museums",
@@ -586,32 +584,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.30,  0.18,  0.28,  0.09,  0.15]
+                "data" : [0.29,  0.18,  0.27,  0.10,  0.16]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.30,  0.17,  0.25,  0.10,  0.19]
+                "data" : [0.30,  0.17,  0.24,  0.10,  0.19]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.28,  0.17,  0.25,  0.11,  0.20]
+                "data" : [0.29,  0.19,  0.20,  0.11,  0.21]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.32,  0.17,  0.20,  0.11,  0.19]
+                "data" : [0.33,  0.16,  0.21,  0.12,  0.19]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.31,  0.14,  0.27,  0.10,  0.17]
+                "data" : [0.31,  0.14,  0.26,  0.11,  0.18]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.27,  0.17,  0.25,  0.09,  0.21]
+                "data" : [0.27,  0.19,  0.24,  0.09,  0.21]
               },
               {
                 "name" : "Mid Atlantic",
@@ -621,7 +619,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.28,  0.21,  0.21,  0.10,  0.21]
+                "data" : [0.28,  0.19,  0.22,  0.10,  0.21]
               },
               {
                 "name" : "Mountain Plains",
@@ -641,7 +639,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.27,  0.18,  0.23,  0.11,  0.22]
+                "data" : [0.27,  0.24,  0.15,  0.10,  0.23]
               },
               {
                 "name" : "Western",
@@ -651,22 +649,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.30,  0.17,  0.22,  0.12,  0.20]
+                "data" : [0.28,  0.19,  0.16,  0.16,  0.22]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.29,  0.20,  0.18,  0.10,  0.22]
+                "data" : [0.29,  0.20,  0.18,  0.11,  0.22]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.29,  0.27,  0.13,  0.09,  0.23]
+                "data" : [0.33,  0.20,  0.15,  0.09,  0.24]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.38,  0.17,  0.14,  0.12,  0.19]
+                "data" : [0.33,  0.23,  0.13,  0.10,  0.20]
               },
               {
                 "name" : "size5",
@@ -676,7 +674,7 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.28,  0.14,  0.29,  0.10,  0.19]
+                "data" : [0.29,  0.16,  0.26,  0.09,  0.20]
               },
               {
                 "name" : "size7",
@@ -695,107 +693,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.00,  0.14,  0.32,  0.47,  0.07]
+                "data" : [0.00,  0.14,  0.32,  0.47,  0.07],
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.19,  0.34,  0.42,  0.05]
+                "data" : [0.00,  0.19,  0.34,  0.43,  0.05],
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.00,  0.15,  0.32,  0.46,  0.07]
+                "data" : [0.00,  0.15,  0.32,  0.46,  0.07],
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.16,  0.35,  0.42,  0.07]
+                "data" : [0.00,  0.17,  0.36,  0.39,  0.08],
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.00,  0.12,  0.28,  0.51,  0.10]
+                "data" : [0.00,  0.13,  0.28,  0.51,  0.08],
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.00,  0.10,  0.30,  0.52,  0.07]
+                "data" : [0.00,  0.10,  0.30,  0.53,  0.07],
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.00,  0.15,  0.32,  0.46,  0.06]
+                "data" : [0.00,  0.14,  0.31,  0.46,  0.09],
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.00,  0.15,  0.37,  0.43,  0.05]
+                "data" : [0.00,  0.15,  0.37,  0.43,  0.05],
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.00,  0.14,  0.27,  0.48,  0.11]
+                "data" : [0.00,  0.16,  0.28,  0.48,  0.08],
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.00,  0.12,  0.28,  0.52,  0.08]
+                "data" : [0.00,  0.12,  0.28,  0.52,  0.08],
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.00,  0.19,  0.30,  0.43,  0.08]
+                "data" : [0.00,  0.19,  0.30,  0.43,  0.08],
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.00,  0.07,  0.28,  0.54,  0.11]
+                "data" : [0.00,  0.07,  0.28,  0.54,  0.11],
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.00,  0.17,  0.31,  0.44,  0.08]
+                "data" : [0.00,  0.16,  0.29,  0.42,  0.13],
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.00,  0.09,  0.32,  0.53,  0.05]
+                "data" : [0.00,  0.09,  0.32,  0.53,  0.05],
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.00,  0.12,  0.35,  0.45,  0.08]
+                "data" : [0.00,  0.17,  0.38,  0.42,  0.04],
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.00,  0.15,  0.29,  0.47,  0.09]
+                "data" : [0.00,  0.14,  0.30,  0.47,  0.09],
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.00,  0.13,  0.19,  0.47,  0.21]
+                "data" : [0.00,  0.23,  0.15,  0.52,  0.10],
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.00,  0.14,  0.29,  0.49,  0.08]
+                "data" : [0.00,  0.10,  0.27,  0.47,  0.16],
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.00,  0.15,  0.31,  0.46,  0.08]
+                "data" : [0.00,  0.15,  0.31,  0.46,  0.08],
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.00,  0.11,  0.35,  0.48,  0.05]
+                "data" : [0.00,  0.11,  0.36,  0.47,  0.06],
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.00,  0.15,  0.33,  0.47,  0.05]
+                "data" : [0.00,  0.15,  0.33,  0.47,  0.05],
               },
             ],
             "questionName": "In what year were you born?",
@@ -814,22 +812,22 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.69,  0.25,  0.06]
+                "data" : [0.69,  0.24,  0.06]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.68,  0.24,  0.09]
+                "data" : [0.67,  0.24,  0.09]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.75,  0.20,  0.05]
+                "data" : [0.71,  0.23,  0.06]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.64,  0.25,  0.11]
+                "data" : [0.65,  0.26,  0.10]
               },
               {
                 "name" : "Culturally-specific",
@@ -839,7 +837,7 @@ export const staff_data = [
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.69,  0.23,  0.08]
+                "data" : [0.67,  0.23,  0.11]
               },
               {
                 "name" : "Mid Atlantic",
@@ -849,7 +847,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.65,  0.24,  0.11]
+                "data" : [0.67,  0.25,  0.08]
               },
               {
                 "name" : "Mountain Plains",
@@ -869,7 +867,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.77,  0.17,  0.05]
+                "data" : [0.68,  0.20,  0.12]
               },
               {
                 "name" : "Western",
@@ -879,7 +877,7 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.72,  0.20,  0.08]
+                "data" : [0.75,  0.17,  0.08]
               },
               {
                 "name" : "size2",
@@ -889,12 +887,12 @@ export const staff_data = [
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.60,  0.17,  0.23]
+                "data" : [0.71,  0.17,  0.13]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.72,  0.22,  0.06]
+                "data" : [0.63,  0.20,  0.17]
               },
               {
                 "name" : "size5",
@@ -904,12 +902,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.70,  0.22,  0.08]
+                "data" : [0.66,  0.25,  0.09]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.65,  0.27,  0.08]
+                "data" : [0.66,  0.26,  0.08]
               },
             ],
             "questionName": "What is your gender?",
@@ -928,32 +926,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.72,  0.21,  0.07]
+                "data" : [0.72,  0.22,  0.07]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.67,  0.27,  0.06]
+                "data" : [0.66,  0.27,  0.06]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.72,  0.24,  0.04]
+                "data" : [0.72,  0.23,  0.05]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.63,  0.31,  0.06]
+                "data" : [0.65,  0.29,  0.06]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.59,  0.34,  0.07]
+                "data" : [0.59,  0.35,  0.06]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.67,  0.25,  0.07]
+                "data" : [0.64,  0.28,  0.08]
               },
               {
                 "name" : "Mid Atlantic",
@@ -963,7 +961,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.63,  0.31,  0.06]
+                "data" : [0.67,  0.28,  0.05]
               },
               {
                 "name" : "Mountain Plains",
@@ -983,7 +981,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.70,  0.23,  0.07]
+                "data" : [0.63,  0.28,  0.09]
               },
               {
                 "name" : "Western",
@@ -993,22 +991,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.71,  0.28,  0.02]
+                "data" : [0.79,  0.13,  0.08]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.74,  0.22,  0.04]
+                "data" : [0.72,  0.24,  0.04]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.42,  0.47,  0.10]
+                "data" : [0.52,  0.42,  0.06]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.68,  0.27,  0.05]
+                "data" : [0.55,  0.37,  0.08]
               },
               {
                 "name" : "size5",
@@ -1018,12 +1016,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.63,  0.32,  0.05]
+                "data" : [0.62,  0.33,  0.05]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.68,  0.24,  0.08]
+                "data" : [0.69,  0.25,  0.07]
               },
             ],
             "questionName": "How would you define your sexual orientation?",
@@ -1037,107 +1035,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.08,  0.05,  0.11,  0.01,  0.02,  0.01,  0.01,  0.02,  0.73,  0.02,]
+                "data" : [0.08,  0.05,  0.11 , 0.01,  0.02,  0.01,  0.01,  0.02,  0.73,  0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.04,  0.09,  0.01,  0.02,  0.00,  0.01,  0.02,  0.74,  0.02,]
+                "data" : [0.09,  0.04,  0.11 , 0.01,  0.02,  0.00,  0.01,  0.02,  0.72,  0.02]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.08,  0.05,  0.10,  0.01,  0.02,  0.01,  0.01,  0.02,  0.75,  0.02,]
+                "data" : [0.08,  0.05,  0.10 , 0.01,  0.02,  0.01,  0.01,  0.02,  0.75,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.08,  0.07,  0.10,  0.00,  0.02,  0.00,  0.01,  0.01,  0.76,  0.01,]
+                "data" : [0.08,  0.07,  0.07 , 0.00,  0.02,  0.00,  0.00,  0.01,  0.77,  0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.09,  0.04,  0.13,  0.02,  0.01,  0.00,  0.01,  0.02,  0.73,  0.03,]
+                "data" : [0.08,  0.04,  0.13 , 0.02,  0.02,  0.00,  0.01,  0.02,  0.73,  0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.13,  0.04,  0.21,  0.01,  0.01,  0.00,  0.02,  0.02,  0.63,  0.04,]
+                "data" : [0.13,  0.04,  0.25 , 0.01,  0.02,  0.00,  0.02,  0.02,  0.61,  0.04]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.05,  0.07,  0.08,  0.01,  0.02,  0.01,  0.01,  0.01,  0.76,  0.02,]
+                "data" : [0.06,  0.07,  0.08 , 0.01,  0.02,  0.01,  0.01,  0.01,  0.75,  0.02]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.08,  0.05,  0.10,  0.02,  0.02,  0.00,  0.01,  0.02,  0.71,  0.03,]
+                "data" : [0.08,  0.05,  0.10 , 0.02,  0.02,  0.00,  0.01,  0.02,  0.71,  0.03]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.09,  0.03,  0.04,  0.01,  0.02,  0.00,  0.01,  0.01,  0.81,  0.00,]
+                "data" : [0.08,  0.02,  0.04 , 0.01,  0.02,  0.00,  0.01,  0.01,  0.83,  0.00]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.09,  0.03,  0.14,  0.01,  0.03,  0.00,  0.01,  0.03,  0.73,  0.04,]
+                "data" : [0.09,  0.03,  0.14 , 0.01,  0.03,  0.00,  0.01,  0.03,  0.73,  0.04]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.03,  0.03,  0.05,  0.03,  0.00,  0.00,  0.01,  0.03,  0.88,  0.03,]
+                "data" : [0.03,  0.03,  0.05 , 0.03,  0.00,  0.00,  0.01,  0.03,  0.88,  0.03]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.11,  0.07,  0.21,  0.03,  0.03,  0.01,  0.01,  0.02,  0.61,  0.02,]
+                "data" : [0.11,  0.07,  0.21 , 0.03,  0.03,  0.01,  0.01,  0.02,  0.61,  0.02]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.13,  0.04,  0.18,  0.00,  0.01,  0.00,  0.01,  0.01,  0.68,  0.02,]
+                "data" : [0.15,  0.03,  0.15 , 0.00,  0.00,  0.00,  0.00,  0.01,  0.67,  0.02]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.04,  0.10,  0.16,  0.01,  0.04,  0.02,  0.02,  0.03,  0.67,  0.03,]
+                "data" : [0.04,  0.10,  0.16 , 0.01,  0.04,  0.02,  0.02,  0.03,  0.67,  0.03]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.08,  0.08,  0.21,  0.01,  0.02,  0.00,  0.00,  0.02,  0.65,  0.03,]
+                "data" : [0.17,  0.08,  0.04 , 0.00,  0.00,  0.00,  0.00,  0.00,  0.79,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.11,  0.04,  0.13,  0.02,  0.02,  0.00,  0.01,  0.01,  0.73,  0.01,]
+                "data" : [0.10,  0.05,  0.16 , 0.02,  0.02,  0.00,  0.01,  0.01,  0.70,  0.02]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.12,  0.03,  0.08,  0.00,  0.02,  0.00,  0.00,  0.01,  0.76,  0.00,]
+                "data" : [0.06,  0.02,  0.15 , 0.00,  0.04,  0.00,  0.00,  0.02,  0.83,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.05,  0.04,  0.11,  0.01,  0.00,  0.00,  0.01,  0.05,  0.78,  0.01,]
+                "data" : [0.10,  0.04,  0.08 , 0.01,  0.00,  0.00,  0.01,  0.03,  0.75,  0.01]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.06,  0.08,  0.11,  0.01,  0.02,  0.02,  0.00,  0.02,  0.71,  0.03,]
+                "data" : [0.06,  0.08,  0.11 , 0.01,  0.02,  0.02,  0.00,  0.02,  0.71,  0.03]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.09,  0.07,  0.11,  0.01,  0.03,  0.00,  0.03,  0.01,  0.71,  0.03,]
+                "data" : [0.09,  0.06,  0.09 , 0.01,  0.04,  0.00,  0.03,  0.01,  0.71,  0.03]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07,  0.04,  0.09,  0.02,  0.01,  0.00,  0.01,  0.02,  0.76,  0.02,]
+                "data" : [0.07,  0.04,  0.10 , 0.01,  0.01,  0.00,  0.01,  0.02,  0.76,  0.02]
               },
             ],
             "questionName": "With which of the following racial and ethnic groups do you identify as? Please select all that apply.",
@@ -1151,107 +1149,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.08,  0.01,  0.08,  0.11,  0.02,  0.01 , 0.73,  0.05,  0.02]
+                "data" : [0.08,  0.01,  0.08,  0.11,  0.02,  0.01,  0.73,  0.05 , 0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.06,  0.01,  0.09,  0.09,  0.02,  0.00 , 0.74,  0.04,  0.02]
+                "data" : [0.06,  0.01,  0.09,  0.11,  0.02,  0.00,  0.72,  0.04 , 0.02]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.08,  0.01,  0.08,  0.10,  0.02,  0.01 , 0.75,  0.05,  0.02]
+                "data" : [0.08,  0.01,  0.08,  0.10,  0.02,  0.01,  0.75,  0.05 , 0.02]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.00,  0.08,  0.10,  0.02,  0.00 , 0.76,  0.04,  0.01]
+                "data" : [0.08,  0.00,  0.08,  0.07,  0.02,  0.00,  0.77,  0.04 , 0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.06,  0.02,  0.09,  0.13,  0.01,  0.00 , 0.73,  0.06,  0.03]
+                "data" : [0.07,  0.02,  0.08,  0.13,  0.02,  0.00,  0.73,  0.06 , 0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.08,  0.01,  0.13,  0.21,  0.01,  0.00 , 0.63,  0.06,  0.04]
+                "data" : [0.08,  0.01,  0.13,  0.25,  0.02,  0.00,  0.61,  0.06 , 0.04]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.09,  0.01,  0.05,  0.08,  0.02,  0.01 , 0.76,  0.06,  0.02]
+                "data" : [0.09,  0.01,  0.06,  0.08,  0.02,  0.01,  0.75,  0.06 , 0.02]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.09,  0.02,  0.08,  0.10,  0.02,  0.00 , 0.71,  0.05,  0.03]
+                "data" : [0.09,  0.02,  0.08,  0.10,  0.02,  0.00,  0.71,  0.05 , 0.03]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.04,  0.01,  0.09,  0.04,  0.02,  0.00 , 0.81,  0.06,  0.00]
+                "data" : [0.04,  0.01,  0.08,  0.04,  0.02,  0.00,  0.83,  0.06 , 0.00]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.06,  0.01,  0.09,  0.14,  0.03,  0.00 , 0.73,  0.06,  0.04]
+                "data" : [0.06,  0.01,  0.09,  0.14,  0.03,  0.00,  0.73,  0.06 , 0.04]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.07,  0.03,  0.03,  0.05,  0.00,  0.00 , 0.88,  0.04,  0.03]
+                "data" : [0.07,  0.03,  0.03,  0.05,  0.00,  0.00,  0.88,  0.04 , 0.03]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.09,  0.03,  0.11,  0.21,  0.03,  0.01 , 0.61,  0.07,  0.02]
+                "data" : [0.09,  0.03,  0.11,  0.21,  0.03,  0.01,  0.61,  0.07 , 0.02]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.05,  0.00,  0.13,  0.18,  0.01,  0.00 , 0.68,  0.03,  0.02]
+                "data" : [0.04,  0.00,  0.15,  0.15,  0.00,  0.00,  0.67,  0.03 , 0.02]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.15,  0.01,  0.04,  0.16,  0.04,  0.02 , 0.67,  0.08,  0.03]
+                "data" : [0.15,  0.01,  0.04,  0.16,  0.04,  0.02,  0.67,  0.08 , 0.03]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.09,  0.01,  0.08,  0.21,  0.02,  0.00 , 0.65,  0.04,  0.03]
+                "data" : [0.08,  0.00,  0.17,  0.04,  0.00,  0.00,  0.79,  0.08 , 0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.05,  0.02,  0.11,  0.13,  0.02,  0.00 , 0.73,  0.05,  0.01]
+                "data" : [0.06,  0.02,  0.10,  0.16,  0.02,  0.00,  0.70,  0.05 , 0.02]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.04,  0.00,  0.12,  0.08,  0.02,  0.00 , 0.76,  0.05,  0.00]
+                "data" : [0.04,  0.00,  0.06,  0.15,  0.04,  0.00,  0.83,  0.06 , 0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.10,  0.01,  0.05,  0.11,  0.00,  0.00 , 0.78,  0.03,  0.01]
+                "data" : [0.08,  0.01,  0.10,  0.08,  0.00,  0.00,  0.75,  0.03 , 0.01]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.10,  0.01,  0.06,  0.11,  0.02,  0.02 , 0.71,  0.07,  0.03]
+                "data" : [0.10,  0.01,  0.06,  0.11,  0.02,  0.02,  0.71,  0.07 , 0.03]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.10,  0.01,  0.09,  0.11,  0.03,  0.00 , 0.71,  0.06,  0.03]
+                "data" : [0.10,  0.01,  0.09,  0.09,  0.04,  0.00,  0.71,  0.06 , 0.03]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07,  0.02,  0.07,  0.09,  0.01,  0.00 , 0.76,  0.05,  0.02]
+                "data" : [0.07,  0.01,  0.07,  0.10,  0.01,  0.00,  0.76,  0.05 , 0.02]
               },
             ],
             "questionName": "With which of the following racial and ethnic groups do you identify as? Please select all that apply. (Recorded to match Census categories)",
@@ -1270,32 +1268,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.09,  0.34,  0.45,  0.10]
+                "data" : [0.00,  0.01,  0.09,  0.35,  0.44,  0.10]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09]
+                "data" : [0.00,  0.02,  0.09,  0.39,  0.40,  0.08]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.07,  0.34,  0.41,  0.14]
+                "data" : [0.00,  0.03,  0.09,  0.39,  0.36,  0.10]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.09,  0.43,  0.39,  0.04]
+                "data" : [0.00,  0.01,  0.09,  0.43,  0.41,  0.05]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.01,  0.01,  0.06,  0.45,  0.38,  0.06]
+                "data" : [0.01,  0.01,  0.07,  0.45,  0.37,  0.06]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.09,  0.38,  0.40,  0.09]
+                "data" : [0.00,  0.02,  0.10,  0.39,  0.38,  0.08]
               },
               {
                 "name" : "Mid Atlantic",
@@ -1305,7 +1303,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.10,  0.41,  0.38,  0.08]
+                "data" : [0.00,  0.01,  0.09,  0.40,  0.41,  0.09]
               },
               {
                 "name" : "Mountain Plains",
@@ -1325,7 +1323,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.09,  0.37,  0.38,  0.10]
+                "data" : [0.00,  0.03,  0.12,  0.44,  0.31,  0.04]
               },
               {
                 "name" : "Western",
@@ -1335,22 +1333,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.12,  0.32,  0.46,  0.05]
+                "data" : [0.00,  0.00,  0.08,  0.33,  0.46,  0.04]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.00,  0.03,  0.09,  0.40,  0.41,  0.05]
+                "data" : [0.00,  0.03,  0.10,  0.40,  0.40,  0.05]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.00,  0.02,  0.12,  0.49,  0.25,  0.04]
+                "data" : [0.00,  0.02,  0.10,  0.52,  0.29,  0.04]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.00,  0.00,  0.13,  0.51,  0.25,  0.10]
+                "data" : [0.00,  0.01,  0.13,  0.49,  0.24,  0.08]
               },
               {
                 "name" : "size5",
@@ -1360,12 +1358,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.05,  0.34,  0.46,  0.13]
+                "data" : [0.00,  0.01,  0.06,  0.39,  0.44,  0.09]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.00,  0.01,  0.07,  0.36,  0.45,  0.09]
+                "data" : [0.00,  0.01,  0.08,  0.35,  0.46,  0.09]
               },
             ],
             "questionName": "What is the highest level of education that you’ve completed?",
@@ -1389,27 +1387,27 @@ export const staff_data = [
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.16,  0.78]
+                "data" : [0.16,  0.77]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.17,  0.80]
+                "data" : [0.18,  0.79]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.16,  0.78]
+                "data" : [0.14,  0.80]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.20,  0.75]
+                "data" : [0.19,  0.74]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.16,  0.77]
+                "data" : [0.19,  0.74]
               },
               {
                 "name" : "Mid Atlantic",
@@ -1419,7 +1417,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.19,  0.74]
+                "data" : [0.17,  0.77]
               },
               {
                 "name" : "Mountain Plains",
@@ -1439,7 +1437,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.15,  0.80]
+                "data" : [0.20,  0.73]
               },
               {
                 "name" : "Western",
@@ -1449,22 +1447,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.19,  0.71]
+                "data" : [0.25,  0.67]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.15,  0.81]
+                "data" : [0.16,  0.80]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.29,  0.63]
+                "data" : [0.19,  0.75]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.22,  0.73]
+                "data" : [0.28,  0.65]
               },
               {
                 "name" : "size5",
@@ -1474,12 +1472,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.19,  0.76]
+                "data" : [0.21,  0.74]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.12,  0.81]
+                "data" : [0.12,  0.80]
               },
             ],
             "questionName": "Do you identify as a person with a disability and/or as neuroatypical/neurodivergent?",
@@ -1503,22 +1501,22 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.68,  0.32]
+                "data" : [0.67,  0.33]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.64,  0.36]
+                "data" : [0.63,  0.37]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.69,  0.31]
+                "data" : [0.64,  0.35]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.64,  0.36]
+                "data" : [0.65,  0.35]
               },
               {
                 "name" : "Culturally-specific",
@@ -1528,7 +1526,7 @@ export const staff_data = [
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.56,  0.44]
+                "data" : [0.55,  0.45]
               },
               {
                 "name" : "Mid Atlantic",
@@ -1538,7 +1536,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.58,  0.42]
+                "data" : [0.59,  0.40]
               },
               {
                 "name" : "Mountain Plains",
@@ -1558,7 +1556,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.70,  0.30]
+                "data" : [0.62,  0.38]
               },
               {
                 "name" : "Western",
@@ -1568,22 +1566,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.64,  0.36]
+                "data" : [0.75,  0.25]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.69,  0.30]
+                "data" : [0.68,  0.31]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.54,  0.46]
+                "data" : [0.60,  0.40]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.62,  0.38]
+                "data" : [0.56,  0.44]
               },
               {
                 "name" : "size5",
@@ -1593,12 +1591,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.63,  0.37]
+                "data" : [0.59,  0.41]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.68,  0.32]
+                "data" : [0.67,  0.33]
               },
             ],
             "questionName": "How are you compensated in this position?",
@@ -1617,7 +1615,7 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.11,  0.50,  0.35,  0.04]
+                "data" : [0.11,  0.50,  0.36,  0.04]
               },
               {
                 "name" : "Collecting",
@@ -1627,22 +1625,22 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.08,  0.46,  0.40,  0.06]
+                "data" : [0.07,  0.46,  0.40,  0.07]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.08,  0.50,  0.36,  0.06]
+                "data" : [0.08,  0.51,  0.35,  0.06]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.08,  0.58,  0.28,  0.06]
+                "data" : [0.07,  0.56,  0.30,  0.06]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.08,  0.51,  0.37,  0.05]
+                "data" : [0.07,  0.49,  0.39,  0.04]
               },
               {
                 "name" : "Mid Atlantic",
@@ -1652,7 +1650,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.10,  0.44,  0.43,  0.04]
+                "data" : [0.11,  0.44,  0.41,  0.04]
               },
               {
                 "name" : "Mountain Plains",
@@ -1672,7 +1670,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.07,  0.48,  0.38,  0.06]
+                "data" : [0.05,  0.47,  0.42,  0.06]
               },
               {
                 "name" : "Western",
@@ -1682,22 +1680,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.06,  0.44,  0.44,  0.06]
+                "data" : [0.13,  0.42,  0.42,  0.04]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.07,  0.49,  0.36,  0.08]
+                "data" : [0.07,  0.48,  0.38,  0.08]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.07,  0.41,  0.51,  0.01]
+                "data" : [0.10,  0.44,  0.46,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.08,  0.47,  0.38,  0.08]
+                "data" : [0.06,  0.44,  0.45,  0.05]
               },
               {
                 "name" : "size5",
@@ -1707,12 +1705,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.08,  0.55,  0.32,  0.05]
+                "data" : [0.08,  0.57,  0.31,  0.05]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.10,  0.51,  0.35,  0.04]
+                "data" : [0.10,  0.51,  0.36,  0.04]
               },
             ],
             "questionName": "Compared to people at similar position levels (e.g., entry level, associate, manager, executive) in my institution, I think my salary is:",
@@ -1731,7 +1729,7 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.26,  0.42,  0.32]
+                "data" : [0.26,  0.41,  0.34]
               },
               {
                 "name" : "Collecting",
@@ -1741,22 +1739,22 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.12,  0.37,  0.51]
+                "data" : [0.12,  0.38,  0.51]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.07,  0.42,  0.51]
+                "data" : [0.08,  0.43,  0.49]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.13,  0.41,  0.46]
+                "data" : [0.13,  0.39,  0.48]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.10,  0.40,  0.51]
+                "data" : [0.09,  0.38,  0.53]
               },
               {
                 "name" : "Mid Atlantic",
@@ -1766,7 +1764,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.06,  0.39,  0.55]
+                "data" : [0.07,  0.41,  0.52]
               },
               {
                 "name" : "Mountain Plains",
@@ -1786,7 +1784,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.10,  0.37,  0.53]
+                "data" : [0.06,  0.35,  0.59]
               },
               {
                 "name" : "Western",
@@ -1796,22 +1794,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.05,  0.36,  0.59]
+                "data" : [0.04,  0.29,  0.67]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.08,  0.35,  0.57]
+                "data" : [0.07,  0.35,  0.58]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.05,  0.32,  0.63]
+                "data" : [0.10,  0.42,  0.48]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.04,  0.53,  0.43]
+                "data" : [0.02,  0.42,  0.56]
               },
               {
                 "name" : "size5",
@@ -1821,12 +1819,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.09,  0.40,  0.51]
+                "data" : [0.08,  0.41,  0.51]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.23,  0.40,  0.38]
+                "data" : [0.21,  0.40,  0.39]
               },
             ],
             "questionName": "Compared to people at other art museums with comparable position levels (e.g., entry level, associate, manager, director, executive), I think my salary is:",
@@ -1840,107 +1838,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.31 , 0.12 , 0.31 , 0.44]
+                "data" : [0.31,  0.12,  0.31,  0.44]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.35 , 0.09 , 0.34 , 0.40]
+                "data" : [0.35,  0.09,  0.33,  0.41]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.32 , 0.12 , 0.32 , 0.43]
+                "data" : [0.31,  0.12,  0.32,  0.44]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.29 , 0.10 , 0.33 , 0.42]
+                "data" : [0.25,  0.08,  0.32,  0.45]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.30 , 0.13 , 0.30 , 0.47]
+                "data" : [0.31,  0.14,  0.31,  0.45]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.33 , 0.11 , 0.35 , 0.40]
+                "data" : [0.32,  0.12,  0.34,  0.40]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.30 , 0.11 , 0.29 , 0.47]
+                "data" : [0.29,  0.11,  0.27,  0.50]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.36 , 0.13 , 0.33 , 0.42]
+                "data" : [0.36,  0.13,  0.33,  0.42]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.26 , 0.12 , 0.31 , 0.47]
+                "data" : [0.28,  0.12,  0.34,  0.42]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.35 , 0.13 , 0.31 , 0.45]
+                "data" : [0.35,  0.13,  0.31,  0.45]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.29 , 0.13 , 0.33 , 0.47]
+                "data" : [0.29,  0.13,  0.33,  0.47]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.27 , 0.09 , 0.22 , 0.54]
+                "data" : [0.27,  0.09,  0.22,  0.54]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.29 , 0.10 , 0.32 , 0.43]
+                "data" : [0.23,  0.08,  0.27,  0.52]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.30 , 0.10 , 0.29 , 0.47]
+                "data" : [0.30,  0.10,  0.29,  0.47]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.29 , 0.11 , 0.25 , 0.48]
+                "data" : [0.21,  0.08,  0.29,  0.46]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.26 , 0.07 , 0.29 , 0.51]
+                "data" : [0.26,  0.07,  0.27,  0.51]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.28 , 0.11 , 0.17 , 0.64]
+                "data" : [0.42,  0.13,  0.23,  0.52]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.33 , 0.14 , 0.42 , 0.34]
+                "data" : [0.26,  0.12,  0.30,  0.50]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.26 , 0.15 , 0.32 , 0.48]
+                "data" : [0.26,  0.15,  0.32,  0.48]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.31 , 0.10 , 0.38 , 0.40]
+                "data" : [0.29,  0.07,  0.38,  0.42]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.37 , 0.13 , 0.31 , 0.40]
+                "data" : [0.37,  0.13,  0.31,  0.41]
               },
             ],
             "questionName": "Have you ever received any of the following combinations of promotions and pay increases while at your current museum? Select all that apply. (Please consider ONLY pay increases beyond cost of living or inflation adjustment - typically 2-3% per year).",
@@ -1954,107 +1952,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.05,  1.00,  1.04,  1.00,  0.91]
+                "data" : [0.05, 1.00, 1.04, 1.00, 0.91]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.06,  1.00,  0.80,  1.00,  1.00]
+                "data" : [0.06, 1.00, 0.82, 1.00, 1.00]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.05,  1.00,  0.96,  1.00,  0.88]
+                "data" : [0.05, 1.00, 0.95, 1.00, 0.87]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.04,  1.00,  1.24,  1.00,  0.84]
+                "data" : [0.04, 1.00, 1.07, 1.00, 0.59]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.06,  1.00,  1.33,  1.00,  0.89]
+                "data" : [0.06, 1.00, 1.33, 1.00, 0.90]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.07,  1.00,  1.17,  1.00,  0.77]
+                "data" : [0.07, 1.00, 1.24, 1.00, 0.78]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.05,  1.00,  0.76,  1.00,  1.05]
+                "data" : [0.05, 1.00, 0.79, 1.00, 1.03]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.06,  1.00,  0.96,  1.00,  0.75]
+                "data" : [0.06, 1.00, 0.96, 1.00, 0.75]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.05,  1.00,  0.87,  1.00,  1.37]
+                "data" : [0.05, 1.00, 0.84, 1.00, 1.46]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.06,  1.00,  1.48,  1.00,  0.94]
+                "data" : [0.06, 1.00, 1.48, 1.00, 0.94]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.06,  1.00,  1.38,  1.00,  1.78]
+                "data" : [0.06, 1.00, 1.38, 1.00, 1.78]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.06,  1.00,  2.74,  1.00,  1.13]
+                "data" : [0.06, 1.00, 2.74, 1.00, 1.13]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.05,  1.00,  1.29,  1.00,  0.90]
+                "data" : [0.05, 1.00, 1.23, 1.00, 0.79]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.05,  1.00,  1.04,  1.00,  0.79]
+                "data" : [0.05, 1.00, 1.04, 1.00, 0.79]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.05,  1.00,  1.76,  1.00,  0.94]
+                "data" : [0.03, 1.00, 1.00, 1.00, 1.66]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.05,  1.00,  1.62,  1.00,  1.16]
+                "data" : [0.05, 1.00, 1.73, 1.00, 1.25]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.07,  1.00,  0.84,  1.00,  0.78]
+                "data" : [0.08, 1.00, 0.37, 1.00, 0.93]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.07,  1.00,  1.06,  1.00,  0.98]
+                "data" : [0.07, 1.00, 1.21, 1.00, 0.97]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.05,  1.00,  0.89,  1.00,  0.84]
+                "data" : [0.05, 1.00, 0.89, 1.00, 0.84]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.05,  1.00,  1.27,  1.00,  0.88]
+                "data" : [0.04, 1.00, 1.19, 1.00, 0.82]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.06,  1.00,  0.91,  1.00,  0.94]
+                "data" : [0.06, 1.00, 0.94, 1.00, 0.88]
               },
             ],
             "questionName": "Parity score showing the proportional likelihood of having received a promotion with title change and pay increase beyond cost of living by gender, race & ethnicity",
@@ -2068,107 +2066,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.02,  1.00,  1.85,  1.00,  1.28]
+                "data" : [0.02, 1.00, 1.85, 1.00, 1.28]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.01,  1.00,  1.96,  1.00,  0.68]
+                "data" : [0.01, 1.00, 2.08, 1.00, 0.86]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.01,  1.00,  1.75,  1.00,  1.21]
+                "data" : [0.01, 1.00, 1.73, 1.00, 1.24]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.01,  1.00,  1.66,  1.00,  1.14]
+                "data" : [0.01, 1.00, 1.12, 1.00, 1.37]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.02,  1.00,  1.81,  1.00,  1.56]
+                "data" : [0.02, 1.00, 1.71, 1.00, 1.51]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.02,  1.00,  1.48,  1.00,  2.04]
+                "data" : [0.02, 1.00, 1.62, 1.00, 1.94]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.01,  1.00,  1.98,  1.00,  0.59]
+                "data" : [0.01, 1.00, 2.25, 1.00, 0.72]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.01,  1.00,  3.37,  1.00,  1.46]
+                "data" : [0.01, 1.00, 3.37, 1.00, 1.46]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.02,  1.00,  2.51,  1.00,  1.31]
+                "data" : [0.02, 1.00, 2.17, 1.00, 1.11]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.02,  1.00,  0.91,  1.00,  1.53]
+                "data" : [0.02, 1.00, 0.91, 1.00, 1.53]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.02,  1.00,  0.78,  1.00,  2.08]
+                "data" : [0.02, 1.00, 0.78, 1.00, 2.08]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.02,  1.00,  3.68,  1.00,  2.04]
+                "data" : [0.02, 1.00, 3.68, 1.00, 2.04]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.01,  1.00,  3.50,  1.00,  1.94]
+                "data" : [0.01, 1.00, 4.16, 1.00, 3.52]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.02,  1.00,  1.22,  1.00,  0.45]
+                "data" : [0.02, 1.00, 1.22, 1.00, 0.45]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.01,  1.00,  0.47,  1.00,  0.85]
+                "data" : [0.00, 1.00, 0.00, 1.00, 0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.01,  1.00,  2.02,  1.00,  2.29]
+                "data" : [0.01, 1.00, 2.56, 1.00, 2.03]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.02,  1.00,  1.00,  1.00,  1.48]
+                "data" : [0.03, 1.00, 1.00, 1.00, 0.78]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.03,  1.00,  1.02,  1.00,  1.44]
+                "data" : [0.02, 1.00, 1.89, 1.00, 1.82]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.02,  1.00,  2.55,  1.00,  1.48]
+                "data" : [0.02, 1.00, 2.55, 1.00, 1.48]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.01,  1.00,  1.65,  1.00,  0.75]
+                "data" : [0.01, 1.00, 1.21, 1.00, 0.66]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.01,  1.00,  1.84,  1.00,  1.19]
+                "data" : [0.01, 1.00, 1.51, 1.00, 1.11]
               },
             ],
             "questionName": "Parity score showing the proportional likelihood of having received a promotion with title change but no pay increase beyond cost of living by gender, race & ethnicity",
@@ -2182,107 +2180,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.07,  1.00,  1.03,  1.00,  0.82]
+                "data" : [0.07,1.00,1.03,1.00,0.82]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.09,  1.00,  1.17,  1.00,  0.72]
+                "data" : [0.09,1.00,1.13,1.00,0.71]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.07,  1.00,  1.17,  1.00,  0.81]
+                "data" : [0.07,1.00,1.19,1.00,0.83]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.06,  1.00,  0.77,  1.00,  1.08]
+                "data" : [0.07,1.00,0.78,1.00,1.40]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.08,  1.00,  1.00,  1.00,  0.80]
+                "data" : [0.08,1.00,1.00,1.00,0.81]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.07,  1.00,  0.99,  1.00,  0.90]
+                "data" : [0.07,1.00,0.89,1.00,0.90]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.08,  1.00,  1.15,  1.00,  0.70]
+                "data" : [0.07,1.00,1.15,1.00,0.69]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.06,  1.00,  1.15,  1.00,  0.80]
+                "data" : [0.06,1.00,1.15,1.00,0.80]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.08,  1.00,  1.00,  1.00,  1.30]
+                "data" : [0.09,1.00,0.99,1.00,1.41]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.09,  1.00,  0.85,  1.00,  0.28]
+                "data" : [0.09,1.00,0.85,1.00,0.28]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.07,  1.00,  1.91,  1.00,  2.01]
+                "data" : [0.07,1.00,1.91,1.00,2.01]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.08,  1.00,  0.36,  1.00,  0.86]
+                "data" : [0.08,1.00,0.36,1.00,0.86]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.08,  1.00,  1.23,  1.00,  0.73]
+                "data" : [0.08,1.00,1.38,1.00,0.80]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.07,  1.00,  0.78,  1.00,  0.88]
+                "data" : [0.07,1.00,0.78,1.00,0.88]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.04,  1.00,  0.71,  1.00,  0.74]
+                "data" : [0.03,1.00,0.36,1.00,0.99]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.08,  1.00,  0.60,  1.00,  1.29]
+                "data" : [0.08,1.00,0.55,1.00,1.24]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.07,  1.00,  1.74,  1.00,  0.25]
+                "data" : [0.11,1.00,2.23,1.00,0.41]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.14,  1.00,  1.05,  1.00,  1.58]
+                "data" : [0.11,1.00,1.24,1.00,1.60]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.09,  1.00,  1.52,  1.00,  0.50]
+                "data" : [0.09,1.00,1.52,1.00,0.50]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.06,  1.00,  0.88,  1.00,  0.87]
+                "data" : [0.07,1.00,0.90,1.00,0.99]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07,  1.00,  1.13,  1.00,  0.74]
+                "data" : [0.07,1.00,1.13,1.00,0.69]
               },
             ],
             "questionName": "Parity score showing the proportional likelihood of having received a promotion with pay increase beyond cost of living but no title change by gender, race & ethnicity",
@@ -2301,107 +2299,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.18,  0.28,  0.25,  0.23,  0.07]
+                "data" : [0.18,  0.28 , 0.25,  0.23,  0.07]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.13,  0.25,  0.26,  0.25,  0.11]
+                "data" : [0.14,  0.25 , 0.26,  0.25,  0.11]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.18,  0.27,  0.25,  0.23,  0.07]
+                "data" : [0.18,  0.27 , 0.25,  0.23,  0.07]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.15,  0.29,  0.25,  0.23,  0.07]
+                "data" : [0.13,  0.28 , 0.26,  0.24,  0.08]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.20,  0.30,  0.23,  0.21,  0.06]
+                "data" : [0.18,  0.31 , 0.23,  0.22,  0.06]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.18,  0.29,  0.23,  0.23,  0.07]
+                "data" : [0.19,  0.29 , 0.23,  0.22,  0.07]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.18,  0.29,  0.28,  0.20,  0.05]
+                "data" : [0.21,  0.28 , 0.28,  0.18,  0.05]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.20,  0.26,  0.22,  0.25,  0.07]
+                "data" : [0.20,  0.26 , 0.22,  0.25,  0.07]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.24,  0.27,  0.23,  0.20,  0.06]
+                "data" : [0.19,  0.28 , 0.23,  0.22,  0.07]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.14,  0.25,  0.30,  0.23,  0.07]
+                "data" : [0.14,  0.25 , 0.30,  0.23,  0.07]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.20,  0.32,  0.25,  0.18,  0.06]
+                "data" : [0.20,  0.32 , 0.25,  0.18,  0.06]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.17,  0.32,  0.25,  0.19,  0.07]
+                "data" : [0.17,  0.32 , 0.25,  0.19,  0.07]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.15,  0.31,  0.26,  0.22,  0.07]
+                "data" : [0.21,  0.27 , 0.27,  0.19,  0.06]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.14,  0.30,  0.26,  0.23,  0.07]
+                "data" : [0.14,  0.30 , 0.26,  0.23,  0.07]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.21,  0.28,  0.28,  0.15,  0.08]
+                "data" : [0.13,  0.33 , 0.29,  0.08,  0.17]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.17,  0.29,  0.25,  0.22,  0.07]
+                "data" : [0.18,  0.29 , 0.25,  0.22,  0.07]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.30,  0.26,  0.28,  0.13,  0.02]
+                "data" : [0.08,  0.38 , 0.33,  0.19,  0.02]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.14,  0.27,  0.22,  0.29,  0.09]
+                "data" : [0.28,  0.22 , 0.22,  0.21,  0.06]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.16,  0.29,  0.29,  0.20,  0.06]
+                "data" : [0.16,  0.29 , 0.29,  0.20,  0.06]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.19,  0.28,  0.25,  0.22,  0.05]
+                "data" : [0.19,  0.27 , 0.26,  0.23,  0.05]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.18,  0.27,  0.21,  0.26,  0.08]
+                "data" : [0.18,  0.27 , 0.22,  0.25,  0.08]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with the level of pay.",
@@ -2420,7 +2418,7 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.02,  0.06,  0.14,  0.38,  0.39]
+                "data" : [0.02,  0.07,  0.14,  0.38,  0.38]
               },
               {
                 "name" : "Collecting",
@@ -2430,22 +2428,22 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.03,  0.06,  0.15,  0.40,  0.37]
+                "data" : [0.03,  0.06,  0.15,  0.40,  0.36]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.05,  0.09,  0.19,  0.33,  0.33]
+                "data" : [0.05,  0.09,  0.18,  0.34,  0.34]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.04,  0.08,  0.17,  0.41,  0.31]
+                "data" : [0.04,  0.08,  0.17,  0.40,  0.30]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.02,  0.10,  0.19,  0.38,  0.30]
+                "data" : [0.03,  0.11,  0.20,  0.37,  0.29]
               },
               {
                 "name" : "Mid Atlantic",
@@ -2455,7 +2453,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.05,  0.10,  0.19,  0.34,  0.32]
+                "data" : [0.04,  0.09,  0.17,  0.36,  0.34]
               },
               {
                 "name" : "Mountain Plains",
@@ -2475,7 +2473,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.03,  0.07,  0.16,  0.40,  0.35]
+                "data" : [0.05,  0.09,  0.19,  0.36,  0.31]
               },
               {
                 "name" : "Western",
@@ -2485,22 +2483,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.02,  0.08,  0.23,  0.36,  0.32]
+                "data" : [0.00,  0.08,  0.29,  0.33,  0.29]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.04,  0.08,  0.16,  0.36,  0.36]
+                "data" : [0.04,  0.08,  0.17,  0.36,  0.35]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.08,  0.13,  0.23,  0.31,  0.24]
+                "data" : [0.04,  0.08,  0.15,  0.42,  0.31]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.01,  0.10,  0.11,  0.41,  0.37]
+                "data" : [0.05,  0.13,  0.19,  0.33,  0.29]
               },
               {
                 "name" : "size5",
@@ -2510,12 +2508,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.04,  0.08,  0.17,  0.42,  0.28]
+                "data" : [0.04,  0.09,  0.17,  0.43,  0.26]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.04,  0.07,  0.16,  0.37,  0.35]
+                "data" : [0.04,  0.07,  0.17,  0.37,  0.35]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with the stability and predictability of pay.",
@@ -2529,107 +2527,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.04,  0.10,  0.19,  0.36,  0.32]
+                "data" : [0.04,  0.10 , 0.19,  0.36,  0.32]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.03,  0.08,  0.17,  0.38,  0.35]
+                "data" : [0.03,  0.08 , 0.17,  0.37,  0.34]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.04,  0.09,  0.18,  0.37,  0.32]
+                "data" : [0.04,  0.09 , 0.18,  0.37,  0.32]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.03,  0.07,  0.21,  0.33,  0.36]
+                "data" : [0.03,  0.08 , 0.17,  0.33,  0.39]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.04,  0.11,  0.20,  0.34,  0.31]
+                "data" : [0.04,  0.10 , 0.20,  0.35,  0.31]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.03,  0.10,  0.18,  0.36,  0.33]
+                "data" : [0.04,  0.10 , 0.19,  0.36,  0.32]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.03,  0.09,  0.20,  0.38,  0.29]
+                "data" : [0.04,  0.10 , 0.20,  0.37,  0.29]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.05,  0.12,  0.20,  0.36,  0.27]
+                "data" : [0.05,  0.12 , 0.20,  0.36,  0.27]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.03,  0.09,  0.18,  0.39,  0.31]
+                "data" : [0.02,  0.08 , 0.17,  0.41,  0.32]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.03,  0.08,  0.19,  0.31,  0.39]
+                "data" : [0.03,  0.08 , 0.19,  0.31,  0.39]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.05,  0.09,  0.13,  0.35,  0.38]
+                "data" : [0.05,  0.09 , 0.13,  0.35,  0.38]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.04,  0.14,  0.26,  0.29,  0.27]
+                "data" : [0.04,  0.14 , 0.26,  0.29,  0.27]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.04,  0.07,  0.23,  0.32,  0.33]
+                "data" : [0.05,  0.10 , 0.22,  0.31,  0.33]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.03,  0.08,  0.18,  0.39,  0.32]
+                "data" : [0.03,  0.08 , 0.18,  0.39,  0.32]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.05,  0.12,  0.22,  0.36,  0.24]
+                "data" : [0.00,  0.13 , 0.21,  0.46,  0.21]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.04,  0.08,  0.20,  0.32,  0.36]
+                "data" : [0.04,  0.09 , 0.21,  0.32,  0.34]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.08,  0.12,  0.24,  0.33,  0.22]
+                "data" : [0.08,  0.06 , 0.23,  0.42,  0.21]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.03,  0.10,  0.11,  0.43,  0.33]
+                "data" : [0.05,  0.13 , 0.17,  0.36,  0.29]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.02,  0.10,  0.20,  0.31,  0.36]
+                "data" : [0.02,  0.10 , 0.20,  0.31,  0.36]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.05,  0.07,  0.21,  0.38,  0.29]
+                "data" : [0.05,  0.08 , 0.18,  0.39,  0.30]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.03,  0.10,  0.17,  0.38,  0.32]
+                "data" : [0.04,  0.10 , 0.17,  0.38,  0.31]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with the stability and predictability of hours.",
@@ -2658,22 +2656,22 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.06,  0.16,  0.21,  0.31,  0.27]
+                "data" : [0.04,  0.15,  0.22,  0.31,  0.28]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.04,  0.14,  0.21,  0.32,  0.29]
+                "data" : [0.04,  0.15,  0.20,  0.32,  0.29]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.04,  0.13,  0.20,  0.32,  0.30]
+                "data" : [0.05,  0.13,  0.22,  0.32,  0.29]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.06,  0.17,  0.23,  0.31,  0.24]
+                "data" : [0.06,  0.16,  0.24,  0.31,  0.24]
               },
               {
                 "name" : "Mid Atlantic",
@@ -2683,7 +2681,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.04,  0.17,  0.19,  0.34,  0.25]
+                "data" : [0.04,  0.18,  0.18,  0.35,  0.25]
               },
               {
                 "name" : "Mountain Plains",
@@ -2703,7 +2701,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.05,  0.15,  0.20,  0.30,  0.31]
+                "data" : [0.04,  0.13,  0.23,  0.30,  0.31]
               },
               {
                 "name" : "Western",
@@ -2713,22 +2711,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.05,  0.18,  0.28,  0.29,  0.20]
+                "data" : [0.00,  0.21,  0.29,  0.33,  0.17]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.04,  0.15,  0.19,  0.29,  0.33]
+                "data" : [0.04,  0.15,  0.21,  0.29,  0.31]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.05,  0.09,  0.26,  0.36,  0.23]
+                "data" : [0.06,  0.08,  0.21,  0.42,  0.23]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.05,  0.11,  0.15,  0.48,  0.20]
+                "data" : [0.05,  0.11,  0.22,  0.42,  0.22]
               },
               {
                 "name" : "size5",
@@ -2738,12 +2736,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.07,  0.14,  0.23,  0.30,  0.26]
+                "data" : [0.06,  0.13,  0.24,  0.30,  0.26]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07,  0.17,  0.22,  0.33,  0.22]
+                "data" : [0.07,  0.17,  0.22,  0.32,  0.22]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with your control over hours and/or location (e.g., ability to work flexible hours, work remotely).",
@@ -2757,107 +2755,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.04,  0.07,  0.21,  0.38,  0.30]
+                "data" : [0.04,  0.07,  0.21 , 0.38,  0.30]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.04,  0.05,  0.15,  0.38,  0.37]
+                "data" : [0.04,  0.05,  0.16 , 0.38,  0.37]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.04,  0.08,  0.21,  0.38,  0.29]
+                "data" : [0.04,  0.08,  0.21 , 0.38,  0.30]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.05,  0.06,  0.22,  0.35,  0.31]
+                "data" : [0.05,  0.07,  0.22 , 0.34,  0.32]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.03,  0.08,  0.21,  0.40,  0.29]
+                "data" : [0.03,  0.07,  0.21 , 0.40,  0.29]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.05,  0.06,  0.27,  0.31,  0.31]
+                "data" : [0.05,  0.06,  0.27 , 0.31,  0.31]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.04,  0.09,  0.22,  0.40,  0.25]
+                "data" : [0.04,  0.10,  0.22 , 0.40,  0.25]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.04,  0.08,  0.22,  0.33,  0.33]
+                "data" : [0.04,  0.08,  0.22 , 0.33,  0.33]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.04,  0.09,  0.18,  0.42,  0.27]
+                "data" : [0.04,  0.08,  0.18 , 0.42,  0.28]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.02,  0.05,  0.17,  0.43,  0.32]
+                "data" : [0.02,  0.05,  0.17 , 0.43,  0.32]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.01,  0.06,  0.20,  0.42,  0.32]
+                "data" : [0.01,  0.06,  0.20 , 0.42,  0.32]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.03,  0.04,  0.24,  0.38,  0.32]
+                "data" : [0.03,  0.04,  0.24 , 0.38,  0.32]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.03,  0.05,  0.22,  0.39,  0.30]
+                "data" : [0.02,  0.08,  0.21 , 0.39,  0.30]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.04,  0.09,  0.26,  0.36,  0.25]
+                "data" : [0.04,  0.09,  0.26 , 0.36,  0.25]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.03,  0.09,  0.26,  0.38,  0.24]
+                "data" : [0.00,  0.17,  0.17 , 0.42,  0.25]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.04,  0.06,  0.20,  0.38,  0.32]
+                "data" : [0.04,  0.06,  0.22 , 0.37,  0.31]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.03,  0.11,  0.13,  0.47,  0.25]
+                "data" : [0.02,  0.06,  0.08 , 0.56,  0.27]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.04,  0.05,  0.19,  0.41,  0.32]
+                "data" : [0.04,  0.09,  0.18 , 0.40,  0.28]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.03,  0.07,  0.24,  0.37,  0.29]
+                "data" : [0.03,  0.07,  0.24 , 0.37,  0.29]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.05,  0.08,  0.25,  0.36,  0.26]
+                "data" : [0.04,  0.09,  0.25 , 0.35,  0.27]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.03,  0.08,  0.20,  0.37,  0.32]
+                "data" : [0.03,  0.08,  0.20 , 0.38,  0.31]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with the job security.",
@@ -2871,107 +2869,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.09,  0.12 , 0.21 , 0.35,  0.24]
+                "data" : [0.09,  0.12,  0.21,  0.35,  0.24]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.07,  0.08 , 0.14 , 0.39,  0.33]
+                "data" : [0.07,  0.08,  0.14,  0.38,  0.32]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.09,  0.11 , 0.20 , 0.35,  0.25]
+                "data" : [0.09,  0.11,  0.20,  0.35,  0.25]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.06 , 0.12 , 0.36,  0.38]
+                "data" : [0.07,  0.04,  0.11,  0.36,  0.42]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.10,  0.15 , 0.24 , 0.31,  0.20]
+                "data" : [0.10,  0.15,  0.23,  0.31,  0.21]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.11,  0.14 , 0.21 , 0.35,  0.19]
+                "data" : [0.11,  0.14,  0.21,  0.35,  0.19]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.08,  0.12 , 0.25 , 0.36,  0.18]
+                "data" : [0.09,  0.13,  0.26,  0.36,  0.17]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.11,  0.14 , 0.17 , 0.35,  0.22]
+                "data" : [0.11,  0.14,  0.17,  0.35,  0.22]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.12,  0.16 , 0.22 , 0.30,  0.20]
+                "data" : [0.11,  0.16,  0.21,  0.30,  0.22]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.04,  0.08 , 0.21 , 0.30,  0.37]
+                "data" : [0.04,  0.08,  0.21,  0.30,  0.37]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.08,  0.08 , 0.35 , 0.33,  0.16]
+                "data" : [0.08,  0.08,  0.35,  0.33,  0.16]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.10,  0.17 , 0.28 , 0.28,  0.17]
+                "data" : [0.10,  0.17,  0.28,  0.28,  0.17]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.11,  0.09 , 0.13 , 0.38,  0.29]
+                "data" : [0.11,  0.11,  0.16,  0.36,  0.26]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.05,  0.09 , 0.25 , 0.39,  0.22]
+                "data" : [0.05,  0.09,  0.25,  0.39,  0.22]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.05,  0.08 , 0.20 , 0.38,  0.30]
+                "data" : [0.08,  0.00,  0.08,  0.54,  0.29]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.09,  0.08 , 0.18 , 0.32,  0.33]
+                "data" : [0.09,  0.09,  0.19,  0.32,  0.31]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.11,  0.15 , 0.28 , 0.32,  0.13]
+                "data" : [0.04,  0.10,  0.29,  0.33,  0.23]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.08,  0.05 , 0.15 , 0.44,  0.28]
+                "data" : [0.12,  0.11,  0.20,  0.39,  0.18]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.08,  0.15 , 0.25 , 0.31,  0.21]
+                "data" : [0.08,  0.15,  0.25,  0.31,  0.21]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.10,  0.12 , 0.22 , 0.38,  0.18]
+                "data" : [0.09,  0.12,  0.23,  0.38,  0.18]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.10,  0.13 , 0.18 , 0.35,  0.25]
+                "data" : [0.09,  0.12,  0.19,  0.34,  0.26]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with the employee benefits (e.g., health care, retirement).",
@@ -2995,27 +2993,27 @@ export const staff_data = [
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.19,  0.23,  0.29,  0.21,  0.07]
+                "data" : [0.20,  0.23,  0.30,  0.21,  0.08]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.14,  0.19,  0.35,  0.22,  0.11]
+                "data" : [0.13,  0.16,  0.37,  0.22,  0.12]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.18,  0.21,  0.33,  0.21,  0.08]
+                "data" : [0.16,  0.21,  0.34,  0.21,  0.08]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.24,  0.24,  0.27,  0.19,  0.06]
+                "data" : [0.23,  0.24,  0.27,  0.20,  0.06]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.20,  0.25,  0.28,  0.21,  0.07]
+                "data" : [0.22,  0.26,  0.26,  0.20,  0.06]
               },
               {
                 "name" : "Mid Atlantic",
@@ -3025,7 +3023,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.23,  0.24,  0.28,  0.17,  0.08]
+                "data" : [0.20,  0.22,  0.31,  0.18,  0.08]
               },
               {
                 "name" : "Mountain Plains",
@@ -3045,7 +3043,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.14,  0.23,  0.34,  0.19,  0.10]
+                "data" : [0.20,  0.23,  0.31,  0.16,  0.10]
               },
               {
                 "name" : "Western",
@@ -3055,22 +3053,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.14,  0.19,  0.33,  0.28,  0.05]
+                "data" : [0.04,  0.08,  0.54,  0.29,  0.04]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.13,  0.16,  0.38,  0.22,  0.11]
+                "data" : [0.12,  0.17,  0.38,  0.23,  0.10]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.26,  0.32,  0.20,  0.13,  0.08]
+                "data" : [0.06,  0.33,  0.31,  0.19,  0.10]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.11,  0.18,  0.29,  0.24,  0.18]
+                "data" : [0.25,  0.23,  0.22,  0.18,  0.13]
               },
               {
                 "name" : "size5",
@@ -3080,12 +3078,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.22,  0.26,  0.25,  0.22,  0.06]
+                "data" : [0.23,  0.25,  0.24,  0.22,  0.07]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.23,  0.23,  0.31,  0.18,  0.05]
+                "data" : [0.22,  0.23,  0.30,  0.19,  0.05]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with the career advancement opportunities (e.g., promotion path, learning new skills).",
@@ -3104,22 +3102,22 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.06,  0.15,  0.25,  0.37,  0.18]
+                "data" : [0.06,  0.14,  0.25,  0.37,  0.18]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.05,  0.13,  0.26,  0.37,  0.20]
+                "data" : [0.05,  0.13,  0.25,  0.37,  0.20]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.04,  0.11,  0.26,  0.36,  0.23]
+                "data" : [0.03,  0.10,  0.26,  0.36,  0.25]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.04,  0.13,  0.26,  0.36,  0.22]
+                "data" : [0.04,  0.12,  0.25,  0.37,  0.22]
               },
               {
                 "name" : "Culturally-specific",
@@ -3129,7 +3127,7 @@ export const staff_data = [
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.05,  0.15,  0.25,  0.36,  0.20]
+                "data" : [0.05,  0.15,  0.26,  0.34,  0.20]
               },
               {
                 "name" : "Mid Atlantic",
@@ -3139,7 +3137,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.04,  0.14,  0.27,  0.35,  0.21]
+                "data" : [0.04,  0.14,  0.25,  0.37,  0.20]
               },
               {
                 "name" : "Mountain Plains",
@@ -3159,7 +3157,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.04,  0.10,  0.23,  0.33,  0.28]
+                "data" : [0.04,  0.11,  0.25,  0.30,  0.31]
               },
               {
                 "name" : "Western",
@@ -3169,22 +3167,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.05,  0.13,  0.29,  0.42,  0.11]
+                "data" : [0.04,  0.08,  0.33,  0.50,  0.04]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.02,  0.09,  0.24,  0.33,  0.32]
+                "data" : [0.02,  0.09,  0.24,  0.34,  0.31]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.03,  0.15,  0.32,  0.26,  0.23]
+                "data" : [0.02,  0.15,  0.29,  0.31,  0.23]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.05,  0.10,  0.22,  0.49,  0.14]
+                "data" : [0.05,  0.12,  0.27,  0.38,  0.18]
               },
               {
                 "name" : "size5",
@@ -3194,7 +3192,7 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.05,  0.12,  0.27,  0.36,  0.20]
+                "data" : [0.04,  0.12,  0.26,  0.36,  0.22]
               },
               {
                 "name" : "size7",
@@ -3218,7 +3216,7 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.05,  0.11,  0.21,  0.38,  0.24]
+                "data" : [0.06,  0.11,  0.21,  0.38,  0.24]
               },
               {
                 "name" : "Collecting",
@@ -3228,22 +3226,22 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.04,  0.06,  0.21,  0.41,  0.28]
+                "data" : [0.04,  0.06,  0.21,  0.40,  0.29]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.04,  0.07,  0.22,  0.40,  0.26]
+                "data" : [0.03,  0.07,  0.22,  0.41,  0.27]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.04,  0.08,  0.23,  0.37,  0.28]
+                "data" : [0.04,  0.08,  0.23,  0.38,  0.27]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.04,  0.10,  0.22,  0.40,  0.25]
+                "data" : [0.04,  0.11,  0.22,  0.39,  0.24]
               },
               {
                 "name" : "Mid Atlantic",
@@ -3253,7 +3251,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.05,  0.10,  0.19,  0.39,  0.27]
+                "data" : [0.04,  0.09,  0.18,  0.40,  0.28]
               },
               {
                 "name" : "Mountain Plains",
@@ -3273,7 +3271,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.03,  0.06,  0.22,  0.39,  0.31]
+                "data" : [0.04,  0.08,  0.23,  0.36,  0.29]
               },
               {
                 "name" : "Western",
@@ -3283,22 +3281,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.02,  0.13,  0.19,  0.44,  0.22]
+                "data" : [0.00,  0.08,  0.21,  0.50,  0.21]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.03,  0.05,  0.20,  0.39,  0.32]
+                "data" : [0.03,  0.06,  0.20,  0.41,  0.31]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.05,  0.13,  0.27,  0.35,  0.19]
+                "data" : [0.00,  0.08,  0.29,  0.40,  0.23]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.03,  0.10,  0.16,  0.44,  0.27]
+                "data" : [0.05,  0.13,  0.20,  0.39,  0.22]
               },
               {
                 "name" : "size5",
@@ -3313,7 +3311,7 @@ export const staff_data = [
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.07,  0.08,  0.23,  0.40,  0.22]
+                "data" : [0.06,  0.09,  0.23,  0.40,  0.22]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with having a sense of purpose and dignity in your work.",
@@ -3327,107 +3325,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.18,  0.23,  0.30 , 0.21,  0.08]
+                "data" : [0.18,  0.23,  0.30,  0.21,  0.08]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.22,  0.26,  0.30 , 0.16,  0.06]
+                "data" : [0.22,  0.26,  0.30,  0.16,  0.06]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.19,  0.24,  0.30 , 0.21,  0.07]
+                "data" : [0.18,  0.24,  0.30,  0.21,  0.07]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.16,  0.22,  0.33 , 0.21,  0.07]
+                "data" : [0.15,  0.21,  0.33,  0.23,  0.08]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.14,  0.23,  0.32 , 0.21,  0.10]
+                "data" : [0.13,  0.23,  0.32,  0.21,  0.10]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.18,  0.26,  0.29 , 0.21,  0.06]
+                "data" : [0.18,  0.26,  0.29,  0.21,  0.06]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.19,  0.25,  0.30 , 0.21,  0.06]
+                "data" : [0.21,  0.24,  0.29,  0.20,  0.06]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.21,  0.25,  0.30 , 0.18,  0.06]
+                "data" : [0.21,  0.25,  0.30,  0.18,  0.06]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.19,  0.26,  0.28 , 0.20,  0.07]
+                "data" : [0.17,  0.26,  0.29,  0.21,  0.07]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.16,  0.19,  0.35 , 0.18,  0.12]
+                "data" : [0.16,  0.19,  0.35,  0.18,  0.12]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.11,  0.13,  0.33 , 0.31,  0.12]
+                "data" : [0.11,  0.13,  0.33,  0.31,  0.12]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.11,  0.20,  0.37 , 0.20,  0.13]
+                "data" : [0.11,  0.20,  0.37,  0.20,  0.13]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.14,  0.25,  0.32 , 0.20,  0.10]
+                "data" : [0.17,  0.23,  0.29,  0.20,  0.10]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.16,  0.25,  0.29 , 0.24,  0.06]
+                "data" : [0.16,  0.25,  0.29,  0.24,  0.06]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.15,  0.26,  0.37 , 0.16,  0.06]
+                "data" : [0.04,  0.29,  0.33,  0.21,  0.13]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.13,  0.18,  0.35 , 0.21,  0.13]
+                "data" : [0.12,  0.19,  0.35,  0.21,  0.12]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.28,  0.23,  0.29 , 0.16,  0.03]
+                "data" : [0.17,  0.25,  0.38,  0.19,  0.02]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.13,  0.15,  0.32 , 0.32,  0.09]
+                "data" : [0.23,  0.18,  0.28,  0.25,  0.07]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.14,  0.21,  0.27 , 0.27,  0.11]
+                "data" : [0.14,  0.21,  0.27,  0.27,  0.11]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.18,  0.25,  0.26 , 0.24,  0.06]
+                "data" : [0.18,  0.25,  0.25,  0.26,  0.07]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.21,  0.27,  0.31 , 0.16,  0.05]
+                "data" : [0.21,  0.26,  0.31,  0.16,  0.05]
               },
             ],
             "questionName": "In your current employment situation, how satisfied are you with having the power to change things about your job that you’re not satisfied with.",
@@ -3441,107 +3439,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.68,  1.00,  0.98,  1.00,  0.98]
+                "data" : [0.68, 1.00, 0.98, 1.00, 0.98]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.69,  1.00,  0.99,  1.00,  1.01]
+                "data" : [0.69, 1.00, 0.99, 1.00, 1.00]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.68,  1.00,  0.98,  1.00,  0.98]
+                "data" : [0.68, 1.00, 0.98, 1.00, 0.98]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.70,  1.00,  0.97,  1.00,  0.99]
+                "data" : [0.71, 1.00, 0.98, 1.00, 1.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.68,  1.00,  0.98,  1.00,  0.97]
+                "data" : [0.69, 1.00, 0.99, 1.00, 0.97]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.68,  1.00,  1.01,  1.00,  1.00]
+                "data" : [0.68, 1.00, 1.01, 1.00, 0.99]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.67,  1.00,  0.96,  1.00,  1.01]
+                "data" : [0.66, 1.00, 0.96, 1.00, 1.01]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.67,  1.00,  0.96,  1.00,  0.95]
+                "data" : [0.67, 1.00, 0.96, 1.00, 0.95]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.67,  1.00,  0.98,  1.00,  1.01]
+                "data" : [0.68, 1.00, 0.99, 1.00, 1.02]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.72,  1.00,  1.02,  1.00,  0.94]
+                "data" : [0.72, 1.00, 1.02, 1.00, 0.94]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.71,  1.00,  0.94,  1.00,  1.01]
+                "data" : [0.71, 1.00, 0.94, 1.00, 1.01]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.69,  1.00,  0.94,  1.00,  0.96]
+                "data" : [0.69, 1.00, 0.94, 1.00, 0.96]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.70,  1.00,  0.95,  1.00,  0.99]
+                "data" : [0.69, 1.00, 0.94, 1.00, 1.01]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.69,  1.00,  1.00,  1.00,  0.99]
+                "data" : [0.69, 1.00, 1.00, 1.00, 0.99]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.68,  1.00,  1.02,  1.00,  0.98]
+                "data" : [0.70, 1.00, 1.08, 1.00, 1.08]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.71,  1.00,  0.97,  1.00,  0.99]
+                "data" : [0.71, 1.00, 0.97, 1.00, 0.98]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.64,  1.00,  1.00,  1.00,  1.00]
+                "data" : [0.69, 1.00, 1.05, 1.00, 1.01]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.72,  1.00,  0.96,  1.00,  0.92]
+                "data" : [0.67, 1.00, 0.95, 1.00, 0.95]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.70,  1.00,  0.94,  1.00,  1.00]
+                "data" : [0.70, 1.00, 0.94, 1.00, 1.00]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.67,  1.00,  0.97,  1.00,  0.98]
+                "data" : [0.68, 1.00, 0.96, 1.00, 0.98]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.67,  1.00,  0.99,  1.00,  0.95]
+                "data" : [0.67, 1.00, 0.99, 1.00, 0.96]
               },
             ],
             "questionName": "Mean institutional satisfaction score (includes the previous ten satisfaction questions)",
@@ -3560,32 +3558,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.33,  0.34,  0.24,  0.12,  0.37,  0.13,  0.18,  0.34,  0.42,  0.24,  0.03]
+                "data" : [0.33,  0.34,  0.25,  0.12,  0.37,  0.13,  0.18,  0.35,  0.42,  0.24,  0.03]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.34,  0.36,  0.27,  0.10,  0.42,  0.13,  0.16,  0.33,  0.39,  0.28,  0.02]
+                "data" : [0.35,  0.36,  0.27,  0.10,  0.41,  0.13,  0.15,  0.33,  0.38,  0.28,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.36,  0.37,  0.32,  0.09,  0.39,  0.10,  0.17,  0.33,  0.33,  0.29,  0.02]
+                "data" : [0.39,  0.38,  0.33,  0.07,  0.37,  0.11,  0.14,  0.35,  0.29,  0.32,  0.03]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.37,  0.34,  0.31,  0.08,  0.43,  0.14,  0.15,  0.33,  0.36,  0.29,  0.02]
+                "data" : [0.38,  0.34,  0.32,  0.08,  0.42,  0.13,  0.14,  0.34,  0.36,  0.29,  0.02]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.31,  0.34,  0.28,  0.10,  0.46,  0.13,  0.19,  0.33,  0.38,  0.32,  0.01]
+                "data" : [0.30,  0.35,  0.30,  0.10,  0.46,  0.12,  0.19,  0.34,  0.38,  0.32,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.31,  0.38,  0.25,  0.11,  0.43,  0.12,  0.12,  0.34,  0.37,  0.28,  0.03]
+                "data" : [0.30,  0.37,  0.24,  0.11,  0.44,  0.13,  0.14,  0.34,  0.38,  0.28,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
@@ -3595,7 +3593,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.29,  0.36,  0.29,  0.10,  0.39,  0.15,  0.15,  0.35,  0.40,  0.27,  0.03]
+                "data" : [0.31,  0.38,  0.30,  0.09,  0.38,  0.14,  0.14,  0.36,  0.39,  0.27,  0.03]
               },
               {
                 "name" : "Mountain Plains",
@@ -3615,7 +3613,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.37,  0.33,  0.32,  0.09,  0.42,  0.09,  0.17,  0.36,  0.33,  0.30,  0.02]
+                "data" : [0.37,  0.31,  0.31,  0.08,  0.43,  0.11,  0.16,  0.36,  0.33,  0.32,  0.02]
               },
               {
                 "name" : "Western",
@@ -3625,22 +3623,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.27,  0.41,  0.31,  0.12,  0.40,  0.08,  0.13,  0.38,  0.35,  0.33,  0.04]
+                "data" : [0.17,  0.46,  0.33,  0.13,  0.21,  0.08,  0.21,  0.46,  0.38,  0.46,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.42,  0.35,  0.36,  0.06,  0.40,  0.11,  0.13,  0.36,  0.28,  0.33,  0.02]
+                "data" : [0.40,  0.35,  0.38,  0.07,  0.41,  0.10,  0.13,  0.37,  0.28,  0.32,  0.02]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.25,  0.35,  0.25,  0.09,  0.45,  0.17,  0.19,  0.30,  0.43,  0.28,  0.01]
+                "data" : [0.29,  0.48,  0.29,  0.06,  0.42,  0.15,  0.13,  0.33,  0.40,  0.29,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.39,  0.46,  0.34,  0.05,  0.46,  0.11,  0.15,  0.32,  0.33,  0.27,  0.00]
+                "data" : [0.32,  0.37,  0.29,  0.08,  0.47,  0.15,  0.19,  0.30,  0.38,  0.27,  0.01]
               },
               {
                 "name" : "size5",
@@ -3650,12 +3648,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.30,  0.34,  0.29,  0.08,  0.45,  0.11,  0.15,  0.34,  0.39,  0.31,  0.02]
+                "data" : [0.32,  0.34,  0.30,  0.06,  0.44,  0.12,  0.12,  0.36,  0.37,  0.34,  0.02]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.35,  0.35,  0.24,  0.12,  0.37,  0.15,  0.17,  0.32,  0.44,  0.23,  0.02]
+                "data" : [0.34,  0.36,  0.23,  0.12,  0.38,  0.15,  0.17,  0.31,  0.44,  0.24,  0.02]
               },
             ],
             "questionName": "Thinking about the past 12 months in your workplace (or your total tenure if less than 12 months), which of the following 3 emotions do you most associate with working at your museum? Select up to THREE.",
@@ -3669,107 +3667,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.24,  0.70,  0.07,  1.00,  1.55,  1.00,  1.21]
+                "data" : [0.24, 0.70, 0.07, 1.00, 1.55, 1.00, 1.21]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.28,  0.65,  0.07,  1.00,  1.32,  1.00,  1.32]
+                "data" : [0.27, 0.66, 0.07, 1.00, 1.32, 1.00, 1.24]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.24,  0.69,  0.07,  1.00,  1.51,  1.00,  1.24]
+                "data" : [0.24, 0.69, 0.07, 1.00, 1.50, 1.00, 1.23]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.27,  0.67,  0.07,  1.00,  1.28,  1.00,  1.29]
+                "data" : [0.22, 0.69, 0.08, 1.00, 1.17, 1.00, 1.25]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.23,  0.71,  0.06,  1.00,  1.78,  1.00,  1.31]
+                "data" : [0.22, 0.73, 0.06, 1.00, 1.76, 1.00, 1.32]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.23,  0.70,  0.07,  1.00,  1.30,  1.00,  1.07]
+                "data" : [0.23, 0.71, 0.06, 1.00, 1.34, 1.00, 1.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.23,  0.71,  0.06,  1.00,  1.38,  1.00,  1.33]
+                "data" : [0.24, 0.69, 0.07, 1.00, 1.43, 1.00, 1.32]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.25,  0.68,  0.07,  1.00,  1.72,  1.00,  1.25]
+                "data" : [0.25, 0.68, 0.07, 1.00, 1.72, 1.00, 1.25]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.25,  0.67,  0.08,  1.00,  1.77,  1.00,  1.36]
+                "data" : [0.24, 0.69, 0.08, 1.00, 1.74, 1.00, 1.33]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.21,  0.73,  0.06,  1.00,  1.12,  1.00,  1.86]
+                "data" : [0.21, 0.73, 0.06, 1.00, 1.12, 1.00, 1.86]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.22,  0.72,  0.07,  1.00,  3.16,  1.00,  1.69]
+                "data" : [0.22, 0.72, 0.07, 1.00, 3.16, 1.00, 1.69]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.21,  0.74,  0.04,  1.00,  2.07,  1.00,  1.19]
+                "data" : [0.21, 0.74, 0.04, 1.00, 2.07, 1.00, 1.19]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.23,  0.69,  0.08,  1.00,  1.61,  1.00,  1.34]
+                "data" : [0.21, 0.69, 0.10, 1.00, 1.64, 1.00, 1.40]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.23,  0.73,  0.04,  1.00,  1.18,  1.00,  0.74]
+                "data" : [0.23, 0.73, 0.04, 1.00, 1.18, 1.00, 0.74]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.22,  0.73,  0.05,  1.00,  0.63,  1.00,  0.90]
+                "data" : [0.21, 0.75, 0.04, 1.00, 0.80, 1.00, 0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.19,  0.74,  0.08,  1.00,  1.22,  1.00,  1.41]
+                "data" : [0.19, 0.74, 0.07, 1.00, 1.24, 1.00, 1.25]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.32,  0.61,  0.07,  1.00,  1.12,  1.00,  1.24]
+                "data" : [0.29, 0.67, 0.04, 1.00, 0.73, 1.00, 1.09]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.23,  0.70,  0.08,  1.00,  1.37,  1.00,  1.24]
+                "data" : [0.28, 0.64, 0.08, 1.00, 1.55, 1.00, 1.28]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.18,  0.75,  0.07,  1.00,  2.37,  1.00,  1.30]
+                "data" : [0.18, 0.75, 0.07, 1.00, 2.37, 1.00, 1.30]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.28,  0.67,  0.05,  1.00,  1.84,  1.00,  1.22]
+                "data" : [0.25, 0.70, 0.06, 1.00, 1.86, 1.00, 1.26]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.26,  0.67,  0.07,  1.00,  1.71,  1.00,  1.23]
+                "data" : [0.26, 0.67, 0.07, 1.00, 1.49, 1.00, 1.25]
               },
             ],
             "questionName": "Have you felt discriminated against or harassed on the basis your gender, sexual orientation, racial or ethnic background, social or economic status, religion, age, or disability while working in your current museum workplace?",
@@ -3793,32 +3791,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.07,  0.27,  0.41,  0.26]
+                "data" : [0.06,  0.27,  0.40,  0.26]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.05,  0.17,  0.48,  0.30]
+                "data" : [0.05,  0.18,  0.46,  0.30]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.06,  0.07,  0.54,  0.33]
+                "data" : [0.05,  0.10,  0.48,  0.36]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.04,  0.16,  0.49,  0.32]
+                "data" : [0.04,  0.14,  0.51,  0.32]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.04,  0.22,  0.44,  0.29]
+                "data" : [0.04,  0.23,  0.44,  0.30]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.04,  0.20,  0.45,  0.30]
+                "data" : [0.04,  0.22,  0.44,  0.30]
               },
               {
                 "name" : "Mid Atlantic",
@@ -3828,7 +3826,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.04,  0.20,  0.46,  0.29]
+                "data" : [0.04,  0.17,  0.49,  0.30]
               },
               {
                 "name" : "Mountain Plains",
@@ -3848,7 +3846,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.06,  0.09,  0.54,  0.31]
+                "data" : [0.05,  0.20,  0.42,  0.32]
               },
               {
                 "name" : "Western",
@@ -3858,22 +3856,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.00,  0.13,  0.55,  0.32]
+                "data" : [0.00,  0.17,  0.50,  0.33]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.07,  0.07,  0.51,  0.36]
+                "data" : [0.06,  0.09,  0.52,  0.33]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.03,  0.25,  0.34,  0.38]
+                "data" : [0.00,  0.14,  0.36,  0.50]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.05,  0.05,  0.41,  0.50]
+                "data" : [0.05,  0.18,  0.38,  0.40]
               },
               {
                 "name" : "size5",
@@ -3883,12 +3881,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.04,  0.10,  0.59,  0.27]
+                "data" : [0.03,  0.14,  0.56,  0.27]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.05,  0.24,  0.44,  0.26]
+                "data" : [0.05,  0.23,  0.45,  0.27]
               },
             ],
             "questionName": "How often have you felt discriminated against?",
@@ -3907,32 +3905,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.51,  0.09,  0.34,  0.28,  0.05,  0.45,  0.09,  0.22,  0.00]
+                "data" : [0.50,  0.09,  0.34,  0.29,  0.05,  0.46,  0.09,  0.22,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.53,  0.11,  0.32,  0.28,  0.05,  0.40,  0.13,  0.20,  0.01]
+                "data" : [0.53,  0.12,  0.31,  0.28,  0.05,  0.40,  0.13,  0.21,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.58,  0.10,  0.32,  0.29,  0.08,  0.45,  0.13,  0.12,  0.02]
+                "data" : [0.57,  0.11,  0.23,  0.27,  0.11,  0.41,  0.18,  0.14,  0.04]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.49,  0.14,  0.33,  0.31,  0.05,  0.34,  0.12,  0.21,  0.01]
+                "data" : [0.52,  0.13,  0.33,  0.31,  0.04,  0.36,  0.11,  0.21,  0.01]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.52,  0.14,  0.43,  0.25,  0.05,  0.42,  0.09,  0.25,  0.00]
+                "data" : [0.50,  0.13,  0.43,  0.26,  0.04,  0.44,  0.09,  0.25,  0.00]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.45,  0.07,  0.30,  0.25,  0.05,  0.35,  0.15,  0.25,  0.02]
+                "data" : [0.43,  0.09,  0.31,  0.26,  0.06,  0.33,  0.16,  0.26,  0.01]
               },
               {
                 "name" : "Mid Atlantic",
@@ -3942,7 +3940,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.46,  0.07,  0.27,  0.25,  0.06,  0.35,  0.19,  0.28,  0.00]
+                "data" : [0.50,  0.04,  0.26,  0.24,  0.06,  0.39,  0.18,  0.28,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -3962,7 +3960,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.59,  0.09,  0.45,  0.30,  0.05,  0.44,  0.12,  0.09,  0.00]
+                "data" : [0.48,  0.14,  0.39,  0.29,  0.07,  0.30,  0.20,  0.16,  0.00]
               },
               {
                 "name" : "Western",
@@ -3972,22 +3970,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.39,  0.10,  0.26,  0.45,  0.06,  0.52,  0.23,  0.10,  0.00]
+                "data" : [0.50,  0.00,  0.17,  0.50,  0.00,  0.67,  0.50,  0.00,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.49,  0.09,  0.35,  0.25,  0.09,  0.33,  0.16,  0.18,  0.05]
+                "data" : [0.48,  0.10,  0.33,  0.30,  0.08,  0.35,  0.14,  0.19,  0.05]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.41,  0.19,  0.34,  0.31,  0.06,  0.25,  0.19,  0.19,  0.00]
+                "data" : [0.57,  0.14,  0.36,  0.36,  0.00,  0.36,  0.14,  0.07,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.55,  0.10,  0.15,  0.35,  0.15,  0.30,  0.25,  0.30,  0.00]
+                "data" : [0.42,  0.16,  0.24,  0.32,  0.13,  0.24,  0.24,  0.29,  0.00]
               },
               {
                 "name" : "size5",
@@ -3997,12 +3995,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.52,  0.08,  0.43,  0.26,  0.02,  0.44,  0.15,  0.18,  0.02]
+                "data" : [0.48,  0.09,  0.40,  0.24,  0.01,  0.40,  0.19,  0.22,  0.03]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.59,  0.12,  0.32,  0.29,  0.04,  0.43,  0.05,  0.21,  0.01]
+                "data" : [0.57,  0.12,  0.32,  0.29,  0.05,  0.43,  0.07,  0.19,  0.00]
               },
             ],
             "questionName": "Which of the following forms of discrimination and/or harassment, have you experienced in your current museum workplace? Please select all that apply.",
@@ -4021,32 +4019,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.13,  0.32,  0.03,  0.02,  0.27,  0.01,  0.03,  0.00,  0.22,  0.46]
+                "data" : [0.13,  0.32,  0.03,  0.02,  0.28,  0.01,  0.03,  0.00,  0.21,  0.46]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.12,  0.28,  0.05,  0.01,  0.26,  0.03,  0.05,  0.00,  0.22,  0.47]
+                "data" : [0.12,  0.28,  0.04,  0.01,  0.26,  0.03,  0.04,  0.00,  0.22,  0.47]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.08,  0.19,  0.05,  0.00,  0.17,  0.08,  0.07,  0.00,  0.22,  0.52]
+                "data" : [0.07,  0.16,  0.04,  0.00,  0.11,  0.09,  0.05,  0.00,  0.23,  0.55]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.09,  0.31,  0.06,  0.00,  0.27,  0.03,  0.06,  0.01,  0.19,  0.46]
+                "data" : [0.06,  0.31,  0.06,  0.00,  0.23,  0.03,  0.06,  0.01,  0.19,  0.49]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.17,  0.36,  0.02,  0.00,  0.34,  0.02,  0.08,  0.00,  0.28,  0.38]
+                "data" : [0.18,  0.37,  0.01,  0.00,  0.34,  0.01,  0.07,  0.00,  0.27,  0.37]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.15,  0.32,  0.03,  0.01,  0.26,  0.00,  0.03,  0.00,  0.20,  0.46]
+                "data" : [0.18,  0.32,  0.04,  0.01,  0.31,  0.00,  0.03,  0.00,  0.19,  0.43]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4056,7 +4054,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.11,  0.28,  0.07,  0.01,  0.33,  0.00,  0.04,  0.01,  0.23,  0.42]
+                "data" : [0.07,  0.27,  0.07,  0.01,  0.27,  0.00,  0.05,  0.01,  0.24,  0.47]
               },
               {
                 "name" : "Mountain Plains",
@@ -4076,7 +4074,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.10,  0.22,  0.03,  0.00,  0.21,  0.04,  0.07,  0.00,  0.22,  0.48]
+                "data" : [0.17,  0.24,  0.02,  0.00,  0.29,  0.02,  0.03,  0.00,  0.22,  0.41]
               },
               {
                 "name" : "Western",
@@ -4086,22 +4084,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.10,  0.23,  0.07,  0.00,  0.17,  0.03,  0.07,  0.00,  0.27,  0.53]
+                "data" : [0.17,  0.17,  0.00,  0.00,  0.33,  0.17,  0.00,  0.00,  0.50,  0.17]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.04,  0.25,  0.02,  0.00,  0.14,  0.04,  0.05,  0.00,  0.14,  0.57]
+                "data" : [0.05,  0.27,  0.03,  0.00,  0.16,  0.03,  0.06,  0.00,  0.17,  0.55]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.19,  0.31,  0.03,  0.00,  0.44,  0.03,  0.00,  0.00,  0.16,  0.34]
+                "data" : [0.00,  0.29,  0.00,  0.00,  0.21,  0.07,  0.00,  0.00,  0.14,  0.50]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.11,  0.39,  0.06,  0.00,  0.17,  0.11,  0.06,  0.00,  0.17,  0.56]
+                "data" : [0.22,  0.36,  0.06,  0.00,  0.39,  0.06,  0.03,  0.00,  0.17,  0.39]
               },
               {
                 "name" : "size5",
@@ -4111,12 +4109,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.09,  0.32,  0.05,  0.00,  0.32,  0.02,  0.06,  0.00,  0.26,  0.43]
+                "data" : [0.08,  0.35,  0.05,  0.00,  0.33,  0.00,  0.05,  0.00,  0.29,  0.42]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.13,  0.27,  0.05,  0.02,  0.27,  0.02,  0.04,  0.01,  0.22,  0.47]
+                "data" : [0.12,  0.27,  0.05,  0.02,  0.26,  0.02,  0.05,  0.01,  0.21,  0.49]
               },
             ],
             "questionName": "Have you taken any of the following actions in response to discrimination and/or harassment in your current museum workplace? Please select ALL that apply.",
@@ -4135,32 +4133,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.56,  0.35,  0.10]
+                "data" : [0.55,  0.35,  0.09]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.56,  0.36,  0.08]
+                "data" : [0.56,  0.35,  0.09]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.57,  0.34,  0.09]
+                "data" : [0.61,  0.22,  0.17]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.51,  0.39,  0.11]
+                "data" : [0.47,  0.41,  0.13]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.31,  0.56,  0.13]
+                "data" : [0.32,  0.56,  0.12]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.55,  0.38,  0.07]
+                "data" : [0.58,  0.36,  0.06]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4170,7 +4168,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.67,  0.27,  0.07]
+                "data" : [0.65,  0.26,  0.09]
               },
               {
                 "name" : "Mountain Plains",
@@ -4190,7 +4188,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.42,  0.39,  0.19]
+                "data" : [0.50,  0.29,  0.21]
               },
               {
                 "name" : "Western",
@@ -4200,22 +4198,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.56,  0.22,  0.22]
+                "data" : [0.50,  0.00,  0.50]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.45,  0.36,  0.18]
+                "data" : [0.46,  0.38,  0.15]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.58,  0.42,  0.00]
+                "data" : [0.20,  0.80,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.80,  0.20,  0.00]
+                "data" : [0.75,  0.25,  0.00]
               },
               {
                 "name" : "size5",
@@ -4225,12 +4223,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.52,  0.44,  0.04]
+                "data" : [0.51,  0.43,  0.06]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.62,  0.34,  0.04]
+                "data" : [0.62,  0.33,  0.05]
               },
             ],
             "questionName": "How satisfied are you with how HR and /or the museum resolved your complaint(s) overall?",
@@ -4249,32 +4247,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.56,  0.57,  0.72,  0.13,  0.14,  0.04,  0.08,  0.00]
+                "data" : [0.56,  0.57,  0.71,  0.13,  0.14,  0.04,  0.09,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.47,  0.47,  0.70,  0.15,  0.18,  0.09,  0.09,  0.00]
+                "data" : [0.47,  0.48,  0.69,  0.14,  0.18,  0.08,  0.10,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.40,  0.37,  0.74,  0.22,  0.26,  0.14,  0.06,  0.01]
+                "data" : [0.38,  0.38,  0.72,  0.17,  0.26,  0.09,  0.08,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.44,  0.43,  0.71,  0.16,  0.22,  0.19,  0.09,  0.01]
+                "data" : [0.46,  0.45,  0.72,  0.15,  0.21,  0.19,  0.08,  0.01]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.41,  0.52,  0.62,  0.17,  0.06,  0.03,  0.17,  0.00]
+                "data" : [0.42,  0.52,  0.60,  0.17,  0.06,  0.03,  0.18,  0.00]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.46,  0.46,  0.70,  0.20,  0.11,  0.02,  0.10,  0.00]
+                "data" : [0.44,  0.44,  0.68,  0.19,  0.13,  0.04,  0.12,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4284,7 +4282,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.48,  0.50,  0.74,  0.19,  0.13,  0.13,  0.09,  0.00]
+                "data" : [0.51,  0.55,  0.76,  0.20,  0.09,  0.12,  0.06,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -4304,7 +4302,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.40,  0.39,  0.71,  0.27,  0.27,  0.15,  0.08,  0.00]
+                "data" : [0.36,  0.36,  0.64,  0.22,  0.29,  0.11,  0.15,  0.00]
               },
               {
                 "name" : "Western",
@@ -4314,22 +4312,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.46,  0.46,  0.68,  0.11,  0.29,  0.07,  0.07,  0.00]
+                "data" : [0.20,  0.40,  0.60,  0.20,  0.60,  0.00,  0.00,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.35,  0.38,  0.71,  0.20,  0.24,  0.18,  0.11,  0.02]
+                "data" : [0.34,  0.37,  0.69,  0.18,  0.24,  0.19,  0.11,  0.02]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.28,  0.31,  0.66,  0.25,  0.28,  0.22,  0.16,  0.00]
+                "data" : [0.21,  0.36,  0.71,  0.36,  0.29,  0.29,  0.07,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.67,  0.67,  0.72,  0.17,  0.17,  0.17,  0.06,  0.00]
+                "data" : [0.50,  0.47,  0.67,  0.17,  0.22,  0.17,  0.14,  0.00]
               },
               {
                 "name" : "size5",
@@ -4339,12 +4337,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.42,  0.45,  0.69,  0.21,  0.18,  0.10,  0.09,  0.00]
+                "data" : [0.41,  0.48,  0.65,  0.17,  0.15,  0.05,  0.11,  0.00]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.51,  0.53,  0.71,  0.10,  0.17,  0.09,  0.10,  0.01]
+                "data" : [0.52,  0.53,  0.71,  0.10,  0.17,  0.08,  0.10,  0.01]
               },
             ],
             "questionName": "If you have experienced any discrimination or harassment and decided NOT to take action in response, what were your reasons? Select all that apply.",
@@ -4373,12 +4371,12 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.58,  0.42]
+                "data" : [0.52,  0.48]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.60,  0.40]
+                "data" : [0.59,  0.41]
               },
               {
                 "name" : "Culturally-specific",
@@ -4388,7 +4386,7 @@ export const staff_data = [
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.58,  0.42]
+                "data" : [0.59,  0.41]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4398,7 +4396,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.61,  0.39]
+                "data" : [0.59,  0.41]
               },
               {
                 "name" : "Mountain Plains",
@@ -4418,7 +4416,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.54,  0.46]
+                "data" : [0.51,  0.49]
               },
               {
                 "name" : "Western",
@@ -4428,22 +4426,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.65,  0.35]
+                "data" : [0.67,  0.33]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.53,  0.47]
+                "data" : [0.54,  0.46]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.65,  0.35]
+                "data" : [0.58,  0.42]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.58,  0.42]
+                "data" : [0.63,  0.37]
               },
               {
                 "name" : "size5",
@@ -4453,7 +4451,7 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.61,  0.39]
+                "data" : [0.57,  0.43]
               },
               {
                 "name" : "size7",
@@ -4478,32 +4476,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.43,  0.14,  0.05,  0.55,  0.17,  0.55,  0.06,  0.23,  0.57,  0.30,  0.25,  0.58,  0.30,  0.15,  0.02]
+                "data" : [0.45,  0.14,  0.05,  0.56,  0.18,  0.54,  0.06,  0.23,  0.58,  0.30,  0.25,  0.58,  0.30,  0.15,  0.02]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.61,  0.10,  0.06,  0.53,  0.14,  0.52,  0.05,  0.22,  0.58,  0.29,  0.24,  0.47,  0.26,  0.19,  0.01]
+                "data" : [0.60,  0.10,  0.07,  0.53,  0.14,  0.52,  0.05,  0.22,  0.58,  0.28,  0.25,  0.47,  0.26,  0.20,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.57,  0.09,  0.07,  0.51,  0.17,  0.46,  0.05,  0.24,  0.63,  0.28,  0.24,  0.45,  0.26,  0.19,  0.01]
+                "data" : [0.54,  0.11,  0.08,  0.49,  0.14,  0.44,  0.03,  0.22,  0.63,  0.26,  0.28,  0.42,  0.21,  0.22,  0.01]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.71,  0.07,  0.09,  0.54,  0.13,  0.52,  0.04,  0.22,  0.58,  0.31,  0.22,  0.42,  0.23,  0.22,  0.01]
+                "data" : [0.69,  0.06,  0.09,  0.54,  0.12,  0.50,  0.03,  0.23,  0.56,  0.32,  0.22,  0.41,  0.22,  0.23,  0.01]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.63,  0.08,  0.08,  0.57,  0.13,  0.54,  0.04,  0.19,  0.57,  0.26,  0.30,  0.43,  0.20,  0.22,  0.01]
+                "data" : [0.64,  0.09,  0.07,  0.58,  0.14,  0.53,  0.06,  0.20,  0.58,  0.26,  0.30,  0.45,  0.19,  0.21,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.62,  0.11,  0.06,  0.55,  0.13,  0.51,  0.05,  0.22,  0.58,  0.30,  0.26,  0.48,  0.29,  0.16,  0.01]
+                "data" : [0.66,  0.11,  0.06,  0.55,  0.14,  0.53,  0.05,  0.21,  0.61,  0.30,  0.25,  0.48,  0.30,  0.16,  0.01]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4513,7 +4511,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.68,  0.09,  0.08,  0.54,  0.13,  0.58,  0.07,  0.21,  0.66,  0.27,  0.25,  0.50,  0.23,  0.15,  0.00]
+                "data" : [0.63,  0.09,  0.07,  0.54,  0.11,  0.56,  0.06,  0.23,  0.62,  0.27,  0.25,  0.50,  0.21,  0.16,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -4533,7 +4531,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.57,  0.07,  0.07,  0.55,  0.13,  0.48,  0.04,  0.22,  0.57,  0.32,  0.20,  0.45,  0.28,  0.18,  0.01]
+                "data" : [0.64,  0.08,  0.10,  0.54,  0.12,  0.53,  0.04,  0.17,  0.62,  0.30,  0.23,  0.44,  0.26,  0.20,  0.02]
               },
               {
                 "name" : "Western",
@@ -4543,22 +4541,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.65,  0.17,  0.06,  0.64,  0.14,  0.45,  0.10,  0.30,  0.68,  0.44,  0.33,  0.54,  0.26,  0.23,  0.01]
+                "data" : [0.56,  0.19,  0.00,  0.38,  0.13,  0.19,  0.13,  0.25,  0.81,  0.25,  0.50,  0.50,  0.13,  0.31,  0.06]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.58,  0.07,  0.10,  0.51,  0.10,  0.44,  0.03,  0.21,  0.55,  0.27,  0.25,  0.30,  0.20,  0.18,  0.00]
+                "data" : [0.60,  0.09,  0.10,  0.54,  0.11,  0.45,  0.04,  0.21,  0.57,  0.27,  0.25,  0.32,  0.19,  0.19,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.81,  0.08,  0.09,  0.48,  0.19,  0.64,  0.05,  0.16,  0.80,  0.28,  0.19,  0.55,  0.25,  0.16,  0.02]
+                "data" : [0.61,  0.07,  0.07,  0.39,  0.11,  0.54,  0.00,  0.21,  0.71,  0.32,  0.14,  0.57,  0.11,  0.18,  0.04]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.59,  0.04,  0.00,  0.43,  0.07,  0.41,  0.04,  0.30,  0.67,  0.41,  0.24,  0.37,  0.13,  0.28,  0.02]
+                "data" : [0.76,  0.06,  0.05,  0.49,  0.15,  0.55,  0.06,  0.22,  0.76,  0.34,  0.23,  0.44,  0.23,  0.22,  0.01]
               },
               {
                 "name" : "size5",
@@ -4568,12 +4566,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.64,  0.06,  0.07,  0.55,  0.13,  0.51,  0.05,  0.18,  0.56,  0.25,  0.27,  0.38,  0.20,  0.17,  0.00]
+                "data" : [0.63,  0.06,  0.08,  0.54,  0.09,  0.51,  0.04,  0.15,  0.54,  0.23,  0.31,  0.34,  0.15,  0.19,  0.01]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.56,  0.12,  0.06,  0.56,  0.16,  0.57,  0.04,  0.23,  0.57,  0.26,  0.23,  0.53,  0.29,  0.18,  0.01]
+                "data" : [0.57,  0.12,  0.06,  0.57,  0.16,  0.56,  0.04,  0.24,  0.58,  0.29,  0.24,  0.53,  0.29,  0.18,  0.01]
               },
             ],
             "questionName": "Which of the following reasons made you consider leaving your current museum workplace for another art museum? Select all that apply.",
@@ -4602,7 +4600,7 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.67,  0.33]
+                "data" : [0.66,  0.34]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
@@ -4612,12 +4610,12 @@ export const staff_data = [
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.68,  0.32]
+                "data" : [0.67,  0.33]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.66,  0.34]
+                "data" : [0.67,  0.33]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4627,7 +4625,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.69,  0.31]
+                "data" : [0.68,  0.32]
               },
               {
                 "name" : "Mountain Plains",
@@ -4657,7 +4655,7 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.63,  0.37]
+                "data" : [0.54,  0.46]
               },
               {
                 "name" : "size2",
@@ -4667,12 +4665,12 @@ export const staff_data = [
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.69,  0.31]
+                "data" : [0.65,  0.35]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.76,  0.24]
+                "data" : [0.75,  0.25]
               },
               {
                 "name" : "size5",
@@ -4687,7 +4685,7 @@ export const staff_data = [
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.71,  0.29]
+                "data" : [0.70,  0.30]
               },
             ],
             "questionName": "Have you ever considered leaving the art museum field?",
@@ -4707,32 +4705,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.63,  0.27,  0.16,  0.07,  0.13,  0.53,  0.04,  0.48,  0.36,  0.21,  0.47,  0.16,  0.28,  0.01]
+                "data" : [0.63,  0.27,  0.16,  0.07,  0.14,  0.54,  0.05,  0.49,  0.36,  0.22,  0.47,  0.15,  0.28,  0.01]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.68,  0.22,  0.19,  0.10,  0.11,  0.47,  0.04,  0.53,  0.35,  0.16,  0.41,  0.16,  0.29,  0.02]
+                "data" : [0.68,  0.22,  0.19,  0.10,  0.10,  0.47,  0.04,  0.52,  0.35,  0.16,  0.40,  0.15,  0.29,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.60,  0.21,  0.23,  0.11,  0.11,  0.43,  0.03,  0.61,  0.36,  0.14,  0.39,  0.16,  0.26,  0.02]
+                "data" : [0.56,  0.17,  0.24,  0.13,  0.07,  0.42,  0.02,  0.55,  0.38,  0.11,  0.31,  0.08,  0.28,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.72,  0.18,  0.21,  0.11,  0.09,  0.45,  0.03,  0.55,  0.34,  0.13,  0.37,  0.13,  0.32,  0.02]
+                "data" : [0.71,  0.18,  0.20,  0.11,  0.08,  0.43,  0.03,  0.55,  0.34,  0.13,  0.36,  0.12,  0.31,  0.02]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.74,  0.25,  0.20,  0.10,  0.11,  0.45,  0.03,  0.58,  0.31,  0.18,  0.44,  0.12,  0.32,  0.01]
+                "data" : [0.74,  0.26,  0.20,  0.09,  0.13,  0.46,  0.04,  0.59,  0.32,  0.20,  0.45,  0.12,  0.32,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.69,  0.25,  0.17,  0.09,  0.12,  0.47,  0.03,  0.51,  0.37,  0.17,  0.44,  0.15,  0.29,  0.02]
+                "data" : [0.70,  0.24,  0.19,  0.10,  0.12,  0.49,  0.04,  0.52,  0.37,  0.17,  0.45,  0.17,  0.30,  0.02]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4742,7 +4740,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.67,  0.19,  0.21,  0.13,  0.11,  0.50,  0.04,  0.55,  0.39,  0.16,  0.41,  0.12,  0.31,  0.01]
+                "data" : [0.64,  0.20,  0.20,  0.12,  0.10,  0.47,  0.03,  0.54,  0.39,  0.16,  0.40,  0.09,  0.30,  0.01]
               },
               {
                 "name" : "Mountain Plains",
@@ -4762,7 +4760,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.65,  0.19,  0.23,  0.08,  0.08,  0.43,  0.02,  0.54,  0.32,  0.14,  0.40,  0.15,  0.29,  0.02]
+                "data" : [0.66,  0.15,  0.26,  0.11,  0.07,  0.48,  0.02,  0.48,  0.34,  0.12,  0.35,  0.10,  0.34,  0.02]
               },
               {
                 "name" : "Western",
@@ -4772,22 +4770,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.73,  0.27,  0.23,  0.06,  0.12,  0.55,  0.04,  0.68,  0.41,  0.23,  0.49,  0.17,  0.28,  0.00]
+                "data" : [0.62,  0.23,  0.31,  0.00,  0.08,  0.38,  0.00,  0.77,  0.46,  0.15,  0.38,  0.08,  0.15,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.57,  0.16,  0.20,  0.14,  0.07,  0.41,  0.03,  0.52,  0.31,  0.16,  0.29,  0.08,  0.31,  0.03]
+                "data" : [0.57,  0.18,  0.21,  0.13,  0.09,  0.43,  0.04,  0.53,  0.33,  0.18,  0.30,  0.09,  0.31,  0.02]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.75,  0.15,  0.31,  0.10,  0.15,  0.59,  0.04,  0.62,  0.40,  0.15,  0.46,  0.19,  0.34,  0.01]
+                "data" : [0.68,  0.13,  0.32,  0.03,  0.10,  0.45,  0.00,  0.65,  0.42,  0.16,  0.39,  0.10,  0.26,  0.03]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.67,  0.12,  0.12,  0.05,  0.12,  0.40,  0.02,  0.58,  0.45,  0.10,  0.32,  0.10,  0.32,  0.02]
+                "data" : [0.72,  0.13,  0.19,  0.09,  0.14,  0.52,  0.04,  0.59,  0.42,  0.11,  0.39,  0.16,  0.35,  0.01]
               },
               {
                 "name" : "size5",
@@ -4797,12 +4795,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.74,  0.23,  0.18,  0.10,  0.15,  0.45,  0.06,  0.58,  0.34,  0.17,  0.41,  0.22,  0.29,  0.01]
+                "data" : [0.74,  0.21,  0.19,  0.11,  0.13,  0.45,  0.06,  0.53,  0.35,  0.15,  0.35,  0.18,  0.31,  0.02]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.65,  0.27,  0.18,  0.09,  0.11,  0.51,  0.04,  0.50,  0.38,  0.16,  0.43,  0.15,  0.26,  0.02]
+                "data" : [0.67,  0.27,  0.18,  0.09,  0.11,  0.52,  0.03,  0.52,  0.38,  0.17,  0.44,  0.16,  0.27,  0.02]
               },
             ],
             "questionName": "Which of the following reasons made you consider leaving the art museum field? Select all that apply.",
@@ -4816,107 +4814,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" :  true,
-                "data" : [0.68,  0.18 , 0.11,  0.07,  0.19,  0.11,  0.03]
+                "data" : [0.68,  0.18,  0.11,  0.07,  0.19,  0.11,  0.03]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.67,  0.16 , 0.12,  0.07,  0.20,  0.12,  0.01]
+                "data" : [0.67,  0.15,  0.12,  0.07,  0.20,  0.13,  0.02]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.68,  0.17 , 0.12,  0.07,  0.19,  0.11,  0.03]
+                "data" : [0.67,  0.17,  0.12,  0.07,  0.20,  0.11,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.74,  0.19 , 0.14,  0.10,  0.15,  0.07,  0.03]
+                "data" : [0.71,  0.16,  0.13,  0.11,  0.18,  0.08,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.65,  0.18 , 0.08,  0.08,  0.22,  0.12,  0.03]
+                "data" : [0.66,  0.19,  0.09,  0.07,  0.21,  0.12,  0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.72,  0.19 , 0.15,  0.08,  0.14,  0.09,  0.02]
+                "data" : [0.71,  0.18,  0.14,  0.08,  0.14,  0.11,  0.04]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.69,  0.18 , 0.13,  0.07,  0.17,  0.12,  0.03]
+                "data" : [0.68,  0.18,  0.12,  0.07,  0.18,  0.13,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" :  false,
-                "data" : [0.66,  0.21 , 0.12,  0.07,  0.21,  0.10,  0.01]
+                "data" : [0.66,  0.21,  0.12,  0.07,  0.21,  0.10,  0.01]
               },
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.70,  0.15 , 0.09,  0.08,  0.18,  0.13,  0.02]
+                "data" : [0.73,  0.15,  0.09,  0.08,  0.17,  0.12,  0.02]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" :  false,
-                "data" : [0.59,  0.12 , 0.09,  0.06,  0.24,  0.16,  0.07]
+                "data" : [0.59,  0.12,  0.09,  0.06,  0.24,  0.16,  0.07]
               },
               {
                 "name" : "New England",
                 "visible" :  false,
-                "data" : [0.72,  0.25 , 0.09,  0.08,  0.17,  0.05,  0.00]
+                "data" : [0.72,  0.25,  0.09,  0.08,  0.17,  0.05,  0.00]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" :  false,
-                "data" : [0.64,  0.23 , 0.07,  0.09,  0.18,  0.12,  0.06]
+                "data" : [0.64,  0.23,  0.07,  0.09,  0.18,  0.12,  0.06]
               },
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.72,  0.18 , 0.08,  0.10,  0.15,  0.10,  0.04]
+                "data" : [0.66,  0.15,  0.06,  0.11,  0.20,  0.14,  0.02]
               },
               {
                 "name" : "Western",
                 "visible" :  false,
-                "data" : [0.67,  0.16 , 0.18,  0.05,  0.18,  0.12,  0.04]
+                "data" : [0.67,  0.16,  0.18,  0.05,  0.18,  0.12,  0.04]
               },
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.60,  0.12 , 0.08,  0.10,  0.19,  0.19,  0.11]
+                "data" : [0.67,  0.21,  0.04,  0.21,  0.17,  0.08,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.67,  0.18 , 0.09,  0.09,  0.18,  0.09,  0.01]
+                "data" : [0.65,  0.18,  0.09,  0.09,  0.18,  0.11,  0.04]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.59,  0.18 , 0.11,  0.10,  0.22,  0.17,  0.02]
+                "data" : [0.63,  0.21,  0.17,  0.10,  0.19,  0.10,  0.02]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.75,  0.32 , 0.15,  0.06,  0.14,  0.05,  0.01]
+                "data" : [0.67,  0.25,  0.12,  0.08,  0.18,  0.12,  0.02]
               },
               {
                 "name" : "size5",
                 "visible" :  false,
-                "data" : [0.68,  0.19 , 0.07,  0.07,  0.19,  0.11,  0.04]
+                "data" : [0.68,  0.19,  0.07,  0.07,  0.19,  0.11,  0.04]
               },
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.73,  0.20 , 0.17,  0.07,  0.16,  0.08,  0.02]
+                "data" : [0.70,  0.17,  0.17,  0.07,  0.19,  0.09,  0.01]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.67,  0.15 , 0.12,  0.06,  0.21,  0.12,  0.02]
+                "data" : [0.67,  0.15,  0.12,  0.06,  0.21,  0.13,  0.03]
               },
             ],
             "questionName": "What kind of role, if any, do you have in your museum’s diversity, equity, and inclusion efforts? Select all that apply.",
@@ -4940,32 +4938,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.55,  0.45,  0.54,  0.17,  0.02,  0.35]
+                "data" : [0.54,  0.44,  0.54,  0.17,  0.02,  0.36]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.51,  0.44,  0.52,  0.15,  0.02,  0.38]
+                "data" : [0.51,  0.44,  0.51,  0.16,  0.02,  0.39]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.55,  0.43,  0.50,  0.17,  0.03,  0.35]
+                "data" : [0.53,  0.41,  0.48,  0.20,  0.03,  0.36]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.50,  0.49,  0.53,  0.11,  0.03,  0.37]
+                "data" : [0.50,  0.50,  0.54,  0.10,  0.03,  0.36]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.42,  0.48,  0.61,  0.18,  0.02,  0.34]
+                "data" : [0.40,  0.47,  0.59,  0.18,  0.02,  0.35]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.41,  0.36,  0.45,  0.14,  0.03,  0.47]
+                "data" : [0.41,  0.36,  0.46,  0.14,  0.03,  0.46]
               },
               {
                 "name" : "Mid Atlantic",
@@ -4975,7 +4973,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.54,  0.45,  0.53,  0.22,  0.02,  0.35]
+                "data" : [0.55,  0.47,  0.54,  0.22,  0.03,  0.33]
               },
               {
                 "name" : "Mountain Plains",
@@ -4995,7 +4993,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.55,  0.42,  0.48,  0.15,  0.02,  0.38]
+                "data" : [0.52,  0.38,  0.47,  0.16,  0.02,  0.42]
               },
               {
                 "name" : "Western",
@@ -5005,22 +5003,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.47,  0.50,  0.49,  0.12,  0.02,  0.37]
+                "data" : [0.58,  0.33,  0.42,  0.21,  0.04,  0.38]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.43,  0.44,  0.48,  0.13,  0.05,  0.37]
+                "data" : [0.41,  0.43,  0.47,  0.13,  0.05,  0.38]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.41,  0.38,  0.43,  0.12,  0.00,  0.46]
+                "data" : [0.33,  0.42,  0.35,  0.06,  0.00,  0.48]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.53,  0.54,  0.58,  0.28,  0.01,  0.34]
+                "data" : [0.52,  0.47,  0.55,  0.24,  0.01,  0.38]
               },
               {
                 "name" : "size5",
@@ -5030,12 +5028,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.49,  0.48,  0.57,  0.16,  0.02,  0.34]
+                "data" : [0.46,  0.48,  0.57,  0.17,  0.02,  0.36]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.56,  0.45,  0.54,  0.13,  0.03,  0.36]
+                "data" : [0.56,  0.47,  0.54,  0.13,  0.03,  0.35]
               },
             ],
             "questionName": "Has your museum measured the composition of any of the following groups?",
@@ -5064,22 +5062,22 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.10,  0.02,  0.88]
+                "data" : [0.09,  0.02,  0.89]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.18,  0.03,  0.79]
+                "data" : [0.19,  0.03,  0.78]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.25,  0.02,  0.72]
+                "data" : [0.24,  0.02,  0.73]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.08,  0.02,  0.90]
+                "data" : [0.07,  0.02,  0.91]
               },
               {
                 "name" : "Mid Atlantic",
@@ -5089,7 +5087,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.10,  0.02,  0.88]
+                "data" : [0.11,  0.02,  0.87]
               },
               {
                 "name" : "Mountain Plains",
@@ -5109,7 +5107,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.05,  0.02,  0.92]
+                "data" : [0.02,  0.02,  0.95]
               },
               {
                 "name" : "Western",
@@ -5119,7 +5117,7 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.02,  0.02,  0.96]
+                "data" : [0.08,  0.00,  0.92]
               },
               {
                 "name" : "size2",
@@ -5134,7 +5132,7 @@ export const staff_data = [
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.24,  0.00,  0.76]
+                "data" : [0.15,  0.01,  0.84]
               },
               {
                 "name" : "size5",
@@ -5144,12 +5142,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.11,  0.02,  0.87]
+                "data" : [0.10,  0.02,  0.88]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.24,  0.04,  0.71]
+                "data" : [0.22,  0.04,  0.74]
               },
             ],
             "questionName": "Are you a member, or do you have the option of being a member, of a union as part of your museum job?",
@@ -5168,32 +5166,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.36,  0.15,  0.16,  0.43,  0.00,  0.01]
+                "data" : [0.35,  0.17,  0.16,  0.42,  0.00,  0.01]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.39,  0.17,  0.21,  0.32,  0.02,  0.03]
+                "data" : [0.39,  0.16,  0.21,  0.32,  0.02,  0.03]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.43,  0.19,  0.26,  0.22,  0.02,  0.04]
+                "data" : [0.51,  0.17,  0.27,  0.16,  0.03,  0.03]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.38,  0.19,  0.20,  0.30,  0.02,  0.03]
+                "data" : [0.38,  0.18,  0.20,  0.31,  0.02,  0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.25,  0.16,  0.34,  0.35,  0.02,  0.03]
+                "data" : [0.25,  0.18,  0.32,  0.34,  0.02,  0.03]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.39,  0.15,  0.16,  0.38,  0.00,  0.03]
+                "data" : [0.39,  0.18,  0.17,  0.36,  0.00,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
@@ -5203,7 +5201,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.40,  0.18,  0.21,  0.33,  0.01,  0.02]
+                "data" : [0.39,  0.15,  0.21,  0.36,  0.01,  0.02]
               },
               {
                 "name" : "Mountain Plains",
@@ -5223,7 +5221,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.45,  0.17,  0.27,  0.20,  0.01,  0.05]
+                "data" : [0.53,  0.20,  0.27,  0.12,  0.01,  0.05]
               },
               {
                 "name" : "Western",
@@ -5233,22 +5231,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.31,  0.29,  0.12,  0.38,  0.01,  0.01]
+                "data" : [0.67,  0.29,  0.29,  0.00,  0.00,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.45,  0.14,  0.26,  0.26,  0.03,  0.03]
+                "data" : [0.44,  0.18,  0.24,  0.24,  0.02,  0.03]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.43,  0.36,  0.23,  0.13,  0.01,  0.06]
+                "data" : [0.42,  0.31,  0.25,  0.15,  0.02,  0.08]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.33,  0.06,  0.30,  0.41,  0.05,  0.01]
+                "data" : [0.38,  0.20,  0.27,  0.29,  0.03,  0.02]
               },
               {
                 "name" : "size5",
@@ -5258,12 +5256,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.30,  0.19,  0.23,  0.34,  0.02,  0.04]
+                "data" : [0.35,  0.18,  0.23,  0.31,  0.02,  0.03]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.33,  0.17,  0.16,  0.43,  0.01,  0.01]
+                "data" : [0.31,  0.17,  0.15,  0.45,  0.01,  0.01]
               },
             ],
             "questionName": "Which of the following statements best represent your museum’s post-COVID return-to- work policy, as it applies to you? Select all that apply.",
@@ -5277,107 +5275,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" :  true,
-                "data" : [0.12,  0.06,  0.11,  0.38,  0.17 , 0.16,  0.22]
+                "data" : [0.12,  0.06,  0.11,  0.38,  0.17,  0.16,  0.22]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.22,  0.05,  0.10,  0.44,  0.12 , 0.12,  0.19]
+                "data" : [0.22,  0.05,  0.10,  0.44,  0.12,  0.12,  0.18]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.13,  0.06,  0.11,  0.36,  0.17 , 0.17,  0.23]
+                "data" : [0.14,  0.06,  0.11,  0.36,  0.17,  0.17,  0.23]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.28,  0.05,  0.13,  0.32,  0.17 , 0.13,  0.20]
+                "data" : [0.34,  0.04,  0.12,  0.32,  0.13,  0.11,  0.25]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.03,  0.08,  0.08,  0.34,  0.20 , 0.21,  0.25]
+                "data" : [0.03,  0.09,  0.09,  0.36,  0.19,  0.20,  0.25]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.05,  0.10,  0.10,  0.30,  0.15 , 0.24,  0.28]
+                "data" : [0.05,  0.09,  0.10,  0.31,  0.15,  0.24,  0.26]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.17,  0.04,  0.13,  0.41,  0.15 , 0.11,  0.22]
+                "data" : [0.16,  0.04,  0.12,  0.38,  0.17,  0.13,  0.22]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" :  false,
-                "data" : [0.10,  0.04,  0.14,  0.45,  0.14 , 0.14,  0.22]
+                "data" : [0.10,  0.04,  0.14,  0.45,  0.14,  0.14,  0.22]
               },
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.27,  0.06,  0.06,  0.38,  0.16 , 0.15,  0.20]
+                "data" : [0.31,  0.07,  0.07,  0.43,  0.13,  0.12,  0.18]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" :  false,
-                "data" : [0.01,  0.00,  0.04,  0.36,  0.25 , 0.21,  0.24]
+                "data" : [0.01,  0.00,  0.04,  0.36,  0.25,  0.21,  0.24]
               },
               {
                 "name" : "New England",
                 "visible" :  false,
-                "data" : [0.05,  0.07,  0.19,  0.52,  0.13 , 0.09,  0.20]
+                "data" : [0.05,  0.07,  0.19,  0.52,  0.13,  0.09,  0.20]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" :  false,
-                "data" : [0.02,  0.05,  0.17,  0.54,  0.11 , 0.11,  0.21]
+                "data" : [0.02,  0.05,  0.17,  0.54,  0.11,  0.11,  0.21]
               },
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.12,  0.03,  0.08,  0.25,  0.23 , 0.21,  0.27]
+                "data" : [0.11,  0.01,  0.05,  0.19,  0.22,  0.24,  0.34]
               },
               {
                 "name" : "Western",
                 "visible" :  false,
-                "data" : [0.08,  0.15,  0.16,  0.34,  0.13 , 0.17,  0.22]
+                "data" : [0.08,  0.15,  0.16,  0.34,  0.13,  0.17,  0.22]
               },
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.15,  0.01,  0.08,  0.50,  0.22 , 0.14,  0.15]
+                "data" : [0.71,  0.04,  0.17,  0.33,  0.13,  0.04,  0.13]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.12,  0.00,  0.16,  0.36,  0.12 , 0.15,  0.28]
+                "data" : [0.11,  0.00,  0.15,  0.39,  0.13,  0.15,  0.26]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.00,  0.00,  0.01,  0.32,  0.23 , 0.23,  0.26]
+                "data" : [0.00,  0.00,  0.02,  0.58,  0.13,  0.10,  0.23]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.28,  0.16,  0.24,  0.67,  0.08 , 0.01,  0.05]
+                "data" : [0.17,  0.10,  0.15,  0.44,  0.18,  0.15,  0.15]
               },
               {
                 "name" : "size5",
                 "visible" :  false,
-                "data" : [0.05,  0.04,  0.05,  0.33,  0.22 , 0.19,  0.27]
+                "data" : [0.05,  0.04,  0.05,  0.33,  0.22,  0.19,  0.27]
               },
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.06,  0.05,  0.20,  0.37,  0.16 , 0.21,  0.18]
+                "data" : [0.06,  0.03,  0.21,  0.37,  0.12,  0.21,  0.21]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.19,  0.11,  0.09,  0.37,  0.15 , 0.14,  0.23]
+                "data" : [0.17,  0.10,  0.09,  0.38,  0.16,  0.14,  0.22]
               },
             ],
             "questionName": "Which of the following statements best reflect the salary sharing practices of your museum workplace? Select all that apply",
@@ -5396,32 +5394,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" :  false,
-                "data" : [0.06,  0.16,  0.12,  0.37,  0.29,  0.00]
+                "data" : [0.06,  0.15,  0.11,  0.37,  0.30,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" :  false,
-                "data" : [0.06,  0.13,  0.11,  0.37,  0.33,  0.00]
+                "data" : [0.06,  0.12,  0.12,  0.37,  0.33,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" :  false,
-                "data" : [0.04,  0.13,  0.09,  0.35,  0.38,  0.00]
+                "data" : [0.04,  0.12,  0.09,  0.34,  0.40,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" :  false,
-                "data" : [0.05,  0.09,  0.11,  0.39,  0.35,  0.00]
+                "data" : [0.04,  0.08,  0.11,  0.40,  0.36,  0.00]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" :  false,
-                "data" : [0.04,  0.10,  0.12,  0.40,  0.33,  0.01]
+                "data" : [0.04,  0.10,  0.12,  0.39,  0.34,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" :  false,
-                "data" : [0.05,  0.14,  0.11,  0.38,  0.31,  0.00]
+                "data" : [0.06,  0.14,  0.11,  0.38,  0.30,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -5431,7 +5429,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" :  false,
-                "data" : [0.08,  0.15,  0.12,  0.34,  0.31,  0.00]
+                "data" : [0.06,  0.15,  0.11,  0.35,  0.32,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -5451,7 +5449,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" :  false,
-                "data" : [0.04,  0.12,  0.10,  0.35,  0.40,  0.00]
+                "data" : [0.06,  0.11,  0.11,  0.33,  0.38,  0.00]
               },
               {
                 "name" : "Western",
@@ -5461,22 +5459,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" :  false,
-                "data" : [0.03,  0.12,  0.10,  0.35,  0.41,  0.00]
+                "data" : [0.04,  0.08,  0.08,  0.21,  0.58,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" :  false,
-                "data" : [0.03,  0.09,  0.10,  0.35,  0.42,  0.00]
+                "data" : [0.03,  0.09,  0.10,  0.34,  0.43,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" :  false,
-                "data" : [0.09,  0.09,  0.14,  0.42,  0.25,  0.00]
+                "data" : [0.00,  0.04,  0.15,  0.52,  0.29,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" :  false,
-                "data" : [0.03,  0.09,  0.09,  0.39,  0.41,  0.00]
+                "data" : [0.08,  0.11,  0.11,  0.37,  0.33,  0.00]
               },
               {
                 "name" : "size5",
@@ -5486,12 +5484,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" :  false,
-                "data" : [0.05,  0.14,  0.12,  0.37,  0.32,  0.01]
+                "data" : [0.04,  0.14,  0.13,  0.36,  0.32,  0.01]
               },
               {
                 "name" : "size7",
                 "visible" :  false,
-                "data" : [0.07,  0.14,  0.12,  0.39,  0.28,  0.00]
+                "data" : [0.07,  0.14,  0.12,  0.40,  0.28,  0.00]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: I believe that I can learn and grow in this organization",
@@ -5515,27 +5513,27 @@ export const staff_data = [
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.13,  0.15,  0.19,  0.30,  0.22,  0.00]
+                "data" : [0.13,  0.15,  0.20,  0.30,  0.22,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.15,  0.13,  0.14,  0.33,  0.25,  0.00]
+                "data" : [0.18,  0.15,  0.15,  0.31,  0.21,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.15,  0.15,  0.20,  0.29,  0.21,  0.00]
+                "data" : [0.15,  0.15,  0.20,  0.30,  0.20,  0.00]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.12,  0.13,  0.22,  0.28,  0.24,  0.01]
+                "data" : [0.12,  0.13,  0.21,  0.29,  0.24,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.11,  0.15,  0.22,  0.30,  0.21,  0.00]
+                "data" : [0.12,  0.15,  0.22,  0.30,  0.22,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -5545,7 +5543,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.15,  0.15,  0.16,  0.31,  0.23,  0.00]
+                "data" : [0.15,  0.16,  0.16,  0.31,  0.22,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -5565,7 +5563,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.18,  0.15,  0.15,  0.31,  0.21,  0.00]
+                "data" : [0.20,  0.16,  0.17,  0.28,  0.19,  0.00]
               },
               {
                 "name" : "Western",
@@ -5575,22 +5573,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.12,  0.11,  0.22,  0.32,  0.24,  0.00]
+                "data" : [0.13,  0.08,  0.17,  0.42,  0.21,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.20,  0.17,  0.17,  0.30,  0.16,  0.00]
+                "data" : [0.19,  0.17,  0.17,  0.30,  0.17,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.18,  0.09,  0.14,  0.30,  0.28,  0.00]
+                "data" : [0.23,  0.08,  0.08,  0.33,  0.27,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.08,  0.15,  0.15,  0.35,  0.27,  0.00]
+                "data" : [0.10,  0.13,  0.17,  0.32,  0.28,  0.00]
               },
               {
                 "name" : "size5",
@@ -5600,7 +5598,7 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.11,  0.15,  0.23,  0.27,  0.23,  0.00]
+                "data" : [0.12,  0.17,  0.26,  0.25,  0.20,  0.00]
               },
               {
                 "name" : "size7",
@@ -5629,17 +5627,17 @@ export const staff_data = [
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.06,  0.07,  0.11,  0.29,  0.46,  0.00]
+                "data" : [0.06,  0.07,  0.11,  0.29,  0.47,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.07,  0.07,  0.10,  0.29,  0.47,  0.00]
+                "data" : [0.05,  0.06,  0.10,  0.27,  0.52,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.04,  0.07,  0.10,  0.30,  0.49,  0.00]
+                "data" : [0.03,  0.07,  0.10,  0.30,  0.49,  0.00]
               },
               {
                 "name" : "Culturally-specific",
@@ -5649,7 +5647,7 @@ export const staff_data = [
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.05,  0.07,  0.12,  0.30,  0.45,  0.00]
+                "data" : [0.06,  0.07,  0.12,  0.30,  0.45,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -5659,7 +5657,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.07,  0.08,  0.12,  0.32,  0.42,  0.00]
+                "data" : [0.06,  0.08,  0.12,  0.33,  0.42,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -5679,7 +5677,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.05,  0.09,  0.10,  0.25,  0.51,  0.00]
+                "data" : [0.05,  0.08,  0.10,  0.24,  0.53,  0.00]
               },
               {
                 "name" : "Western",
@@ -5689,22 +5687,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.05,  0.06,  0.14,  0.31,  0.44,  0.00]
+                "data" : [0.08,  0.04,  0.08,  0.29,  0.50,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.02,  0.06,  0.09,  0.28,  0.55,  0.00]
+                "data" : [0.02,  0.06,  0.10,  0.29,  0.53,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.08,  0.08,  0.13,  0.28,  0.42,  0.00]
+                "data" : [0.06,  0.08,  0.15,  0.25,  0.46,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.04,  0.05,  0.09,  0.29,  0.53,  0.00]
+                "data" : [0.06,  0.06,  0.10,  0.30,  0.48,  0.00]
               },
               {
                 "name" : "size5",
@@ -5714,7 +5712,7 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.06,  0.10,  0.08,  0.30,  0.44,  0.01]
+                "data" : [0.05,  0.10,  0.08,  0.29,  0.47,  0.01]
               },
               {
                 "name" : "size7",
@@ -5738,32 +5736,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.25,  0.22,  0.23,  0.22,  0.08,  0.00]
+                "data" : [0.24,  0.22,  0.24,  0.22,  0.08,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.20,  0.20,  0.28,  0.20,  0.11,  0.01]
+                "data" : [0.20,  0.19,  0.27,  0.20,  0.12,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.18,  0.20,  0.27,  0.18,  0.16,  0.00]
+                "data" : [0.16,  0.18,  0.27,  0.19,  0.20,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.15,  0.19,  0.31,  0.20,  0.14,  0.01]
+                "data" : [0.13,  0.18,  0.32,  0.21,  0.15,  0.01]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.18,  0.20,  0.28,  0.22,  0.11,  0.01]
+                "data" : [0.18,  0.19,  0.29,  0.22,  0.11,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.24,  0.19,  0.26,  0.22,  0.09,  0.00]
+                "data" : [0.25,  0.19,  0.26,  0.21,  0.09,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -5773,7 +5771,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.24,  0.21,  0.28,  0.17,  0.10,  0.01]
+                "data" : [0.22,  0.20,  0.29,  0.18,  0.10,  0.01]
               },
               {
                 "name" : "Mountain Plains",
@@ -5793,7 +5791,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.13,  0.22,  0.26,  0.22,  0.17,  0.00]
+                "data" : [0.15,  0.21,  0.24,  0.21,  0.18,  0.00]
               },
               {
                 "name" : "Western",
@@ -5803,22 +5801,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.20,  0.17,  0.25,  0.24,  0.15,  0.00]
+                "data" : [0.13,  0.13,  0.25,  0.21,  0.29,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.11,  0.19,  0.34,  0.18,  0.17,  0.00]
+                "data" : [0.11,  0.18,  0.34,  0.19,  0.18,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.23,  0.18,  0.29,  0.14,  0.15,  0.00]
+                "data" : [0.08,  0.15,  0.35,  0.19,  0.23,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.16,  0.16,  0.30,  0.23,  0.13,  0.01]
+                "data" : [0.25,  0.18,  0.28,  0.18,  0.11,  0.01]
               },
               {
                 "name" : "size5",
@@ -5828,12 +5826,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.19,  0.20,  0.33,  0.19,  0.09,  0.00]
+                "data" : [0.17,  0.19,  0.33,  0.20,  0.10,  0.00]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.24,  0.21,  0.25,  0.19,  0.09,  0.01]
+                "data" : [0.25,  0.21,  0.25,  0.20,  0.09,  0.01]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: I believe performance reviews contribute to growth and/or advancement in my institution",
@@ -5862,22 +5860,22 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.30,  0.32,  0.14,  0.19,  0.05,  0.00]
+                "data" : [0.35,  0.30,  0.13,  0.18,  0.04,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.29,  0.34,  0.17,  0.13,  0.07,  0.00]
+                "data" : [0.29,  0.34,  0.17,  0.13,  0.06,  0.00]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.38,  0.37,  0.08,  0.11,  0.04,  0.01]
+                "data" : [0.38,  0.37,  0.09,  0.11,  0.05,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.25,  0.31,  0.20,  0.18,  0.06,  0.00]
+                "data" : [0.24,  0.31,  0.20,  0.18,  0.07,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -5887,7 +5885,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.26,  0.33,  0.19,  0.15,  0.06,  0.00]
+                "data" : [0.27,  0.33,  0.19,  0.15,  0.06,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -5907,7 +5905,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.33,  0.30,  0.12,  0.18,  0.07,  0.00]
+                "data" : [0.36,  0.29,  0.12,  0.17,  0.07,  0.00]
               },
               {
                 "name" : "Western",
@@ -5917,22 +5915,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.26,  0.28,  0.24,  0.16,  0.06,  0.00]
+                "data" : [0.29,  0.38,  0.17,  0.08,  0.08,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.39,  0.28,  0.13,  0.15,  0.05,  0.00]
+                "data" : [0.39,  0.28,  0.14,  0.14,  0.05,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.20,  0.39,  0.19,  0.13,  0.08,  0.00]
+                "data" : [0.19,  0.44,  0.25,  0.06,  0.06,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.35,  0.37,  0.10,  0.13,  0.05,  0.00]
+                "data" : [0.30,  0.36,  0.12,  0.15,  0.07,  0.00]
               },
               {
                 "name" : "size5",
@@ -5942,12 +5940,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.30,  0.33,  0.15,  0.16,  0.05,  0.00]
+                "data" : [0.35,  0.31,  0.15,  0.14,  0.05,  0.00]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.19,  0.35,  0.22,  0.18,  0.06,  0.00]
+                "data" : [0.19,  0.34,  0.23,  0.18,  0.06,  0.00]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: Diversity and difference are not celebrated in this organization",
@@ -5966,32 +5964,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.03,  0.06,  0.11,  0.40,  0.39,  0.00]
+                "data" : [0.03,  0.06,  0.11,  0.41,  0.39,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.02,  0.05,  0.11,  0.39,  0.42,  0.00]
+                "data" : [0.02,  0.05,  0.12,  0.39,  0.42,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.02,  0.06,  0.09,  0.37,  0.46,  0.00]
+                "data" : [0.02,  0.06,  0.10,  0.37,  0.46,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.01,  0.05,  0.12,  0.41,  0.40,  0.00]
+                "data" : [0.01,  0.04,  0.12,  0.42,  0.41,  0.00]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.02,  0.00,  0.12,  0.42,  0.43,  0.01]
+                "data" : [0.02,  0.00,  0.11,  0.42,  0.43,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.02,  0.05,  0.10,  0.38,  0.44,  0.00]
+                "data" : [0.02,  0.06,  0.11,  0.38,  0.43,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -6001,7 +5999,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.02,  0.06,  0.11,  0.39,  0.41,  0.00]
+                "data" : [0.01,  0.05,  0.11,  0.40,  0.43,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -6021,7 +6019,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.02,  0.05,  0.09,  0.37,  0.48,  0.00]
+                "data" : [0.03,  0.06,  0.11,  0.36,  0.45,  0.00]
               },
               {
                 "name" : "Western",
@@ -6031,22 +6029,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.02,  0.07,  0.11,  0.39,  0.42,  0.00]
+                "data" : [0.00,  0.04,  0.04,  0.50,  0.42,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.02,  0.05,  0.09,  0.36,  0.49,  0.00]
+                "data" : [0.02,  0.05,  0.08,  0.37,  0.48,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.04,  0.10,  0.16,  0.37,  0.31,  0.01]
+                "data" : [0.02,  0.06,  0.17,  0.40,  0.33,  0.02]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.00,  0.04,  0.10,  0.41,  0.46,  0.00]
+                "data" : [0.02,  0.08,  0.12,  0.38,  0.39,  0.00]
               },
               {
                 "name" : "size5",
@@ -6056,12 +6054,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.02,  0.05,  0.07,  0.37,  0.49,  0.00]
+                "data" : [0.02,  0.04,  0.07,  0.36,  0.50,  0.00]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.02,  0.05,  0.14,  0.43,  0.35,  0.00]
+                "data" : [0.02,  0.05,  0.14,  0.42,  0.36,  0.00]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: I believe that what I do here is meaningful",
@@ -6080,32 +6078,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.19,  0.19,  0.17,  0.25,  0.20,  0.00]
+                "data" : [0.19,  0.19,  0.17,  0.26,  0.20,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.21,  0.20,  0.18,  0.25,  0.15,  0.00]
+                "data" : [0.22,  0.21,  0.18,  0.25,  0.15,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.23,  0.19,  0.19,  0.23,  0.17,  0.00]
+                "data" : [0.26,  0.19,  0.19,  0.21,  0.15,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.27,  0.19,  0.16,  0.25,  0.12,  0.00]
+                "data" : [0.28,  0.19,  0.17,  0.26,  0.11,  0.00]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.22,  0.18,  0.19,  0.26,  0.14,  0.01]
+                "data" : [0.21,  0.18,  0.19,  0.26,  0.14,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.18,  0.21,  0.19,  0.25,  0.17,  0.00]
+                "data" : [0.19,  0.21,  0.18,  0.24,  0.18,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -6115,7 +6113,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.22,  0.18,  0.15,  0.29,  0.16,  0.00]
+                "data" : [0.22,  0.17,  0.16,  0.30,  0.15,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -6135,7 +6133,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.27,  0.21,  0.15,  0.22,  0.16,  0.00]
+                "data" : [0.29,  0.22,  0.14,  0.20,  0.15,  0.00]
               },
               {
                 "name" : "Western",
@@ -6145,22 +6143,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.17,  0.18,  0.20,  0.28,  0.17,  0.00]
+                "data" : [0.17,  0.21,  0.17,  0.25,  0.21,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.32,  0.21,  0.18,  0.18,  0.11,  0.00]
+                "data" : [0.31,  0.20,  0.18,  0.20,  0.11,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.26,  0.19,  0.13,  0.25,  0.16,  0.00]
+                "data" : [0.29,  0.17,  0.15,  0.29,  0.10,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.20,  0.22,  0.19,  0.25,  0.14,  0.00]
+                "data" : [0.22,  0.22,  0.16,  0.24,  0.17,  0.00]
               },
               {
                 "name" : "size5",
@@ -6170,7 +6168,7 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.20,  0.22,  0.20,  0.25,  0.13,  0.00]
+                "data" : [0.22,  0.23,  0.20,  0.24,  0.10,  0.00]
               },
               {
                 "name" : "size7",
@@ -6194,7 +6192,7 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.14,  0.25,  0.24,  0.22,  0.15,  0.00]
+                "data" : [0.14,  0.25,  0.24,  0.22,  0.14,  0.00]
               },
               {
                 "name" : "Collecting",
@@ -6204,7 +6202,7 @@ export const staff_data = [
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.27,  0.23,  0.24,  0.16,  0.09,  0.00]
+                "data" : [0.32,  0.23,  0.23,  0.15,  0.08,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
@@ -6214,12 +6212,12 @@ export const staff_data = [
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.23,  0.28,  0.27,  0.15,  0.06,  0.01]
+                "data" : [0.23,  0.27,  0.27,  0.16,  0.06,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.20,  0.26,  0.23,  0.19,  0.11,  0.00]
+                "data" : [0.20,  0.26,  0.24,  0.18,  0.11,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -6229,7 +6227,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.21,  0.26,  0.24,  0.19,  0.10,  0.00]
+                "data" : [0.21,  0.26,  0.23,  0.19,  0.10,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -6249,7 +6247,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.29,  0.24,  0.25,  0.15,  0.07,  0.00]
+                "data" : [0.31,  0.24,  0.26,  0.14,  0.05,  0.00]
               },
               {
                 "name" : "Western",
@@ -6259,22 +6257,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.24,  0.28,  0.20,  0.21,  0.07,  0.01]
+                "data" : [0.29,  0.25,  0.29,  0.17,  0.00,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.36,  0.23,  0.24,  0.11,  0.07,  0.00]
+                "data" : [0.36,  0.23,  0.23,  0.12,  0.06,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.25,  0.24,  0.33,  0.12,  0.04,  0.01]
+                "data" : [0.29,  0.25,  0.33,  0.06,  0.04,  0.02]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.29,  0.25,  0.23,  0.14,  0.09,  0.00]
+                "data" : [0.26,  0.25,  0.27,  0.15,  0.07,  0.00]
               },
               {
                 "name" : "size5",
@@ -6284,12 +6282,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.25,  0.29,  0.27,  0.15,  0.04,  0.00]
+                "data" : [0.28,  0.30,  0.26,  0.13,  0.03,  0.00]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.14,  0.26,  0.27,  0.19,  0.13,  0.00]
+                "data" : [0.14,  0.26,  0.26,  0.20,  0.13,  0.00]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: Mistakes are held against you in this organization",
@@ -6308,32 +6306,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.16,  0.26,  0.33,  0.16,  0.00]
+                "data" : [0.09,  0.16,  0.26,  0.34,  0.15,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.08,  0.14,  0.26,  0.33,  0.20,  0.00]
+                "data" : [0.07,  0.14,  0.25,  0.33,  0.20,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.13,  0.22,  0.32,  0.25,  0.00]
+                "data" : [0.08,  0.13,  0.19,  0.33,  0.28,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.05,  0.13,  0.27,  0.33,  0.22,  0.00]
+                "data" : [0.05,  0.13,  0.27,  0.32,  0.23,  0.00]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.07,  0.12,  0.26,  0.34,  0.20,  0.00]
+                "data" : [0.07,  0.12,  0.26,  0.35,  0.19,  0.00]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.08,  0.17,  0.28,  0.30,  0.17,  0.00]
+                "data" : [0.08,  0.17,  0.27,  0.31,  0.17,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -6343,7 +6341,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.07,  0.16,  0.24,  0.35,  0.18,  0.00]
+                "data" : [0.06,  0.16,  0.24,  0.35,  0.19,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -6363,7 +6361,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.06,  0.12,  0.28,  0.30,  0.24,  0.00]
+                "data" : [0.06,  0.13,  0.25,  0.32,  0.24,  0.00]
               },
               {
                 "name" : "Western",
@@ -6373,22 +6371,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.08,  0.13,  0.35,  0.29,  0.15,  0.00]
+                "data" : [0.08,  0.00,  0.38,  0.38,  0.17,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.05,  0.11,  0.22,  0.29,  0.32,  0.00]
+                "data" : [0.05,  0.11,  0.24,  0.30,  0.31,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.09,  0.16,  0.28,  0.31,  0.15,  0.00]
+                "data" : [0.04,  0.13,  0.38,  0.27,  0.19,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.06,  0.14,  0.18,  0.37,  0.25,  0.00]
+                "data" : [0.09,  0.16,  0.18,  0.36,  0.20,  0.00]
               },
               {
                 "name" : "size5",
@@ -6398,7 +6396,7 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.08,  0.10,  0.24,  0.35,  0.22,  0.00]
+                "data" : [0.07,  0.10,  0.22,  0.37,  0.25,  0.00]
               },
               {
                 "name" : "size7",
@@ -6427,17 +6425,17 @@ export const staff_data = [
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.14,  0.23,  0.19,  0.25,  0.19,  0.00]
+                "data" : [0.14,  0.24,  0.19,  0.24,  0.19,  0.00]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.19,  0.22,  0.16,  0.27,  0.16,  0.00]
+                "data" : [0.20,  0.25,  0.15,  0.25,  0.15,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.15,  0.25,  0.20,  0.21,  0.18,  0.00]
+                "data" : [0.15,  0.26,  0.21,  0.21,  0.17,  0.00]
               },
               {
                 "name" : "Culturally-specific",
@@ -6447,7 +6445,7 @@ export const staff_data = [
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.11,  0.24,  0.18,  0.28,  0.19,  0.00]
+                "data" : [0.11,  0.23,  0.18,  0.27,  0.20,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
@@ -6457,7 +6455,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.14,  0.24,  0.17,  0.26,  0.18,  0.00]
+                "data" : [0.14,  0.25,  0.18,  0.26,  0.16,  0.00]
               },
               {
                 "name" : "Mountain Plains",
@@ -6477,7 +6475,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.19,  0.20,  0.21,  0.27,  0.13,  0.00]
+                "data" : [0.20,  0.20,  0.19,  0.25,  0.16,  0.00]
               },
               {
                 "name" : "Western",
@@ -6487,22 +6485,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.15,  0.23,  0.19,  0.24,  0.19,  0.00]
+                "data" : [0.25,  0.29,  0.25,  0.17,  0.04,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.23,  0.23,  0.18,  0.21,  0.14,  0.00]
+                "data" : [0.22,  0.25,  0.18,  0.21,  0.14,  0.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.13,  0.19,  0.17,  0.22,  0.27,  0.01]
+                "data" : [0.10,  0.25,  0.23,  0.19,  0.21,  0.02]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.19,  0.32,  0.15,  0.15,  0.18,  0.01]
+                "data" : [0.18,  0.25,  0.14,  0.19,  0.24,  0.01]
               },
               {
                 "name" : "size5",
@@ -6512,12 +6510,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.15,  0.23,  0.17,  0.28,  0.17,  0.00]
+                "data" : [0.16,  0.25,  0.16,  0.26,  0.17,  0.00]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.08,  0.24,  0.20,  0.25,  0.21,  0.00]
+                "data" : [0.09,  0.23,  0.20,  0.26,  0.22,  0.00]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: I don’t feel that I have a voice in decision making in this organization",
@@ -6536,32 +6534,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.19,  0.25,  0.30,  0.17,  0.08,  0.02]
+                "data" : [0.19,  0.26,  0.29,  0.17,  0.08,  0.02]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.21,  0.21,  0.32,  0.16,  0.07,  0.02]
+                "data" : [0.20,  0.21,  0.33,  0.17,  0.08,  0.03]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.17,  0.17,  0.32,  0.20,  0.12,  0.01]
+                "data" : [0.09,  0.15,  0.35,  0.24,  0.15,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.22,  0.20,  0.33,  0.15,  0.06,  0.03]
+                "data" : [0.21,  0.20,  0.33,  0.16,  0.06,  0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.19,  0.20,  0.31,  0.21,  0.07,  0.01]
+                "data" : [0.19,  0.22,  0.30,  0.20,  0.07,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.20,  0.21,  0.32,  0.16,  0.08,  0.03]
+                "data" : [0.22,  0.21,  0.32,  0.15,  0.07,  0.03]
               },
               {
                 "name" : "Mid Atlantic",
@@ -6571,7 +6569,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.24,  0.23,  0.30,  0.14,  0.07,  0.03]
+                "data" : [0.22,  0.23,  0.29,  0.15,  0.08,  0.03]
               },
               {
                 "name" : "Mountain Plains",
@@ -6591,7 +6589,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.21,  0.20,  0.32,  0.16,  0.08,  0.02]
+                "data" : [0.18,  0.18,  0.37,  0.16,  0.08,  0.02]
               },
               {
                 "name" : "Western",
@@ -6601,22 +6599,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.13,  0.27,  0.28,  0.26,  0.06,  0.00]
+                "data" : [0.04,  0.17,  0.29,  0.38,  0.13,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.16,  0.16,  0.36,  0.17,  0.12,  0.03]
+                "data" : [0.16,  0.18,  0.34,  0.19,  0.11,  0.03]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.26,  0.23,  0.41,  0.07,  0.01,  0.01]
+                "data" : [0.17,  0.27,  0.44,  0.08,  0.02,  0.02]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.15,  0.28,  0.35,  0.14,  0.05,  0.03]
+                "data" : [0.23,  0.25,  0.37,  0.11,  0.03,  0.02]
               },
               {
                 "name" : "size5",
@@ -6626,12 +6624,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.21,  0.16,  0.30,  0.20,  0.10,  0.03]
+                "data" : [0.15,  0.14,  0.33,  0.22,  0.11,  0.04]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.24,  0.24,  0.30,  0.16,  0.05,  0.02]
+                "data" : [0.23,  0.25,  0.30,  0.16,  0.05,  0.02]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: My institution provides management and/or leadership training for all supervisors",
@@ -6645,107 +6643,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.12,  0.16,  0.31 , 0.24,  0.15 , 0.02]
+                "data" : [0.12,  0.16,  0.31,  0.24,  0.15,  0.02]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.19,  0.20,  0.30 , 0.20,  0.10 , 0.01]
+                "data" : [0.19,  0.20,  0.30,  0.21,  0.09,  0.01]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.12,  0.17,  0.31 , 0.24,  0.14 , 0.02]
+                "data" : [0.12,  0.16,  0.31,  0.25,  0.14,  0.02]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.09,  0.19,  0.26 , 0.24,  0.22 , 0.00]
+                "data" : [0.07,  0.14,  0.26,  0.27,  0.26,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.08,  0.14,  0.31 , 0.26,  0.17 , 0.03]
+                "data" : [0.08,  0.14,  0.32,  0.26,  0.18,  0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.14,  0.16,  0.35 , 0.20,  0.13 , 0.02]
+                "data" : [0.14,  0.16,  0.35,  0.21,  0.12,  0.02]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.14,  0.18,  0.31 , 0.24,  0.11 , 0.01]
+                "data" : [0.14,  0.18,  0.31,  0.25,  0.11,  0.01]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.14,  0.17,  0.30 , 0.24,  0.14 , 0.02]
+                "data" : [0.14,  0.17,  0.30,  0.24,  0.14,  0.02]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.15,  0.18,  0.27 , 0.24,  0.15 , 0.01]
+                "data" : [0.15,  0.18,  0.28,  0.22,  0.15,  0.01]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.08,  0.16,  0.36 , 0.20,  0.19 , 0.02]
+                "data" : [0.08,  0.16,  0.36,  0.20,  0.19,  0.02]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.08,  0.16,  0.30 , 0.25,  0.18 , 0.03]
+                "data" : [0.08,  0.16,  0.30,  0.25,  0.18,  0.03]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.06,  0.13,  0.28 , 0.25,  0.26 , 0.02]
+                "data" : [0.06,  0.13,  0.28,  0.25,  0.26,  0.02]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.08,  0.17,  0.30 , 0.23,  0.20 , 0.02]
+                "data" : [0.07,  0.14,  0.30,  0.27,  0.20,  0.02]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.10,  0.13,  0.33 , 0.29,  0.13 , 0.01]
+                "data" : [0.10,  0.13,  0.33,  0.29,  0.13,  0.01]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.09,  0.20,  0.33 , 0.23,  0.15 , 0.00]
+                "data" : [0.00,  0.13,  0.17,  0.17,  0.54,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.07,  0.10,  0.27 , 0.28,  0.27 , 0.01]
+                "data" : [0.07,  0.11,  0.28,  0.28,  0.25,  0.01]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.09,  0.13,  0.32 , 0.30,  0.13 , 0.02]
+                "data" : [0.04,  0.04,  0.42,  0.29,  0.17,  0.04]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.05,  0.15,  0.28 , 0.35,  0.14 , 0.03]
+                "data" : [0.08,  0.18,  0.26,  0.34,  0.12,  0.02]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.10,  0.13,  0.36 , 0.19,  0.20 , 0.02]
+                "data" : [0.10,  0.13,  0.36,  0.19,  0.20,  0.02]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.11,  0.18,  0.29 , 0.26,  0.14 , 0.03]
+                "data" : [0.09,  0.13,  0.30,  0.29,  0.15,  0.03]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.17,  0.20,  0.30 , 0.23,  0.10 , 0.01]
+                "data" : [0.16,  0.20,  0.31,  0.23,  0.09,  0.01]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: People in my organization are held accountable for discrimination and harassment",
@@ -6759,107 +6757,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [0.29,  0.22,  0.19,  0.21 , 0.08,  0.01]
+                "data" : [0.29,  0.22,  0.19,  0.21,  0.08,  0.01]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.23,  0.22,  0.22,  0.23 , 0.10,  0.00]
+                "data" : [0.23,  0.22,  0.22,  0.23,  0.10,  0.00]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.29,  0.22,  0.19,  0.22 , 0.09,  0.01]
+                "data" : [0.29,  0.22,  0.19,  0.21,  0.08,  0.01]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.30,  0.20,  0.15,  0.26 , 0.09,  0.00]
+                "data" : [0.35,  0.19,  0.16,  0.23,  0.08,  0.00]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.32,  0.21,  0.18,  0.20 , 0.08,  0.00]
+                "data" : [0.33,  0.21,  0.18,  0.20,  0.07,  0.00]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.28,  0.20,  0.20,  0.23 , 0.07,  0.01]
+                "data" : [0.29,  0.20,  0.19,  0.24,  0.08,  0.01]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.29,  0.21,  0.21,  0.20 , 0.08,  0.00]
+                "data" : [0.29,  0.21,  0.21,  0.20,  0.08,  0.00]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [0.26,  0.22,  0.21,  0.20 , 0.09,  0.01]
+                "data" : [0.26,  0.22,  0.21,  0.20,  0.09,  0.01]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.28,  0.24,  0.20,  0.22 , 0.06,  0.00]
+                "data" : [0.28,  0.24,  0.20,  0.22,  0.06,  0.00]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [0.36,  0.21,  0.18,  0.18 , 0.08,  0.00]
+                "data" : [0.36,  0.21,  0.18,  0.18,  0.08,  0.00]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [0.33,  0.24,  0.13,  0.23 , 0.08,  0.00]
+                "data" : [0.33,  0.24,  0.13,  0.23,  0.08,  0.00]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [0.37,  0.20,  0.18,  0.17 , 0.07,  0.01]
+                "data" : [0.37,  0.20,  0.18,  0.17,  0.07,  0.01]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.30,  0.19,  0.17,  0.25 , 0.08,  0.00]
+                "data" : [0.35,  0.18,  0.18,  0.22,  0.07,  0.00]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [0.31,  0.20,  0.18,  0.22 , 0.09,  0.00]
+                "data" : [0.31,  0.20,  0.18,  0.22,  0.09,  0.00]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.29,  0.26,  0.15,  0.20 , 0.09,  0.00]
+                "data" : [0.38,  0.21,  0.17,  0.21,  0.04,  0.00]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.38,  0.20,  0.16,  0.18 , 0.07,  0.01]
+                "data" : [0.36,  0.20,  0.17,  0.19,  0.07,  0.01]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.34,  0.20,  0.20,  0.16 , 0.09,  0.00]
+                "data" : [0.40,  0.21,  0.19,  0.13,  0.08,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.24,  0.28,  0.09,  0.30 , 0.09,  0.00]
+                "data" : [0.26,  0.25,  0.14,  0.26,  0.09,  0.00]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [0.40,  0.17,  0.17,  0.20 , 0.05,  0.00]
+                "data" : [0.40,  0.17,  0.17,  0.20,  0.05,  0.00]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.25,  0.22,  0.18,  0.24 , 0.10,  0.01]
+                "data" : [0.28,  0.21,  0.19,  0.22,  0.09,  0.01]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.23,  0.23,  0.23,  0.22 , 0.09,  0.00]
+                "data" : [0.23,  0.24,  0.21,  0.21,  0.10,  0.00]
               },
             ],
             "questionName": "Please rate how much you agree or disagree with the following statements in relation to the culture of your current museum workplace: I feel like I have to hide some of who I am working in this organization",
@@ -6873,107 +6871,107 @@ export const staff_data = [
               {
                 "name" : "All Museums",
                 "visible" : true,
-                "data" : [2.71,  1.00,  0.68,  1.00,  0.99]
+                "data" : [2.71, 1.00, 0.68, 1.00, 0.99]
               },
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [1.43,  1.00,  0.59,  1.00,  1.04]
+                "data" : [1.46, 1.00, 0.60, 1.00, 1.09]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [2.52,  1.00,  0.67,  1.00,  0.94]
+                "data" : [2.63, 1.00, 0.69, 1.00, 0.95]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [2.91,  1.00,  0.76,  1.00,  0.80]
+                "data" : [3.84, 1.00, 0.91, 1.00, 0.91]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [3.37,  1.00,  0.68,  1.00,  1.03]
+                "data" : [3.56, 1.00, 0.71, 1.00, 0.98]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [3.18,  1.00,  0.78,  1.00,  1.08]
+                "data" : [3.15, 1.00, 0.76, 1.00, 1.05]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [2.19,  1.00,  0.69,  1.00,  0.87]
+                "data" : [2.04, 1.00, 0.64, 1.00, 0.95]
               },
               {
                 "name" : "Mid Atlantic",
                 "visible" : false,
-                "data" : [1.92,  1.00,  0.53,  1.00,  1.29]
+                "data" : [1.92, 1.00, 0.53, 1.00, 1.29]
               },
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [2.09,  1.00,  0.56,  1.00,  0.93]
+                "data" : [2.31, 1.00, 0.63, 1.00, 0.82]
               },
               {
                 "name" : "Mountain Plains",
                 "visible" : false,
-                "data" : [3.67,  1.00,  0.97,  1.00,  0.69]
+                "data" : [3.67, 1.00, 0.97, 1.00, 0.69]
               },
               {
                 "name" : "New England",
                 "visible" : false,
-                "data" : [4.47,  1.00,  0.75,  1.00,  0.89]
+                "data" : [4.47, 1.00, 0.75, 1.00, 0.89]
               },
               {
                 "name" : "Non-Collecting",
                 "visible" : false,
-                "data" : [4.58,  1.00,  0.72,  1.00,  0.97]
+                "data" : [4.58, 1.00, 0.72, 1.00, 0.97]
               },
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [3.13,  1.00,  0.54,  1.00,  1.01]
+                "data" : [3.50, 1.00, 0.59, 1.00, 1.14]
               },
               {
                 "name" : "Western",
                 "visible" : false,
-                "data" : [3.22,  1.00,  0.78,  1.00,  0.91]
+                "data" : [3.22, 1.00, 0.78, 1.00, 0.91]
               },
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [2.55,  1.00,  1.67,  1.00,  1.03]
+                "data" : [4.83, 1.00, 0.81, 1.00, 1.40]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [4.49,  1.00,  0.87,  1.00,  1.07]
+                "data" : [4.43, 1.00, 0.86, 1.00, 1.00]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [2.04,  1.00,  0.42,  1.00,  1.44]
+                "data" : [3.56, 1.00, 0.54, 1.00, 0.97]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [3.53,  1.00,  0.49,  1.00,  0.47]
+                "data" : [2.38, 1.00, 0.39, 1.00, 0.80]
               },
               {
                 "name" : "size5",
                 "visible" : false,
-                "data" : [3.63,  1.00,  0.67,  1.00,  1.05]
+                "data" : [3.63, 1.00, 0.67, 1.00, 1.05]
               },
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [2.82,  1.00,  0.47,  1.00,  0.79]
+                "data" : [3.58, 1.00, 0.58, 1.00, 0.80]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [1.50,  1.00,  0.58,  1.00,  0.83]
+                "data" : [1.47, 1.00, 0.67, 1.00, 0.86]
               },
             ],
             "questionName": "Mean culture score - normalized for higher scores to be better (includes the previous thirteen culture questions)",
@@ -6992,32 +6990,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.53,  0.37,  0.38,  0.23,  0.82,  0.30,  0.21,  0.29,  0.03]
+                "data" : [0.53,  0.37,  0.38,  0.22,  0.82,  0.30,  0.21,  0.28,  0.03]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.56,  0.42,  0.40,  0.19,  0.84,  0.26,  0.19,  0.25,  0.03]
+                "data" : [0.55,  0.40,  0.40,  0.19,  0.83,  0.26,  0.19,  0.24,  0.03]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.62,  0.44,  0.44,  0.21,  0.85,  0.29,  0.19,  0.24,  0.02]
+                "data" : [0.61,  0.37,  0.44,  0.16,  0.84,  0.24,  0.18,  0.20,  0.02]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.56,  0.43,  0.43,  0.17,  0.85,  0.23,  0.17,  0.21,  0.03]
+                "data" : [0.58,  0.42,  0.44,  0.17,  0.84,  0.22,  0.16,  0.20,  0.03]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.58,  0.42,  0.39,  0.23,  0.86,  0.24,  0.20,  0.25,  0.04]
+                "data" : [0.58,  0.41,  0.39,  0.22,  0.85,  0.25,  0.19,  0.24,  0.04]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.54,  0.41,  0.41,  0.17,  0.83,  0.28,  0.19,  0.26,  0.03]
+                "data" : [0.52,  0.43,  0.40,  0.17,  0.83,  0.29,  0.19,  0.27,  0.04]
               },
               {
                 "name" : "Mid Atlantic",
@@ -7027,7 +7025,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.53,  0.43,  0.41,  0.20,  0.83,  0.31,  0.22,  0.28,  0.04]
+                "data" : [0.55,  0.42,  0.43,  0.20,  0.82,  0.30,  0.21,  0.27,  0.04]
               },
               {
                 "name" : "Mountain Plains",
@@ -7047,7 +7045,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.59,  0.43,  0.40,  0.21,  0.86,  0.24,  0.21,  0.21,  0.03]
+                "data" : [0.54,  0.39,  0.35,  0.16,  0.85,  0.21,  0.22,  0.19,  0.04]
               },
               {
                 "name" : "Western",
@@ -7057,22 +7055,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.59,  0.39,  0.44,  0.15,  0.83,  0.25,  0.15,  0.25,  0.02]
+                "data" : [0.54,  0.38,  0.50,  0.21,  0.63,  0.17,  0.21,  0.33,  0.04]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.63,  0.34,  0.46,  0.14,  0.86,  0.19,  0.16,  0.18,  0.03]
+                "data" : [0.63,  0.34,  0.46,  0.14,  0.85,  0.20,  0.16,  0.18,  0.03]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.45,  0.54,  0.38,  0.20,  0.86,  0.32,  0.23,  0.28,  0.02]
+                "data" : [0.54,  0.52,  0.54,  0.21,  0.81,  0.27,  0.19,  0.25,  0.00]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.58,  0.46,  0.48,  0.19,  0.89,  0.32,  0.25,  0.20,  0.00]
+                "data" : [0.50,  0.49,  0.38,  0.19,  0.89,  0.34,  0.26,  0.25,  0.02]
               },
               {
                 "name" : "size5",
@@ -7082,12 +7080,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.58,  0.44,  0.41,  0.21,  0.83,  0.27,  0.19,  0.28,  0.04]
+                "data" : [0.57,  0.38,  0.40,  0.17,  0.81,  0.23,  0.18,  0.25,  0.05]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.54,  0.43,  0.40,  0.22,  0.81,  0.28,  0.18,  0.28,  0.04]
+                "data" : [0.54,  0.43,  0.40,  0.21,  0.82,  0.28,  0.17,  0.27,  0.03]
               },
             ],
             "questionName": "In the past 12 months, have you experienced any of the following in your museum workplace? Select all that apply.",
@@ -7106,32 +7104,32 @@ export const staff_data = [
               {
                 "name" : "City, State, or County Affiliated",
                 "visible" : false,
-                "data" : [0.55,  0.73,  0.22,  0.27,  0.27,  0.11]
+                "data" : [0.55,  0.74,  0.22,  0.27,  0.28,  0.11]
               },
               {
                 "name" : "Collecting",
                 "visible" : false,
-                "data" : [0.58,  0.69,  0.28,  0.25,  0.30,  0.12]
+                "data" : [0.58,  0.69,  0.29,  0.25,  0.30,  0.12]
               },
               {
                 "name" : "College or university-affiliated",
                 "visible" : false,
-                "data" : [0.66,  0.43,  0.38,  0.24,  0.36,  0.14]
+                "data" : [0.72,  0.36,  0.43,  0.28,  0.41,  0.14]
               },
               {
                 "name" : "Contemporary and/or modern-specific",
                 "visible" : false,
-                "data" : [0.55,  0.73,  0.33,  0.21,  0.29,  0.12]
+                "data" : [0.57,  0.72,  0.34,  0.21,  0.29,  0.12]
               },
               {
                 "name" : "Culturally-specific",
                 "visible" : false,
-                "data" : [0.58,  0.72,  0.31,  0.33,  0.38,  0.10]
+                "data" : [0.59,  0.72,  0.32,  0.33,  0.38,  0.10]
               },
               {
                 "name" : "Encyclopedic",
                 "visible" : false,
-                "data" : [0.52,  0.76,  0.24,  0.24,  0.28,  0.13]
+                "data" : [0.50,  0.76,  0.24,  0.24,  0.28,  0.13]
               },
               {
                 "name" : "Mid Atlantic",
@@ -7141,7 +7139,7 @@ export const staff_data = [
               {
                 "name" : "Midwest",
                 "visible" : false,
-                "data" : [0.55,  0.67,  0.28,  0.22,  0.35,  0.12]
+                "data" : [0.58,  0.65,  0.29,  0.22,  0.36,  0.12]
               },
               {
                 "name" : "Mountain Plains",
@@ -7161,7 +7159,7 @@ export const staff_data = [
               {
                 "name" : "Southeast",
                 "visible" : false,
-                "data" : [0.59,  0.62,  0.37,  0.28,  0.35,  0.10]
+                "data" : [0.59,  0.64,  0.37,  0.31,  0.36,  0.09]
               },
               {
                 "name" : "Western",
@@ -7171,22 +7169,22 @@ export const staff_data = [
               {
                 "name" : "size1",
                 "visible" : false,
-                "data" : [0.60,  0.68,  0.35,  0.30,  0.37,  0.09]
+                "data" : [0.79,  0.29,  0.58,  0.42,  0.67,  0.08]
               },
               {
                 "name" : "size2",
                 "visible" : false,
-                "data" : [0.67,  0.49,  0.43,  0.23,  0.41,  0.15]
+                "data" : [0.67,  0.51,  0.44,  0.23,  0.40,  0.15]
               },
               {
                 "name" : "size3",
                 "visible" : false,
-                "data" : [0.42,  0.87,  0.21,  0.21,  0.25,  0.09]
+                "data" : [0.48,  0.90,  0.25,  0.21,  0.27,  0.06]
               },
               {
                 "name" : "size4",
                 "visible" : false,
-                "data" : [0.77,  0.53,  0.38,  0.24,  0.47,  0.09]
+                "data" : [0.62,  0.65,  0.30,  0.23,  0.38,  0.10]
               },
               {
                 "name" : "size5",
@@ -7196,12 +7194,12 @@ export const staff_data = [
               {
                 "name" : "size6",
                 "visible" : false,
-                "data" : [0.66,  0.66,  0.34,  0.23,  0.31,  0.10]
+                "data" : [0.71,  0.64,  0.37,  0.26,  0.35,  0.09]
               },
               {
                 "name" : "size7",
                 "visible" : false,
-                "data" : [0.52,  0.76,  0.19,  0.23,  0.23,  0.13]
+                "data" : [0.52,  0.77,  0.19,  0.23,  0.23,  0.13]
               },
             ],
             "questionName": "What/Who do you believe has a large impact on your museum leadership’s decisions? Please select all that apply.  ",
